@@ -1,17 +1,26 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.0
 
 import PackageDescription
 
 let package = Package(
-    name: "SGLOpenGL",
+    name: "SwiftGL",
     products: [
-        .library(name: "SGLOpenGL", targets: ["SGLOpenGL"]),
+        .library(name: "SwiftGL", targets: ["SwiftGL"]),
         .executable(name: "glgen", targets: ["glgen"]),
     ],
     dependencies: [
     ],
     targets: [
-        .target(name: "SGLOpenGL", dependencies: []),
+        .systemLibrary(
+                name: "CGLFW3",
+                path: "Sources/CGLFW3",
+                pkgConfig: "glfw3",
+                providers: [
+                    .apt(["libglfw3"]),
+                    .brew(["libglfw3"]),
+                ]),
+        .target(name: "SwiftGL",
+                dependencies: ["CGLFW3"]),
         .target(name: "glgen", dependencies: []),
     ]
 )
