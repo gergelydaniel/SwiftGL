@@ -27,7 +27,7 @@ let package = Package(
         .target(name: "glgen", dependencies: []),
 
         .target(name: "SGLImage", dependencies: []),
-        .testTarget(name: "ImageTests", dependencies: ["SGLImage"], path: "Tests/SGLImageTests"),
+        .testTarget(name: "SGLImageTests", dependencies: ["SGLImage"], path: "Tests/SGLImageTests"),
 
         .target(name: "SGLMath", dependencies: [], path: "Sources/SGLMath/Sources/SGLMath"),
         .target(name: "Tools",dependencies: [], path: "Sources/SGLMath/Sources/Tools"),
