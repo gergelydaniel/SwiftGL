@@ -7,7 +7,9 @@ let package = Package(
     products: [
         .library(name: "SwiftGL", targets: ["SwiftGL"]),
         .library(name: "SGLImage", targets: ["SGLImage"]),
+        .library(name: "SGLMath", targets: ["SGLMath"]),
         .executable(name: "glgen", targets: ["glgen"]),
+        .executable(name: "swizgen", targets: ["Tools"]),
     ],
     dependencies: [
     ],
@@ -25,6 +27,10 @@ let package = Package(
         .target(name: "glgen", dependencies: []),
 
         .target(name: "SGLImage", dependencies: []),
-        .testTarget(name: "ImageTests", dependencies: ["SGLImage"], path: "Tests"),
+        .testTarget(name: "ImageTests", dependencies: ["SGLImage"], path: "Tests/SGLImageTests"),
+
+        .target(name: "SGLMath", dependencies: [], path: "Sources/SGLMath/Sources/SGLMath"),
+        .target(name: "Tools",dependencies: [], path: "Sources/SGLMath/Sources/Tools"),
+        .testTarget(name: "SGLMathTests", dependencies: ["SGLMath"], path: "Tests/SGLMathTests"),
     ]
 )

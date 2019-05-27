@@ -21,16 +21,27 @@
 
 
 import XCTest
-@testable import SGLImageTests
-@testable import SGLMathTests
+import SGLMath
 
-XCTMain([
-    testCase(SGLImageSimple.allTests),
-    testCase(SwizzleTests.allTests),
-    testCase(Vector2Tests.allTests),
-    testCase(Vector4Tests.allTests),
-    testCase(FunctionsTests.allTests),
-    testCase(Matrix2x2Tests.allTests),
-    testCase(Matrix3x3Tests.allTests),
-    testCase(Matrix4x4Tests.allTests),
-])
+class SwizzleTests: XCTestCase {
+
+    func test1() {
+        var a = vec2(1, 2)
+        XCTAssertEqual(a.yx, vec2(2, 1))
+        a.yx = vec2(5, 4)
+        XCTAssertEqual(a, vec2(4, 5))
+        XCTAssertEqual(a.xy, vec2(4, 5))
+    }
+
+    func test2() {
+        var z = vec4(1, 2, 3, 4)
+        z.ab = vec2(99, 98)
+        XCTAssertEqual(z.ab, vec2(99,98))
+        XCTAssertEqual(z, vec4(1,2,98,99))
+    }
+
+    static var allTests = [
+        ("test1", test1),
+        ("test2", test2),
+    ]
+}
