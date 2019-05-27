@@ -6,6 +6,7 @@ let package = Package(
     name: "SwiftGL",
     products: [
         .library(name: "SwiftGL", targets: ["SwiftGL"]),
+        .library(name: "SGLImage", targets: ["SGLImage"]),
         .executable(name: "glgen", targets: ["glgen"]),
     ],
     dependencies: [
@@ -22,5 +23,8 @@ let package = Package(
         .target(name: "SwiftGL",
                 dependencies: ["CGLFW3"]),
         .target(name: "glgen", dependencies: []),
+
+        .target(name: "SGLImage", dependencies: []),
+        .testTarget(name: "ImageTests", dependencies: ["SGLImage"], path: "Tests"),
     ]
 )
