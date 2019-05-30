@@ -5,6 +5,7 @@ import PackageDescription
 let package = Package(
     name: "SwiftGL",
     products: [
+        .library(name: "CGLFW3", targets: ["CGLFW3"]),
         .library(name: "SwiftGL", targets: ["SwiftGL"]),
         .library(name: "SGLImage", targets: ["SGLImage"]),
         .library(name: "SGLMath", targets: ["SGLMath"]),
@@ -16,7 +17,6 @@ let package = Package(
     targets: [
         .systemLibrary(
                 name: "CGLFW3",
-                path: "Sources/CGLFW3",
                 pkgConfig: "glfw3",
                 providers: [
                     .apt(["libglfw3"]),

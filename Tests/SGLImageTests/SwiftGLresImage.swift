@@ -31,7 +31,7 @@ class SGLImageSimple: XCTestCase {
         //TODO unfun paths problem coming up
         // for now, just checking that everything compiles
 
-        let loader = SGLImageLoader(fromFile: "/path/to/file.bmp")
+        let loader = SGLImageLoader(fromFile: "../../Examples/common/awesomeface.png")
         XCTAssert(loader.error != nil, loader.error ?? "")
     }
 
