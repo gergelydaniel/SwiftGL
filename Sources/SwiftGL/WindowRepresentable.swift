@@ -6,23 +6,18 @@ import CGLFW3
 
 
 public protocol WindowRepresentable {
-    var windowHeight : Int {get set}
-    var windowWidth : Int {get set}
+    var windowHeight :IntegerLiteralType {get set}
+    var windowWidth :IntegerLiteralType{get set}
     var windowName : String {get set}
 
     func draw()
 
+    func windowDidLoad()
     func run()
 }
 
 extension WindowRepresentable {
     // Window dimensions
-    var WIDTH: GLsizei {
-        return GLsizei(windowWidth)
-    }
-    var HEIGHT: GLsizei {
-        return GLsizei(windowHeight)
-    }
 
 // The *main* function; where our program begins running
     func main() {
@@ -42,16 +37,20 @@ extension WindowRepresentable {
         glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE)
 
         // Create a GLFWwindow object that we can use for GLFW's functions
-        let window = glfwCreateWindow(WIDTH, HEIGHT, windowName, nil, nil)
+        let window = glfwCreateWindow(Int32(windowWidth), Int32(windowHeight), windowName, nil, nil)
         glfwMakeContextCurrent(window)
         guard window != nil else {
             print("Failed to create GLFW window")
             return
         }
 
-        // Define the viewport dimensions
-        glViewport(x: 0, y: 0, width: WIDTH, height: HEIGHT)
+        // Set the required callback functions
+        glfwSetKeyCallback(window, keyCallback)
 
+        // Define the viewport dimensions
+        glViewport(x: 0, y: 0, width: Int32(windowWidth), height: Int32(windowHeight))
+
+        draw()
         // Game loop
         while glfwWindowShouldClose(window) == GL_FALSE {
             // Check if any events have been activated
@@ -59,17 +58,18 @@ extension WindowRepresentable {
             // the corresponding response functions
             glfwPollEvents()
 
-            // Render
-            // Clear the colorbuffer
-            draw()
-
+            windowDidLoad()
             // Swap the screen buffers
             glfwSwapBuffers(window)
         }
     }
-
     public func run() {
-        print("hello")
         main()
+    }
+}
+func keyCallback(window: OpaquePointer!, key: Int32, scancode: Int32, action: Int32, mode: Int32)
+{
+    if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS) {
+        glfwSetWindowShouldClose(window, GL_TRUE)
     }
 }

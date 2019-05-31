@@ -14,6 +14,9 @@ public class HelloWindow : WindowRepresentable {
     public var windowName = "Hello Window 1"
 
     public func draw() {
+
+    }
+    public func windowDidLoad() {
         glClearColor(red: 0.2, green: 0.3, blue: 0.3, alpha: 1.0)
         glClear(GL_COLOR_BUFFER_BIT)
     }
