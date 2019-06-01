@@ -119,12 +119,10 @@ func main()
     glBindVertexArray(VAO)
 
     glBindBuffer(target: GL_ARRAY_BUFFER, buffer: VBO)
-    glBufferData(target: GL_ARRAY_BUFFER, 
-        size:vertices.size,
-        data: vertices, usage: GL_STATIC_DRAW)
+    glBufferData(target: GL_ARRAY_BUFFER, size:vertices.size, data: vertices, usage: GL_STATIC_DRAW)
 
     glVertexAttribPointer(index: 0, size: 3, type: GL_FLOAT,
-        normalized: false, stride: GLsizei(MemoryLayout<GLfloat>.stride * 3), pointer: nil)
+        normalized: false, stride: GLsizei(GLfloat.stride * 3), pointer: nil)
     glEnableVertexAttribArray(0)
 
     glBindBuffer(target: GL_ARRAY_BUFFER, buffer: 0) // Note that this is allowed,
