@@ -3,7 +3,7 @@
 //
 extension Array {
     ///
-    func size() -> Int {
+    var size : Int {
         return MemoryLayout<Element>.stride * self.count
     }
 }

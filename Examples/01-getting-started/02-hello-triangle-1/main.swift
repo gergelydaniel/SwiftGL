@@ -120,7 +120,7 @@ func main()
 
     glBindBuffer(target: GL_ARRAY_BUFFER, buffer: VBO)
     glBufferData(target: GL_ARRAY_BUFFER, 
-        size: MemoryLayout<GLfloat>.stride * vertices.count,
+        size:vertices.size,
         data: vertices, usage: GL_STATIC_DRAW)
 
     glVertexAttribPointer(index: 0, size: 3, type: GL_FLOAT,
