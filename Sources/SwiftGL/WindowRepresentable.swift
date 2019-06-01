@@ -10,8 +10,6 @@ public protocol WindowRepresentable {
     var windowWidth :IntegerLiteralType{get set}
     var windowName : String {get set}
 
-    func draw()
-
     func windowDidLoad()
     func run()
 }
@@ -49,13 +47,12 @@ extension WindowRepresentable {
 
         // Define the viewport dimensions
         glViewport(x: 0, y: 0, width: Int32(windowWidth), height: Int32(windowHeight))
-
-        draw()
         // Game loop
         while glfwWindowShouldClose(window) == GL_FALSE {
             // Check if any events have been activated
             // (key pressed, mouse moved etc.) and call
             // the corresponding response functions
+
             glfwPollEvents()
 
             windowDidLoad()
