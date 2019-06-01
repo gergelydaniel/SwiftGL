@@ -20,7 +20,7 @@
 // MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
 
 
-public struct Vector3b : BooleanVectorType {
+public struct Vector3b : BooleanVectorType, Hashable {
 
     public typealias BooleanVector = Vector3b
 
@@ -67,6 +67,12 @@ public struct Vector3b : BooleanVectorType {
 
     public var hashValue: Int {
         return SGLMath.hash(x.hashValue, y.hashValue, z.hashValue)
+    }
+
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(x)
+        hasher.combine(y)
+        hasher.combine(z)
     }
 
     public init () {

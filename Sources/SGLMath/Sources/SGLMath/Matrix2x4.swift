@@ -25,7 +25,7 @@ import simd
 #endif
 
 
-public struct Matrix2x4<T:ArithmeticType> : MatrixType {
+public struct Matrix2x4<T:ArithmeticType> : MatrixType, Hashable {
 
     public typealias Element = T
 
@@ -66,8 +66,12 @@ public struct Matrix2x4<T:ArithmeticType> : MatrixType {
             }.joined(separator:", ") + ")"
     }
 
-    public var hashValue: Int {
-        return SGLMath.hash(x.hashValue, y.hashValue)
+//    public var hashValue: Int {
+//        return SGLMath.hash(x.hashValue, y.hashValue)
+//    }
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(x)
+        hasher.combine(y)
     }
 
     public init() {

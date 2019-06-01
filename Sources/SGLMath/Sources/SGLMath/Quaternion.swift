@@ -20,7 +20,7 @@
 // MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
 
 
-public struct Quaternion<T:FloatingPointArithmeticType> : MatrixType, ExpressibleByArrayLiteral {
+public struct Quaternion<T:FloatingPointArithmeticType> : MatrixType, ExpressibleByArrayLiteral, Hashable {
 
     public typealias Element = T
 
@@ -59,8 +59,15 @@ public struct Quaternion<T:FloatingPointArithmeticType> : MatrixType, Expressibl
         return String(describing: type(of:self)) + "(x:\(x), y:\(y), z:\(z), w:\(w))"
     }
 
-    public var hashValue: Int {
-        return SGLMath.hash(x.hashValue, y.hashValue, z.hashValue, w.hashValue)
+//    public var hashValue: Int {
+//        return SGLMath.hash(x.hashValue, y.hashValue, z.hashValue, w.hashValue)
+//    }
+
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(x)
+        hasher.combine(y)
+        hasher.combine(z)
+        hasher.combine(w)
     }
 
     public init () {

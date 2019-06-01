@@ -20,7 +20,7 @@
 // MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
 
 
-public struct Matrix3x4<T:ArithmeticType> : MatrixType {
+public struct Matrix3x4<T:ArithmeticType> : MatrixType, Hashable {
 
     public typealias Element = T
 
@@ -63,8 +63,15 @@ public struct Matrix3x4<T:ArithmeticType> : MatrixType {
             }.joined(separator:", ") + ")"
     }
 
-    public var hashValue: Int {
-        return SGLMath.hash(x.hashValue, y.hashValue, z.hashValue)
+//    public var hashValue: Int {
+//        return SGLMath.hash(x.hashValue, y.hashValue, z.hashValue)
+//    }
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(x)
+        hasher.combine(y)
+        hasher.combine(z)
+
+
     }
 
     public init() {

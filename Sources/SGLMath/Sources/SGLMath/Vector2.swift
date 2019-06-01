@@ -20,7 +20,7 @@
 // MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
 
 
-public struct Vector2<T:ArithmeticType> : VectorType {
+public struct Vector2<T:ArithmeticType> : VectorType, Hashable {
 
     public typealias Element = T
     public typealias FloatVector = Vector2<Float>
@@ -66,8 +66,12 @@ public struct Vector2<T:ArithmeticType> : VectorType {
         return String(describing: type(of:self)) + "(\(x), \(y))"
     }
 
-    public var hashValue: Int {
-        return SGLMath.hash(x.hashValue, y.hashValue)
+//    public var hashValue: Int {
+//        return SGLMath.hash(x.hashValue, y.hashValue)
+//    }
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(x)
+        hasher.combine(y)
     }
 
     public init () {

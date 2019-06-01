@@ -33,7 +33,7 @@ extension Float {
 }
 
 
-public struct Complex<T:FloatingPointArithmeticType> : MatrixType, ExpressibleByFloatLiteral, ExpressibleByIntegerLiteral, ExpressibleByArrayLiteral {
+public struct Complex<T:FloatingPointArithmeticType> : MatrixType, ExpressibleByFloatLiteral, ExpressibleByIntegerLiteral, ExpressibleByArrayLiteral, Hashable {
 
     public typealias Element = T
 
@@ -73,8 +73,13 @@ public struct Complex<T:FloatingPointArithmeticType> : MatrixType, ExpressibleBy
         }
     }
 
-    public var hashValue: Int {
-        return SGLMath.hash(real.hashValue, imag.hashValue)
+//    public var hashValue: Int {
+//        return SGLMath.hash(real.hashValue, imag.hashValue)
+//    }
+
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(real)
+        hasher.combine(imag)
     }
 
     public init() {
