@@ -1,24 +1,32 @@
 //
-// Created by gothstar on 30/05/19.
+// Created by GothStar on 30/05/19.
 //
 
 import CGLFW3
+import CGLEW
 
+var SwiftGLWindow : OpaquePointer!
 
 public protocol WindowRepresentable {
     var windowHeight :IntegerLiteralType {get set}
     var windowWidth :IntegerLiteralType{get set}
     var windowName : String {get set}
 
-    func windowDidLoad()
-    func run()
+    func draw()
 }
 
 extension WindowRepresentable {
-    // Window dimensions
+    public var window : OpaquePointer? {
+        get { return SwiftGLWindow }
+        set { SwiftGLWindow = newValue}
+    }
+    public var windowShouldClose: Bool {
+        return glfwWindowShouldClose(SwiftGLWindow) == GL_TRUE ? true : false
+    }
+// Window dimensions
 
 // The *main* function; where our program begins running
-    func main() {
+    mutating func main() {
         print("Starting GLFW context, OpenGL 3.3")
         // Init GLFW
         glfwInit()
@@ -35,10 +43,32 @@ extension WindowRepresentable {
         glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE)
 
         // Create a GLFWwindow object that we can use for GLFW's functions
-        let window = glfwCreateWindow(Int32(windowWidth), Int32(windowHeight), windowName, nil, nil)
+        window = glfwCreateWindow(Int32(windowWidth), Int32(windowHeight), windowName, nil, nil)
+
+        defer {
+            glfwDestroyWindow(window)
+        }
+
+
+        //Get Buffer size information
+        var bufferWidth : Int32, bufferHeight : Int32
+        (bufferWidth, bufferHeight) = (Int32(windowWidth), Int32(windowHeight))
+
+        glfwGetFramebufferSize(window, &bufferWidth, &bufferHeight)
+
+        //Set context for GLEW to use
         glfwMakeContextCurrent(window)
         guard window != nil else {
             print("Failed to create GLFW window")
+            return
+        }
+
+        //Allow moder extensions features
+        glewExperimental = UInt8(1) //true
+
+
+        if glewInit() != UInt32(GLEW_OK) {
+            debugPrint("GLEW initialization failed")
             return
         }
 
@@ -46,21 +76,12 @@ extension WindowRepresentable {
         glfwSetKeyCallback(window, keyCallback)
 
         // Define the viewport dimensions
-        glViewport(x: 0, y: 0, width: Int32(windowWidth), height: Int32(windowHeight))
+        glViewport(x:0, y: 0, width: bufferWidth, height: bufferWidth)
         // Game loop
-        while glfwWindowShouldClose(window) == GL_FALSE {
-            // Check if any events have been activated
-            // (key pressed, mouse moved etc.) and call
-            // the corresponding response functions
 
-            glfwPollEvents()
-
-            windowDidLoad()
-            // Swap the screen buffers
-            glfwSwapBuffers(window)
-        }
+        draw()
     }
-    public func run() {
+    public mutating func run() {
         main()
     }
 }

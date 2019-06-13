@@ -11,6 +11,6 @@ let package = Package(
         .package(path: "../../../../SwiftGL")
     ],
     targets: [
-        .target(name: "example", dependencies: ["SwiftGL", "SGLImage", "SGLMath"], path: "."),
+        .target(name: "example", dependencies: ["CGLFW3", "SwiftGL", "SGLImage", "SGLMath"], path: "."),
     ]
 )

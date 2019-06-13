@@ -13,11 +13,23 @@ public class HelloWindow : WindowRepresentable {
     public var windowWidth = 800
     public var windowName = "Hello Window 1"
 
-    public func windowDidLoad() {
-        glClearColor(red: 0.2, green: 0.3, blue: 0.3, alpha: 1.0)
-        glClear(GL_COLOR_BUFFER_BIT)
+    public func draw() {
+
+        while !windowShouldClose {
+            // Check if any events have been activated
+            // (key pressed, mouse moved etc.) and call
+            // the corresponding response functions
+
+            glfwPollEvents()
+
+            glClearColor(red: 0.2, green: 0.3, blue: 0.3, alpha: 1.0)
+            glClear(GL_COLOR_BUFFER_BIT)
+            // Swap the screen buffers
+            glfwSwapBuffers(self.window)
+        }
+
     }
 }
 
-let helloWindowApp = HelloWindow()
+var helloWindowApp = HelloWindow()
 helloWindowApp.run()

@@ -31,7 +31,7 @@ let package = Package(
                     .brew(["glew"]),
                 ]),
         .target(name: "SwiftGL",
-                dependencies: ["CGLFW3"]),
+                dependencies: ["CGLFW3", "CGLEW"]),
         .target(name: "glgen", dependencies: []),
 
         .target(name: "SGLImage", dependencies: []),
