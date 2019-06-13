@@ -19,8 +19,8 @@ let package = Package(
                 name: "CGLFW3",
                 pkgConfig: "glfw3",
                 providers: [
-                    .apt(["libglfw3"]),
-                    .brew(["libglfw3"]),
+                    .apt(["libglfw3-dev"]),
+                    .brew(["glfw3"]),
                 ]),
         .target(name: "SwiftGL",
                 dependencies: ["CGLFW3"]),
