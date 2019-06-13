@@ -1,5 +1,20 @@
 # SwiftGL OpenGL
 
+*MacOS:*
+```bash
+brew install --HEAD glfw3
+
+swift build -Xswiftc -I/usr/local/include -Xlinker -L/usr/local/lib
+```
+
+*Ubuntu:*
+```bash
+sudo apt install libglfw3-dev
+
+swift build
+```
+
+
 To use, include dependency in your `Package.swift`:
 ```swift
 let package = Package(
