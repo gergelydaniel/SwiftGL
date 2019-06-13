@@ -6,6 +6,7 @@ let package = Package(
     name: "SwiftGL",
     products: [
         .library(name: "CGLFW3", targets: ["CGLFW3"]),
+        .library(name: "CGLEW", targets: ["CGLEW"]),
         .library(name: "SwiftGL", targets: ["SwiftGL"]),
         .library(name: "SGLImage", targets: ["SGLImage"]),
         .library(name: "SGLMath", targets: ["SGLMath"]),
@@ -21,6 +22,13 @@ let package = Package(
                 providers: [
                     .apt(["libglfw3-dev"]),
                     .brew(["glfw3"]),
+                ]),
+        .systemLibrary(
+                name: "CGLEW",
+                pkgConfig: "glew",
+                providers: [
+                    .apt(["libglew-dev"]),
+                    .brew(["glew"]),
                 ]),
         .target(name: "SwiftGL",
                 dependencies: ["CGLFW3"]),

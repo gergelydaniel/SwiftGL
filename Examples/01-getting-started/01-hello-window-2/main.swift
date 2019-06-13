@@ -25,6 +25,8 @@ func main()
 
     // Create a GLFWwindow object that we can use for GLFW's functions
     let window = glfwCreateWindow(WIDTH, HEIGHT, "LearnSwiftGL", nil, nil)
+
+
     glfwMakeContextCurrent(window)
     guard window != nil else
     {
