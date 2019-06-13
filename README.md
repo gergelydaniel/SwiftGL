@@ -4,11 +4,11 @@ To use, include dependency in your `Package.swift`:
 ```swift
 let package = Package(
     dependencies: [
-        .Package(url: "https://github.com/SwiftGL/OpenGL.git", majorVersion: 3)
+        .package(url: "https://github.com/GothStar/SwiftGL.git", .branch("master"))
     ]
 )
 ```
-Then `import SGLOpenGL` in your swift file.
+Then `import SwiftGL` in your swift file.
 
 
 ## Getting Started
