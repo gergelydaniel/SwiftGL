@@ -76,7 +76,7 @@ extension WindowRepresentable {
         glfwSetKeyCallback(window, keyCallback)
 
         // Define the viewport dimensions
-        glViewport(x:0, y: 0, width: bufferWidth, height: bufferWidth)
+        glViewport(x:0, y: 0, width: bufferWidth, height: bufferHeight)
         // Game loop
 
         draw()
