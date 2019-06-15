@@ -8901,6 +8901,8 @@ public func glVertexAttribParameteriAMD(index:GLuint, pname:GLenum, param:GLint)
 var glVertexAttribParameteriAMD_P:@convention(c)(GLuint, GLenum, GLint) -> Void = glVertexAttribParameteriAMD_L
 public func glVertexAttribPointer(_ index:GLuint, _ size:GLint, _ type:GLenum, _ normalized:GLboolean, _ stride:GLsizei, _ pointer:UnsafeRawPointer?) {glVertexAttribPointer_P(index, size, type, normalized, stride, pointer)}
 public func glVertexAttribPointer(index:GLuint, size:GLint, type:GLenum, normalized:GLboolean, stride:GLsizei, pointer:UnsafeRawPointer?) {glVertexAttribPointer_P(index, size, type, normalized, stride, pointer)}
+public func glVertexAttribPointer(_ index:GLuint, _ size:GLint, _ type:GLenum, _ normalized:GLboolean, _ stride:GLsizei, _ offset:Int) {glVertexAttribPointer_P(index, size, type, normalized, stride, UnsafeRawPointer(bitPattern: offset))}
+public func glVertexAttribPointer(index:GLuint, size:GLint, type:GLenum, normalized:GLboolean, stride:GLsizei, offset:Int) {glVertexAttribPointer_P(index, size, type, normalized, stride, UnsafeRawPointer(bitPattern: offset))}
 var glVertexAttribPointer_P:@convention(c)(GLuint, GLint, GLenum, GLboolean, GLsizei, UnsafeRawPointer?) -> Void = glVertexAttribPointer_L
 public func glVertexAttribPointerARB(_ index:GLuint, _ size:GLint, _ type:GLenum, _ normalized:GLboolean, _ stride:GLsizei, _ pointer:UnsafeRawPointer?) {glVertexAttribPointerARB_P(index, size, type, normalized, stride, pointer)}
 public func glVertexAttribPointerARB(index:GLuint, size:GLint, type:GLenum, normalized:GLboolean, stride:GLsizei, pointer:UnsafeRawPointer?) {glVertexAttribPointerARB_P(index, size, type, normalized, stride, pointer)}

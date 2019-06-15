@@ -45,10 +45,6 @@ extension WindowRepresentable {
         // Create a GLFWwindow object that we can use for GLFW's functions
         window = glfwCreateWindow(Int32(windowWidth), Int32(windowHeight), windowName, nil, nil)
 
-        defer {
-            glfwDestroyWindow(window)
-        }
-
 
         //Get Buffer size information
         var bufferWidth : Int32, bufferHeight : Int32
@@ -60,6 +56,7 @@ extension WindowRepresentable {
         glfwMakeContextCurrent(window)
         guard window != nil else {
             print("Failed to create GLFW window")
+            glfwDestroyWindow(window)
             return
         }
 
