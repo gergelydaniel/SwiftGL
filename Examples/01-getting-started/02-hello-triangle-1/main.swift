@@ -4,23 +4,23 @@
 
 import CGLFW3
 import SwiftGL
-
-// Window dimensions
-let WIDTH:GLsizei = 800, HEIGHT:GLsizei = 600
+import Foundation
 
  //Shaders
-let vertexShaderSource = "#version 330 core\n" +
-        "layout (location = 0) in vec3 position;\n" +
-        "void main()\n" +
-        "{\n" +
-        "gl_Position = vec4(position.x, position.y, position.z, 1.0);\n" +
-        "}\n"
-let fragmentShaderSource = "#version 330 core\n" +
-        "out vec4 color;\n" +
-        "void main()\n" +
-        "{\n" +
-        "color = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n" +
-        "}\n"
+let vertexShaderSource = """
+                         #version 330 core
+                         layout (location = 0) in vec3 position;
+                         void main() {
+                                gl_Position = vec4(position.x, position.y, position.z, 1.0);
+                         }
+                         """
+let fragmentShaderSource = """
+                           #version 330 core
+                           out vec4 color;
+                           void main() {
+                                color = vec4(1.0f, 0.5f, 0.2f, 1.0f);
+                           }
+                           """
 
 // The *main* function; where our program begins running
 class HelloTriangle1: WindowRepresentable {
@@ -140,12 +140,11 @@ class HelloTriangle1: WindowRepresentable {
 }
 
 // called whenever a key is pressed/released via GLFW
-func keyCallback(window: OpaquePointer!, key: Int32, scancode: Int32, action: Int32, mode: Int32)
-{
-    if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS) {
-        glfwSetWindowShouldClose(window, GL_TRUE)
-    }
-}
+//func keyCallback(window: OpaquePointer!, key: Int32, scancode: Int32, action: Int32, mode: Int32) {
+//    if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS) {
+//        glfwSetWindowShouldClose(window, GL_TRUE)
+//    }
+//}
 
 // Start the program with function main()
 var programm = HelloTriangle1()
