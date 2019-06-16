@@ -6762,6 +6762,8 @@ public func glShaderOp3EXT(op:GLenum, res:GLuint, arg1:GLuint, arg2:GLuint, arg3
 var glShaderOp3EXT_P:@convention(c)(GLenum, GLuint, GLuint, GLuint, GLuint) -> Void = glShaderOp3EXT_L
 public func glShaderSource(_ shader:GLuint, _ count:GLsizei, _ string:UnsafePointer<UnsafePointer<GLchar>>?, _ length:UnsafePointer<GLint>?) {glShaderSource_P(shader, count, string, length)}
 public func glShaderSource(shader:GLuint, count:GLsizei, string:UnsafePointer<UnsafePointer<GLchar>>?, length:UnsafePointer<GLint>?) {glShaderSource_P(shader, count, string, length)}
+public func glShaderSource(_ shader:GLuint, _ count:Int, _ string:String, _ length:UnsafePointer<GLint>?) {string.withCString { var s = [$0] ; glShaderSource_P(shader, GLsizei(count), &s, length)}}
+public func glShaderSource(shader:GLuint, count:Int, string:String, length:UnsafePointer<GLint>?) {string.withCString { var s = [$0] ; glShaderSource_P(shader, GLsizei(count), &s, length)}}
 var glShaderSource_P:@convention(c)(GLuint, GLsizei, UnsafePointer<UnsafePointer<GLchar>>?, UnsafePointer<GLint>?) -> Void = glShaderSource_L
 public func glShaderSourceARB(_ shaderObj:GLhandleARB, _ count:GLsizei, _ string:UnsafeMutablePointer<UnsafePointer<GLcharARB>>?, _ length:UnsafePointer<GLint>?) {glShaderSourceARB_P(shaderObj, count, string, length)}
 public func glShaderSourceARB(shaderObj:GLhandleARB, count:GLsizei, string:UnsafeMutablePointer<UnsafePointer<GLcharARB>>?, length:UnsafePointer<GLint>?) {glShaderSourceARB_P(shaderObj, count, string, length)}
