@@ -3,7 +3,10 @@
 //
 
 import CGLFW3
+#if os(Linux)
 import CGLEW
+#endif
+
 
 var SwiftGLWindow : OpaquePointer!
 
@@ -60,6 +63,7 @@ extension WindowRepresentable {
             return
         }
 
+        #if os(Linux)
         //Allow moder extensions features
         glewExperimental = UInt8(1) //true
 
@@ -68,6 +72,8 @@ extension WindowRepresentable {
             debugPrint("GLEW initialization failed")
             return
         }
+        #endif
+
 
         // Set the required callback functions
         glfwSetKeyCallback(window, keyCallback)

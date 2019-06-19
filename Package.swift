@@ -1,44 +1,55 @@
 // swift-tools-version:5.0
+#if os(Linux)
+import Glibc
+#else
+import Darwin.C
+import OpenGL
+#endif
 
 import PackageDescription
 
 let package = Package(
-    name: "SwiftGL",
-    products: [
-        .library(name: "CGLFW3", targets: ["CGLFW3"]),
-        .library(name: "CGLEW", targets: ["CGLEW"]),
-        .library(name: "SwiftGL", targets: ["SwiftGL"]),
-        .library(name: "SGLImage", targets: ["SGLImage"]),
-        .library(name: "SGLMath", targets: ["SGLMath"]),
-        .executable(name: "glgen", targets: ["glgen"]),
-        .executable(name: "swizgen", targets: ["Tools"]),
-    ],
-    dependencies: [
-    ],
-    targets: [
-        .systemLibrary(
-                name: "CGLFW3",
-                pkgConfig: "glfw3",
-                providers: [
-                    .apt(["libglfw3-dev"]),
-                    .brew(["glfw3"]),
-                ]),
+        name: "SwiftGL",
+        products: [
+            .library(name: "CGLFW3", targets: ["CGLFW3"]),
+            .library(name: "SwiftGL", targets: ["SwiftGL"]),
+            .library(name: "SGLImage", targets: ["SGLImage"]),
+            .library(name: "SGLMath", targets: ["SGLMath"]),
+            .executable(name: "glgen", targets: ["glgen"]),
+            .executable(name: "swizgen", targets: ["Tools"]),
+        ],
+        dependencies: [
+        ],
+        targets: [
+            .systemLibrary(
+                    name: "CGLFW3",
+                    pkgConfig: "glfw3",
+                    providers: [
+                        .apt(["libglfw3-dev"]),
+                        .brew(["glfw3"]),
+                    ]),
+            .target(name: "glgen", dependencies: []),
+            .target(name: "SwiftGL",
+                    dependencies: ["CGLFW3"]),
+            .target(name: "SGLImage", dependencies: []),
+            .testTarget(name: "SGLImageTests", dependencies: ["SGLImage"], path: "Tests/SGLImageTests"),
+
+            .target(name: "SGLMath", dependencies: [], path: "Sources/SGLMath/Sources/SGLMath"),
+            .target(name: "Tools",dependencies: [], path: "Sources/SGLMath/Sources/Tools"),
+            .testTarget(name: "SGLMathTests", dependencies: ["SGLMath"], path: "Tests/SGLMathTests"),
+        ]
+)
+#if os(Linux)
+package.products =
+        .library(name: "CGLEW", targets: ["CGLEW"])
+package.targets =
         .systemLibrary(
                 name: "CGLEW",
                 pkgConfig: "glew",
                 providers: [
                     .apt(["libglew-dev"]),
                     .brew(["glew"]),
-                ]),
-        .target(name: "SwiftGL",
-                dependencies: ["CGLFW3", "CGLEW"]),
-        .target(name: "glgen", dependencies: []),
+                ])
+package.targets[2].dependencies.append("CGLEW")
 
-        .target(name: "SGLImage", dependencies: []),
-        .testTarget(name: "SGLImageTests", dependencies: ["SGLImage"], path: "Tests/SGLImageTests"),
-
-        .target(name: "SGLMath", dependencies: [], path: "Sources/SGLMath/Sources/SGLMath"),
-        .target(name: "Tools",dependencies: [], path: "Sources/SGLMath/Sources/Tools"),
-        .testTarget(name: "SGLMathTests", dependencies: ["SGLMath"], path: "Tests/SGLMathTests"),
-    ]
-)
+#endif
