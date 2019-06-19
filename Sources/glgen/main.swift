@@ -23,7 +23,7 @@
 
 
 import Foundation
-
+print("\(FileManager.default.currentDirectoryPath)")
 
 extension OutputStream
 {
@@ -421,6 +421,43 @@ func returnType(_ cmd: String, _ delegate:KhronosXmlDelegate) -> String
     }
 }
 
+//converting OpenGl Groups to swift enums
+func writeTypes(outstream:OutputStream, _ delegate:KhronosXmlDelegate)
+{
+    writeLicense(outstream: outstream)
+    outstream.write("// GLenum constants\n")
+    for group in delegate.groups.sorted(by: {$0.key < $1.key}) {
+        outstream.write("\n public enum \(group.key): GLenum, RawRepresentable { case ")
+        for (index, groupEnum) in group.value.enumerated() {
+            //Workaround for unwanted commas in last case
+            if group.value[index] == group.value.last {
+                outstream.write("\(groupEnum.lowercased()); ")
+            } else {
+                outstream.write("\(groupEnum.lowercased()), ")
+            }
+        }
+        outstream.write("typealias RawValue = String; init?(rawValue: RawValue) { switch rawValue { ")
+        //generating inits of rawValues for enums
+        for (index, groupEnum) in group.value.enumerated() {
+            if group.value[index] == group.value.last {
+                outstream.write("case \(groupEnum): self = .\(groupEnum.lowercased()); default: return nil }; ")
+            } else {
+                outstream.write("case \(groupEnum): self = .\(groupEnum.lowercased()); ")
+            }
+        }
+        outstream.write("var rawValue: RawValue { switch self { ")
+        //generating returns of rawValues for enums
+        for (index, groupEnum) in group.value.enumerated() {
+            if group.value[index] == group.value.last {
+                outstream.write("case .\(groupEnum.lowercased()): return \(groupEnum); } } } }\n")
+            } else {
+                outstream.write("case .\(groupEnum.lowercased()): return \(groupEnum); ")
+            }
+        }
+    }
+    outstream.write("\n// OpenGl Groups to swift enums\n")
+}
+
 
 func writeCommands(outstream:OutputStream, _ delegate:KhronosXmlDelegate)
 {
@@ -694,7 +731,8 @@ print("Working...")
 chomper(delegate: khronosDelegate, pathPrefix + "/Data/gl.xml")
 tidyDelegate(delegate: khronosDelegate)
 saneDelegate(delegate: khronosDelegate)
-spitter(khronosDelegate, pathPrefix + "/Sources/SGLOpenGL/Constants.swift", writeConstants)
-spitter(khronosDelegate, pathPrefix + "/Sources/SGLOpenGL/Commands.swift", writeCommands)
-spitter(khronosDelegate, pathPrefix + "/Sources/SGLOpenGL/Loaders.swift", writeLoaders)
+//spitter(khronosDelegate, pathPrefix + "/Sources/SGLOpenGL/Constants.swift", writeConstants)
+//spitter(khronosDelegate, pathPrefix + "/Sources/SGLOpenGL/Commands.swift", writeCommands)
+//spitter(khronosDelegate, pathPrefix + "/Sources/SGLOpenGL/Loaders.swift", writeLoaders)
+spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Enums.swift", writeTypes)
 print("Success")
