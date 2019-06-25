@@ -7,6 +7,7 @@ import OpenGL
 #endif
 
 import PackageDescription
+import Foundation
 
 let package = Package(
         name: "SwiftGL",
@@ -30,7 +31,9 @@ let package = Package(
                     ]),
             .target(name: "glgen", dependencies: []),
             .target(name: "SwiftGL",
-                    dependencies: ["CGLFW3"]),
+                    dependencies: ["CGLFW3"]
+                //,linkerSettings: [.unsafeFlags(["\(FileManager.default.currentDirectoryPath)"], .when(platforms: [.macOS]))]
+            ),
             .target(name: "SGLImage", dependencies: []),
             .testTarget(name: "SGLImageTests", dependencies: ["SGLImage"], path: "Tests/SGLImageTests"),
 

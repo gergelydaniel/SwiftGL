@@ -5,6 +5,5 @@
 module CGLEW [system] {
     header "shim.h"
     link "GLEW"
-    link "GL"
     export *
 }

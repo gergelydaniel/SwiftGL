@@ -425,37 +425,59 @@ func returnType(_ cmd: String, _ delegate:KhronosXmlDelegate) -> String
 func writeTypes(outstream:OutputStream, _ delegate:KhronosXmlDelegate)
 {
     writeLicense(outstream: outstream)
-    outstream.write("// GLenum constants\n")
+    
+    var outstreamArray = ["// GLenum Enums\n"]
+    var outstreamArrayIndex = 0
+    var rawValue = "GLint"
+    
     for group in delegate.groups.sorted(by: {$0.key < $1.key}) {
-        outstream.write("\n public enum \(group.key): GLenum, RawRepresentable { case ")
+        
+        outstreamArray.append("\npublic enum \(group.key): GLint, RawRepresentable {\n    case ")
+        outstreamArrayIndex = outstreamArray.endIndex - 1
         for (index, groupEnum) in group.value.enumerated() {
             //Workaround for unwanted commas in last case
-            if group.value[index] == group.value.last {
-                outstream.write("\(groupEnum.lowercased()); ")
+            if delegate.bitfields.contains(groupEnum) {
+                rawValue = "GLuint"
             } else {
-                outstream.write("\(groupEnum.lowercased()), ")
+                rawValue = "GLint"
+            }
+            if group.value[index] == group.value.last {
+                outstreamArray.append("\(groupEnum.lowercased())\n")
+            } else {
+                outstreamArray.append("\(groupEnum.lowercased()), ")
             }
         }
-        outstream.write("typealias RawValue = String; init?(rawValue: RawValue) { switch rawValue { ")
+        if rawValue == "GLuint" {
+            outstreamArray[outstreamArrayIndex] = "\npublic enum \(group.key): GLuint, RawRepresentable {\n    case "
+        }
+        outstreamArray.append("""
+                                  public typealias RawValue = \(rawValue);
+                                  public init?(rawValue: RawValue) {
+                                      switch rawValue {
+                              """)
         //generating inits of rawValues for enums
         for (index, groupEnum) in group.value.enumerated() {
             if group.value[index] == group.value.last {
-                outstream.write("case \(groupEnum): self = .\(groupEnum.lowercased()); default: return nil }; ")
+                outstreamArray.append("case \(groupEnum): self = .\(groupEnum.lowercased()); default: return nil\n        }\n    }")
             } else {
-                outstream.write("case \(groupEnum): self = .\(groupEnum.lowercased()); ")
+                outstreamArray.append("case \(groupEnum): self = .\(groupEnum.lowercased()); ")
             }
         }
-        outstream.write("var rawValue: RawValue { switch self { ")
+        outstreamArray.append("\n    public var rawValue: RawValue {\n        switch self {\n        ")
         //generating returns of rawValues for enums
         for (index, groupEnum) in group.value.enumerated() {
             if group.value[index] == group.value.last {
-                outstream.write("case .\(groupEnum.lowercased()): return \(groupEnum); } } } }\n")
+                outstreamArray.append("case .\(groupEnum.lowercased()): return \(groupEnum);\n        }\n    }\n}\n")
             } else {
-                outstream.write("case .\(groupEnum.lowercased()): return \(groupEnum); ")
+                outstreamArray.append("case .\(groupEnum.lowercased()): return \(groupEnum); ")
             }
         }
     }
-    outstream.write("\n// OpenGl Groups to swift enums\n")
+    outstreamArray.append("\n// OpenGl Groups to swift enums\n")
+    
+    for string in outstreamArray {
+        outstream.write(string)
+    }
 }
 
 
