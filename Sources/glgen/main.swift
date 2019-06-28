@@ -1,6 +1,7 @@
 #!/usr/bin/env swift
 
 // Copyright (c) 2015-2016 David Turnbull
+// Copyright (c) 2019 Vladislav Aharon (GothStar)
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
 // copy of this software and/or associated documentation files (the
@@ -100,12 +101,15 @@ class KhronosXmlDelegate : NSObject, XMLParserDelegate
 
         if path == "feature" {
             switch(attributeDict["api"]!) {
-            case "gl":
-                currentVersion = ""
-            case "gles1", "gles2":
-                currentVersion = "ES "
+            case "gl": currentVersion = ""
+            case "gles1", "gles2": currentVersion = "ES "
             default:
-                assert(false)
+                if attributeDict["api"]! == "glsc2" {
+                    break
+                } else {
+                    assert(false)
+                }
+                
             }
             currentVersion += attributeDict["number"]!
             return
@@ -303,8 +307,7 @@ func spitter(_ delegate:KhronosXmlDelegate, _ filename:String,
 }
 
 
-func writeLicense(outstream:OutputStream)
-{
+func writeLicense(outstream:OutputStream) {
     var s = "// WARNING: This file is generated. Modifications will be lost.\n\n"
     s += "// Copyright (c) 2015-2016 David Turnbull\n"
     s += "// Copyright (c) 2013-2016 The Khronos Group Inc.\n"
@@ -332,8 +335,7 @@ func writeLicense(outstream:OutputStream)
 }
 
 
-func writeDocs(outstream:OutputStream, _ delegate:KhronosXmlDelegate, _ cmd:String)
-{
+func writeDocs(outstream:OutputStream, _ delegate:KhronosXmlDelegate, _ cmd:String) {
     var s = ""
     let params = delegate.commandParams[cmd]!
     for p in params {
@@ -348,8 +350,7 @@ func writeDocs(outstream:OutputStream, _ delegate:KhronosXmlDelegate, _ cmd:Stri
 }
 
 
-func writeConstants(outstream:OutputStream, _ delegate:KhronosXmlDelegate)
-{
+func writeConstants(outstream:OutputStream, _ delegate:KhronosXmlDelegate) {
     writeLicense(outstream: outstream)
     outstream.write("// GLenum constants\n")
     for key in delegate.enums {
@@ -368,8 +369,7 @@ func writeConstants(outstream:OutputStream, _ delegate:KhronosXmlDelegate)
 }
 
 
-func paramType(x:KhronosXmlDelegate.paramTuple) -> String
-{
+func paramType(x:KhronosXmlDelegate.paramTuple) -> String {
     var type = x.type
 
     if type == "GLvoid" {type = "Void"}
@@ -407,8 +407,7 @@ func paramType(x:KhronosXmlDelegate.paramTuple) -> String
 }
 
 
-func returnType(_ cmd: String, _ delegate:KhronosXmlDelegate) -> String
-{
+func returnType(_ cmd: String, _ delegate:KhronosXmlDelegate) -> String {
     let retValue = delegate.commandReturns[cmd]!
     if retValue == "void" {
         return "Void"
@@ -422,67 +421,110 @@ func returnType(_ cmd: String, _ delegate:KhronosXmlDelegate) -> String
 }
 
 //converting OpenGl Groups to swift enums
-func writeTypes(outstream:OutputStream, _ delegate:KhronosXmlDelegate)
-{
+func writeTypes(outstream:OutputStream, _ delegate:KhronosXmlDelegate) {
     writeLicense(outstream: outstream)
     
-    var outstreamArray = ["// GLenum Enums\n"]
-    var outstreamArrayIndex = 0
-    var rawValue = "GLint"
+    var outstream = (array: ["// GLenum Enums\n"], index: 0, stream: outstream)
+    var rawValue : [String] = []
+    var initIndex = (start: 0, end: 0)
+    var rawValueIndex = (start: 0, end: 0)
+
     
     for group in delegate.groups.sorted(by: {$0.key < $1.key}) {
         
-        outstreamArray.append("\npublic enum \(group.key): GLint, RawRepresentable {\n    case ")
-        outstreamArrayIndex = outstreamArray.endIndex - 1
-        for (index, groupEnum) in group.value.enumerated() {
+        outstream.array.append("\npublic enum \(group.key): GLint, RawRepresentable {\n    case ")
+        outstream.index = outstream.array.endIndex - 1
+        //removing duplicating values
+        let groupValue = Array(Set(group.value).sorted())
+        for (index, groupEnum) in groupValue.enumerated() {
             //Workaround for unwanted commas in last case
+            if groupValue[index] == groupValue.last {
+                outstream.array += ["\(groupEnum.lowercased())\n"]
+            } else {
+                outstream.array += ["\(groupEnum.lowercased()), "]
+            }
+            
             if delegate.bitfields.contains(groupEnum) {
-                rawValue = "GLuint"
+                rawValue += ["GLuint"]
             } else {
-                rawValue = "GLint"
-            }
-            if group.value[index] == group.value.last {
-                outstreamArray.append("\(groupEnum.lowercased())\n")
-            } else {
-                outstreamArray.append("\(groupEnum.lowercased()), ")
+                rawValue += ["GLint"]
             }
         }
-        if rawValue == "GLuint" {
-            outstreamArray[outstreamArrayIndex] = "\npublic enum \(group.key): GLuint, RawRepresentable {\n    case "
+        rawValue = Array(Set(rawValue).sorted())
+        if rawValue.count > 1 {
+            if rawValue.contains("GLuint") && rawValue.contains("GLint") {
+                rawValue[0] = "GLint"
+                
+            }
         }
-        outstreamArray.append("""
-                                  public typealias RawValue = \(rawValue);
+        if rawValue[0] == "GLuint" {
+            outstream.array[outstream.index] = "\npublic enum \(group.key): GLuint, RawRepresentable {\n    case "
+        }
+        outstream.array.append("""
+                                  public typealias RawValue = \(rawValue[0]);
                                   public init?(rawValue: RawValue) {
                                       switch rawValue {
                               """)
-        //generating inits of rawValues for enums
-        for (index, groupEnum) in group.value.enumerated() {
-            if group.value[index] == group.value.last {
-                outstreamArray.append("case \(groupEnum): self = .\(groupEnum.lowercased()); default: return nil\n        }\n    }")
+        initIndex.start = outstream.array.endIndex
+        
+        //Generating inits of rawValues for enums
+        for (index, groupEnum) in groupValue.enumerated() {
+            if groupValue[index] == groupValue.last {
+                outstream.array.append("case \(groupEnum): self = .\(groupEnum.lowercased()); default: return nil\n        }\n    }")
             } else {
-                outstreamArray.append("case \(groupEnum): self = .\(groupEnum.lowercased()); ")
+                outstream.array.append("case \(groupEnum): self = .\(groupEnum.lowercased()); ")
             }
         }
-        outstreamArray.append("\n    public var rawValue: RawValue {\n        switch self {\n        ")
+        initIndex.end = outstream.array.endIndex - 1
+        outstream.array.append("\n    public var rawValue: RawValue {\n        switch self {\n        ")
+        
         //generating returns of rawValues for enums
-        for (index, groupEnum) in group.value.enumerated() {
-            if group.value[index] == group.value.last {
-                outstreamArray.append("case .\(groupEnum.lowercased()): return \(groupEnum);\n        }\n    }\n}\n")
+        rawValueIndex.start = outstream.array.endIndex
+        for (index, groupEnum) in groupValue.enumerated() {
+            if groupValue[index] == groupValue.last {
+                outstream.array.append("case .\(groupEnum.lowercased()): return \(groupEnum);\n        }\n    }\n}\n")
             } else {
-                outstreamArray.append("case .\(groupEnum.lowercased()): return \(groupEnum); ")
+                outstream.array.append("case .\(groupEnum.lowercased()): return \(groupEnum); ")
             }
         }
+        rawValueIndex.end = outstream.array.endIndex - 1
+        
+        //Fixing RawValue types and returns
+        if rawValue.count > 1 {
+            if rawValue.contains("GLuint") && rawValue.contains("GLint") {
+                var initCases = Array(outstream.array[initIndex.start...initIndex.end])
+                for (index, initCase) in initCases.enumerated() {
+                    if initCase.hasPrefix("case ") {
+                        initCases[index].insert(contentsOf: "GLint(", at: initCase.index(initCase.startIndex, offsetBy: 5))
+                    }
+                    if initCase.contains(": self = .") {
+                        initCases[index].insert(")", at: initCases[index].firstIndex(of: ":")!)
+                    }
+                }
+                outstream.array.replaceSubrange(initIndex.start...initIndex.end, with: initCases)
+                
+                var rawValues = Array(outstream.array[rawValueIndex.start...rawValueIndex.end])
+                for (index, rawValue) in rawValues.enumerated() {
+                    if rawValue.contains(": return ") {
+                        rawValues[index].insert(contentsOf: "GLint(", at: rawValue.index(rawValue.firstIndex(of: ":")!, offsetBy: 9))
+                    }
+                    if rawValue.contains(";") {
+                        rawValues[index].insert(")", at: rawValues[index].firstIndex(of: ";")!)
+                    }
+                }
+                outstream.array.replaceSubrange(rawValueIndex.start...rawValueIndex.end, with: rawValues)
+            }
+        }
+        rawValue = []
     }
-    outstreamArray.append("\n// OpenGl Groups to swift enums\n")
+    outstream.array.append("\n// OpenGl Groups to swift enums\n")
     
-    for string in outstreamArray {
-        outstream.write(string)
+    for string in outstream.array {
+        outstream.stream.write(string)
     }
 }
 
-
-func writeCommands(outstream:OutputStream, _ delegate:KhronosXmlDelegate)
-{
+func writeCommands(outstream:OutputStream, _ delegate:KhronosXmlDelegate) {
     var count:Int
     writeLicense(outstream: outstream)
     for cmd in delegate.commands {
@@ -562,8 +604,7 @@ func buildStringLits(delegate:KhronosXmlDelegate) -> [String] {
 }
 
 
-func writeLoaders(outstream:OutputStream, _ delegate:KhronosXmlDelegate)
-{
+func writeLoaders(outstream:OutputStream, _ delegate:KhronosXmlDelegate) {
     var count:Int, index:Int
 
     writeLicense(outstream: outstream)
@@ -643,8 +684,7 @@ func writeLoaders(outstream:OutputStream, _ delegate:KhronosXmlDelegate)
 }
 
 
-func tidyDelegate(delegate:KhronosXmlDelegate)
-{
+func tidyDelegate(delegate:KhronosXmlDelegate) {
     // remove group options without a value
     for (groupName, _) in delegate.groups {
         while let idx = delegate.groups[groupName]!.index(where: {delegate.values[$0] == nil}) {
@@ -731,8 +771,7 @@ func tidyDelegate(delegate:KhronosXmlDelegate)
 }
 
 
-func saneDelegate(delegate:KhronosXmlDelegate)
-{
+func saneDelegate(delegate:KhronosXmlDelegate) {
     //assert on some minimum counts, just in case
     assert(delegate.groups.count > 100)
     assert(delegate.enums.count > 5000)
@@ -753,8 +792,8 @@ print("Working...")
 chomper(delegate: khronosDelegate, pathPrefix + "/Data/gl.xml")
 tidyDelegate(delegate: khronosDelegate)
 saneDelegate(delegate: khronosDelegate)
-//spitter(khronosDelegate, pathPrefix + "/Sources/SGLOpenGL/Constants.swift", writeConstants)
-//spitter(khronosDelegate, pathPrefix + "/Sources/SGLOpenGL/Commands.swift", writeCommands)
-//spitter(khronosDelegate, pathPrefix + "/Sources/SGLOpenGL/Loaders.swift", writeLoaders)
+//spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Constants.swift", writeConstants)
+//spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Functions.swift", writeCommands)
+//spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Loaders.swift", writeLoaders)
 spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Enums.swift", writeTypes)
 print("Success")

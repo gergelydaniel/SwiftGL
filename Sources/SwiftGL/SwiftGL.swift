@@ -54,6 +54,7 @@ public typealias GLuint64EXT = UInt64
 public typealias GLsync = OpaquePointer
 public typealias GLhalfNV = UInt16
 public typealias GLvdpauSurfaceNV = Int
+public typealias GLeglClientBufferEXT = UnsafeMutableRawPointer
 
 public typealias GLDEBUGPROC = @convention(c)
     (GLenum, GLenum, GLuint, GLenum, GLsizei, UnsafePointer<GLchar>, UnsafeRawPointer) -> Void
@@ -63,6 +64,9 @@ public typealias GLDEBUGPROCKHR = @convention(c)
     (GLenum, GLenum, GLuint, GLenum, GLsizei, UnsafePointer<GLchar>, UnsafeRawPointer) -> Void
 public typealias GLDEBUGPROCAMD = @convention(c)
     (GLuint, GLenum, GLenum, GLsizei, UnsafePointer<GLchar>, UnsafeMutableRawPointer) -> Void
+public typealias GLVULKANPROCNV = @convention(c)
+    (UnsafeMutableRawPointer) -> Void
+
 
 class CommandInfo : CustomStringConvertible {
     let name: String
