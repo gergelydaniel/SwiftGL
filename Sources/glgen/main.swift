@@ -1,7 +1,7 @@
 #!/usr/bin/env swift
 
 // Copyright (c) 2015-2016 David Turnbull
-// Copyright (c) 2019 Vladislav Aharon (GothStar)
+// Copyright (c) 2019 Vlady Aharon (GothStar)
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
 // copy of this software and/or associated documentation files (the

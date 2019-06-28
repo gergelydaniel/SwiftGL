@@ -29,7 +29,7 @@ Then `import SwiftGL` in your swift file.
 ## Getting Started
 
 You can't use OpenGL until you can call its functions. The SwiftGL OpenGL loader
-imports all the functions up to OpenGL 4.5. Platform differences are abstracted
+imports all the functions up to OpenGL 4.6. Platform differences are abstracted
 away. There's nothing to initialize and no C code. 100% easy. 100% Swift.
 
 If you've used OpenGL in Swift before you probably used commands like this.
