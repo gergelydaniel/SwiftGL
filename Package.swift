@@ -16,8 +16,7 @@ let package = Package(
             .library(name: "SwiftGL", targets: ["SwiftGL"]),
             .library(name: "SGLImage", targets: ["SGLImage"]),
             .library(name: "SGLMath", targets: ["SGLMath"]),
-            .executable(name: "glgen", targets: ["glgen"]),
-            .executable(name: "swizgen", targets: ["Tools"]),
+            .executable(name: "glgen", targets: ["glgen"])
         ],
         dependencies: [
         ],

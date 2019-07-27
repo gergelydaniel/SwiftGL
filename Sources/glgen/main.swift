@@ -530,29 +530,50 @@ func writeCommands(outstream:OutputStream, _ delegate:KhronosXmlDelegate) {
     for cmd in delegate.commands {
         let params = delegate.commandParams[cmd]!
 
-        let types = params.map{($0.name,paramType(x: $0))}
+        let types = params.map{(param: $0.name, type: paramType(x: $0), groupEnum: $0.group)}
         let returns = returnType(cmd, delegate)
 
         var body:String
+        var bodyWithEnums: String
         if returns == "Void" {
             body = " {\(cmd)_P("
         } else {
             body = " -> \(returns) {return \(cmd)_P("
         }
         count = 0
-        for t in types {
-            body += t.0
+        bodyWithEnums = body
+        for type in types {
+            body += type.param
             count += 1
             if count < params.count {
                 body += ", "
             }
         }
-        body += ")}"
+        count = 0
+        for type in types where types.filter({$0.groupEnum != ""}).count > 0 {
+            
+                if delegate.groups.contains(where: {$0.key == type.groupEnum}) && !type.type.contains("GLboolean") {
+                    if type.type.hasPrefix("Unsafe") && type.type.hasSuffix("?") {
+                        bodyWithEnums.insert(contentsOf: " var \(type.param) = \(type.param).rawValue; ", at: bodyWithEnums.index(bodyWithEnums.firstIndex(of: "{")!, offsetBy: 1))
+                        bodyWithEnums += delegate.groups.contains(where: {$0.key == type.groupEnum}) ? "&\(type.param)" : type.param
+                    } else {
+                        bodyWithEnums +=  "\(type.param).rawValue"
+                    }
+                } else {
+                    bodyWithEnums += type.param
+                }
+            
+            count += 1
+            if count < params.count {
+                bodyWithEnums += ", "
+            }
+        }
+        body += ")}"; bodyWithEnums += ")}"
 
         outstream.write("public func \(cmd)(")
         count = 0
-        for t in types {
-            outstream.write("_ \(t.0):\(t.1)")
+        for type in types {
+            outstream.write("_ \(type.param):\(type.type)")
             count += 1
             if count < params.count {
                 outstream.write(", ")
@@ -563,8 +584,8 @@ func writeCommands(outstream:OutputStream, _ delegate:KhronosXmlDelegate) {
         if (params.count > 0) {
             outstream.write("public func \(cmd)(")
             count = 0
-            for t in types {
-                outstream.write("\(t.0):\(t.1)")
+            for type in types {
+                outstream.write("\(type.param):\(type.type)")
                 count += 1
                 if count < params.count {
                     outstream.write(", ")
@@ -572,11 +593,37 @@ func writeCommands(outstream:OutputStream, _ delegate:KhronosXmlDelegate) {
             }
             outstream.write(")\(body)\n")
         }
-
+        
+        //Functions with enums
+        var countExitingEnums = 0
+        
+        for type in types.filter({$0.groupEnum != ""}) {
+            countExitingEnums += delegate.groups.contains(where: {$0.key == type.groupEnum && $0.key != "Boolean"}) ? 1 : 0
+        }
+        if (params.count > 0) && countExitingEnums > 0 {
+            
+            
+            outstream.write("public func \(cmd)(")
+            count = 0
+            for type in types {
+                if (type.groupEnum != "" && type.groupEnum != "Boolean") && delegate.groups.contains(where: {$0.key == type.groupEnum}) {
+                    outstream.write("\(type.param):\(type.groupEnum)")
+                } else {
+                    outstream.write("\(type.param):\(type.type)")
+                }
+                count += 1
+                if count < params.count {
+                    outstream.write(", ")
+                }
+            }
+            outstream.write(")\(bodyWithEnums)\n")
+            
+        }
+        
         outstream.write("var \(cmd)_P:@convention(c)(")
         count = 0
-        for t in types {
-            outstream.write(t.1)
+        for type in types {
+            outstream.write(type.type)
             count += 1
             if count < params.count {
                 outstream.write(", ")
@@ -793,7 +840,7 @@ chomper(delegate: khronosDelegate, pathPrefix + "/Data/gl.xml")
 tidyDelegate(delegate: khronosDelegate)
 saneDelegate(delegate: khronosDelegate)
 //spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Constants.swift", writeConstants)
-//spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Functions.swift", writeCommands)
+spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Functions.swift", writeCommands)
 //spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Loaders.swift", writeLoaders)
-spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Enums.swift", writeTypes)
+//spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Enums.swift", writeTypes)
 print("Success")
