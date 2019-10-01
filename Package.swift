@@ -42,16 +42,14 @@ let package = Package(
         ]
 )
 #if os(Linux)
-package.products =
-        .library(name: "CGLEW", targets: ["CGLEW"])
-package.targets =
-        .systemLibrary(
+package.products.append(.library(name: "CGLEW", targets: ["CGLEW"]))
+package.targets.append(.systemLibrary(
                 name: "CGLEW",
                 pkgConfig: "glew",
                 providers: [
                     .apt(["libglew-dev"]),
                     .brew(["glew"]),
-                ])
+                ]))
 package.targets[2].dependencies.append("CGLEW")
 
 #endif
