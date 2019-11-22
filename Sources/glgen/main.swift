@@ -690,12 +690,12 @@ func writeLoaders(outstream:OutputStream, _ delegate:KhronosXmlDelegate) {
         var strnums = Array<Int>()
         if let vers = delegate.commandVersions[cmd] {
             for v in vers {
-                strnums.append(strings.index(of: v)!)
+                strnums.append(strings.firstIndex(of: v)!)
             }
         }
         if let vers = delegate.commandExtensions[cmd] {
             for v in vers {
-                strnums.append(strings.index(of: v)!)
+                strnums.append(strings.firstIndex(of: v)!)
             }
         }
         outstream.write("CommandInfo(\"\(cmd)\", [")
@@ -734,7 +734,7 @@ func writeLoaders(outstream:OutputStream, _ delegate:KhronosXmlDelegate) {
 func tidyDelegate(delegate:KhronosXmlDelegate) {
     // remove group options without a value
     for (groupName, _) in delegate.groups {
-        while let idx = delegate.groups[groupName]!.index(where: {delegate.values[$0] == nil}) {
+        while let idx = delegate.groups[groupName]!.firstIndex(where: {delegate.values[$0] == nil}) {
             delegate.groups[groupName]!.remove(at: idx)
         }
     }
@@ -801,7 +801,7 @@ func tidyDelegate(delegate:KhronosXmlDelegate) {
     // Remove ES redundancy
     for (key,val) in delegate.commandVersions {
         if val.contains("+ES 1.0") {
-            if let i = val.index(of: "+ES 2.0") {
+            if let i = val.firstIndex(of: "+ES 2.0") {
                 delegate.commandVersions[key]?.remove(at: i)
             }
         }
@@ -839,8 +839,8 @@ print("Working...")
 chomper(delegate: khronosDelegate, pathPrefix + "/Data/gl.xml")
 tidyDelegate(delegate: khronosDelegate)
 saneDelegate(delegate: khronosDelegate)
-//spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Constants.swift", writeConstants)
+spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Constants.swift", writeConstants)
 spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Functions.swift", writeCommands)
-//spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Loaders.swift", writeLoaders)
-//spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Enums.swift", writeTypes)
+spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Loaders.swift", writeLoaders)
+spitter(khronosDelegate, pathPrefix + "/Sources/SwiftGL/Enums.swift", writeTypes)
 print("Success")

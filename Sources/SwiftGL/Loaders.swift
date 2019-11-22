@@ -293,154 +293,157 @@ let S266 = "KHR_blend_equation_advanced"
 let S267 = "KHR_debug"
 let S268 = "KHR_parallel_shader_compile"
 let S269 = "KHR_robustness"
-let S270 = "MESA_resize_buffers"
-let S271 = "MESA_window_pos"
-let S272 = "NVX_conditional_render"
-let S273 = "NVX_linked_gpu_multicast"
-let S274 = "NV_alpha_to_coverage_dither_control"
-let S275 = "NV_bindless_multi_draw_indirect"
-let S276 = "NV_bindless_multi_draw_indirect_count"
-let S277 = "NV_bindless_texture"
-let S278 = "NV_blend_equation_advanced"
-let S279 = "NV_clip_space_w_scaling"
-let S280 = "NV_command_list"
-let S281 = "NV_conditional_render"
-let S282 = "NV_conservative_raster"
-let S283 = "NV_conservative_raster_dilate"
-let S284 = "NV_conservative_raster_pre_snap_triangles"
-let S285 = "NV_copy_buffer"
-let S286 = "NV_copy_image"
-let S287 = "NV_coverage_sample"
-let S288 = "NV_depth_buffer_float"
-let S289 = "NV_draw_buffers"
-let S290 = "NV_draw_instanced"
-let S291 = "NV_draw_texture"
-let S292 = "NV_draw_vulkan_image"
-let S293 = "NV_evaluators"
-let S294 = "NV_explicit_multisample"
-let S295 = "NV_fence"
-let S296 = "NV_fragment_coverage_to_color"
-let S297 = "NV_fragment_program"
-let S298 = "NV_framebuffer_blit"
-let S299 = "NV_framebuffer_mixed_samples"
-let S300 = "NV_framebuffer_multisample"
-let S301 = "NV_framebuffer_multisample_coverage"
-let S302 = "NV_geometry_program4"
-let S303 = "NV_gpu_multicast"
-let S304 = "NV_gpu_program4"
-let S305 = "NV_gpu_program5"
-let S306 = "NV_gpu_shader5"
-let S307 = "NV_half_float"
-let S308 = "NV_instanced_arrays"
-let S309 = "NV_internalformat_sample_query"
-let S310 = "NV_memory_attachment"
-let S311 = "NV_mesh_shader"
-let S312 = "NV_non_square_matrices"
-let S313 = "NV_occlusion_query"
-let S314 = "NV_parameter_buffer_object"
-let S315 = "NV_path_rendering"
-let S316 = "NV_pixel_data_range"
-let S317 = "NV_point_sprite"
-let S318 = "NV_polygon_mode"
-let S319 = "NV_present_video"
-let S320 = "NV_primitive_restart"
-let S321 = "NV_query_resource"
-let S322 = "NV_query_resource_tag"
-let S323 = "NV_read_buffer"
-let S324 = "NV_register_combiners"
-let S325 = "NV_register_combiners2"
-let S326 = "NV_sample_locations"
-let S327 = "NV_scissor_exclusive"
-let S328 = "NV_shader_buffer_load"
-let S329 = "NV_shading_rate_image"
-let S330 = "NV_texture_barrier"
-let S331 = "NV_texture_multisample"
-let S332 = "NV_transform_feedback"
-let S333 = "NV_transform_feedback2"
-let S334 = "NV_vdpau_interop"
-let S335 = "NV_vdpau_interop2"
-let S336 = "NV_vertex_array_range"
-let S337 = "NV_vertex_attrib_integer_64bit"
-let S338 = "NV_vertex_buffer_unified_memory"
-let S339 = "NV_vertex_program"
-let S340 = "NV_vertex_program4"
-let S341 = "NV_video_capture"
-let S342 = "NV_viewport_array"
-let S343 = "NV_viewport_swizzle"
-let S344 = "OES_EGL_image"
-let S345 = "OES_blend_equation_separate"
-let S346 = "OES_blend_func_separate"
-let S347 = "OES_blend_subtract"
-let S348 = "OES_byte_coordinates"
-let S349 = "OES_copy_image"
-let S350 = "OES_draw_buffers_indexed"
-let S351 = "OES_draw_elements_base_vertex"
-let S352 = "OES_draw_texture"
-let S353 = "OES_fixed_point"
-let S354 = "OES_framebuffer_object"
-let S355 = "OES_geometry_shader"
-let S356 = "OES_get_program_binary"
-let S357 = "OES_mapbuffer"
-let S358 = "OES_matrix_palette"
-let S359 = "OES_point_size_array"
-let S360 = "OES_primitive_bounding_box"
-let S361 = "OES_query_matrix"
-let S362 = "OES_sample_shading"
-let S363 = "OES_single_precision"
-let S364 = "OES_tessellation_shader"
-let S365 = "OES_texture_3D"
-let S366 = "OES_texture_border_clamp"
-let S367 = "OES_texture_buffer"
-let S368 = "OES_texture_cube_map"
-let S369 = "OES_texture_storage_multisample_2d_array"
-let S370 = "OES_texture_view"
-let S371 = "OES_vertex_array_object"
-let S372 = "OES_viewport_array"
-let S373 = "OVR_multiview"
-let S374 = "OVR_multiview_multisampled_render_to_texture"
-let S375 = "PGI_misc_hints"
-let S376 = "QCOM_alpha_test"
-let S377 = "QCOM_driver_control"
-let S378 = "QCOM_extended_get"
-let S379 = "QCOM_extended_get2"
-let S380 = "QCOM_framebuffer_foveated"
-let S381 = "QCOM_shader_framebuffer_fetch_noncoherent"
-let S382 = "QCOM_texture_foveated"
-let S383 = "QCOM_tiled_rendering"
-let S384 = "SGIS_detail_texture"
-let S385 = "SGIS_fog_function"
-let S386 = "SGIS_multisample"
-let S387 = "SGIS_pixel_texture"
-let S388 = "SGIS_point_parameters"
-let S389 = "SGIS_sharpen_texture"
-let S390 = "SGIS_texture4D"
-let S391 = "SGIS_texture_color_mask"
-let S392 = "SGIS_texture_filter4"
-let S393 = "SGIX_async"
-let S394 = "SGIX_flush_raster"
-let S395 = "SGIX_fragment_lighting"
-let S396 = "SGIX_framezoom"
-let S397 = "SGIX_igloo_interface"
-let S398 = "SGIX_instruments"
-let S399 = "SGIX_list_priority"
-let S400 = "SGIX_pixel_texture"
-let S401 = "SGIX_polynomial_ffd"
-let S402 = "SGIX_reference_plane"
-let S403 = "SGIX_sprite"
-let S404 = "SGIX_tag_sample_buffer"
-let S405 = "SGI_color_table"
-let S406 = "SUNX_constant_data"
-let S407 = "SUN_global_alpha"
-let S408 = "SUN_mesh_array"
-let S409 = "SUN_triangle_list"
-let S410 = "SUN_vertex"
+let S270 = "MESA_framebuffer_flip_y"
+let S271 = "MESA_resize_buffers"
+let S272 = "MESA_window_pos"
+let S273 = "NVX_conditional_render"
+let S274 = "NVX_gpu_multicast2"
+let S275 = "NVX_linked_gpu_multicast"
+let S276 = "NVX_progress_fence"
+let S277 = "NV_alpha_to_coverage_dither_control"
+let S278 = "NV_bindless_multi_draw_indirect"
+let S279 = "NV_bindless_multi_draw_indirect_count"
+let S280 = "NV_bindless_texture"
+let S281 = "NV_blend_equation_advanced"
+let S282 = "NV_clip_space_w_scaling"
+let S283 = "NV_command_list"
+let S284 = "NV_conditional_render"
+let S285 = "NV_conservative_raster"
+let S286 = "NV_conservative_raster_dilate"
+let S287 = "NV_conservative_raster_pre_snap_triangles"
+let S288 = "NV_copy_buffer"
+let S289 = "NV_copy_image"
+let S290 = "NV_coverage_sample"
+let S291 = "NV_depth_buffer_float"
+let S292 = "NV_draw_buffers"
+let S293 = "NV_draw_instanced"
+let S294 = "NV_draw_texture"
+let S295 = "NV_draw_vulkan_image"
+let S296 = "NV_evaluators"
+let S297 = "NV_explicit_multisample"
+let S298 = "NV_fence"
+let S299 = "NV_fragment_coverage_to_color"
+let S300 = "NV_fragment_program"
+let S301 = "NV_framebuffer_blit"
+let S302 = "NV_framebuffer_mixed_samples"
+let S303 = "NV_framebuffer_multisample"
+let S304 = "NV_framebuffer_multisample_coverage"
+let S305 = "NV_geometry_program4"
+let S306 = "NV_gpu_multicast"
+let S307 = "NV_gpu_program4"
+let S308 = "NV_gpu_program5"
+let S309 = "NV_gpu_shader5"
+let S310 = "NV_half_float"
+let S311 = "NV_instanced_arrays"
+let S312 = "NV_internalformat_sample_query"
+let S313 = "NV_memory_attachment"
+let S314 = "NV_mesh_shader"
+let S315 = "NV_non_square_matrices"
+let S316 = "NV_occlusion_query"
+let S317 = "NV_parameter_buffer_object"
+let S318 = "NV_path_rendering"
+let S319 = "NV_pixel_data_range"
+let S320 = "NV_point_sprite"
+let S321 = "NV_polygon_mode"
+let S322 = "NV_present_video"
+let S323 = "NV_primitive_restart"
+let S324 = "NV_query_resource"
+let S325 = "NV_query_resource_tag"
+let S326 = "NV_read_buffer"
+let S327 = "NV_register_combiners"
+let S328 = "NV_register_combiners2"
+let S329 = "NV_sample_locations"
+let S330 = "NV_scissor_exclusive"
+let S331 = "NV_shader_buffer_load"
+let S332 = "NV_shading_rate_image"
+let S333 = "NV_texture_barrier"
+let S334 = "NV_texture_multisample"
+let S335 = "NV_transform_feedback"
+let S336 = "NV_transform_feedback2"
+let S337 = "NV_vdpau_interop"
+let S338 = "NV_vdpau_interop2"
+let S339 = "NV_vertex_array_range"
+let S340 = "NV_vertex_attrib_integer_64bit"
+let S341 = "NV_vertex_buffer_unified_memory"
+let S342 = "NV_vertex_program"
+let S343 = "NV_vertex_program4"
+let S344 = "NV_video_capture"
+let S345 = "NV_viewport_array"
+let S346 = "NV_viewport_swizzle"
+let S347 = "OES_EGL_image"
+let S348 = "OES_blend_equation_separate"
+let S349 = "OES_blend_func_separate"
+let S350 = "OES_blend_subtract"
+let S351 = "OES_byte_coordinates"
+let S352 = "OES_copy_image"
+let S353 = "OES_draw_buffers_indexed"
+let S354 = "OES_draw_elements_base_vertex"
+let S355 = "OES_draw_texture"
+let S356 = "OES_fixed_point"
+let S357 = "OES_framebuffer_object"
+let S358 = "OES_geometry_shader"
+let S359 = "OES_get_program_binary"
+let S360 = "OES_mapbuffer"
+let S361 = "OES_matrix_palette"
+let S362 = "OES_point_size_array"
+let S363 = "OES_primitive_bounding_box"
+let S364 = "OES_query_matrix"
+let S365 = "OES_sample_shading"
+let S366 = "OES_single_precision"
+let S367 = "OES_tessellation_shader"
+let S368 = "OES_texture_3D"
+let S369 = "OES_texture_border_clamp"
+let S370 = "OES_texture_buffer"
+let S371 = "OES_texture_cube_map"
+let S372 = "OES_texture_storage_multisample_2d_array"
+let S373 = "OES_texture_view"
+let S374 = "OES_vertex_array_object"
+let S375 = "OES_viewport_array"
+let S376 = "OVR_multiview"
+let S377 = "OVR_multiview_multisampled_render_to_texture"
+let S378 = "PGI_misc_hints"
+let S379 = "QCOM_alpha_test"
+let S380 = "QCOM_driver_control"
+let S381 = "QCOM_extended_get"
+let S382 = "QCOM_extended_get2"
+let S383 = "QCOM_framebuffer_foveated"
+let S384 = "QCOM_shader_framebuffer_fetch_noncoherent"
+let S385 = "QCOM_texture_foveated"
+let S386 = "QCOM_tiled_rendering"
+let S387 = "SGIS_detail_texture"
+let S388 = "SGIS_fog_function"
+let S389 = "SGIS_multisample"
+let S390 = "SGIS_pixel_texture"
+let S391 = "SGIS_point_parameters"
+let S392 = "SGIS_sharpen_texture"
+let S393 = "SGIS_texture4D"
+let S394 = "SGIS_texture_color_mask"
+let S395 = "SGIS_texture_filter4"
+let S396 = "SGIX_async"
+let S397 = "SGIX_flush_raster"
+let S398 = "SGIX_fragment_lighting"
+let S399 = "SGIX_framezoom"
+let S400 = "SGIX_igloo_interface"
+let S401 = "SGIX_instruments"
+let S402 = "SGIX_list_priority"
+let S403 = "SGIX_pixel_texture"
+let S404 = "SGIX_polynomial_ffd"
+let S405 = "SGIX_reference_plane"
+let S406 = "SGIX_sprite"
+let S407 = "SGIX_tag_sample_buffer"
+let S408 = "SGI_color_table"
+let S409 = "SUNX_constant_data"
+let S410 = "SUN_global_alpha"
+let S411 = "SUN_mesh_array"
+let S412 = "SUN_triangle_list"
+let S413 = "SUN_vertex"
 
 func glAccum_L(_ op:GLenum, _ value:GLfloat) {
     glAccum_P = unsafeBitCast(getAddress(CommandInfo("glAccum", [S0, S25])), to: Swift.type(of: glAccum_P))
     glAccum_P(op, value)
 }
 func glAccumxOES_L(_ op:GLenum, _ value:GLfixed) {
-    glAccumxOES_P = unsafeBitCast(getAddress(CommandInfo("glAccumxOES", [S353])), to: Swift.type(of: glAccumxOES_P))
+    glAccumxOES_P = unsafeBitCast(getAddress(CommandInfo("glAccumxOES", [S356])), to: Swift.type(of: glAccumxOES_P))
     glAccumxOES_P(op, value)
 }
 func glAcquireKeyedMutexWin32EXT_L(_ memory:GLuint, _ key:GLuint64, _ timeout:GLuint) -> GLboolean {
@@ -472,7 +475,7 @@ func glActiveTextureARB_L(_ texture:GLenum) {
     glActiveTextureARB_P(texture)
 }
 func glActiveVaryingNV_L(_ program:GLuint, _ name:UnsafePointer<GLchar>?) {
-    glActiveVaryingNV_P = unsafeBitCast(getAddress(CommandInfo("glActiveVaryingNV", [S332])), to: Swift.type(of: glActiveVaryingNV_P))
+    glActiveVaryingNV_P = unsafeBitCast(getAddress(CommandInfo("glActiveVaryingNV", [S335])), to: Swift.type(of: glActiveVaryingNV_P))
     glActiveVaryingNV_P(program, name)
 }
 func glAlphaFragmentOp1ATI_L(_ op:GLenum, _ dst:GLuint, _ dstMod:GLuint, _ arg1:GLuint, _ arg1Rep:GLuint, _ arg1Mod:GLuint) {
@@ -492,7 +495,7 @@ func glAlphaFunc_L(_ fn:GLenum, _ ref:GLfloat) {
     glAlphaFunc_P(fn, ref)
 }
 func glAlphaFuncQCOM_L(_ fn:GLenum, _ ref:GLclampf) {
-    glAlphaFuncQCOM_P = unsafeBitCast(getAddress(CommandInfo("glAlphaFuncQCOM", [S376])), to: Swift.type(of: glAlphaFuncQCOM_P))
+    glAlphaFuncQCOM_P = unsafeBitCast(getAddress(CommandInfo("glAlphaFuncQCOM", [S379])), to: Swift.type(of: glAlphaFuncQCOM_P))
     glAlphaFuncQCOM_P(fn, ref)
 }
 func glAlphaFuncx_L(_ fn:GLenum, _ ref:GLfixed) {
@@ -500,11 +503,11 @@ func glAlphaFuncx_L(_ fn:GLenum, _ ref:GLfixed) {
     glAlphaFuncx_P(fn, ref)
 }
 func glAlphaFuncxOES_L(_ fn:GLenum, _ ref:GLfixed) {
-    glAlphaFuncxOES_P = unsafeBitCast(getAddress(CommandInfo("glAlphaFuncxOES", [S353])), to: Swift.type(of: glAlphaFuncxOES_P))
+    glAlphaFuncxOES_P = unsafeBitCast(getAddress(CommandInfo("glAlphaFuncxOES", [S356])), to: Swift.type(of: glAlphaFuncxOES_P))
     glAlphaFuncxOES_P(fn, ref)
 }
 func glAlphaToCoverageDitherControlNV_L(_ mode:GLenum) {
-    glAlphaToCoverageDitherControlNV_P = unsafeBitCast(getAddress(CommandInfo("glAlphaToCoverageDitherControlNV", [S274])), to: Swift.type(of: glAlphaToCoverageDitherControlNV_P))
+    glAlphaToCoverageDitherControlNV_P = unsafeBitCast(getAddress(CommandInfo("glAlphaToCoverageDitherControlNV", [S277])), to: Swift.type(of: glAlphaToCoverageDitherControlNV_P))
     glAlphaToCoverageDitherControlNV_P(mode)
 }
 func glApplyFramebufferAttachmentCMAAINTEL_L() {
@@ -516,7 +519,7 @@ func glApplyTextureEXT_L(_ mode:GLenum) {
     glApplyTextureEXT_P(mode)
 }
 func glAreProgramsResidentNV_L(_ n:GLsizei, _ programs:UnsafePointer<GLuint>?, _ residences:UnsafeMutablePointer<GLboolean>?) -> GLboolean {
-    glAreProgramsResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glAreProgramsResidentNV", [S339])), to: Swift.type(of: glAreProgramsResidentNV_P))
+    glAreProgramsResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glAreProgramsResidentNV", [S342])), to: Swift.type(of: glAreProgramsResidentNV_P))
     return glAreProgramsResidentNV_P(n, programs, residences)
 }
 func glAreTexturesResident_L(_ n:GLsizei, _ textures:UnsafePointer<GLuint>?, _ residences:UnsafeMutablePointer<GLboolean>?) -> GLboolean {
@@ -539,8 +542,16 @@ func glArrayObjectATI_L(_ array:GLenum, _ size:GLint, _ type:GLenum, _ stride:GL
     glArrayObjectATI_P = unsafeBitCast(getAddress(CommandInfo("glArrayObjectATI", [S152])), to: Swift.type(of: glArrayObjectATI_P))
     glArrayObjectATI_P(array, size, type, stride, buffer, offset)
 }
+func glAsyncCopyBufferSubDataNVX_L(_ waitSemaphoreCount:GLsizei, _ waitSemaphoreArray:UnsafePointer<GLuint>?, _ fenceValueArray:UnsafePointer<GLuint64>?, _ readGpu:GLuint, _ writeGpuMask:GLbitfield, _ readBuffer:GLuint, _ writeBuffer:GLuint, _ readOffset:GLintptr, _ writeOffset:GLintptr, _ size:GLsizeiptr, _ signalSemaphoreCount:GLsizei, _ signalSemaphoreArray:UnsafePointer<GLuint>?, _ signalValueArray:UnsafePointer<GLuint64>?) -> GLuint {
+    glAsyncCopyBufferSubDataNVX_P = unsafeBitCast(getAddress(CommandInfo("glAsyncCopyBufferSubDataNVX", [S274])), to: Swift.type(of: glAsyncCopyBufferSubDataNVX_P))
+    return glAsyncCopyBufferSubDataNVX_P(waitSemaphoreCount, waitSemaphoreArray, fenceValueArray, readGpu, writeGpuMask, readBuffer, writeBuffer, readOffset, writeOffset, size, signalSemaphoreCount, signalSemaphoreArray, signalValueArray)
+}
+func glAsyncCopyImageSubDataNVX_L(_ waitSemaphoreCount:GLsizei, _ waitSemaphoreArray:UnsafePointer<GLuint>?, _ waitValueArray:UnsafePointer<GLuint64>?, _ srcGpu:GLuint, _ dstGpuMask:GLbitfield, _ srcName:GLuint, _ srcTarget:GLenum, _ srcLevel:GLint, _ srcX:GLint, _ srcY:GLint, _ srcZ:GLint, _ dstName:GLuint, _ dstTarget:GLenum, _ dstLevel:GLint, _ dstX:GLint, _ dstY:GLint, _ dstZ:GLint, _ srcWidth:GLsizei, _ srcHeight:GLsizei, _ srcDepth:GLsizei, _ signalSemaphoreCount:GLsizei, _ signalSemaphoreArray:UnsafePointer<GLuint>?, _ signalValueArray:UnsafePointer<GLuint64>?) -> GLuint {
+    glAsyncCopyImageSubDataNVX_P = unsafeBitCast(getAddress(CommandInfo("glAsyncCopyImageSubDataNVX", [S274])), to: Swift.type(of: glAsyncCopyImageSubDataNVX_P))
+    return glAsyncCopyImageSubDataNVX_P(waitSemaphoreCount, waitSemaphoreArray, waitValueArray, srcGpu, dstGpuMask, srcName, srcTarget, srcLevel, srcX, srcY, srcZ, dstName, dstTarget, dstLevel, dstX, dstY, dstZ, srcWidth, srcHeight, srcDepth, signalSemaphoreCount, signalSemaphoreArray, signalValueArray)
+}
 func glAsyncMarkerSGIX_L(_ marker:GLuint) {
-    glAsyncMarkerSGIX_P = unsafeBitCast(getAddress(CommandInfo("glAsyncMarkerSGIX", [S393])), to: Swift.type(of: glAsyncMarkerSGIX_P))
+    glAsyncMarkerSGIX_P = unsafeBitCast(getAddress(CommandInfo("glAsyncMarkerSGIX", [S396])), to: Swift.type(of: glAsyncMarkerSGIX_P))
     glAsyncMarkerSGIX_P(marker)
 }
 func glAttachObjectARB_L(_ containerObj:GLhandleARB, _ obj:GLhandleARB) {
@@ -560,11 +571,11 @@ func glBeginConditionalRender_L(_ id:GLuint, _ mode:GLenum) {
     glBeginConditionalRender_P(id, mode)
 }
 func glBeginConditionalRenderNV_L(_ id:GLuint, _ mode:GLenum) {
-    glBeginConditionalRenderNV_P = unsafeBitCast(getAddress(CommandInfo("glBeginConditionalRenderNV", [S281])), to: Swift.type(of: glBeginConditionalRenderNV_P))
+    glBeginConditionalRenderNV_P = unsafeBitCast(getAddress(CommandInfo("glBeginConditionalRenderNV", [S284])), to: Swift.type(of: glBeginConditionalRenderNV_P))
     glBeginConditionalRenderNV_P(id, mode)
 }
 func glBeginConditionalRenderNVX_L(_ id:GLuint) {
-    glBeginConditionalRenderNVX_P = unsafeBitCast(getAddress(CommandInfo("glBeginConditionalRenderNVX", [S272])), to: Swift.type(of: glBeginConditionalRenderNVX_P))
+    glBeginConditionalRenderNVX_P = unsafeBitCast(getAddress(CommandInfo("glBeginConditionalRenderNVX", [S273])), to: Swift.type(of: glBeginConditionalRenderNVX_P))
     glBeginConditionalRenderNVX_P(id)
 }
 func glBeginFragmentShaderATI_L() {
@@ -572,7 +583,7 @@ func glBeginFragmentShaderATI_L() {
     glBeginFragmentShaderATI_P()
 }
 func glBeginOcclusionQueryNV_L(_ id:GLuint) {
-    glBeginOcclusionQueryNV_P = unsafeBitCast(getAddress(CommandInfo("glBeginOcclusionQueryNV", [S313])), to: Swift.type(of: glBeginOcclusionQueryNV_P))
+    glBeginOcclusionQueryNV_P = unsafeBitCast(getAddress(CommandInfo("glBeginOcclusionQueryNV", [S316])), to: Swift.type(of: glBeginOcclusionQueryNV_P))
     glBeginOcclusionQueryNV_P(id)
 }
 func glBeginPerfMonitorAMD_L(_ monitor:GLuint) {
@@ -608,7 +619,7 @@ func glBeginTransformFeedbackEXT_L(_ primitiveMode:GLenum) {
     glBeginTransformFeedbackEXT_P(primitiveMode)
 }
 func glBeginTransformFeedbackNV_L(_ primitiveMode:GLenum) {
-    glBeginTransformFeedbackNV_P = unsafeBitCast(getAddress(CommandInfo("glBeginTransformFeedbackNV", [S332])), to: Swift.type(of: glBeginTransformFeedbackNV_P))
+    glBeginTransformFeedbackNV_P = unsafeBitCast(getAddress(CommandInfo("glBeginTransformFeedbackNV", [S335])), to: Swift.type(of: glBeginTransformFeedbackNV_P))
     glBeginTransformFeedbackNV_P(primitiveMode)
 }
 func glBeginVertexShaderEXT_L() {
@@ -616,7 +627,7 @@ func glBeginVertexShaderEXT_L() {
     glBeginVertexShaderEXT_P()
 }
 func glBeginVideoCaptureNV_L(_ video_capture_slot:GLuint) {
-    glBeginVideoCaptureNV_P = unsafeBitCast(getAddress(CommandInfo("glBeginVideoCaptureNV", [S341])), to: Swift.type(of: glBeginVideoCaptureNV_P))
+    glBeginVideoCaptureNV_P = unsafeBitCast(getAddress(CommandInfo("glBeginVideoCaptureNV", [S344])), to: Swift.type(of: glBeginVideoCaptureNV_P))
     glBeginVideoCaptureNV_P(video_capture_slot)
 }
 func glBindAttribLocation_L(_ program:GLuint, _ index:GLuint, _ name:UnsafePointer<GLchar>?) {
@@ -644,7 +655,7 @@ func glBindBufferBaseEXT_L(_ target:GLenum, _ index:GLuint, _ buffer:GLuint) {
     glBindBufferBaseEXT_P(target, index, buffer)
 }
 func glBindBufferBaseNV_L(_ target:GLenum, _ index:GLuint, _ buffer:GLuint) {
-    glBindBufferBaseNV_P = unsafeBitCast(getAddress(CommandInfo("glBindBufferBaseNV", [S332])), to: Swift.type(of: glBindBufferBaseNV_P))
+    glBindBufferBaseNV_P = unsafeBitCast(getAddress(CommandInfo("glBindBufferBaseNV", [S335])), to: Swift.type(of: glBindBufferBaseNV_P))
     glBindBufferBaseNV_P(target, index, buffer)
 }
 func glBindBufferOffsetEXT_L(_ target:GLenum, _ index:GLuint, _ buffer:GLuint, _ offset:GLintptr) {
@@ -652,7 +663,7 @@ func glBindBufferOffsetEXT_L(_ target:GLenum, _ index:GLuint, _ buffer:GLuint, _
     glBindBufferOffsetEXT_P(target, index, buffer, offset)
 }
 func glBindBufferOffsetNV_L(_ target:GLenum, _ index:GLuint, _ buffer:GLuint, _ offset:GLintptr) {
-    glBindBufferOffsetNV_P = unsafeBitCast(getAddress(CommandInfo("glBindBufferOffsetNV", [S332])), to: Swift.type(of: glBindBufferOffsetNV_P))
+    glBindBufferOffsetNV_P = unsafeBitCast(getAddress(CommandInfo("glBindBufferOffsetNV", [S335])), to: Swift.type(of: glBindBufferOffsetNV_P))
     glBindBufferOffsetNV_P(target, index, buffer, offset)
 }
 func glBindBufferRange_L(_ target:GLenum, _ index:GLuint, _ buffer:GLuint, _ offset:GLintptr, _ size:GLsizeiptr) {
@@ -664,7 +675,7 @@ func glBindBufferRangeEXT_L(_ target:GLenum, _ index:GLuint, _ buffer:GLuint, _ 
     glBindBufferRangeEXT_P(target, index, buffer, offset, size)
 }
 func glBindBufferRangeNV_L(_ target:GLenum, _ index:GLuint, _ buffer:GLuint, _ offset:GLintptr, _ size:GLsizeiptr) {
-    glBindBufferRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glBindBufferRangeNV", [S332])), to: Swift.type(of: glBindBufferRangeNV_P))
+    glBindBufferRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glBindBufferRangeNV", [S335])), to: Swift.type(of: glBindBufferRangeNV_P))
     glBindBufferRangeNV_P(target, index, buffer, offset, size)
 }
 func glBindBuffersBase_L(_ target:GLenum, _ first:GLuint, _ count:GLsizei, _ buffers:UnsafePointer<GLuint>?) {
@@ -704,7 +715,7 @@ func glBindFramebufferEXT_L(_ target:GLenum, _ framebuffer:GLuint) {
     glBindFramebufferEXT_P(target, framebuffer)
 }
 func glBindFramebufferOES_L(_ target:GLenum, _ framebuffer:GLuint) {
-    glBindFramebufferOES_P = unsafeBitCast(getAddress(CommandInfo("glBindFramebufferOES", [S354])), to: Swift.type(of: glBindFramebufferOES_P))
+    glBindFramebufferOES_P = unsafeBitCast(getAddress(CommandInfo("glBindFramebufferOES", [S357])), to: Swift.type(of: glBindFramebufferOES_P))
     glBindFramebufferOES_P(target, framebuffer)
 }
 func glBindImageTexture_L(_ unit:GLuint, _ texture:GLuint, _ level:GLint, _ layered:GLboolean, _ layer:GLint, _ access:GLenum, _ format:GLenum) {
@@ -740,7 +751,7 @@ func glBindProgramARB_L(_ target:GLenum, _ program:GLuint) {
     glBindProgramARB_P(target, program)
 }
 func glBindProgramNV_L(_ target:GLenum, _ id:GLuint) {
-    glBindProgramNV_P = unsafeBitCast(getAddress(CommandInfo("glBindProgramNV", [S339])), to: Swift.type(of: glBindProgramNV_P))
+    glBindProgramNV_P = unsafeBitCast(getAddress(CommandInfo("glBindProgramNV", [S342])), to: Swift.type(of: glBindProgramNV_P))
     glBindProgramNV_P(target, id)
 }
 func glBindProgramPipeline_L(_ pipeline:GLuint) {
@@ -760,7 +771,7 @@ func glBindRenderbufferEXT_L(_ target:GLenum, _ renderbuffer:GLuint) {
     glBindRenderbufferEXT_P(target, renderbuffer)
 }
 func glBindRenderbufferOES_L(_ target:GLenum, _ renderbuffer:GLuint) {
-    glBindRenderbufferOES_P = unsafeBitCast(getAddress(CommandInfo("glBindRenderbufferOES", [S354])), to: Swift.type(of: glBindRenderbufferOES_P))
+    glBindRenderbufferOES_P = unsafeBitCast(getAddress(CommandInfo("glBindRenderbufferOES", [S357])), to: Swift.type(of: glBindRenderbufferOES_P))
     glBindRenderbufferOES_P(target, renderbuffer)
 }
 func glBindSampler_L(_ unit:GLuint, _ sampler:GLuint) {
@@ -772,7 +783,7 @@ func glBindSamplers_L(_ first:GLuint, _ count:GLsizei, _ samplers:UnsafePointer<
     glBindSamplers_P(first, count, samplers)
 }
 func glBindShadingRateImageNV_L(_ texture:GLuint) {
-    glBindShadingRateImageNV_P = unsafeBitCast(getAddress(CommandInfo("glBindShadingRateImageNV", [S329])), to: Swift.type(of: glBindShadingRateImageNV_P))
+    glBindShadingRateImageNV_P = unsafeBitCast(getAddress(CommandInfo("glBindShadingRateImageNV", [S332])), to: Swift.type(of: glBindShadingRateImageNV_P))
     glBindShadingRateImageNV_P(texture)
 }
 func glBindTexGenParameterEXT_L(_ unit:GLenum, _ coord:GLenum, _ value:GLenum) -> GLuint {
@@ -804,7 +815,7 @@ func glBindTransformFeedback_L(_ target:GLenum, _ id:GLuint) {
     glBindTransformFeedback_P(target, id)
 }
 func glBindTransformFeedbackNV_L(_ target:GLenum, _ id:GLuint) {
-    glBindTransformFeedbackNV_P = unsafeBitCast(getAddress(CommandInfo("glBindTransformFeedbackNV", [S333])), to: Swift.type(of: glBindTransformFeedbackNV_P))
+    glBindTransformFeedbackNV_P = unsafeBitCast(getAddress(CommandInfo("glBindTransformFeedbackNV", [S336])), to: Swift.type(of: glBindTransformFeedbackNV_P))
     glBindTransformFeedbackNV_P(target, id)
 }
 func glBindVertexArray_L(_ array:GLuint) {
@@ -816,7 +827,7 @@ func glBindVertexArrayAPPLE_L(_ array:GLuint) {
     glBindVertexArrayAPPLE_P(array)
 }
 func glBindVertexArrayOES_L(_ array:GLuint) {
-    glBindVertexArrayOES_P = unsafeBitCast(getAddress(CommandInfo("glBindVertexArrayOES", [S371])), to: Swift.type(of: glBindVertexArrayOES_P))
+    glBindVertexArrayOES_P = unsafeBitCast(getAddress(CommandInfo("glBindVertexArrayOES", [S374])), to: Swift.type(of: glBindVertexArrayOES_P))
     glBindVertexArrayOES_P(array)
 }
 func glBindVertexBuffer_L(_ bindingindex:GLuint, _ buffer:GLuint, _ offset:GLintptr, _ stride:GLsizei) {
@@ -832,11 +843,11 @@ func glBindVertexShaderEXT_L(_ id:GLuint) {
     glBindVertexShaderEXT_P(id)
 }
 func glBindVideoCaptureStreamBufferNV_L(_ video_capture_slot:GLuint, _ stream:GLuint, _ frame_region:GLenum, _ offset:GLintptrARB) {
-    glBindVideoCaptureStreamBufferNV_P = unsafeBitCast(getAddress(CommandInfo("glBindVideoCaptureStreamBufferNV", [S341])), to: Swift.type(of: glBindVideoCaptureStreamBufferNV_P))
+    glBindVideoCaptureStreamBufferNV_P = unsafeBitCast(getAddress(CommandInfo("glBindVideoCaptureStreamBufferNV", [S344])), to: Swift.type(of: glBindVideoCaptureStreamBufferNV_P))
     glBindVideoCaptureStreamBufferNV_P(video_capture_slot, stream, frame_region, offset)
 }
 func glBindVideoCaptureStreamTextureNV_L(_ video_capture_slot:GLuint, _ stream:GLuint, _ frame_region:GLenum, _ target:GLenum, _ texture:GLuint) {
-    glBindVideoCaptureStreamTextureNV_P = unsafeBitCast(getAddress(CommandInfo("glBindVideoCaptureStreamTextureNV", [S341])), to: Swift.type(of: glBindVideoCaptureStreamTextureNV_P))
+    glBindVideoCaptureStreamTextureNV_P = unsafeBitCast(getAddress(CommandInfo("glBindVideoCaptureStreamTextureNV", [S344])), to: Swift.type(of: glBindVideoCaptureStreamTextureNV_P))
     glBindVideoCaptureStreamTextureNV_P(video_capture_slot, stream, frame_region, target, texture)
 }
 func glBinormal3bEXT_L(_ bx:GLbyte, _ by:GLbyte, _ bz:GLbyte) {
@@ -888,7 +899,7 @@ func glBitmap_L(_ width:GLsizei, _ height:GLsizei, _ xorig:GLfloat, _ yorig:GLfl
     glBitmap_P(width, height, xorig, yorig, xmove, ymove, bitmap)
 }
 func glBitmapxOES_L(_ width:GLsizei, _ height:GLsizei, _ xorig:GLfixed, _ yorig:GLfixed, _ xmove:GLfixed, _ ymove:GLfixed, _ bitmap:UnsafePointer<GLubyte>?) {
-    glBitmapxOES_P = unsafeBitCast(getAddress(CommandInfo("glBitmapxOES", [S353])), to: Swift.type(of: glBitmapxOES_P))
+    glBitmapxOES_P = unsafeBitCast(getAddress(CommandInfo("glBitmapxOES", [S356])), to: Swift.type(of: glBitmapxOES_P))
     glBitmapxOES_P(width, height, xorig, yorig, xmove, ymove, bitmap)
 }
 func glBlendBarrier_L() {
@@ -900,7 +911,7 @@ func glBlendBarrierKHR_L() {
     glBlendBarrierKHR_P()
 }
 func glBlendBarrierNV_L() {
-    glBlendBarrierNV_P = unsafeBitCast(getAddress(CommandInfo("glBlendBarrierNV", [S278])), to: Swift.type(of: glBlendBarrierNV_P))
+    glBlendBarrierNV_P = unsafeBitCast(getAddress(CommandInfo("glBlendBarrierNV", [S281])), to: Swift.type(of: glBlendBarrierNV_P))
     glBlendBarrierNV_P()
 }
 func glBlendColor_L(_ red:GLfloat, _ green:GLfloat, _ blue:GLfloat, _ alpha:GLfloat) {
@@ -912,7 +923,7 @@ func glBlendColorEXT_L(_ red:GLfloat, _ green:GLfloat, _ blue:GLfloat, _ alpha:G
     glBlendColorEXT_P(red, green, blue, alpha)
 }
 func glBlendColorxOES_L(_ red:GLfixed, _ green:GLfixed, _ blue:GLfixed, _ alpha:GLfixed) {
-    glBlendColorxOES_P = unsafeBitCast(getAddress(CommandInfo("glBlendColorxOES", [S353])), to: Swift.type(of: glBlendColorxOES_P))
+    glBlendColorxOES_P = unsafeBitCast(getAddress(CommandInfo("glBlendColorxOES", [S356])), to: Swift.type(of: glBlendColorxOES_P))
     glBlendColorxOES_P(red, green, blue, alpha)
 }
 func glBlendEquation_L(_ mode:GLenum) {
@@ -928,7 +939,7 @@ func glBlendEquationIndexedAMD_L(_ buf:GLuint, _ mode:GLenum) {
     glBlendEquationIndexedAMD_P(buf, mode)
 }
 func glBlendEquationOES_L(_ mode:GLenum) {
-    glBlendEquationOES_P = unsafeBitCast(getAddress(CommandInfo("glBlendEquationOES", [S347])), to: Swift.type(of: glBlendEquationOES_P))
+    glBlendEquationOES_P = unsafeBitCast(getAddress(CommandInfo("glBlendEquationOES", [S350])), to: Swift.type(of: glBlendEquationOES_P))
     glBlendEquationOES_P(mode)
 }
 func glBlendEquationSeparate_L(_ modeRGB:GLenum, _ modeAlpha:GLenum) {
@@ -944,7 +955,7 @@ func glBlendEquationSeparateIndexedAMD_L(_ buf:GLuint, _ modeRGB:GLenum, _ modeA
     glBlendEquationSeparateIndexedAMD_P(buf, modeRGB, modeAlpha)
 }
 func glBlendEquationSeparateOES_L(_ modeRGB:GLenum, _ modeAlpha:GLenum) {
-    glBlendEquationSeparateOES_P = unsafeBitCast(getAddress(CommandInfo("glBlendEquationSeparateOES", [S345])), to: Swift.type(of: glBlendEquationSeparateOES_P))
+    glBlendEquationSeparateOES_P = unsafeBitCast(getAddress(CommandInfo("glBlendEquationSeparateOES", [S348])), to: Swift.type(of: glBlendEquationSeparateOES_P))
     glBlendEquationSeparateOES_P(modeRGB, modeAlpha)
 }
 func glBlendEquationSeparatei_L(_ buf:GLuint, _ modeRGB:GLenum, _ modeAlpha:GLenum) {
@@ -960,7 +971,7 @@ func glBlendEquationSeparateiEXT_L(_ buf:GLuint, _ modeRGB:GLenum, _ modeAlpha:G
     glBlendEquationSeparateiEXT_P(buf, modeRGB, modeAlpha)
 }
 func glBlendEquationSeparateiOES_L(_ buf:GLuint, _ modeRGB:GLenum, _ modeAlpha:GLenum) {
-    glBlendEquationSeparateiOES_P = unsafeBitCast(getAddress(CommandInfo("glBlendEquationSeparateiOES", [S350])), to: Swift.type(of: glBlendEquationSeparateiOES_P))
+    glBlendEquationSeparateiOES_P = unsafeBitCast(getAddress(CommandInfo("glBlendEquationSeparateiOES", [S353])), to: Swift.type(of: glBlendEquationSeparateiOES_P))
     glBlendEquationSeparateiOES_P(buf, modeRGB, modeAlpha)
 }
 func glBlendEquationi_L(_ buf:GLuint, _ mode:GLenum) {
@@ -976,7 +987,7 @@ func glBlendEquationiEXT_L(_ buf:GLuint, _ mode:GLenum) {
     glBlendEquationiEXT_P(buf, mode)
 }
 func glBlendEquationiOES_L(_ buf:GLuint, _ mode:GLenum) {
-    glBlendEquationiOES_P = unsafeBitCast(getAddress(CommandInfo("glBlendEquationiOES", [S350])), to: Swift.type(of: glBlendEquationiOES_P))
+    glBlendEquationiOES_P = unsafeBitCast(getAddress(CommandInfo("glBlendEquationiOES", [S353])), to: Swift.type(of: glBlendEquationiOES_P))
     glBlendEquationiOES_P(buf, mode)
 }
 func glBlendFunc_L(_ sfactor:GLenum, _ dfactor:GLenum) {
@@ -1004,7 +1015,7 @@ func glBlendFuncSeparateIndexedAMD_L(_ buf:GLuint, _ srcRGB:GLenum, _ dstRGB:GLe
     glBlendFuncSeparateIndexedAMD_P(buf, srcRGB, dstRGB, srcAlpha, dstAlpha)
 }
 func glBlendFuncSeparateOES_L(_ srcRGB:GLenum, _ dstRGB:GLenum, _ srcAlpha:GLenum, _ dstAlpha:GLenum) {
-    glBlendFuncSeparateOES_P = unsafeBitCast(getAddress(CommandInfo("glBlendFuncSeparateOES", [S346])), to: Swift.type(of: glBlendFuncSeparateOES_P))
+    glBlendFuncSeparateOES_P = unsafeBitCast(getAddress(CommandInfo("glBlendFuncSeparateOES", [S349])), to: Swift.type(of: glBlendFuncSeparateOES_P))
     glBlendFuncSeparateOES_P(srcRGB, dstRGB, srcAlpha, dstAlpha)
 }
 func glBlendFuncSeparatei_L(_ buf:GLuint, _ srcRGB:GLenum, _ dstRGB:GLenum, _ srcAlpha:GLenum, _ dstAlpha:GLenum) {
@@ -1020,7 +1031,7 @@ func glBlendFuncSeparateiEXT_L(_ buf:GLuint, _ srcRGB:GLenum, _ dstRGB:GLenum, _
     glBlendFuncSeparateiEXT_P(buf, srcRGB, dstRGB, srcAlpha, dstAlpha)
 }
 func glBlendFuncSeparateiOES_L(_ buf:GLuint, _ srcRGB:GLenum, _ dstRGB:GLenum, _ srcAlpha:GLenum, _ dstAlpha:GLenum) {
-    glBlendFuncSeparateiOES_P = unsafeBitCast(getAddress(CommandInfo("glBlendFuncSeparateiOES", [S350])), to: Swift.type(of: glBlendFuncSeparateiOES_P))
+    glBlendFuncSeparateiOES_P = unsafeBitCast(getAddress(CommandInfo("glBlendFuncSeparateiOES", [S353])), to: Swift.type(of: glBlendFuncSeparateiOES_P))
     glBlendFuncSeparateiOES_P(buf, srcRGB, dstRGB, srcAlpha, dstAlpha)
 }
 func glBlendFunci_L(_ buf:GLuint, _ src:GLenum, _ dst:GLenum) {
@@ -1036,11 +1047,11 @@ func glBlendFunciEXT_L(_ buf:GLuint, _ src:GLenum, _ dst:GLenum) {
     glBlendFunciEXT_P(buf, src, dst)
 }
 func glBlendFunciOES_L(_ buf:GLuint, _ src:GLenum, _ dst:GLenum) {
-    glBlendFunciOES_P = unsafeBitCast(getAddress(CommandInfo("glBlendFunciOES", [S350])), to: Swift.type(of: glBlendFunciOES_P))
+    glBlendFunciOES_P = unsafeBitCast(getAddress(CommandInfo("glBlendFunciOES", [S353])), to: Swift.type(of: glBlendFunciOES_P))
     glBlendFunciOES_P(buf, src, dst)
 }
 func glBlendParameteriNV_L(_ pname:GLenum, _ value:GLint) {
-    glBlendParameteriNV_P = unsafeBitCast(getAddress(CommandInfo("glBlendParameteriNV", [S278])), to: Swift.type(of: glBlendParameteriNV_P))
+    glBlendParameteriNV_P = unsafeBitCast(getAddress(CommandInfo("glBlendParameteriNV", [S281])), to: Swift.type(of: glBlendParameteriNV_P))
     glBlendParameteriNV_P(pname, value)
 }
 func glBlitFramebuffer_L(_ srcX0:GLint, _ srcY0:GLint, _ srcX1:GLint, _ srcY1:GLint, _ dstX0:GLint, _ dstY0:GLint, _ dstX1:GLint, _ dstY1:GLint, _ mask:GLbitfield, _ filter:GLenum) {
@@ -1056,7 +1067,7 @@ func glBlitFramebufferEXT_L(_ srcX0:GLint, _ srcY0:GLint, _ srcX1:GLint, _ srcY1
     glBlitFramebufferEXT_P(srcX0, srcY0, srcX1, srcY1, dstX0, dstY0, dstX1, dstY1, mask, filter)
 }
 func glBlitFramebufferNV_L(_ srcX0:GLint, _ srcY0:GLint, _ srcX1:GLint, _ srcY1:GLint, _ dstX0:GLint, _ dstY0:GLint, _ dstX1:GLint, _ dstY1:GLint, _ mask:GLbitfield, _ filter:GLenum) {
-    glBlitFramebufferNV_P = unsafeBitCast(getAddress(CommandInfo("glBlitFramebufferNV", [S298])), to: Swift.type(of: glBlitFramebufferNV_P))
+    glBlitFramebufferNV_P = unsafeBitCast(getAddress(CommandInfo("glBlitFramebufferNV", [S301])), to: Swift.type(of: glBlitFramebufferNV_P))
     glBlitFramebufferNV_P(srcX0, srcY0, srcX1, srcY1, dstX0, dstY0, dstX1, dstY1, mask, filter)
 }
 func glBlitNamedFramebuffer_L(_ readFramebuffer:GLuint, _ drawFramebuffer:GLuint, _ srcX0:GLint, _ srcY0:GLint, _ srcX1:GLint, _ srcY1:GLint, _ dstX0:GLint, _ dstY0:GLint, _ dstX1:GLint, _ dstY1:GLint, _ mask:GLbitfield, _ filter:GLenum) {
@@ -1064,11 +1075,11 @@ func glBlitNamedFramebuffer_L(_ readFramebuffer:GLuint, _ drawFramebuffer:GLuint
     glBlitNamedFramebuffer_P(readFramebuffer, drawFramebuffer, srcX0, srcY0, srcX1, srcY1, dstX0, dstY0, dstX1, dstY1, mask, filter)
 }
 func glBufferAddressRangeNV_L(_ pname:GLenum, _ index:GLuint, _ address:GLuint64EXT, _ length:GLsizeiptr) {
-    glBufferAddressRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glBufferAddressRangeNV", [S338])), to: Swift.type(of: glBufferAddressRangeNV_P))
+    glBufferAddressRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glBufferAddressRangeNV", [S341])), to: Swift.type(of: glBufferAddressRangeNV_P))
     glBufferAddressRangeNV_P(pname, index, address, length)
 }
 func glBufferAttachMemoryNV_L(_ target:GLenum, _ memory:GLuint, _ offset:GLuint64) {
-    glBufferAttachMemoryNV_P = unsafeBitCast(getAddress(CommandInfo("glBufferAttachMemoryNV", [S310])), to: Swift.type(of: glBufferAttachMemoryNV_P))
+    glBufferAttachMemoryNV_P = unsafeBitCast(getAddress(CommandInfo("glBufferAttachMemoryNV", [S313])), to: Swift.type(of: glBufferAttachMemoryNV_P))
     glBufferAttachMemoryNV_P(target, memory, offset)
 }
 func glBufferData_L(_ target:GLenum, _ size:GLsizeiptr, _ data:UnsafeRawPointer?, _ usage:GLenum) {
@@ -1112,7 +1123,7 @@ func glBufferSubDataARB_L(_ target:GLenum, _ offset:GLintptrARB, _ size:GLsizeip
     glBufferSubDataARB_P(target, offset, size, data)
 }
 func glCallCommandListNV_L(_ list:GLuint) {
-    glCallCommandListNV_P = unsafeBitCast(getAddress(CommandInfo("glCallCommandListNV", [S280])), to: Swift.type(of: glCallCommandListNV_P))
+    glCallCommandListNV_P = unsafeBitCast(getAddress(CommandInfo("glCallCommandListNV", [S283])), to: Swift.type(of: glCallCommandListNV_P))
     glCallCommandListNV_P(list)
 }
 func glCallList_L(_ list:GLuint) {
@@ -1132,7 +1143,7 @@ func glCheckFramebufferStatusEXT_L(_ target:GLenum) -> GLenum {
     return glCheckFramebufferStatusEXT_P(target)
 }
 func glCheckFramebufferStatusOES_L(_ target:GLenum) -> GLenum {
-    glCheckFramebufferStatusOES_P = unsafeBitCast(getAddress(CommandInfo("glCheckFramebufferStatusOES", [S354])), to: Swift.type(of: glCheckFramebufferStatusOES_P))
+    glCheckFramebufferStatusOES_P = unsafeBitCast(getAddress(CommandInfo("glCheckFramebufferStatusOES", [S357])), to: Swift.type(of: glCheckFramebufferStatusOES_P))
     return glCheckFramebufferStatusOES_P(target)
 }
 func glCheckNamedFramebufferStatus_L(_ framebuffer:GLuint, _ target:GLenum) -> GLenum {
@@ -1160,7 +1171,7 @@ func glClearAccum_L(_ red:GLfloat, _ green:GLfloat, _ blue:GLfloat, _ alpha:GLfl
     glClearAccum_P(red, green, blue, alpha)
 }
 func glClearAccumxOES_L(_ red:GLfixed, _ green:GLfixed, _ blue:GLfixed, _ alpha:GLfixed) {
-    glClearAccumxOES_P = unsafeBitCast(getAddress(CommandInfo("glClearAccumxOES", [S353])), to: Swift.type(of: glClearAccumxOES_P))
+    glClearAccumxOES_P = unsafeBitCast(getAddress(CommandInfo("glClearAccumxOES", [S356])), to: Swift.type(of: glClearAccumxOES_P))
     glClearAccumxOES_P(red, green, blue, alpha)
 }
 func glClearBufferData_L(_ target:GLenum, _ internalformat:GLenum, _ format:GLenum, _ type:GLenum, _ data:UnsafeRawPointer?) {
@@ -1204,7 +1215,7 @@ func glClearColorx_L(_ red:GLfixed, _ green:GLfixed, _ blue:GLfixed, _ alpha:GLf
     glClearColorx_P(red, green, blue, alpha)
 }
 func glClearColorxOES_L(_ red:GLfixed, _ green:GLfixed, _ blue:GLfixed, _ alpha:GLfixed) {
-    glClearColorxOES_P = unsafeBitCast(getAddress(CommandInfo("glClearColorxOES", [S353])), to: Swift.type(of: glClearColorxOES_P))
+    glClearColorxOES_P = unsafeBitCast(getAddress(CommandInfo("glClearColorxOES", [S356])), to: Swift.type(of: glClearColorxOES_P))
     glClearColorxOES_P(red, green, blue, alpha)
 }
 func glClearDepth_L(_ depth:GLdouble) {
@@ -1212,7 +1223,7 @@ func glClearDepth_L(_ depth:GLdouble) {
     glClearDepth_P(depth)
 }
 func glClearDepthdNV_L(_ depth:GLdouble) {
-    glClearDepthdNV_P = unsafeBitCast(getAddress(CommandInfo("glClearDepthdNV", [S288])), to: Swift.type(of: glClearDepthdNV_P))
+    glClearDepthdNV_P = unsafeBitCast(getAddress(CommandInfo("glClearDepthdNV", [S291])), to: Swift.type(of: glClearDepthdNV_P))
     glClearDepthdNV_P(depth)
 }
 func glClearDepthf_L(_ d:GLfloat) {
@@ -1220,7 +1231,7 @@ func glClearDepthf_L(_ d:GLfloat) {
     glClearDepthf_P(d)
 }
 func glClearDepthfOES_L(_ depth:GLclampf) {
-    glClearDepthfOES_P = unsafeBitCast(getAddress(CommandInfo("glClearDepthfOES", [S363])), to: Swift.type(of: glClearDepthfOES_P))
+    glClearDepthfOES_P = unsafeBitCast(getAddress(CommandInfo("glClearDepthfOES", [S366])), to: Swift.type(of: glClearDepthfOES_P))
     glClearDepthfOES_P(depth)
 }
 func glClearDepthx_L(_ depth:GLfixed) {
@@ -1228,7 +1239,7 @@ func glClearDepthx_L(_ depth:GLfixed) {
     glClearDepthx_P(depth)
 }
 func glClearDepthxOES_L(_ depth:GLfixed) {
-    glClearDepthxOES_P = unsafeBitCast(getAddress(CommandInfo("glClearDepthxOES", [S353])), to: Swift.type(of: glClearDepthxOES_P))
+    glClearDepthxOES_P = unsafeBitCast(getAddress(CommandInfo("glClearDepthxOES", [S356])), to: Swift.type(of: glClearDepthxOES_P))
     glClearDepthxOES_P(depth)
 }
 func glClearIndex_L(_ c:GLfloat) {
@@ -1307,6 +1318,10 @@ func glClientAttribDefaultEXT_L(_ mask:GLbitfield) {
     glClientAttribDefaultEXT_P = unsafeBitCast(getAddress(CommandInfo("glClientAttribDefaultEXT", [S176])), to: Swift.type(of: glClientAttribDefaultEXT_P))
     glClientAttribDefaultEXT_P(mask)
 }
+func glClientWaitSemaphoreui64NVX_L(_ fenceObjectCount:GLsizei, _ semaphoreArray:UnsafePointer<GLuint>?, _ fenceValueArray:UnsafePointer<GLuint64>?) {
+    glClientWaitSemaphoreui64NVX_P = unsafeBitCast(getAddress(CommandInfo("glClientWaitSemaphoreui64NVX", [S276])), to: Swift.type(of: glClientWaitSemaphoreui64NVX_P))
+    glClientWaitSemaphoreui64NVX_P(fenceObjectCount, semaphoreArray, fenceValueArray)
+}
 func glClientWaitSync_L(_ sync:GLsync, _ flags:GLbitfield, _ timeout:GLuint64) -> GLenum {
     glClientWaitSync_P = unsafeBitCast(getAddress(CommandInfo("glClientWaitSync", [S10, S21, S119])), to: Swift.type(of: glClientWaitSync_P))
     return glClientWaitSync_P(sync, flags, timeout)
@@ -1336,7 +1351,7 @@ func glClipPlanefIMG_L(_ p:GLenum, _ eqn:UnsafePointer<GLfloat>?) {
     glClipPlanefIMG_P(p, eqn)
 }
 func glClipPlanefOES_L(_ plane:GLenum, _ equation:UnsafePointer<GLfloat>?) {
-    glClipPlanefOES_P = unsafeBitCast(getAddress(CommandInfo("glClipPlanefOES", [S363])), to: Swift.type(of: glClipPlanefOES_P))
+    glClipPlanefOES_P = unsafeBitCast(getAddress(CommandInfo("glClipPlanefOES", [S366])), to: Swift.type(of: glClipPlanefOES_P))
     glClipPlanefOES_P(plane, equation)
 }
 func glClipPlanex_L(_ plane:GLenum, _ equation:UnsafePointer<GLfixed>?) {
@@ -1348,7 +1363,7 @@ func glClipPlanexIMG_L(_ p:GLenum, _ eqn:UnsafePointer<GLfixed>?) {
     glClipPlanexIMG_P(p, eqn)
 }
 func glClipPlanexOES_L(_ plane:GLenum, _ equation:UnsafePointer<GLfixed>?) {
-    glClipPlanexOES_P = unsafeBitCast(getAddress(CommandInfo("glClipPlanexOES", [S353])), to: Swift.type(of: glClipPlanexOES_P))
+    glClipPlanexOES_P = unsafeBitCast(getAddress(CommandInfo("glClipPlanexOES", [S356])), to: Swift.type(of: glClipPlanexOES_P))
     glClipPlanexOES_P(plane, equation)
 }
 func glColor3b_L(_ red:GLbyte, _ green:GLbyte, _ blue:GLbyte) {
@@ -1372,11 +1387,11 @@ func glColor3f_L(_ red:GLfloat, _ green:GLfloat, _ blue:GLfloat) {
     glColor3f_P(red, green, blue)
 }
 func glColor3fVertex3fSUN_L(_ r:GLfloat, _ g:GLfloat, _ b:GLfloat, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glColor3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glColor3fVertex3fSUN", [S410])), to: Swift.type(of: glColor3fVertex3fSUN_P))
+    glColor3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glColor3fVertex3fSUN", [S413])), to: Swift.type(of: glColor3fVertex3fSUN_P))
     glColor3fVertex3fSUN_P(r, g, b, x, y, z)
 }
 func glColor3fVertex3fvSUN_L(_ c:UnsafePointer<GLfloat>?, _ v:UnsafePointer<GLfloat>?) {
-    glColor3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glColor3fVertex3fvSUN", [S410])), to: Swift.type(of: glColor3fVertex3fvSUN_P))
+    glColor3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glColor3fVertex3fvSUN", [S413])), to: Swift.type(of: glColor3fVertex3fvSUN_P))
     glColor3fVertex3fvSUN_P(c, v)
 }
 func glColor3fv_L(_ v:UnsafePointer<GLfloat>?) {
@@ -1384,11 +1399,11 @@ func glColor3fv_L(_ v:UnsafePointer<GLfloat>?) {
     glColor3fv_P(v)
 }
 func glColor3hNV_L(_ red:GLhalfNV, _ green:GLhalfNV, _ blue:GLhalfNV) {
-    glColor3hNV_P = unsafeBitCast(getAddress(CommandInfo("glColor3hNV", [S307])), to: Swift.type(of: glColor3hNV_P))
+    glColor3hNV_P = unsafeBitCast(getAddress(CommandInfo("glColor3hNV", [S310])), to: Swift.type(of: glColor3hNV_P))
     glColor3hNV_P(red, green, blue)
 }
 func glColor3hvNV_L(_ v:UnsafePointer<GLhalfNV>?) {
-    glColor3hvNV_P = unsafeBitCast(getAddress(CommandInfo("glColor3hvNV", [S307])), to: Swift.type(of: glColor3hvNV_P))
+    glColor3hvNV_P = unsafeBitCast(getAddress(CommandInfo("glColor3hvNV", [S310])), to: Swift.type(of: glColor3hvNV_P))
     glColor3hvNV_P(v)
 }
 func glColor3i_L(_ red:GLint, _ green:GLint, _ blue:GLint) {
@@ -1432,11 +1447,11 @@ func glColor3usv_L(_ v:UnsafePointer<GLushort>?) {
     glColor3usv_P(v)
 }
 func glColor3xOES_L(_ red:GLfixed, _ green:GLfixed, _ blue:GLfixed) {
-    glColor3xOES_P = unsafeBitCast(getAddress(CommandInfo("glColor3xOES", [S353])), to: Swift.type(of: glColor3xOES_P))
+    glColor3xOES_P = unsafeBitCast(getAddress(CommandInfo("glColor3xOES", [S356])), to: Swift.type(of: glColor3xOES_P))
     glColor3xOES_P(red, green, blue)
 }
 func glColor3xvOES_L(_ components:UnsafePointer<GLfixed>?) {
-    glColor3xvOES_P = unsafeBitCast(getAddress(CommandInfo("glColor3xvOES", [S353])), to: Swift.type(of: glColor3xvOES_P))
+    glColor3xvOES_P = unsafeBitCast(getAddress(CommandInfo("glColor3xvOES", [S356])), to: Swift.type(of: glColor3xvOES_P))
     glColor3xvOES_P(components)
 }
 func glColor4b_L(_ red:GLbyte, _ green:GLbyte, _ blue:GLbyte, _ alpha:GLbyte) {
@@ -1460,11 +1475,11 @@ func glColor4f_L(_ red:GLfloat, _ green:GLfloat, _ blue:GLfloat, _ alpha:GLfloat
     glColor4f_P(red, green, blue, alpha)
 }
 func glColor4fNormal3fVertex3fSUN_L(_ r:GLfloat, _ g:GLfloat, _ b:GLfloat, _ a:GLfloat, _ nx:GLfloat, _ ny:GLfloat, _ nz:GLfloat, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glColor4fNormal3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glColor4fNormal3fVertex3fSUN", [S410])), to: Swift.type(of: glColor4fNormal3fVertex3fSUN_P))
+    glColor4fNormal3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glColor4fNormal3fVertex3fSUN", [S413])), to: Swift.type(of: glColor4fNormal3fVertex3fSUN_P))
     glColor4fNormal3fVertex3fSUN_P(r, g, b, a, nx, ny, nz, x, y, z)
 }
 func glColor4fNormal3fVertex3fvSUN_L(_ c:UnsafePointer<GLfloat>?, _ n:UnsafePointer<GLfloat>?, _ v:UnsafePointer<GLfloat>?) {
-    glColor4fNormal3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glColor4fNormal3fVertex3fvSUN", [S410])), to: Swift.type(of: glColor4fNormal3fVertex3fvSUN_P))
+    glColor4fNormal3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glColor4fNormal3fVertex3fvSUN", [S413])), to: Swift.type(of: glColor4fNormal3fVertex3fvSUN_P))
     glColor4fNormal3fVertex3fvSUN_P(c, n, v)
 }
 func glColor4fv_L(_ v:UnsafePointer<GLfloat>?) {
@@ -1472,11 +1487,11 @@ func glColor4fv_L(_ v:UnsafePointer<GLfloat>?) {
     glColor4fv_P(v)
 }
 func glColor4hNV_L(_ red:GLhalfNV, _ green:GLhalfNV, _ blue:GLhalfNV, _ alpha:GLhalfNV) {
-    glColor4hNV_P = unsafeBitCast(getAddress(CommandInfo("glColor4hNV", [S307])), to: Swift.type(of: glColor4hNV_P))
+    glColor4hNV_P = unsafeBitCast(getAddress(CommandInfo("glColor4hNV", [S310])), to: Swift.type(of: glColor4hNV_P))
     glColor4hNV_P(red, green, blue, alpha)
 }
 func glColor4hvNV_L(_ v:UnsafePointer<GLhalfNV>?) {
-    glColor4hvNV_P = unsafeBitCast(getAddress(CommandInfo("glColor4hvNV", [S307])), to: Swift.type(of: glColor4hvNV_P))
+    glColor4hvNV_P = unsafeBitCast(getAddress(CommandInfo("glColor4hvNV", [S310])), to: Swift.type(of: glColor4hvNV_P))
     glColor4hvNV_P(v)
 }
 func glColor4i_L(_ red:GLint, _ green:GLint, _ blue:GLint, _ alpha:GLint) {
@@ -1500,19 +1515,19 @@ func glColor4ub_L(_ red:GLubyte, _ green:GLubyte, _ blue:GLubyte, _ alpha:GLubyt
     glColor4ub_P(red, green, blue, alpha)
 }
 func glColor4ubVertex2fSUN_L(_ r:GLubyte, _ g:GLubyte, _ b:GLubyte, _ a:GLubyte, _ x:GLfloat, _ y:GLfloat) {
-    glColor4ubVertex2fSUN_P = unsafeBitCast(getAddress(CommandInfo("glColor4ubVertex2fSUN", [S410])), to: Swift.type(of: glColor4ubVertex2fSUN_P))
+    glColor4ubVertex2fSUN_P = unsafeBitCast(getAddress(CommandInfo("glColor4ubVertex2fSUN", [S413])), to: Swift.type(of: glColor4ubVertex2fSUN_P))
     glColor4ubVertex2fSUN_P(r, g, b, a, x, y)
 }
 func glColor4ubVertex2fvSUN_L(_ c:UnsafePointer<GLubyte>?, _ v:UnsafePointer<GLfloat>?) {
-    glColor4ubVertex2fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glColor4ubVertex2fvSUN", [S410])), to: Swift.type(of: glColor4ubVertex2fvSUN_P))
+    glColor4ubVertex2fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glColor4ubVertex2fvSUN", [S413])), to: Swift.type(of: glColor4ubVertex2fvSUN_P))
     glColor4ubVertex2fvSUN_P(c, v)
 }
 func glColor4ubVertex3fSUN_L(_ r:GLubyte, _ g:GLubyte, _ b:GLubyte, _ a:GLubyte, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glColor4ubVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glColor4ubVertex3fSUN", [S410])), to: Swift.type(of: glColor4ubVertex3fSUN_P))
+    glColor4ubVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glColor4ubVertex3fSUN", [S413])), to: Swift.type(of: glColor4ubVertex3fSUN_P))
     glColor4ubVertex3fSUN_P(r, g, b, a, x, y, z)
 }
 func glColor4ubVertex3fvSUN_L(_ c:UnsafePointer<GLubyte>?, _ v:UnsafePointer<GLfloat>?) {
-    glColor4ubVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glColor4ubVertex3fvSUN", [S410])), to: Swift.type(of: glColor4ubVertex3fvSUN_P))
+    glColor4ubVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glColor4ubVertex3fvSUN", [S413])), to: Swift.type(of: glColor4ubVertex3fvSUN_P))
     glColor4ubVertex3fvSUN_P(c, v)
 }
 func glColor4ubv_L(_ v:UnsafePointer<GLubyte>?) {
@@ -1540,15 +1555,15 @@ func glColor4x_L(_ red:GLfixed, _ green:GLfixed, _ blue:GLfixed, _ alpha:GLfixed
     glColor4x_P(red, green, blue, alpha)
 }
 func glColor4xOES_L(_ red:GLfixed, _ green:GLfixed, _ blue:GLfixed, _ alpha:GLfixed) {
-    glColor4xOES_P = unsafeBitCast(getAddress(CommandInfo("glColor4xOES", [S353])), to: Swift.type(of: glColor4xOES_P))
+    glColor4xOES_P = unsafeBitCast(getAddress(CommandInfo("glColor4xOES", [S356])), to: Swift.type(of: glColor4xOES_P))
     glColor4xOES_P(red, green, blue, alpha)
 }
 func glColor4xvOES_L(_ components:UnsafePointer<GLfixed>?) {
-    glColor4xvOES_P = unsafeBitCast(getAddress(CommandInfo("glColor4xvOES", [S353])), to: Swift.type(of: glColor4xvOES_P))
+    glColor4xvOES_P = unsafeBitCast(getAddress(CommandInfo("glColor4xvOES", [S356])), to: Swift.type(of: glColor4xvOES_P))
     glColor4xvOES_P(components)
 }
 func glColorFormatNV_L(_ size:GLint, _ type:GLenum, _ stride:GLsizei) {
-    glColorFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glColorFormatNV", [S338])), to: Swift.type(of: glColorFormatNV_P))
+    glColorFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glColorFormatNV", [S341])), to: Swift.type(of: glColorFormatNV_P))
     glColorFormatNV_P(size, type, stride)
 }
 func glColorFragmentOp1ATI_L(_ op:GLenum, _ dst:GLuint, _ dstMask:GLuint, _ dstMod:GLuint, _ arg1:GLuint, _ arg1Rep:GLuint, _ arg1Mod:GLuint) {
@@ -1580,7 +1595,7 @@ func glColorMaskiEXT_L(_ index:GLuint, _ r:GLboolean, _ g:GLboolean, _ b:GLboole
     glColorMaskiEXT_P(index, r, g, b, a)
 }
 func glColorMaskiOES_L(_ index:GLuint, _ r:GLboolean, _ g:GLboolean, _ b:GLboolean, _ a:GLboolean) {
-    glColorMaskiOES_P = unsafeBitCast(getAddress(CommandInfo("glColorMaskiOES", [S350])), to: Swift.type(of: glColorMaskiOES_P))
+    glColorMaskiOES_P = unsafeBitCast(getAddress(CommandInfo("glColorMaskiOES", [S353])), to: Swift.type(of: glColorMaskiOES_P))
     glColorMaskiOES_P(index, r, g, b, a)
 }
 func glColorMaterial_L(_ face:GLenum, _ mode:GLenum) {
@@ -1640,7 +1655,7 @@ func glColorTableParameterfv_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeP
     glColorTableParameterfv_P(target, pname, params)
 }
 func glColorTableParameterfvSGI_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfloat>?) {
-    glColorTableParameterfvSGI_P = unsafeBitCast(getAddress(CommandInfo("glColorTableParameterfvSGI", [S405])), to: Swift.type(of: glColorTableParameterfvSGI_P))
+    glColorTableParameterfvSGI_P = unsafeBitCast(getAddress(CommandInfo("glColorTableParameterfvSGI", [S408])), to: Swift.type(of: glColorTableParameterfvSGI_P))
     glColorTableParameterfvSGI_P(target, pname, params)
 }
 func glColorTableParameteriv_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLint>?) {
@@ -1648,47 +1663,47 @@ func glColorTableParameteriv_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeP
     glColorTableParameteriv_P(target, pname, params)
 }
 func glColorTableParameterivSGI_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLint>?) {
-    glColorTableParameterivSGI_P = unsafeBitCast(getAddress(CommandInfo("glColorTableParameterivSGI", [S405])), to: Swift.type(of: glColorTableParameterivSGI_P))
+    glColorTableParameterivSGI_P = unsafeBitCast(getAddress(CommandInfo("glColorTableParameterivSGI", [S408])), to: Swift.type(of: glColorTableParameterivSGI_P))
     glColorTableParameterivSGI_P(target, pname, params)
 }
 func glColorTableSGI_L(_ target:GLenum, _ internalformat:GLenum, _ width:GLsizei, _ format:GLenum, _ type:GLenum, _ table:UnsafeRawPointer?) {
-    glColorTableSGI_P = unsafeBitCast(getAddress(CommandInfo("glColorTableSGI", [S405])), to: Swift.type(of: glColorTableSGI_P))
+    glColorTableSGI_P = unsafeBitCast(getAddress(CommandInfo("glColorTableSGI", [S408])), to: Swift.type(of: glColorTableSGI_P))
     glColorTableSGI_P(target, internalformat, width, format, type, table)
 }
 func glCombinerInputNV_L(_ stage:GLenum, _ portion:GLenum, _ variable:GLenum, _ input:GLenum, _ mapping:GLenum, _ componentUsage:GLenum) {
-    glCombinerInputNV_P = unsafeBitCast(getAddress(CommandInfo("glCombinerInputNV", [S324])), to: Swift.type(of: glCombinerInputNV_P))
+    glCombinerInputNV_P = unsafeBitCast(getAddress(CommandInfo("glCombinerInputNV", [S327])), to: Swift.type(of: glCombinerInputNV_P))
     glCombinerInputNV_P(stage, portion, variable, input, mapping, componentUsage)
 }
 func glCombinerOutputNV_L(_ stage:GLenum, _ portion:GLenum, _ abOutput:GLenum, _ cdOutput:GLenum, _ sumOutput:GLenum, _ scale:GLenum, _ bias:GLenum, _ abDotProduct:GLboolean, _ cdDotProduct:GLboolean, _ muxSum:GLboolean) {
-    glCombinerOutputNV_P = unsafeBitCast(getAddress(CommandInfo("glCombinerOutputNV", [S324])), to: Swift.type(of: glCombinerOutputNV_P))
+    glCombinerOutputNV_P = unsafeBitCast(getAddress(CommandInfo("glCombinerOutputNV", [S327])), to: Swift.type(of: glCombinerOutputNV_P))
     glCombinerOutputNV_P(stage, portion, abOutput, cdOutput, sumOutput, scale, bias, abDotProduct, cdDotProduct, muxSum)
 }
 func glCombinerParameterfNV_L(_ pname:GLenum, _ param:GLfloat) {
-    glCombinerParameterfNV_P = unsafeBitCast(getAddress(CommandInfo("glCombinerParameterfNV", [S324])), to: Swift.type(of: glCombinerParameterfNV_P))
+    glCombinerParameterfNV_P = unsafeBitCast(getAddress(CommandInfo("glCombinerParameterfNV", [S327])), to: Swift.type(of: glCombinerParameterfNV_P))
     glCombinerParameterfNV_P(pname, param)
 }
 func glCombinerParameterfvNV_L(_ pname:GLenum, _ params:UnsafePointer<GLfloat>?) {
-    glCombinerParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glCombinerParameterfvNV", [S324])), to: Swift.type(of: glCombinerParameterfvNV_P))
+    glCombinerParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glCombinerParameterfvNV", [S327])), to: Swift.type(of: glCombinerParameterfvNV_P))
     glCombinerParameterfvNV_P(pname, params)
 }
 func glCombinerParameteriNV_L(_ pname:GLenum, _ param:GLint) {
-    glCombinerParameteriNV_P = unsafeBitCast(getAddress(CommandInfo("glCombinerParameteriNV", [S324])), to: Swift.type(of: glCombinerParameteriNV_P))
+    glCombinerParameteriNV_P = unsafeBitCast(getAddress(CommandInfo("glCombinerParameteriNV", [S327])), to: Swift.type(of: glCombinerParameteriNV_P))
     glCombinerParameteriNV_P(pname, param)
 }
 func glCombinerParameterivNV_L(_ pname:GLenum, _ params:UnsafePointer<GLint>?) {
-    glCombinerParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glCombinerParameterivNV", [S324])), to: Swift.type(of: glCombinerParameterivNV_P))
+    glCombinerParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glCombinerParameterivNV", [S327])), to: Swift.type(of: glCombinerParameterivNV_P))
     glCombinerParameterivNV_P(pname, params)
 }
 func glCombinerStageParameterfvNV_L(_ stage:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfloat>?) {
-    glCombinerStageParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glCombinerStageParameterfvNV", [S325])), to: Swift.type(of: glCombinerStageParameterfvNV_P))
+    glCombinerStageParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glCombinerStageParameterfvNV", [S328])), to: Swift.type(of: glCombinerStageParameterfvNV_P))
     glCombinerStageParameterfvNV_P(stage, pname, params)
 }
 func glCommandListSegmentsNV_L(_ list:GLuint, _ segments:GLuint) {
-    glCommandListSegmentsNV_P = unsafeBitCast(getAddress(CommandInfo("glCommandListSegmentsNV", [S280])), to: Swift.type(of: glCommandListSegmentsNV_P))
+    glCommandListSegmentsNV_P = unsafeBitCast(getAddress(CommandInfo("glCommandListSegmentsNV", [S283])), to: Swift.type(of: glCommandListSegmentsNV_P))
     glCommandListSegmentsNV_P(list, segments)
 }
 func glCompileCommandListNV_L(_ list:GLuint) {
-    glCompileCommandListNV_P = unsafeBitCast(getAddress(CommandInfo("glCompileCommandListNV", [S280])), to: Swift.type(of: glCompileCommandListNV_P))
+    glCompileCommandListNV_P = unsafeBitCast(getAddress(CommandInfo("glCompileCommandListNV", [S283])), to: Swift.type(of: glCompileCommandListNV_P))
     glCompileCommandListNV_P(list)
 }
 func glCompileShader_L(_ shader:GLuint) {
@@ -1752,7 +1767,7 @@ func glCompressedTexImage3DARB_L(_ target:GLenum, _ level:GLint, _ internalforma
     glCompressedTexImage3DARB_P(target, level, internalformat, width, height, depth, border, imageSize, data)
 }
 func glCompressedTexImage3DOES_L(_ target:GLenum, _ level:GLint, _ internalformat:GLenum, _ width:GLsizei, _ height:GLsizei, _ depth:GLsizei, _ border:GLint, _ imageSize:GLsizei, _ data:UnsafeRawPointer?) {
-    glCompressedTexImage3DOES_P = unsafeBitCast(getAddress(CommandInfo("glCompressedTexImage3DOES", [S365])), to: Swift.type(of: glCompressedTexImage3DOES_P))
+    glCompressedTexImage3DOES_P = unsafeBitCast(getAddress(CommandInfo("glCompressedTexImage3DOES", [S368])), to: Swift.type(of: glCompressedTexImage3DOES_P))
     glCompressedTexImage3DOES_P(target, level, internalformat, width, height, depth, border, imageSize, data)
 }
 func glCompressedTexSubImage1D_L(_ target:GLenum, _ level:GLint, _ xoffset:GLint, _ width:GLsizei, _ format:GLenum, _ imageSize:GLsizei, _ data:UnsafeRawPointer?) {
@@ -1780,7 +1795,7 @@ func glCompressedTexSubImage3DARB_L(_ target:GLenum, _ level:GLint, _ xoffset:GL
     glCompressedTexSubImage3DARB_P(target, level, xoffset, yoffset, zoffset, width, height, depth, format, imageSize, data)
 }
 func glCompressedTexSubImage3DOES_L(_ target:GLenum, _ level:GLint, _ xoffset:GLint, _ yoffset:GLint, _ zoffset:GLint, _ width:GLsizei, _ height:GLsizei, _ depth:GLsizei, _ format:GLenum, _ imageSize:GLsizei, _ data:UnsafeRawPointer?) {
-    glCompressedTexSubImage3DOES_P = unsafeBitCast(getAddress(CommandInfo("glCompressedTexSubImage3DOES", [S365])), to: Swift.type(of: glCompressedTexSubImage3DOES_P))
+    glCompressedTexSubImage3DOES_P = unsafeBitCast(getAddress(CommandInfo("glCompressedTexSubImage3DOES", [S368])), to: Swift.type(of: glCompressedTexSubImage3DOES_P))
     glCompressedTexSubImage3DOES_P(target, level, xoffset, yoffset, zoffset, width, height, depth, format, imageSize, data)
 }
 func glCompressedTextureImage1DEXT_L(_ texture:GLuint, _ target:GLenum, _ level:GLint, _ internalformat:GLenum, _ width:GLsizei, _ border:GLint, _ imageSize:GLsizei, _ bits:UnsafeRawPointer?) {
@@ -1820,11 +1835,11 @@ func glCompressedTextureSubImage3DEXT_L(_ texture:GLuint, _ target:GLenum, _ lev
     glCompressedTextureSubImage3DEXT_P(texture, target, level, xoffset, yoffset, zoffset, width, height, depth, format, imageSize, bits)
 }
 func glConservativeRasterParameterfNV_L(_ pname:GLenum, _ value:GLfloat) {
-    glConservativeRasterParameterfNV_P = unsafeBitCast(getAddress(CommandInfo("glConservativeRasterParameterfNV", [S283])), to: Swift.type(of: glConservativeRasterParameterfNV_P))
+    glConservativeRasterParameterfNV_P = unsafeBitCast(getAddress(CommandInfo("glConservativeRasterParameterfNV", [S286])), to: Swift.type(of: glConservativeRasterParameterfNV_P))
     glConservativeRasterParameterfNV_P(pname, value)
 }
 func glConservativeRasterParameteriNV_L(_ pname:GLenum, _ param:GLint) {
-    glConservativeRasterParameteriNV_P = unsafeBitCast(getAddress(CommandInfo("glConservativeRasterParameteriNV", [S284])), to: Swift.type(of: glConservativeRasterParameteriNV_P))
+    glConservativeRasterParameteriNV_P = unsafeBitCast(getAddress(CommandInfo("glConservativeRasterParameteriNV", [S287])), to: Swift.type(of: glConservativeRasterParameteriNV_P))
     glConservativeRasterParameteriNV_P(pname, param)
 }
 func glConvolutionFilter1D_L(_ target:GLenum, _ internalformat:GLenum, _ width:GLsizei, _ format:GLenum, _ type:GLenum, _ image:UnsafeRawPointer?) {
@@ -1876,11 +1891,11 @@ func glConvolutionParameterivEXT_L(_ target:GLenum, _ pname:GLenum, _ params:Uns
     glConvolutionParameterivEXT_P(target, pname, params)
 }
 func glConvolutionParameterxOES_L(_ target:GLenum, _ pname:GLenum, _ param:GLfixed) {
-    glConvolutionParameterxOES_P = unsafeBitCast(getAddress(CommandInfo("glConvolutionParameterxOES", [S353])), to: Swift.type(of: glConvolutionParameterxOES_P))
+    glConvolutionParameterxOES_P = unsafeBitCast(getAddress(CommandInfo("glConvolutionParameterxOES", [S356])), to: Swift.type(of: glConvolutionParameterxOES_P))
     glConvolutionParameterxOES_P(target, pname, param)
 }
 func glConvolutionParameterxvOES_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfixed>?) {
-    glConvolutionParameterxvOES_P = unsafeBitCast(getAddress(CommandInfo("glConvolutionParameterxvOES", [S353])), to: Swift.type(of: glConvolutionParameterxvOES_P))
+    glConvolutionParameterxvOES_P = unsafeBitCast(getAddress(CommandInfo("glConvolutionParameterxvOES", [S356])), to: Swift.type(of: glConvolutionParameterxvOES_P))
     glConvolutionParameterxvOES_P(target, pname, params)
 }
 func glCopyBufferSubData_L(_ readTarget:GLenum, _ writeTarget:GLenum, _ readOffset:GLintptr, _ writeOffset:GLintptr, _ size:GLsizeiptr) {
@@ -1888,7 +1903,7 @@ func glCopyBufferSubData_L(_ readTarget:GLenum, _ writeTarget:GLenum, _ readOffs
     glCopyBufferSubData_P(readTarget, writeTarget, readOffset, writeOffset, size)
 }
 func glCopyBufferSubDataNV_L(_ readTarget:GLenum, _ writeTarget:GLenum, _ readOffset:GLintptr, _ writeOffset:GLintptr, _ size:GLsizeiptr) {
-    glCopyBufferSubDataNV_P = unsafeBitCast(getAddress(CommandInfo("glCopyBufferSubDataNV", [S285])), to: Swift.type(of: glCopyBufferSubDataNV_P))
+    glCopyBufferSubDataNV_P = unsafeBitCast(getAddress(CommandInfo("glCopyBufferSubDataNV", [S288])), to: Swift.type(of: glCopyBufferSubDataNV_P))
     glCopyBufferSubDataNV_P(readTarget, writeTarget, readOffset, writeOffset, size)
 }
 func glCopyColorSubTable_L(_ target:GLenum, _ start:GLsizei, _ x:GLint, _ y:GLint, _ width:GLsizei) {
@@ -1904,7 +1919,7 @@ func glCopyColorTable_L(_ target:GLenum, _ internalformat:GLenum, _ x:GLint, _ y
     glCopyColorTable_P(target, internalformat, x, y, width)
 }
 func glCopyColorTableSGI_L(_ target:GLenum, _ internalformat:GLenum, _ x:GLint, _ y:GLint, _ width:GLsizei) {
-    glCopyColorTableSGI_P = unsafeBitCast(getAddress(CommandInfo("glCopyColorTableSGI", [S405])), to: Swift.type(of: glCopyColorTableSGI_P))
+    glCopyColorTableSGI_P = unsafeBitCast(getAddress(CommandInfo("glCopyColorTableSGI", [S408])), to: Swift.type(of: glCopyColorTableSGI_P))
     glCopyColorTableSGI_P(target, internalformat, x, y, width)
 }
 func glCopyConvolutionFilter1D_L(_ target:GLenum, _ internalformat:GLenum, _ x:GLint, _ y:GLint, _ width:GLsizei) {
@@ -1932,11 +1947,11 @@ func glCopyImageSubDataEXT_L(_ srcName:GLuint, _ srcTarget:GLenum, _ srcLevel:GL
     glCopyImageSubDataEXT_P(srcName, srcTarget, srcLevel, srcX, srcY, srcZ, dstName, dstTarget, dstLevel, dstX, dstY, dstZ, srcWidth, srcHeight, srcDepth)
 }
 func glCopyImageSubDataNV_L(_ srcName:GLuint, _ srcTarget:GLenum, _ srcLevel:GLint, _ srcX:GLint, _ srcY:GLint, _ srcZ:GLint, _ dstName:GLuint, _ dstTarget:GLenum, _ dstLevel:GLint, _ dstX:GLint, _ dstY:GLint, _ dstZ:GLint, _ width:GLsizei, _ height:GLsizei, _ depth:GLsizei) {
-    glCopyImageSubDataNV_P = unsafeBitCast(getAddress(CommandInfo("glCopyImageSubDataNV", [S286])), to: Swift.type(of: glCopyImageSubDataNV_P))
+    glCopyImageSubDataNV_P = unsafeBitCast(getAddress(CommandInfo("glCopyImageSubDataNV", [S289])), to: Swift.type(of: glCopyImageSubDataNV_P))
     glCopyImageSubDataNV_P(srcName, srcTarget, srcLevel, srcX, srcY, srcZ, dstName, dstTarget, dstLevel, dstX, dstY, dstZ, width, height, depth)
 }
 func glCopyImageSubDataOES_L(_ srcName:GLuint, _ srcTarget:GLenum, _ srcLevel:GLint, _ srcX:GLint, _ srcY:GLint, _ srcZ:GLint, _ dstName:GLuint, _ dstTarget:GLenum, _ dstLevel:GLint, _ dstX:GLint, _ dstY:GLint, _ dstZ:GLint, _ srcWidth:GLsizei, _ srcHeight:GLsizei, _ srcDepth:GLsizei) {
-    glCopyImageSubDataOES_P = unsafeBitCast(getAddress(CommandInfo("glCopyImageSubDataOES", [S349])), to: Swift.type(of: glCopyImageSubDataOES_P))
+    glCopyImageSubDataOES_P = unsafeBitCast(getAddress(CommandInfo("glCopyImageSubDataOES", [S352])), to: Swift.type(of: glCopyImageSubDataOES_P))
     glCopyImageSubDataOES_P(srcName, srcTarget, srcLevel, srcX, srcY, srcZ, dstName, dstTarget, dstLevel, dstX, dstY, dstZ, srcWidth, srcHeight, srcDepth)
 }
 func glCopyMultiTexImage1DEXT_L(_ texunit:GLenum, _ target:GLenum, _ level:GLint, _ internalformat:GLenum, _ x:GLint, _ y:GLint, _ width:GLsizei, _ border:GLint) {
@@ -1964,7 +1979,7 @@ func glCopyNamedBufferSubData_L(_ readBuffer:GLuint, _ writeBuffer:GLuint, _ rea
     glCopyNamedBufferSubData_P(readBuffer, writeBuffer, readOffset, writeOffset, size)
 }
 func glCopyPathNV_L(_ resultPath:GLuint, _ srcPath:GLuint) {
-    glCopyPathNV_P = unsafeBitCast(getAddress(CommandInfo("glCopyPathNV", [S315])), to: Swift.type(of: glCopyPathNV_P))
+    glCopyPathNV_P = unsafeBitCast(getAddress(CommandInfo("glCopyPathNV", [S318])), to: Swift.type(of: glCopyPathNV_P))
     glCopyPathNV_P(resultPath, srcPath)
 }
 func glCopyPixels_L(_ x:GLint, _ y:GLint, _ width:GLsizei, _ height:GLsizei, _ type:GLenum) {
@@ -2012,7 +2027,7 @@ func glCopyTexSubImage3DEXT_L(_ target:GLenum, _ level:GLint, _ xoffset:GLint, _
     glCopyTexSubImage3DEXT_P(target, level, xoffset, yoffset, zoffset, x, y, width, height)
 }
 func glCopyTexSubImage3DOES_L(_ target:GLenum, _ level:GLint, _ xoffset:GLint, _ yoffset:GLint, _ zoffset:GLint, _ x:GLint, _ y:GLint, _ width:GLsizei, _ height:GLsizei) {
-    glCopyTexSubImage3DOES_P = unsafeBitCast(getAddress(CommandInfo("glCopyTexSubImage3DOES", [S365])), to: Swift.type(of: glCopyTexSubImage3DOES_P))
+    glCopyTexSubImage3DOES_P = unsafeBitCast(getAddress(CommandInfo("glCopyTexSubImage3DOES", [S368])), to: Swift.type(of: glCopyTexSubImage3DOES_P))
     glCopyTexSubImage3DOES_P(target, level, xoffset, yoffset, zoffset, x, y, width, height)
 }
 func glCopyTextureImage1DEXT_L(_ texture:GLuint, _ target:GLenum, _ level:GLint, _ internalformat:GLenum, _ x:GLint, _ y:GLint, _ width:GLsizei, _ border:GLint) {
@@ -2052,35 +2067,35 @@ func glCopyTextureSubImage3DEXT_L(_ texture:GLuint, _ target:GLenum, _ level:GLi
     glCopyTextureSubImage3DEXT_P(texture, target, level, xoffset, yoffset, zoffset, x, y, width, height)
 }
 func glCoverFillPathInstancedNV_L(_ numPaths:GLsizei, _ pathNameType:GLenum, _ paths:UnsafeRawPointer?, _ pathBase:GLuint, _ coverMode:GLenum, _ transformType:GLenum, _ transformValues:UnsafePointer<GLfloat>?) {
-    glCoverFillPathInstancedNV_P = unsafeBitCast(getAddress(CommandInfo("glCoverFillPathInstancedNV", [S315])), to: Swift.type(of: glCoverFillPathInstancedNV_P))
+    glCoverFillPathInstancedNV_P = unsafeBitCast(getAddress(CommandInfo("glCoverFillPathInstancedNV", [S318])), to: Swift.type(of: glCoverFillPathInstancedNV_P))
     glCoverFillPathInstancedNV_P(numPaths, pathNameType, paths, pathBase, coverMode, transformType, transformValues)
 }
 func glCoverFillPathNV_L(_ path:GLuint, _ coverMode:GLenum) {
-    glCoverFillPathNV_P = unsafeBitCast(getAddress(CommandInfo("glCoverFillPathNV", [S315])), to: Swift.type(of: glCoverFillPathNV_P))
+    glCoverFillPathNV_P = unsafeBitCast(getAddress(CommandInfo("glCoverFillPathNV", [S318])), to: Swift.type(of: glCoverFillPathNV_P))
     glCoverFillPathNV_P(path, coverMode)
 }
 func glCoverStrokePathInstancedNV_L(_ numPaths:GLsizei, _ pathNameType:GLenum, _ paths:UnsafeRawPointer?, _ pathBase:GLuint, _ coverMode:GLenum, _ transformType:GLenum, _ transformValues:UnsafePointer<GLfloat>?) {
-    glCoverStrokePathInstancedNV_P = unsafeBitCast(getAddress(CommandInfo("glCoverStrokePathInstancedNV", [S315])), to: Swift.type(of: glCoverStrokePathInstancedNV_P))
+    glCoverStrokePathInstancedNV_P = unsafeBitCast(getAddress(CommandInfo("glCoverStrokePathInstancedNV", [S318])), to: Swift.type(of: glCoverStrokePathInstancedNV_P))
     glCoverStrokePathInstancedNV_P(numPaths, pathNameType, paths, pathBase, coverMode, transformType, transformValues)
 }
 func glCoverStrokePathNV_L(_ path:GLuint, _ coverMode:GLenum) {
-    glCoverStrokePathNV_P = unsafeBitCast(getAddress(CommandInfo("glCoverStrokePathNV", [S315])), to: Swift.type(of: glCoverStrokePathNV_P))
+    glCoverStrokePathNV_P = unsafeBitCast(getAddress(CommandInfo("glCoverStrokePathNV", [S318])), to: Swift.type(of: glCoverStrokePathNV_P))
     glCoverStrokePathNV_P(path, coverMode)
 }
 func glCoverageMaskNV_L(_ mask:GLboolean) {
-    glCoverageMaskNV_P = unsafeBitCast(getAddress(CommandInfo("glCoverageMaskNV", [S287])), to: Swift.type(of: glCoverageMaskNV_P))
+    glCoverageMaskNV_P = unsafeBitCast(getAddress(CommandInfo("glCoverageMaskNV", [S290])), to: Swift.type(of: glCoverageMaskNV_P))
     glCoverageMaskNV_P(mask)
 }
 func glCoverageModulationNV_L(_ components:GLenum) {
-    glCoverageModulationNV_P = unsafeBitCast(getAddress(CommandInfo("glCoverageModulationNV", [S299])), to: Swift.type(of: glCoverageModulationNV_P))
+    glCoverageModulationNV_P = unsafeBitCast(getAddress(CommandInfo("glCoverageModulationNV", [S302])), to: Swift.type(of: glCoverageModulationNV_P))
     glCoverageModulationNV_P(components)
 }
 func glCoverageModulationTableNV_L(_ n:GLsizei, _ v:UnsafePointer<GLfloat>?) {
-    glCoverageModulationTableNV_P = unsafeBitCast(getAddress(CommandInfo("glCoverageModulationTableNV", [S299])), to: Swift.type(of: glCoverageModulationTableNV_P))
+    glCoverageModulationTableNV_P = unsafeBitCast(getAddress(CommandInfo("glCoverageModulationTableNV", [S302])), to: Swift.type(of: glCoverageModulationTableNV_P))
     glCoverageModulationTableNV_P(n, v)
 }
 func glCoverageOperationNV_L(_ operation:GLenum) {
-    glCoverageOperationNV_P = unsafeBitCast(getAddress(CommandInfo("glCoverageOperationNV", [S287])), to: Swift.type(of: glCoverageOperationNV_P))
+    glCoverageOperationNV_P = unsafeBitCast(getAddress(CommandInfo("glCoverageOperationNV", [S290])), to: Swift.type(of: glCoverageOperationNV_P))
     glCoverageOperationNV_P(operation)
 }
 func glCreateBuffers_L(_ n:GLsizei, _ buffers:UnsafeMutablePointer<GLuint>?) {
@@ -2088,7 +2103,7 @@ func glCreateBuffers_L(_ n:GLsizei, _ buffers:UnsafeMutablePointer<GLuint>?) {
     glCreateBuffers_P(n, buffers)
 }
 func glCreateCommandListsNV_L(_ n:GLsizei, _ lists:UnsafeMutablePointer<GLuint>?) {
-    glCreateCommandListsNV_P = unsafeBitCast(getAddress(CommandInfo("glCreateCommandListsNV", [S280])), to: Swift.type(of: glCreateCommandListsNV_P))
+    glCreateCommandListsNV_P = unsafeBitCast(getAddress(CommandInfo("glCreateCommandListsNV", [S283])), to: Swift.type(of: glCreateCommandListsNV_P))
     glCreateCommandListsNV_P(n, lists)
 }
 func glCreateFramebuffers_L(_ n:GLsizei, _ framebuffers:UnsafeMutablePointer<GLuint>?) {
@@ -2114,6 +2129,10 @@ func glCreateProgramObjectARB_L() -> GLhandleARB {
 func glCreateProgramPipelines_L(_ n:GLsizei, _ pipelines:UnsafeMutablePointer<GLuint>?) {
     glCreateProgramPipelines_P = unsafeBitCast(getAddress(CommandInfo("glCreateProgramPipelines", [S17, S73])), to: Swift.type(of: glCreateProgramPipelines_P))
     glCreateProgramPipelines_P(n, pipelines)
+}
+func glCreateProgressFenceNVX_L() -> GLuint {
+    glCreateProgressFenceNVX_P = unsafeBitCast(getAddress(CommandInfo("glCreateProgressFenceNVX", [S276])), to: Swift.type(of: glCreateProgressFenceNVX_P))
+    return glCreateProgressFenceNVX_P()
 }
 func glCreateQueries_L(_ target:GLenum, _ n:GLsizei, _ ids:UnsafeMutablePointer<GLuint>?) {
     glCreateQueries_P = unsafeBitCast(getAddress(CommandInfo("glCreateQueries", [S17, S73])), to: Swift.type(of: glCreateQueries_P))
@@ -2148,7 +2167,7 @@ func glCreateShaderProgramvEXT_L(_ type:GLenum, _ count:GLsizei, _ strings:Unsaf
     return glCreateShaderProgramvEXT_P(type, count, strings)
 }
 func glCreateStatesNV_L(_ n:GLsizei, _ states:UnsafeMutablePointer<GLuint>?) {
-    glCreateStatesNV_P = unsafeBitCast(getAddress(CommandInfo("glCreateStatesNV", [S280])), to: Swift.type(of: glCreateStatesNV_P))
+    glCreateStatesNV_P = unsafeBitCast(getAddress(CommandInfo("glCreateStatesNV", [S283])), to: Swift.type(of: glCreateStatesNV_P))
     glCreateStatesNV_P(n, states)
 }
 func glCreateSyncFromCLeventARB_L(_ context:OpaquePointer, _ event:OpaquePointer, _ flags:GLbitfield) -> GLsync {
@@ -2184,7 +2203,7 @@ func glCurrentPaletteMatrixARB_L(_ index:GLint) {
     glCurrentPaletteMatrixARB_P(index)
 }
 func glCurrentPaletteMatrixOES_L(_ matrixpaletteindex:GLuint) {
-    glCurrentPaletteMatrixOES_P = unsafeBitCast(getAddress(CommandInfo("glCurrentPaletteMatrixOES", [S358])), to: Swift.type(of: glCurrentPaletteMatrixOES_P))
+    glCurrentPaletteMatrixOES_P = unsafeBitCast(getAddress(CommandInfo("glCurrentPaletteMatrixOES", [S361])), to: Swift.type(of: glCurrentPaletteMatrixOES_P))
     glCurrentPaletteMatrixOES_P(matrixpaletteindex)
 }
 func glDebugMessageCallback_L(_ callback:GLDEBUGPROC, _ userParam:UnsafeRawPointer?) {
@@ -2236,19 +2255,19 @@ func glDebugMessageInsertKHR_L(_ source:GLenum, _ type:GLenum, _ id:GLuint, _ se
     glDebugMessageInsertKHR_P(source, type, id, severity, length, buf)
 }
 func glDeformSGIX_L(_ mask:GLbitfield) {
-    glDeformSGIX_P = unsafeBitCast(getAddress(CommandInfo("glDeformSGIX", [S401])), to: Swift.type(of: glDeformSGIX_P))
+    glDeformSGIX_P = unsafeBitCast(getAddress(CommandInfo("glDeformSGIX", [S404])), to: Swift.type(of: glDeformSGIX_P))
     glDeformSGIX_P(mask)
 }
 func glDeformationMap3dSGIX_L(_ target:GLenum, _ u1:GLdouble, _ u2:GLdouble, _ ustride:GLint, _ uorder:GLint, _ v1:GLdouble, _ v2:GLdouble, _ vstride:GLint, _ vorder:GLint, _ w1:GLdouble, _ w2:GLdouble, _ wstride:GLint, _ worder:GLint, _ points:UnsafePointer<GLdouble>?) {
-    glDeformationMap3dSGIX_P = unsafeBitCast(getAddress(CommandInfo("glDeformationMap3dSGIX", [S401])), to: Swift.type(of: glDeformationMap3dSGIX_P))
+    glDeformationMap3dSGIX_P = unsafeBitCast(getAddress(CommandInfo("glDeformationMap3dSGIX", [S404])), to: Swift.type(of: glDeformationMap3dSGIX_P))
     glDeformationMap3dSGIX_P(target, u1, u2, ustride, uorder, v1, v2, vstride, vorder, w1, w2, wstride, worder, points)
 }
 func glDeformationMap3fSGIX_L(_ target:GLenum, _ u1:GLfloat, _ u2:GLfloat, _ ustride:GLint, _ uorder:GLint, _ v1:GLfloat, _ v2:GLfloat, _ vstride:GLint, _ vorder:GLint, _ w1:GLfloat, _ w2:GLfloat, _ wstride:GLint, _ worder:GLint, _ points:UnsafePointer<GLfloat>?) {
-    glDeformationMap3fSGIX_P = unsafeBitCast(getAddress(CommandInfo("glDeformationMap3fSGIX", [S401])), to: Swift.type(of: glDeformationMap3fSGIX_P))
+    glDeformationMap3fSGIX_P = unsafeBitCast(getAddress(CommandInfo("glDeformationMap3fSGIX", [S404])), to: Swift.type(of: glDeformationMap3fSGIX_P))
     glDeformationMap3fSGIX_P(target, u1, u2, ustride, uorder, v1, v2, vstride, vorder, w1, w2, wstride, worder, points)
 }
 func glDeleteAsyncMarkersSGIX_L(_ marker:GLuint, _ range:GLsizei) {
-    glDeleteAsyncMarkersSGIX_P = unsafeBitCast(getAddress(CommandInfo("glDeleteAsyncMarkersSGIX", [S393])), to: Swift.type(of: glDeleteAsyncMarkersSGIX_P))
+    glDeleteAsyncMarkersSGIX_P = unsafeBitCast(getAddress(CommandInfo("glDeleteAsyncMarkersSGIX", [S396])), to: Swift.type(of: glDeleteAsyncMarkersSGIX_P))
     glDeleteAsyncMarkersSGIX_P(marker, range)
 }
 func glDeleteBuffers_L(_ n:GLsizei, _ buffers:UnsafePointer<GLuint>?) {
@@ -2260,7 +2279,7 @@ func glDeleteBuffersARB_L(_ n:GLsizei, _ buffers:UnsafePointer<GLuint>?) {
     glDeleteBuffersARB_P(n, buffers)
 }
 func glDeleteCommandListsNV_L(_ n:GLsizei, _ lists:UnsafePointer<GLuint>?) {
-    glDeleteCommandListsNV_P = unsafeBitCast(getAddress(CommandInfo("glDeleteCommandListsNV", [S280])), to: Swift.type(of: glDeleteCommandListsNV_P))
+    glDeleteCommandListsNV_P = unsafeBitCast(getAddress(CommandInfo("glDeleteCommandListsNV", [S283])), to: Swift.type(of: glDeleteCommandListsNV_P))
     glDeleteCommandListsNV_P(n, lists)
 }
 func glDeleteFencesAPPLE_L(_ n:GLsizei, _ fences:UnsafePointer<GLuint>?) {
@@ -2268,7 +2287,7 @@ func glDeleteFencesAPPLE_L(_ n:GLsizei, _ fences:UnsafePointer<GLuint>?) {
     glDeleteFencesAPPLE_P(n, fences)
 }
 func glDeleteFencesNV_L(_ n:GLsizei, _ fences:UnsafePointer<GLuint>?) {
-    glDeleteFencesNV_P = unsafeBitCast(getAddress(CommandInfo("glDeleteFencesNV", [S295])), to: Swift.type(of: glDeleteFencesNV_P))
+    glDeleteFencesNV_P = unsafeBitCast(getAddress(CommandInfo("glDeleteFencesNV", [S298])), to: Swift.type(of: glDeleteFencesNV_P))
     glDeleteFencesNV_P(n, fences)
 }
 func glDeleteFragmentShaderATI_L(_ id:GLuint) {
@@ -2284,7 +2303,7 @@ func glDeleteFramebuffersEXT_L(_ n:GLsizei, _ framebuffers:UnsafePointer<GLuint>
     glDeleteFramebuffersEXT_P(n, framebuffers)
 }
 func glDeleteFramebuffersOES_L(_ n:GLsizei, _ framebuffers:UnsafePointer<GLuint>?) {
-    glDeleteFramebuffersOES_P = unsafeBitCast(getAddress(CommandInfo("glDeleteFramebuffersOES", [S354])), to: Swift.type(of: glDeleteFramebuffersOES_P))
+    glDeleteFramebuffersOES_P = unsafeBitCast(getAddress(CommandInfo("glDeleteFramebuffersOES", [S357])), to: Swift.type(of: glDeleteFramebuffersOES_P))
     glDeleteFramebuffersOES_P(n, framebuffers)
 }
 func glDeleteLists_L(_ list:GLuint, _ range:GLsizei) {
@@ -2308,11 +2327,11 @@ func glDeleteObjectARB_L(_ obj:GLhandleARB) {
     glDeleteObjectARB_P(obj)
 }
 func glDeleteOcclusionQueriesNV_L(_ n:GLsizei, _ ids:UnsafePointer<GLuint>?) {
-    glDeleteOcclusionQueriesNV_P = unsafeBitCast(getAddress(CommandInfo("glDeleteOcclusionQueriesNV", [S313])), to: Swift.type(of: glDeleteOcclusionQueriesNV_P))
+    glDeleteOcclusionQueriesNV_P = unsafeBitCast(getAddress(CommandInfo("glDeleteOcclusionQueriesNV", [S316])), to: Swift.type(of: glDeleteOcclusionQueriesNV_P))
     glDeleteOcclusionQueriesNV_P(n, ids)
 }
 func glDeletePathsNV_L(_ path:GLuint, _ range:GLsizei) {
-    glDeletePathsNV_P = unsafeBitCast(getAddress(CommandInfo("glDeletePathsNV", [S315])), to: Swift.type(of: glDeletePathsNV_P))
+    glDeletePathsNV_P = unsafeBitCast(getAddress(CommandInfo("glDeletePathsNV", [S318])), to: Swift.type(of: glDeletePathsNV_P))
     glDeletePathsNV_P(path, range)
 }
 func glDeletePerfMonitorsAMD_L(_ n:GLsizei, _ monitors:UnsafeMutablePointer<GLuint>?) {
@@ -2340,7 +2359,7 @@ func glDeleteProgramsARB_L(_ n:GLsizei, _ programs:UnsafePointer<GLuint>?) {
     glDeleteProgramsARB_P(n, programs)
 }
 func glDeleteProgramsNV_L(_ n:GLsizei, _ programs:UnsafePointer<GLuint>?) {
-    glDeleteProgramsNV_P = unsafeBitCast(getAddress(CommandInfo("glDeleteProgramsNV", [S339])), to: Swift.type(of: glDeleteProgramsNV_P))
+    glDeleteProgramsNV_P = unsafeBitCast(getAddress(CommandInfo("glDeleteProgramsNV", [S342])), to: Swift.type(of: glDeleteProgramsNV_P))
     glDeleteProgramsNV_P(n, programs)
 }
 func glDeleteQueries_L(_ n:GLsizei, _ ids:UnsafePointer<GLuint>?) {
@@ -2356,7 +2375,7 @@ func glDeleteQueriesEXT_L(_ n:GLsizei, _ ids:UnsafePointer<GLuint>?) {
     glDeleteQueriesEXT_P(n, ids)
 }
 func glDeleteQueryResourceTagNV_L(_ n:GLsizei, _ tagIds:UnsafePointer<GLint>?) {
-    glDeleteQueryResourceTagNV_P = unsafeBitCast(getAddress(CommandInfo("glDeleteQueryResourceTagNV", [S322])), to: Swift.type(of: glDeleteQueryResourceTagNV_P))
+    glDeleteQueryResourceTagNV_P = unsafeBitCast(getAddress(CommandInfo("glDeleteQueryResourceTagNV", [S325])), to: Swift.type(of: glDeleteQueryResourceTagNV_P))
     glDeleteQueryResourceTagNV_P(n, tagIds)
 }
 func glDeleteRenderbuffers_L(_ n:GLsizei, _ renderbuffers:UnsafePointer<GLuint>?) {
@@ -2368,7 +2387,7 @@ func glDeleteRenderbuffersEXT_L(_ n:GLsizei, _ renderbuffers:UnsafePointer<GLuin
     glDeleteRenderbuffersEXT_P(n, renderbuffers)
 }
 func glDeleteRenderbuffersOES_L(_ n:GLsizei, _ renderbuffers:UnsafePointer<GLuint>?) {
-    glDeleteRenderbuffersOES_P = unsafeBitCast(getAddress(CommandInfo("glDeleteRenderbuffersOES", [S354])), to: Swift.type(of: glDeleteRenderbuffersOES_P))
+    glDeleteRenderbuffersOES_P = unsafeBitCast(getAddress(CommandInfo("glDeleteRenderbuffersOES", [S357])), to: Swift.type(of: glDeleteRenderbuffersOES_P))
     glDeleteRenderbuffersOES_P(n, renderbuffers)
 }
 func glDeleteSamplers_L(_ count:GLsizei, _ samplers:UnsafePointer<GLuint>?) {
@@ -2384,7 +2403,7 @@ func glDeleteShader_L(_ shader:GLuint) {
     glDeleteShader_P(shader)
 }
 func glDeleteStatesNV_L(_ n:GLsizei, _ states:UnsafePointer<GLuint>?) {
-    glDeleteStatesNV_P = unsafeBitCast(getAddress(CommandInfo("glDeleteStatesNV", [S280])), to: Swift.type(of: glDeleteStatesNV_P))
+    glDeleteStatesNV_P = unsafeBitCast(getAddress(CommandInfo("glDeleteStatesNV", [S283])), to: Swift.type(of: glDeleteStatesNV_P))
     glDeleteStatesNV_P(n, states)
 }
 func glDeleteSync_L(_ sync:GLsync) {
@@ -2408,7 +2427,7 @@ func glDeleteTransformFeedbacks_L(_ n:GLsizei, _ ids:UnsafePointer<GLuint>?) {
     glDeleteTransformFeedbacks_P(n, ids)
 }
 func glDeleteTransformFeedbacksNV_L(_ n:GLsizei, _ ids:UnsafePointer<GLuint>?) {
-    glDeleteTransformFeedbacksNV_P = unsafeBitCast(getAddress(CommandInfo("glDeleteTransformFeedbacksNV", [S333])), to: Swift.type(of: glDeleteTransformFeedbacksNV_P))
+    glDeleteTransformFeedbacksNV_P = unsafeBitCast(getAddress(CommandInfo("glDeleteTransformFeedbacksNV", [S336])), to: Swift.type(of: glDeleteTransformFeedbacksNV_P))
     glDeleteTransformFeedbacksNV_P(n, ids)
 }
 func glDeleteVertexArrays_L(_ n:GLsizei, _ arrays:UnsafePointer<GLuint>?) {
@@ -2420,7 +2439,7 @@ func glDeleteVertexArraysAPPLE_L(_ n:GLsizei, _ arrays:UnsafePointer<GLuint>?) {
     glDeleteVertexArraysAPPLE_P(n, arrays)
 }
 func glDeleteVertexArraysOES_L(_ n:GLsizei, _ arrays:UnsafePointer<GLuint>?) {
-    glDeleteVertexArraysOES_P = unsafeBitCast(getAddress(CommandInfo("glDeleteVertexArraysOES", [S371])), to: Swift.type(of: glDeleteVertexArraysOES_P))
+    glDeleteVertexArraysOES_P = unsafeBitCast(getAddress(CommandInfo("glDeleteVertexArraysOES", [S374])), to: Swift.type(of: glDeleteVertexArraysOES_P))
     glDeleteVertexArraysOES_P(n, arrays)
 }
 func glDeleteVertexShaderEXT_L(_ id:GLuint) {
@@ -2432,7 +2451,7 @@ func glDepthBoundsEXT_L(_ zmin:GLclampd, _ zmax:GLclampd) {
     glDepthBoundsEXT_P(zmin, zmax)
 }
 func glDepthBoundsdNV_L(_ zmin:GLdouble, _ zmax:GLdouble) {
-    glDepthBoundsdNV_P = unsafeBitCast(getAddress(CommandInfo("glDepthBoundsdNV", [S288])), to: Swift.type(of: glDepthBoundsdNV_P))
+    glDepthBoundsdNV_P = unsafeBitCast(getAddress(CommandInfo("glDepthBoundsdNV", [S291])), to: Swift.type(of: glDepthBoundsdNV_P))
     glDepthBoundsdNV_P(zmin, zmax)
 }
 func glDepthFunc_L(_ fn:GLenum) {
@@ -2448,11 +2467,11 @@ func glDepthRange_L(_ n:GLdouble, _ f:GLdouble) {
     glDepthRange_P(n, f)
 }
 func glDepthRangeArrayfvNV_L(_ first:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLfloat>?) {
-    glDepthRangeArrayfvNV_P = unsafeBitCast(getAddress(CommandInfo("glDepthRangeArrayfvNV", [S342])), to: Swift.type(of: glDepthRangeArrayfvNV_P))
+    glDepthRangeArrayfvNV_P = unsafeBitCast(getAddress(CommandInfo("glDepthRangeArrayfvNV", [S345])), to: Swift.type(of: glDepthRangeArrayfvNV_P))
     glDepthRangeArrayfvNV_P(first, count, v)
 }
 func glDepthRangeArrayfvOES_L(_ first:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLfloat>?) {
-    glDepthRangeArrayfvOES_P = unsafeBitCast(getAddress(CommandInfo("glDepthRangeArrayfvOES", [S372])), to: Swift.type(of: glDepthRangeArrayfvOES_P))
+    glDepthRangeArrayfvOES_P = unsafeBitCast(getAddress(CommandInfo("glDepthRangeArrayfvOES", [S375])), to: Swift.type(of: glDepthRangeArrayfvOES_P))
     glDepthRangeArrayfvOES_P(first, count, v)
 }
 func glDepthRangeArrayv_L(_ first:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLdouble>?) {
@@ -2464,15 +2483,15 @@ func glDepthRangeIndexed_L(_ index:GLuint, _ n:GLdouble, _ f:GLdouble) {
     glDepthRangeIndexed_P(index, n, f)
 }
 func glDepthRangeIndexedfNV_L(_ index:GLuint, _ n:GLfloat, _ f:GLfloat) {
-    glDepthRangeIndexedfNV_P = unsafeBitCast(getAddress(CommandInfo("glDepthRangeIndexedfNV", [S342])), to: Swift.type(of: glDepthRangeIndexedfNV_P))
+    glDepthRangeIndexedfNV_P = unsafeBitCast(getAddress(CommandInfo("glDepthRangeIndexedfNV", [S345])), to: Swift.type(of: glDepthRangeIndexedfNV_P))
     glDepthRangeIndexedfNV_P(index, n, f)
 }
 func glDepthRangeIndexedfOES_L(_ index:GLuint, _ n:GLfloat, _ f:GLfloat) {
-    glDepthRangeIndexedfOES_P = unsafeBitCast(getAddress(CommandInfo("glDepthRangeIndexedfOES", [S372])), to: Swift.type(of: glDepthRangeIndexedfOES_P))
+    glDepthRangeIndexedfOES_P = unsafeBitCast(getAddress(CommandInfo("glDepthRangeIndexedfOES", [S375])), to: Swift.type(of: glDepthRangeIndexedfOES_P))
     glDepthRangeIndexedfOES_P(index, n, f)
 }
 func glDepthRangedNV_L(_ zNear:GLdouble, _ zFar:GLdouble) {
-    glDepthRangedNV_P = unsafeBitCast(getAddress(CommandInfo("glDepthRangedNV", [S288])), to: Swift.type(of: glDepthRangedNV_P))
+    glDepthRangedNV_P = unsafeBitCast(getAddress(CommandInfo("glDepthRangedNV", [S291])), to: Swift.type(of: glDepthRangedNV_P))
     glDepthRangedNV_P(zNear, zFar)
 }
 func glDepthRangef_L(_ n:GLfloat, _ f:GLfloat) {
@@ -2480,7 +2499,7 @@ func glDepthRangef_L(_ n:GLfloat, _ f:GLfloat) {
     glDepthRangef_P(n, f)
 }
 func glDepthRangefOES_L(_ n:GLclampf, _ f:GLclampf) {
-    glDepthRangefOES_P = unsafeBitCast(getAddress(CommandInfo("glDepthRangefOES", [S363])), to: Swift.type(of: glDepthRangefOES_P))
+    glDepthRangefOES_P = unsafeBitCast(getAddress(CommandInfo("glDepthRangefOES", [S366])), to: Swift.type(of: glDepthRangefOES_P))
     glDepthRangefOES_P(n, f)
 }
 func glDepthRangex_L(_ n:GLfixed, _ f:GLfixed) {
@@ -2488,7 +2507,7 @@ func glDepthRangex_L(_ n:GLfixed, _ f:GLfixed) {
     glDepthRangex_P(n, f)
 }
 func glDepthRangexOES_L(_ n:GLfixed, _ f:GLfixed) {
-    glDepthRangexOES_P = unsafeBitCast(getAddress(CommandInfo("glDepthRangexOES", [S353])), to: Swift.type(of: glDepthRangexOES_P))
+    glDepthRangexOES_P = unsafeBitCast(getAddress(CommandInfo("glDepthRangexOES", [S356])), to: Swift.type(of: glDepthRangexOES_P))
     glDepthRangexOES_P(n, f)
 }
 func glDetachObjectARB_L(_ containerObj:GLhandleARB, _ attachedObj:GLhandleARB) {
@@ -2500,7 +2519,7 @@ func glDetachShader_L(_ program:GLuint, _ shader:GLuint) {
     glDetachShader_P(program, shader)
 }
 func glDetailTexFuncSGIS_L(_ target:GLenum, _ n:GLsizei, _ points:UnsafePointer<GLfloat>?) {
-    glDetailTexFuncSGIS_P = unsafeBitCast(getAddress(CommandInfo("glDetailTexFuncSGIS", [S384])), to: Swift.type(of: glDetailTexFuncSGIS_P))
+    glDetailTexFuncSGIS_P = unsafeBitCast(getAddress(CommandInfo("glDetailTexFuncSGIS", [S387])), to: Swift.type(of: glDetailTexFuncSGIS_P))
     glDetailTexFuncSGIS_P(target, n, points)
 }
 func glDisable_L(_ cap:GLenum) {
@@ -2520,7 +2539,7 @@ func glDisableClientStateiEXT_L(_ array:GLenum, _ index:GLuint) {
     glDisableClientStateiEXT_P(array, index)
 }
 func glDisableDriverControlQCOM_L(_ driverControl:GLuint) {
-    glDisableDriverControlQCOM_P = unsafeBitCast(getAddress(CommandInfo("glDisableDriverControlQCOM", [S377])), to: Swift.type(of: glDisableDriverControlQCOM_P))
+    glDisableDriverControlQCOM_P = unsafeBitCast(getAddress(CommandInfo("glDisableDriverControlQCOM", [S380])), to: Swift.type(of: glDisableDriverControlQCOM_P))
     glDisableDriverControlQCOM_P(driverControl)
 }
 func glDisableIndexedEXT_L(_ target:GLenum, _ index:GLuint) {
@@ -2564,11 +2583,11 @@ func glDisableiEXT_L(_ target:GLenum, _ index:GLuint) {
     glDisableiEXT_P(target, index)
 }
 func glDisableiNV_L(_ target:GLenum, _ index:GLuint) {
-    glDisableiNV_P = unsafeBitCast(getAddress(CommandInfo("glDisableiNV", [S342])), to: Swift.type(of: glDisableiNV_P))
+    glDisableiNV_P = unsafeBitCast(getAddress(CommandInfo("glDisableiNV", [S345])), to: Swift.type(of: glDisableiNV_P))
     glDisableiNV_P(target, index)
 }
 func glDisableiOES_L(_ target:GLenum, _ index:GLuint) {
-    glDisableiOES_P = unsafeBitCast(getAddress(CommandInfo("glDisableiOES", [S350, S372])), to: Swift.type(of: glDisableiOES_P))
+    glDisableiOES_P = unsafeBitCast(getAddress(CommandInfo("glDisableiOES", [S353, S375])), to: Swift.type(of: glDisableiOES_P))
     glDisableiOES_P(target, index)
 }
 func glDiscardFramebufferEXT_L(_ target:GLenum, _ numAttachments:GLsizei, _ attachments:UnsafePointer<GLenum>?) {
@@ -2624,7 +2643,7 @@ func glDrawArraysInstancedEXT_L(_ mode:GLenum, _ start:GLint, _ count:GLsizei, _
     glDrawArraysInstancedEXT_P(mode, start, count, primcount)
 }
 func glDrawArraysInstancedNV_L(_ mode:GLenum, _ first:GLint, _ count:GLsizei, _ primcount:GLsizei) {
-    glDrawArraysInstancedNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawArraysInstancedNV", [S290])), to: Swift.type(of: glDrawArraysInstancedNV_P))
+    glDrawArraysInstancedNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawArraysInstancedNV", [S293])), to: Swift.type(of: glDrawArraysInstancedNV_P))
     glDrawArraysInstancedNV_P(mode, first, count, primcount)
 }
 func glDrawBuffer_L(_ buf:GLenum) {
@@ -2652,23 +2671,23 @@ func glDrawBuffersIndexedEXT_L(_ n:GLint, _ location:UnsafePointer<GLenum>?, _ i
     glDrawBuffersIndexedEXT_P(n, location, indices)
 }
 func glDrawBuffersNV_L(_ n:GLsizei, _ bufs:UnsafePointer<GLenum>?) {
-    glDrawBuffersNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawBuffersNV", [S289])), to: Swift.type(of: glDrawBuffersNV_P))
+    glDrawBuffersNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawBuffersNV", [S292])), to: Swift.type(of: glDrawBuffersNV_P))
     glDrawBuffersNV_P(n, bufs)
 }
 func glDrawCommandsAddressNV_L(_ primitiveMode:GLenum, _ indirects:UnsafePointer<GLuint64>?, _ sizes:UnsafePointer<GLsizei>?, _ count:GLuint) {
-    glDrawCommandsAddressNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawCommandsAddressNV", [S280])), to: Swift.type(of: glDrawCommandsAddressNV_P))
+    glDrawCommandsAddressNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawCommandsAddressNV", [S283])), to: Swift.type(of: glDrawCommandsAddressNV_P))
     glDrawCommandsAddressNV_P(primitiveMode, indirects, sizes, count)
 }
 func glDrawCommandsNV_L(_ primitiveMode:GLenum, _ buffer:GLuint, _ indirects:UnsafePointer<GLintptr>?, _ sizes:UnsafePointer<GLsizei>?, _ count:GLuint) {
-    glDrawCommandsNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawCommandsNV", [S280])), to: Swift.type(of: glDrawCommandsNV_P))
+    glDrawCommandsNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawCommandsNV", [S283])), to: Swift.type(of: glDrawCommandsNV_P))
     glDrawCommandsNV_P(primitiveMode, buffer, indirects, sizes, count)
 }
 func glDrawCommandsStatesAddressNV_L(_ indirects:UnsafePointer<GLuint64>?, _ sizes:UnsafePointer<GLsizei>?, _ states:UnsafePointer<GLuint>?, _ fbos:UnsafePointer<GLuint>?, _ count:GLuint) {
-    glDrawCommandsStatesAddressNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawCommandsStatesAddressNV", [S280])), to: Swift.type(of: glDrawCommandsStatesAddressNV_P))
+    glDrawCommandsStatesAddressNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawCommandsStatesAddressNV", [S283])), to: Swift.type(of: glDrawCommandsStatesAddressNV_P))
     glDrawCommandsStatesAddressNV_P(indirects, sizes, states, fbos, count)
 }
 func glDrawCommandsStatesNV_L(_ buffer:GLuint, _ indirects:UnsafePointer<GLintptr>?, _ sizes:UnsafePointer<GLsizei>?, _ states:UnsafePointer<GLuint>?, _ fbos:UnsafePointer<GLuint>?, _ count:GLuint) {
-    glDrawCommandsStatesNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawCommandsStatesNV", [S280])), to: Swift.type(of: glDrawCommandsStatesNV_P))
+    glDrawCommandsStatesNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawCommandsStatesNV", [S283])), to: Swift.type(of: glDrawCommandsStatesNV_P))
     glDrawCommandsStatesNV_P(buffer, indirects, sizes, states, fbos, count)
 }
 func glDrawElementArrayAPPLE_L(_ mode:GLenum, _ first:GLint, _ count:GLsizei) {
@@ -2692,7 +2711,7 @@ func glDrawElementsBaseVertexEXT_L(_ mode:GLenum, _ count:GLsizei, _ type:GLenum
     glDrawElementsBaseVertexEXT_P(mode, count, type, indices, basevertex)
 }
 func glDrawElementsBaseVertexOES_L(_ mode:GLenum, _ count:GLsizei, _ type:GLenum, _ indices:UnsafeRawPointer?, _ basevertex:GLint) {
-    glDrawElementsBaseVertexOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawElementsBaseVertexOES", [S351])), to: Swift.type(of: glDrawElementsBaseVertexOES_P))
+    glDrawElementsBaseVertexOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawElementsBaseVertexOES", [S354])), to: Swift.type(of: glDrawElementsBaseVertexOES_P))
     glDrawElementsBaseVertexOES_P(mode, count, type, indices, basevertex)
 }
 func glDrawElementsIndirect_L(_ mode:GLenum, _ type:GLenum, _ indirect:UnsafeRawPointer?) {
@@ -2736,7 +2755,7 @@ func glDrawElementsInstancedBaseVertexEXT_L(_ mode:GLenum, _ count:GLsizei, _ ty
     glDrawElementsInstancedBaseVertexEXT_P(mode, count, type, indices, instancecount, basevertex)
 }
 func glDrawElementsInstancedBaseVertexOES_L(_ mode:GLenum, _ count:GLsizei, _ type:GLenum, _ indices:UnsafeRawPointer?, _ instancecount:GLsizei, _ basevertex:GLint) {
-    glDrawElementsInstancedBaseVertexOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawElementsInstancedBaseVertexOES", [S351])), to: Swift.type(of: glDrawElementsInstancedBaseVertexOES_P))
+    glDrawElementsInstancedBaseVertexOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawElementsInstancedBaseVertexOES", [S354])), to: Swift.type(of: glDrawElementsInstancedBaseVertexOES_P))
     glDrawElementsInstancedBaseVertexOES_P(mode, count, type, indices, instancecount, basevertex)
 }
 func glDrawElementsInstancedEXT_L(_ mode:GLenum, _ count:GLsizei, _ type:GLenum, _ indices:UnsafeRawPointer?, _ primcount:GLsizei) {
@@ -2744,19 +2763,19 @@ func glDrawElementsInstancedEXT_L(_ mode:GLenum, _ count:GLsizei, _ type:GLenum,
     glDrawElementsInstancedEXT_P(mode, count, type, indices, primcount)
 }
 func glDrawElementsInstancedNV_L(_ mode:GLenum, _ count:GLsizei, _ type:GLenum, _ indices:UnsafeRawPointer?, _ primcount:GLsizei) {
-    glDrawElementsInstancedNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawElementsInstancedNV", [S290])), to: Swift.type(of: glDrawElementsInstancedNV_P))
+    glDrawElementsInstancedNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawElementsInstancedNV", [S293])), to: Swift.type(of: glDrawElementsInstancedNV_P))
     glDrawElementsInstancedNV_P(mode, count, type, indices, primcount)
 }
 func glDrawMeshArraysSUN_L(_ mode:GLenum, _ first:GLint, _ count:GLsizei, _ width:GLsizei) {
-    glDrawMeshArraysSUN_P = unsafeBitCast(getAddress(CommandInfo("glDrawMeshArraysSUN", [S408])), to: Swift.type(of: glDrawMeshArraysSUN_P))
+    glDrawMeshArraysSUN_P = unsafeBitCast(getAddress(CommandInfo("glDrawMeshArraysSUN", [S411])), to: Swift.type(of: glDrawMeshArraysSUN_P))
     glDrawMeshArraysSUN_P(mode, first, count, width)
 }
 func glDrawMeshTasksIndirectNV_L(_ indirect:GLintptr) {
-    glDrawMeshTasksIndirectNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawMeshTasksIndirectNV", [S311])), to: Swift.type(of: glDrawMeshTasksIndirectNV_P))
+    glDrawMeshTasksIndirectNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawMeshTasksIndirectNV", [S314])), to: Swift.type(of: glDrawMeshTasksIndirectNV_P))
     glDrawMeshTasksIndirectNV_P(indirect)
 }
 func glDrawMeshTasksNV_L(_ first:GLuint, _ count:GLuint) {
-    glDrawMeshTasksNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawMeshTasksNV", [S311])), to: Swift.type(of: glDrawMeshTasksNV_P))
+    glDrawMeshTasksNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawMeshTasksNV", [S314])), to: Swift.type(of: glDrawMeshTasksNV_P))
     glDrawMeshTasksNV_P(first, count)
 }
 func glDrawPixels_L(_ width:GLsizei, _ height:GLsizei, _ format:GLenum, _ type:GLenum, _ pixels:UnsafeRawPointer?) {
@@ -2784,7 +2803,7 @@ func glDrawRangeElementsBaseVertexEXT_L(_ mode:GLenum, _ start:GLuint, _ end:GLu
     glDrawRangeElementsBaseVertexEXT_P(mode, start, end, count, type, indices, basevertex)
 }
 func glDrawRangeElementsBaseVertexOES_L(_ mode:GLenum, _ start:GLuint, _ end:GLuint, _ count:GLsizei, _ type:GLenum, _ indices:UnsafeRawPointer?, _ basevertex:GLint) {
-    glDrawRangeElementsBaseVertexOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawRangeElementsBaseVertexOES", [S351])), to: Swift.type(of: glDrawRangeElementsBaseVertexOES_P))
+    glDrawRangeElementsBaseVertexOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawRangeElementsBaseVertexOES", [S354])), to: Swift.type(of: glDrawRangeElementsBaseVertexOES_P))
     glDrawRangeElementsBaseVertexOES_P(mode, start, end, count, type, indices, basevertex)
 }
 func glDrawRangeElementsEXT_L(_ mode:GLenum, _ start:GLuint, _ end:GLuint, _ count:GLsizei, _ type:GLenum, _ indices:UnsafeRawPointer?) {
@@ -2792,39 +2811,39 @@ func glDrawRangeElementsEXT_L(_ mode:GLenum, _ start:GLuint, _ end:GLuint, _ cou
     glDrawRangeElementsEXT_P(mode, start, end, count, type, indices)
 }
 func glDrawTexfOES_L(_ x:GLfloat, _ y:GLfloat, _ z:GLfloat, _ width:GLfloat, _ height:GLfloat) {
-    glDrawTexfOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawTexfOES", [S352])), to: Swift.type(of: glDrawTexfOES_P))
+    glDrawTexfOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawTexfOES", [S355])), to: Swift.type(of: glDrawTexfOES_P))
     glDrawTexfOES_P(x, y, z, width, height)
 }
 func glDrawTexfvOES_L(_ coords:UnsafePointer<GLfloat>?) {
-    glDrawTexfvOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawTexfvOES", [S352])), to: Swift.type(of: glDrawTexfvOES_P))
+    glDrawTexfvOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawTexfvOES", [S355])), to: Swift.type(of: glDrawTexfvOES_P))
     glDrawTexfvOES_P(coords)
 }
 func glDrawTexiOES_L(_ x:GLint, _ y:GLint, _ z:GLint, _ width:GLint, _ height:GLint) {
-    glDrawTexiOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawTexiOES", [S352])), to: Swift.type(of: glDrawTexiOES_P))
+    glDrawTexiOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawTexiOES", [S355])), to: Swift.type(of: glDrawTexiOES_P))
     glDrawTexiOES_P(x, y, z, width, height)
 }
 func glDrawTexivOES_L(_ coords:UnsafePointer<GLint>?) {
-    glDrawTexivOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawTexivOES", [S352])), to: Swift.type(of: glDrawTexivOES_P))
+    glDrawTexivOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawTexivOES", [S355])), to: Swift.type(of: glDrawTexivOES_P))
     glDrawTexivOES_P(coords)
 }
 func glDrawTexsOES_L(_ x:GLshort, _ y:GLshort, _ z:GLshort, _ width:GLshort, _ height:GLshort) {
-    glDrawTexsOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawTexsOES", [S352])), to: Swift.type(of: glDrawTexsOES_P))
+    glDrawTexsOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawTexsOES", [S355])), to: Swift.type(of: glDrawTexsOES_P))
     glDrawTexsOES_P(x, y, z, width, height)
 }
 func glDrawTexsvOES_L(_ coords:UnsafePointer<GLshort>?) {
-    glDrawTexsvOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawTexsvOES", [S352])), to: Swift.type(of: glDrawTexsvOES_P))
+    glDrawTexsvOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawTexsvOES", [S355])), to: Swift.type(of: glDrawTexsvOES_P))
     glDrawTexsvOES_P(coords)
 }
 func glDrawTextureNV_L(_ texture:GLuint, _ sampler:GLuint, _ x0:GLfloat, _ y0:GLfloat, _ x1:GLfloat, _ y1:GLfloat, _ z:GLfloat, _ s0:GLfloat, _ t0:GLfloat, _ s1:GLfloat, _ t1:GLfloat) {
-    glDrawTextureNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawTextureNV", [S291])), to: Swift.type(of: glDrawTextureNV_P))
+    glDrawTextureNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawTextureNV", [S294])), to: Swift.type(of: glDrawTextureNV_P))
     glDrawTextureNV_P(texture, sampler, x0, y0, x1, y1, z, s0, t0, s1, t1)
 }
 func glDrawTexxOES_L(_ x:GLfixed, _ y:GLfixed, _ z:GLfixed, _ width:GLfixed, _ height:GLfixed) {
-    glDrawTexxOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawTexxOES", [S352])), to: Swift.type(of: glDrawTexxOES_P))
+    glDrawTexxOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawTexxOES", [S355])), to: Swift.type(of: glDrawTexxOES_P))
     glDrawTexxOES_P(x, y, z, width, height)
 }
 func glDrawTexxvOES_L(_ coords:UnsafePointer<GLfixed>?) {
-    glDrawTexxvOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawTexxvOES", [S352])), to: Swift.type(of: glDrawTexxvOES_P))
+    glDrawTexxvOES_P = unsafeBitCast(getAddress(CommandInfo("glDrawTexxvOES", [S355])), to: Swift.type(of: glDrawTexxvOES_P))
     glDrawTexxvOES_P(coords)
 }
 func glDrawTransformFeedback_L(_ mode:GLenum, _ id:GLuint) {
@@ -2844,7 +2863,7 @@ func glDrawTransformFeedbackInstancedEXT_L(_ mode:GLenum, _ id:GLuint, _ instanc
     glDrawTransformFeedbackInstancedEXT_P(mode, id, instancecount)
 }
 func glDrawTransformFeedbackNV_L(_ mode:GLenum, _ id:GLuint) {
-    glDrawTransformFeedbackNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawTransformFeedbackNV", [S333])), to: Swift.type(of: glDrawTransformFeedbackNV_P))
+    glDrawTransformFeedbackNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawTransformFeedbackNV", [S336])), to: Swift.type(of: glDrawTransformFeedbackNV_P))
     glDrawTransformFeedbackNV_P(mode, id)
 }
 func glDrawTransformFeedbackStream_L(_ mode:GLenum, _ id:GLuint, _ stream:GLuint) {
@@ -2856,11 +2875,11 @@ func glDrawTransformFeedbackStreamInstanced_L(_ mode:GLenum, _ id:GLuint, _ stre
     glDrawTransformFeedbackStreamInstanced_P(mode, id, stream, instancecount)
 }
 func glDrawVkImageNV_L(_ vkImage:GLuint64, _ sampler:GLuint, _ x0:GLfloat, _ y0:GLfloat, _ x1:GLfloat, _ y1:GLfloat, _ z:GLfloat, _ s0:GLfloat, _ t0:GLfloat, _ s1:GLfloat, _ t1:GLfloat) {
-    glDrawVkImageNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawVkImageNV", [S292])), to: Swift.type(of: glDrawVkImageNV_P))
+    glDrawVkImageNV_P = unsafeBitCast(getAddress(CommandInfo("glDrawVkImageNV", [S295])), to: Swift.type(of: glDrawVkImageNV_P))
     glDrawVkImageNV_P(vkImage, sampler, x0, y0, x1, y1, z, s0, t0, s1, t1)
 }
 func glEGLImageTargetRenderbufferStorageOES_L(_ target:GLenum, _ image:GLeglImageOES) {
-    glEGLImageTargetRenderbufferStorageOES_P = unsafeBitCast(getAddress(CommandInfo("glEGLImageTargetRenderbufferStorageOES", [S344])), to: Swift.type(of: glEGLImageTargetRenderbufferStorageOES_P))
+    glEGLImageTargetRenderbufferStorageOES_P = unsafeBitCast(getAddress(CommandInfo("glEGLImageTargetRenderbufferStorageOES", [S347])), to: Swift.type(of: glEGLImageTargetRenderbufferStorageOES_P))
     glEGLImageTargetRenderbufferStorageOES_P(target, image)
 }
 func glEGLImageTargetTexStorageEXT_L(_ target:GLenum, _ image:GLeglImageOES, _ attrib_list:UnsafePointer<GLint>?) {
@@ -2868,7 +2887,7 @@ func glEGLImageTargetTexStorageEXT_L(_ target:GLenum, _ image:GLeglImageOES, _ a
     glEGLImageTargetTexStorageEXT_P(target, image, attrib_list)
 }
 func glEGLImageTargetTexture2DOES_L(_ target:GLenum, _ image:GLeglImageOES) {
-    glEGLImageTargetTexture2DOES_P = unsafeBitCast(getAddress(CommandInfo("glEGLImageTargetTexture2DOES", [S344])), to: Swift.type(of: glEGLImageTargetTexture2DOES_P))
+    glEGLImageTargetTexture2DOES_P = unsafeBitCast(getAddress(CommandInfo("glEGLImageTargetTexture2DOES", [S347])), to: Swift.type(of: glEGLImageTargetTexture2DOES_P))
     glEGLImageTargetTexture2DOES_P(target, image)
 }
 func glEGLImageTargetTextureStorageEXT_L(_ texture:GLuint, _ image:GLeglImageOES, _ attrib_list:UnsafePointer<GLint>?) {
@@ -2880,7 +2899,7 @@ func glEdgeFlag_L(_ flag:GLboolean) {
     glEdgeFlag_P(flag)
 }
 func glEdgeFlagFormatNV_L(_ stride:GLsizei) {
-    glEdgeFlagFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glEdgeFlagFormatNV", [S338])), to: Swift.type(of: glEdgeFlagFormatNV_P))
+    glEdgeFlagFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glEdgeFlagFormatNV", [S341])), to: Swift.type(of: glEdgeFlagFormatNV_P))
     glEdgeFlagFormatNV_P(stride)
 }
 func glEdgeFlagPointer_L(_ stride:GLsizei, _ pointer:UnsafeRawPointer?) {
@@ -2924,7 +2943,7 @@ func glEnableClientStateiEXT_L(_ array:GLenum, _ index:GLuint) {
     glEnableClientStateiEXT_P(array, index)
 }
 func glEnableDriverControlQCOM_L(_ driverControl:GLuint) {
-    glEnableDriverControlQCOM_P = unsafeBitCast(getAddress(CommandInfo("glEnableDriverControlQCOM", [S377])), to: Swift.type(of: glEnableDriverControlQCOM_P))
+    glEnableDriverControlQCOM_P = unsafeBitCast(getAddress(CommandInfo("glEnableDriverControlQCOM", [S380])), to: Swift.type(of: glEnableDriverControlQCOM_P))
     glEnableDriverControlQCOM_P(driverControl)
 }
 func glEnableIndexedEXT_L(_ target:GLenum, _ index:GLuint) {
@@ -2968,11 +2987,11 @@ func glEnableiEXT_L(_ target:GLenum, _ index:GLuint) {
     glEnableiEXT_P(target, index)
 }
 func glEnableiNV_L(_ target:GLenum, _ index:GLuint) {
-    glEnableiNV_P = unsafeBitCast(getAddress(CommandInfo("glEnableiNV", [S342])), to: Swift.type(of: glEnableiNV_P))
+    glEnableiNV_P = unsafeBitCast(getAddress(CommandInfo("glEnableiNV", [S345])), to: Swift.type(of: glEnableiNV_P))
     glEnableiNV_P(target, index)
 }
 func glEnableiOES_L(_ target:GLenum, _ index:GLuint) {
-    glEnableiOES_P = unsafeBitCast(getAddress(CommandInfo("glEnableiOES", [S350, S372])), to: Swift.type(of: glEnableiOES_P))
+    glEnableiOES_P = unsafeBitCast(getAddress(CommandInfo("glEnableiOES", [S353, S375])), to: Swift.type(of: glEnableiOES_P))
     glEnableiOES_P(target, index)
 }
 func glEnd_L() {
@@ -2984,11 +3003,11 @@ func glEndConditionalRender_L() {
     glEndConditionalRender_P()
 }
 func glEndConditionalRenderNV_L() {
-    glEndConditionalRenderNV_P = unsafeBitCast(getAddress(CommandInfo("glEndConditionalRenderNV", [S281])), to: Swift.type(of: glEndConditionalRenderNV_P))
+    glEndConditionalRenderNV_P = unsafeBitCast(getAddress(CommandInfo("glEndConditionalRenderNV", [S284])), to: Swift.type(of: glEndConditionalRenderNV_P))
     glEndConditionalRenderNV_P()
 }
 func glEndConditionalRenderNVX_L() {
-    glEndConditionalRenderNVX_P = unsafeBitCast(getAddress(CommandInfo("glEndConditionalRenderNVX", [S272])), to: Swift.type(of: glEndConditionalRenderNVX_P))
+    glEndConditionalRenderNVX_P = unsafeBitCast(getAddress(CommandInfo("glEndConditionalRenderNVX", [S273])), to: Swift.type(of: glEndConditionalRenderNVX_P))
     glEndConditionalRenderNVX_P()
 }
 func glEndFragmentShaderATI_L() {
@@ -3000,7 +3019,7 @@ func glEndList_L() {
     glEndList_P()
 }
 func glEndOcclusionQueryNV_L() {
-    glEndOcclusionQueryNV_P = unsafeBitCast(getAddress(CommandInfo("glEndOcclusionQueryNV", [S313])), to: Swift.type(of: glEndOcclusionQueryNV_P))
+    glEndOcclusionQueryNV_P = unsafeBitCast(getAddress(CommandInfo("glEndOcclusionQueryNV", [S316])), to: Swift.type(of: glEndOcclusionQueryNV_P))
     glEndOcclusionQueryNV_P()
 }
 func glEndPerfMonitorAMD_L(_ monitor:GLuint) {
@@ -3028,7 +3047,7 @@ func glEndQueryIndexed_L(_ target:GLenum, _ index:GLuint) {
     glEndQueryIndexed_P(target, index)
 }
 func glEndTilingQCOM_L(_ preserveMask:GLbitfield) {
-    glEndTilingQCOM_P = unsafeBitCast(getAddress(CommandInfo("glEndTilingQCOM", [S383])), to: Swift.type(of: glEndTilingQCOM_P))
+    glEndTilingQCOM_P = unsafeBitCast(getAddress(CommandInfo("glEndTilingQCOM", [S386])), to: Swift.type(of: glEndTilingQCOM_P))
     glEndTilingQCOM_P(preserveMask)
 }
 func glEndTransformFeedback_L() {
@@ -3040,7 +3059,7 @@ func glEndTransformFeedbackEXT_L() {
     glEndTransformFeedbackEXT_P()
 }
 func glEndTransformFeedbackNV_L() {
-    glEndTransformFeedbackNV_P = unsafeBitCast(getAddress(CommandInfo("glEndTransformFeedbackNV", [S332])), to: Swift.type(of: glEndTransformFeedbackNV_P))
+    glEndTransformFeedbackNV_P = unsafeBitCast(getAddress(CommandInfo("glEndTransformFeedbackNV", [S335])), to: Swift.type(of: glEndTransformFeedbackNV_P))
     glEndTransformFeedbackNV_P()
 }
 func glEndVertexShaderEXT_L() {
@@ -3048,7 +3067,7 @@ func glEndVertexShaderEXT_L() {
     glEndVertexShaderEXT_P()
 }
 func glEndVideoCaptureNV_L(_ video_capture_slot:GLuint) {
-    glEndVideoCaptureNV_P = unsafeBitCast(getAddress(CommandInfo("glEndVideoCaptureNV", [S341])), to: Swift.type(of: glEndVideoCaptureNV_P))
+    glEndVideoCaptureNV_P = unsafeBitCast(getAddress(CommandInfo("glEndVideoCaptureNV", [S344])), to: Swift.type(of: glEndVideoCaptureNV_P))
     glEndVideoCaptureNV_P(video_capture_slot)
 }
 func glEvalCoord1d_L(_ u:GLdouble) {
@@ -3068,11 +3087,11 @@ func glEvalCoord1fv_L(_ u:UnsafePointer<GLfloat>?) {
     glEvalCoord1fv_P(u)
 }
 func glEvalCoord1xOES_L(_ u:GLfixed) {
-    glEvalCoord1xOES_P = unsafeBitCast(getAddress(CommandInfo("glEvalCoord1xOES", [S353])), to: Swift.type(of: glEvalCoord1xOES_P))
+    glEvalCoord1xOES_P = unsafeBitCast(getAddress(CommandInfo("glEvalCoord1xOES", [S356])), to: Swift.type(of: glEvalCoord1xOES_P))
     glEvalCoord1xOES_P(u)
 }
 func glEvalCoord1xvOES_L(_ coords:UnsafePointer<GLfixed>?) {
-    glEvalCoord1xvOES_P = unsafeBitCast(getAddress(CommandInfo("glEvalCoord1xvOES", [S353])), to: Swift.type(of: glEvalCoord1xvOES_P))
+    glEvalCoord1xvOES_P = unsafeBitCast(getAddress(CommandInfo("glEvalCoord1xvOES", [S356])), to: Swift.type(of: glEvalCoord1xvOES_P))
     glEvalCoord1xvOES_P(coords)
 }
 func glEvalCoord2d_L(_ u:GLdouble, _ v:GLdouble) {
@@ -3092,15 +3111,15 @@ func glEvalCoord2fv_L(_ u:UnsafePointer<GLfloat>?) {
     glEvalCoord2fv_P(u)
 }
 func glEvalCoord2xOES_L(_ u:GLfixed, _ v:GLfixed) {
-    glEvalCoord2xOES_P = unsafeBitCast(getAddress(CommandInfo("glEvalCoord2xOES", [S353])), to: Swift.type(of: glEvalCoord2xOES_P))
+    glEvalCoord2xOES_P = unsafeBitCast(getAddress(CommandInfo("glEvalCoord2xOES", [S356])), to: Swift.type(of: glEvalCoord2xOES_P))
     glEvalCoord2xOES_P(u, v)
 }
 func glEvalCoord2xvOES_L(_ coords:UnsafePointer<GLfixed>?) {
-    glEvalCoord2xvOES_P = unsafeBitCast(getAddress(CommandInfo("glEvalCoord2xvOES", [S353])), to: Swift.type(of: glEvalCoord2xvOES_P))
+    glEvalCoord2xvOES_P = unsafeBitCast(getAddress(CommandInfo("glEvalCoord2xvOES", [S356])), to: Swift.type(of: glEvalCoord2xvOES_P))
     glEvalCoord2xvOES_P(coords)
 }
 func glEvalMapsNV_L(_ target:GLenum, _ mode:GLenum) {
-    glEvalMapsNV_P = unsafeBitCast(getAddress(CommandInfo("glEvalMapsNV", [S293])), to: Swift.type(of: glEvalMapsNV_P))
+    glEvalMapsNV_P = unsafeBitCast(getAddress(CommandInfo("glEvalMapsNV", [S296])), to: Swift.type(of: glEvalMapsNV_P))
     glEvalMapsNV_P(target, mode)
 }
 func glEvalMesh1_L(_ mode:GLenum, _ i1:GLint, _ i2:GLint) {
@@ -3124,55 +3143,55 @@ func glEvaluateDepthValuesARB_L() {
     glEvaluateDepthValuesARB_P()
 }
 func glExecuteProgramNV_L(_ target:GLenum, _ id:GLuint, _ params:UnsafePointer<GLfloat>?) {
-    glExecuteProgramNV_P = unsafeBitCast(getAddress(CommandInfo("glExecuteProgramNV", [S339])), to: Swift.type(of: glExecuteProgramNV_P))
+    glExecuteProgramNV_P = unsafeBitCast(getAddress(CommandInfo("glExecuteProgramNV", [S342])), to: Swift.type(of: glExecuteProgramNV_P))
     glExecuteProgramNV_P(target, id, params)
 }
 func glExtGetBufferPointervQCOM_L(_ target:GLenum, _ params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {
-    glExtGetBufferPointervQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetBufferPointervQCOM", [S378])), to: Swift.type(of: glExtGetBufferPointervQCOM_P))
+    glExtGetBufferPointervQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetBufferPointervQCOM", [S381])), to: Swift.type(of: glExtGetBufferPointervQCOM_P))
     glExtGetBufferPointervQCOM_P(target, params)
 }
 func glExtGetBuffersQCOM_L(_ buffers:UnsafeMutablePointer<GLuint>?, _ maxBuffers:GLint, _ numBuffers:UnsafeMutablePointer<GLint>?) {
-    glExtGetBuffersQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetBuffersQCOM", [S378])), to: Swift.type(of: glExtGetBuffersQCOM_P))
+    glExtGetBuffersQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetBuffersQCOM", [S381])), to: Swift.type(of: glExtGetBuffersQCOM_P))
     glExtGetBuffersQCOM_P(buffers, maxBuffers, numBuffers)
 }
 func glExtGetFramebuffersQCOM_L(_ framebuffers:UnsafeMutablePointer<GLuint>?, _ maxFramebuffers:GLint, _ numFramebuffers:UnsafeMutablePointer<GLint>?) {
-    glExtGetFramebuffersQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetFramebuffersQCOM", [S378])), to: Swift.type(of: glExtGetFramebuffersQCOM_P))
+    glExtGetFramebuffersQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetFramebuffersQCOM", [S381])), to: Swift.type(of: glExtGetFramebuffersQCOM_P))
     glExtGetFramebuffersQCOM_P(framebuffers, maxFramebuffers, numFramebuffers)
 }
 func glExtGetProgramBinarySourceQCOM_L(_ program:GLuint, _ shadertype:GLenum, _ source:UnsafeMutablePointer<GLchar>?, _ length:UnsafeMutablePointer<GLint>?) {
-    glExtGetProgramBinarySourceQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetProgramBinarySourceQCOM", [S379])), to: Swift.type(of: glExtGetProgramBinarySourceQCOM_P))
+    glExtGetProgramBinarySourceQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetProgramBinarySourceQCOM", [S382])), to: Swift.type(of: glExtGetProgramBinarySourceQCOM_P))
     glExtGetProgramBinarySourceQCOM_P(program, shadertype, source, length)
 }
 func glExtGetProgramsQCOM_L(_ programs:UnsafeMutablePointer<GLuint>?, _ maxPrograms:GLint, _ numPrograms:UnsafeMutablePointer<GLint>?) {
-    glExtGetProgramsQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetProgramsQCOM", [S379])), to: Swift.type(of: glExtGetProgramsQCOM_P))
+    glExtGetProgramsQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetProgramsQCOM", [S382])), to: Swift.type(of: glExtGetProgramsQCOM_P))
     glExtGetProgramsQCOM_P(programs, maxPrograms, numPrograms)
 }
 func glExtGetRenderbuffersQCOM_L(_ renderbuffers:UnsafeMutablePointer<GLuint>?, _ maxRenderbuffers:GLint, _ numRenderbuffers:UnsafeMutablePointer<GLint>?) {
-    glExtGetRenderbuffersQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetRenderbuffersQCOM", [S378])), to: Swift.type(of: glExtGetRenderbuffersQCOM_P))
+    glExtGetRenderbuffersQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetRenderbuffersQCOM", [S381])), to: Swift.type(of: glExtGetRenderbuffersQCOM_P))
     glExtGetRenderbuffersQCOM_P(renderbuffers, maxRenderbuffers, numRenderbuffers)
 }
 func glExtGetShadersQCOM_L(_ shaders:UnsafeMutablePointer<GLuint>?, _ maxShaders:GLint, _ numShaders:UnsafeMutablePointer<GLint>?) {
-    glExtGetShadersQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetShadersQCOM", [S379])), to: Swift.type(of: glExtGetShadersQCOM_P))
+    glExtGetShadersQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetShadersQCOM", [S382])), to: Swift.type(of: glExtGetShadersQCOM_P))
     glExtGetShadersQCOM_P(shaders, maxShaders, numShaders)
 }
 func glExtGetTexLevelParameterivQCOM_L(_ texture:GLuint, _ face:GLenum, _ level:GLint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glExtGetTexLevelParameterivQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetTexLevelParameterivQCOM", [S378])), to: Swift.type(of: glExtGetTexLevelParameterivQCOM_P))
+    glExtGetTexLevelParameterivQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetTexLevelParameterivQCOM", [S381])), to: Swift.type(of: glExtGetTexLevelParameterivQCOM_P))
     glExtGetTexLevelParameterivQCOM_P(texture, face, level, pname, params)
 }
 func glExtGetTexSubImageQCOM_L(_ target:GLenum, _ level:GLint, _ xoffset:GLint, _ yoffset:GLint, _ zoffset:GLint, _ width:GLsizei, _ height:GLsizei, _ depth:GLsizei, _ format:GLenum, _ type:GLenum, _ texels:UnsafeMutableRawPointer?) {
-    glExtGetTexSubImageQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetTexSubImageQCOM", [S378])), to: Swift.type(of: glExtGetTexSubImageQCOM_P))
+    glExtGetTexSubImageQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetTexSubImageQCOM", [S381])), to: Swift.type(of: glExtGetTexSubImageQCOM_P))
     glExtGetTexSubImageQCOM_P(target, level, xoffset, yoffset, zoffset, width, height, depth, format, type, texels)
 }
 func glExtGetTexturesQCOM_L(_ textures:UnsafeMutablePointer<GLuint>?, _ maxTextures:GLint, _ numTextures:UnsafeMutablePointer<GLint>?) {
-    glExtGetTexturesQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetTexturesQCOM", [S378])), to: Swift.type(of: glExtGetTexturesQCOM_P))
+    glExtGetTexturesQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtGetTexturesQCOM", [S381])), to: Swift.type(of: glExtGetTexturesQCOM_P))
     glExtGetTexturesQCOM_P(textures, maxTextures, numTextures)
 }
 func glExtIsProgramBinaryQCOM_L(_ program:GLuint) -> GLboolean {
-    glExtIsProgramBinaryQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtIsProgramBinaryQCOM", [S379])), to: Swift.type(of: glExtIsProgramBinaryQCOM_P))
+    glExtIsProgramBinaryQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtIsProgramBinaryQCOM", [S382])), to: Swift.type(of: glExtIsProgramBinaryQCOM_P))
     return glExtIsProgramBinaryQCOM_P(program)
 }
 func glExtTexObjectStateOverrideiQCOM_L(_ target:GLenum, _ pname:GLenum, _ param:GLint) {
-    glExtTexObjectStateOverrideiQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtTexObjectStateOverrideiQCOM", [S378])), to: Swift.type(of: glExtTexObjectStateOverrideiQCOM_P))
+    glExtTexObjectStateOverrideiQCOM_P = unsafeBitCast(getAddress(CommandInfo("glExtTexObjectStateOverrideiQCOM", [S381])), to: Swift.type(of: glExtTexObjectStateOverrideiQCOM_P))
     glExtTexObjectStateOverrideiQCOM_P(target, pname, param)
 }
 func glExtractComponentEXT_L(_ res:GLuint, _ src:GLuint, _ num:GLuint) {
@@ -3184,7 +3203,7 @@ func glFeedbackBuffer_L(_ size:GLsizei, _ type:GLenum, _ buffer:UnsafeMutablePoi
     glFeedbackBuffer_P(size, type, buffer)
 }
 func glFeedbackBufferxOES_L(_ n:GLsizei, _ type:GLenum, _ buffer:UnsafePointer<GLfixed>?) {
-    glFeedbackBufferxOES_P = unsafeBitCast(getAddress(CommandInfo("glFeedbackBufferxOES", [S353])), to: Swift.type(of: glFeedbackBufferxOES_P))
+    glFeedbackBufferxOES_P = unsafeBitCast(getAddress(CommandInfo("glFeedbackBufferxOES", [S356])), to: Swift.type(of: glFeedbackBufferxOES_P))
     glFeedbackBufferxOES_P(n, type, buffer)
 }
 func glFenceSync_L(_ condition:GLenum, _ flags:GLbitfield) -> GLsync {
@@ -3196,7 +3215,7 @@ func glFenceSyncAPPLE_L(_ condition:GLenum, _ flags:GLbitfield) -> GLsync {
     return glFenceSyncAPPLE_P(condition, flags)
 }
 func glFinalCombinerInputNV_L(_ variable:GLenum, _ input:GLenum, _ mapping:GLenum, _ componentUsage:GLenum) {
-    glFinalCombinerInputNV_P = unsafeBitCast(getAddress(CommandInfo("glFinalCombinerInputNV", [S324])), to: Swift.type(of: glFinalCombinerInputNV_P))
+    glFinalCombinerInputNV_P = unsafeBitCast(getAddress(CommandInfo("glFinalCombinerInputNV", [S327])), to: Swift.type(of: glFinalCombinerInputNV_P))
     glFinalCombinerInputNV_P(variable, input, mapping, componentUsage)
 }
 func glFinish_L() {
@@ -3204,7 +3223,7 @@ func glFinish_L() {
     glFinish_P()
 }
 func glFinishAsyncSGIX_L(_ markerp:UnsafeMutablePointer<GLuint>?) -> GLint {
-    glFinishAsyncSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFinishAsyncSGIX", [S393])), to: Swift.type(of: glFinishAsyncSGIX_P))
+    glFinishAsyncSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFinishAsyncSGIX", [S396])), to: Swift.type(of: glFinishAsyncSGIX_P))
     return glFinishAsyncSGIX_P(markerp)
 }
 func glFinishFenceAPPLE_L(_ fence:GLuint) {
@@ -3212,7 +3231,7 @@ func glFinishFenceAPPLE_L(_ fence:GLuint) {
     glFinishFenceAPPLE_P(fence)
 }
 func glFinishFenceNV_L(_ fence:GLuint) {
-    glFinishFenceNV_P = unsafeBitCast(getAddress(CommandInfo("glFinishFenceNV", [S295])), to: Swift.type(of: glFinishFenceNV_P))
+    glFinishFenceNV_P = unsafeBitCast(getAddress(CommandInfo("glFinishFenceNV", [S298])), to: Swift.type(of: glFinishFenceNV_P))
     glFinishFenceNV_P(fence)
 }
 func glFinishObjectAPPLE_L(_ object:GLenum, _ name:GLint) {
@@ -3220,7 +3239,7 @@ func glFinishObjectAPPLE_L(_ object:GLenum, _ name:GLint) {
     glFinishObjectAPPLE_P(object, name)
 }
 func glFinishTextureSUNX_L() {
-    glFinishTextureSUNX_P = unsafeBitCast(getAddress(CommandInfo("glFinishTextureSUNX", [S406])), to: Swift.type(of: glFinishTextureSUNX_P))
+    glFinishTextureSUNX_P = unsafeBitCast(getAddress(CommandInfo("glFinishTextureSUNX", [S409])), to: Swift.type(of: glFinishTextureSUNX_P))
     glFinishTextureSUNX_P()
 }
 func glFlush_L() {
@@ -3248,11 +3267,11 @@ func glFlushMappedNamedBufferRangeEXT_L(_ buffer:GLuint, _ offset:GLintptr, _ le
     glFlushMappedNamedBufferRangeEXT_P(buffer, offset, length)
 }
 func glFlushPixelDataRangeNV_L(_ target:GLenum) {
-    glFlushPixelDataRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glFlushPixelDataRangeNV", [S316])), to: Swift.type(of: glFlushPixelDataRangeNV_P))
+    glFlushPixelDataRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glFlushPixelDataRangeNV", [S319])), to: Swift.type(of: glFlushPixelDataRangeNV_P))
     glFlushPixelDataRangeNV_P(target)
 }
 func glFlushRasterSGIX_L() {
-    glFlushRasterSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFlushRasterSGIX", [S394])), to: Swift.type(of: glFlushRasterSGIX_P))
+    glFlushRasterSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFlushRasterSGIX", [S397])), to: Swift.type(of: glFlushRasterSGIX_P))
     glFlushRasterSGIX_P()
 }
 func glFlushStaticDataIBM_L(_ target:GLenum) {
@@ -3264,11 +3283,11 @@ func glFlushVertexArrayRangeAPPLE_L(_ length:GLsizei, _ pointer:UnsafeMutableRaw
     glFlushVertexArrayRangeAPPLE_P(length, pointer)
 }
 func glFlushVertexArrayRangeNV_L() {
-    glFlushVertexArrayRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glFlushVertexArrayRangeNV", [S336])), to: Swift.type(of: glFlushVertexArrayRangeNV_P))
+    glFlushVertexArrayRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glFlushVertexArrayRangeNV", [S339])), to: Swift.type(of: glFlushVertexArrayRangeNV_P))
     glFlushVertexArrayRangeNV_P()
 }
 func glFogCoordFormatNV_L(_ type:GLenum, _ stride:GLsizei) {
-    glFogCoordFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glFogCoordFormatNV", [S338])), to: Swift.type(of: glFogCoordFormatNV_P))
+    glFogCoordFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glFogCoordFormatNV", [S341])), to: Swift.type(of: glFogCoordFormatNV_P))
     glFogCoordFormatNV_P(type, stride)
 }
 func glFogCoordPointer_L(_ type:GLenum, _ stride:GLsizei, _ pointer:UnsafeRawPointer?) {
@@ -3316,15 +3335,15 @@ func glFogCoordfvEXT_L(_ coord:UnsafePointer<GLfloat>?) {
     glFogCoordfvEXT_P(coord)
 }
 func glFogCoordhNV_L(_ fog:GLhalfNV) {
-    glFogCoordhNV_P = unsafeBitCast(getAddress(CommandInfo("glFogCoordhNV", [S307])), to: Swift.type(of: glFogCoordhNV_P))
+    glFogCoordhNV_P = unsafeBitCast(getAddress(CommandInfo("glFogCoordhNV", [S310])), to: Swift.type(of: glFogCoordhNV_P))
     glFogCoordhNV_P(fog)
 }
 func glFogCoordhvNV_L(_ fog:UnsafePointer<GLhalfNV>?) {
-    glFogCoordhvNV_P = unsafeBitCast(getAddress(CommandInfo("glFogCoordhvNV", [S307])), to: Swift.type(of: glFogCoordhvNV_P))
+    glFogCoordhvNV_P = unsafeBitCast(getAddress(CommandInfo("glFogCoordhvNV", [S310])), to: Swift.type(of: glFogCoordhvNV_P))
     glFogCoordhvNV_P(fog)
 }
 func glFogFuncSGIS_L(_ n:GLsizei, _ points:UnsafePointer<GLfloat>?) {
-    glFogFuncSGIS_P = unsafeBitCast(getAddress(CommandInfo("glFogFuncSGIS", [S385])), to: Swift.type(of: glFogFuncSGIS_P))
+    glFogFuncSGIS_P = unsafeBitCast(getAddress(CommandInfo("glFogFuncSGIS", [S388])), to: Swift.type(of: glFogFuncSGIS_P))
     glFogFuncSGIS_P(n, points)
 }
 func glFogf_L(_ pname:GLenum, _ param:GLfloat) {
@@ -3348,7 +3367,7 @@ func glFogx_L(_ pname:GLenum, _ param:GLfixed) {
     glFogx_P(pname, param)
 }
 func glFogxOES_L(_ pname:GLenum, _ param:GLfixed) {
-    glFogxOES_P = unsafeBitCast(getAddress(CommandInfo("glFogxOES", [S353])), to: Swift.type(of: glFogxOES_P))
+    glFogxOES_P = unsafeBitCast(getAddress(CommandInfo("glFogxOES", [S356])), to: Swift.type(of: glFogxOES_P))
     glFogxOES_P(pname, param)
 }
 func glFogxv_L(_ pname:GLenum, _ param:UnsafePointer<GLfixed>?) {
@@ -3356,63 +3375,63 @@ func glFogxv_L(_ pname:GLenum, _ param:UnsafePointer<GLfixed>?) {
     glFogxv_P(pname, param)
 }
 func glFogxvOES_L(_ pname:GLenum, _ param:UnsafePointer<GLfixed>?) {
-    glFogxvOES_P = unsafeBitCast(getAddress(CommandInfo("glFogxvOES", [S353])), to: Swift.type(of: glFogxvOES_P))
+    glFogxvOES_P = unsafeBitCast(getAddress(CommandInfo("glFogxvOES", [S356])), to: Swift.type(of: glFogxvOES_P))
     glFogxvOES_P(pname, param)
 }
 func glFragmentColorMaterialSGIX_L(_ face:GLenum, _ mode:GLenum) {
-    glFragmentColorMaterialSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentColorMaterialSGIX", [S395])), to: Swift.type(of: glFragmentColorMaterialSGIX_P))
+    glFragmentColorMaterialSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentColorMaterialSGIX", [S398])), to: Swift.type(of: glFragmentColorMaterialSGIX_P))
     glFragmentColorMaterialSGIX_P(face, mode)
 }
 func glFragmentCoverageColorNV_L(_ color:GLuint) {
-    glFragmentCoverageColorNV_P = unsafeBitCast(getAddress(CommandInfo("glFragmentCoverageColorNV", [S296])), to: Swift.type(of: glFragmentCoverageColorNV_P))
+    glFragmentCoverageColorNV_P = unsafeBitCast(getAddress(CommandInfo("glFragmentCoverageColorNV", [S299])), to: Swift.type(of: glFragmentCoverageColorNV_P))
     glFragmentCoverageColorNV_P(color)
 }
 func glFragmentLightModelfSGIX_L(_ pname:GLenum, _ param:GLfloat) {
-    glFragmentLightModelfSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentLightModelfSGIX", [S395])), to: Swift.type(of: glFragmentLightModelfSGIX_P))
+    glFragmentLightModelfSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentLightModelfSGIX", [S398])), to: Swift.type(of: glFragmentLightModelfSGIX_P))
     glFragmentLightModelfSGIX_P(pname, param)
 }
 func glFragmentLightModelfvSGIX_L(_ pname:GLenum, _ params:UnsafePointer<GLfloat>?) {
-    glFragmentLightModelfvSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentLightModelfvSGIX", [S395])), to: Swift.type(of: glFragmentLightModelfvSGIX_P))
+    glFragmentLightModelfvSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentLightModelfvSGIX", [S398])), to: Swift.type(of: glFragmentLightModelfvSGIX_P))
     glFragmentLightModelfvSGIX_P(pname, params)
 }
 func glFragmentLightModeliSGIX_L(_ pname:GLenum, _ param:GLint) {
-    glFragmentLightModeliSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentLightModeliSGIX", [S395])), to: Swift.type(of: glFragmentLightModeliSGIX_P))
+    glFragmentLightModeliSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentLightModeliSGIX", [S398])), to: Swift.type(of: glFragmentLightModeliSGIX_P))
     glFragmentLightModeliSGIX_P(pname, param)
 }
 func glFragmentLightModelivSGIX_L(_ pname:GLenum, _ params:UnsafePointer<GLint>?) {
-    glFragmentLightModelivSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentLightModelivSGIX", [S395])), to: Swift.type(of: glFragmentLightModelivSGIX_P))
+    glFragmentLightModelivSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentLightModelivSGIX", [S398])), to: Swift.type(of: glFragmentLightModelivSGIX_P))
     glFragmentLightModelivSGIX_P(pname, params)
 }
 func glFragmentLightfSGIX_L(_ light:GLenum, _ pname:GLenum, _ param:GLfloat) {
-    glFragmentLightfSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentLightfSGIX", [S395])), to: Swift.type(of: glFragmentLightfSGIX_P))
+    glFragmentLightfSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentLightfSGIX", [S398])), to: Swift.type(of: glFragmentLightfSGIX_P))
     glFragmentLightfSGIX_P(light, pname, param)
 }
 func glFragmentLightfvSGIX_L(_ light:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfloat>?) {
-    glFragmentLightfvSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentLightfvSGIX", [S395])), to: Swift.type(of: glFragmentLightfvSGIX_P))
+    glFragmentLightfvSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentLightfvSGIX", [S398])), to: Swift.type(of: glFragmentLightfvSGIX_P))
     glFragmentLightfvSGIX_P(light, pname, params)
 }
 func glFragmentLightiSGIX_L(_ light:GLenum, _ pname:GLenum, _ param:GLint) {
-    glFragmentLightiSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentLightiSGIX", [S395])), to: Swift.type(of: glFragmentLightiSGIX_P))
+    glFragmentLightiSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentLightiSGIX", [S398])), to: Swift.type(of: glFragmentLightiSGIX_P))
     glFragmentLightiSGIX_P(light, pname, param)
 }
 func glFragmentLightivSGIX_L(_ light:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLint>?) {
-    glFragmentLightivSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentLightivSGIX", [S395])), to: Swift.type(of: glFragmentLightivSGIX_P))
+    glFragmentLightivSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentLightivSGIX", [S398])), to: Swift.type(of: glFragmentLightivSGIX_P))
     glFragmentLightivSGIX_P(light, pname, params)
 }
 func glFragmentMaterialfSGIX_L(_ face:GLenum, _ pname:GLenum, _ param:GLfloat) {
-    glFragmentMaterialfSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentMaterialfSGIX", [S395])), to: Swift.type(of: glFragmentMaterialfSGIX_P))
+    glFragmentMaterialfSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentMaterialfSGIX", [S398])), to: Swift.type(of: glFragmentMaterialfSGIX_P))
     glFragmentMaterialfSGIX_P(face, pname, param)
 }
 func glFragmentMaterialfvSGIX_L(_ face:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfloat>?) {
-    glFragmentMaterialfvSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentMaterialfvSGIX", [S395])), to: Swift.type(of: glFragmentMaterialfvSGIX_P))
+    glFragmentMaterialfvSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentMaterialfvSGIX", [S398])), to: Swift.type(of: glFragmentMaterialfvSGIX_P))
     glFragmentMaterialfvSGIX_P(face, pname, params)
 }
 func glFragmentMaterialiSGIX_L(_ face:GLenum, _ pname:GLenum, _ param:GLint) {
-    glFragmentMaterialiSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentMaterialiSGIX", [S395])), to: Swift.type(of: glFragmentMaterialiSGIX_P))
+    glFragmentMaterialiSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentMaterialiSGIX", [S398])), to: Swift.type(of: glFragmentMaterialiSGIX_P))
     glFragmentMaterialiSGIX_P(face, pname, param)
 }
 func glFragmentMaterialivSGIX_L(_ face:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLint>?) {
-    glFragmentMaterialivSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentMaterialivSGIX", [S395])), to: Swift.type(of: glFragmentMaterialivSGIX_P))
+    glFragmentMaterialivSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFragmentMaterialivSGIX", [S398])), to: Swift.type(of: glFragmentMaterialivSGIX_P))
     glFragmentMaterialivSGIX_P(face, pname, params)
 }
 func glFrameTerminatorGREMEDY_L() {
@@ -3420,7 +3439,7 @@ func glFrameTerminatorGREMEDY_L() {
     glFrameTerminatorGREMEDY_P()
 }
 func glFrameZoomSGIX_L(_ factor:GLint) {
-    glFrameZoomSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFrameZoomSGIX", [S396])), to: Swift.type(of: glFrameZoomSGIX_P))
+    glFrameZoomSGIX_P = unsafeBitCast(getAddress(CommandInfo("glFrameZoomSGIX", [S399])), to: Swift.type(of: glFrameZoomSGIX_P))
     glFrameZoomSGIX_P(factor)
 }
 func glFramebufferDrawBufferEXT_L(_ framebuffer:GLuint, _ mode:GLenum) {
@@ -3436,20 +3455,24 @@ func glFramebufferFetchBarrierEXT_L() {
     glFramebufferFetchBarrierEXT_P()
 }
 func glFramebufferFetchBarrierQCOM_L() {
-    glFramebufferFetchBarrierQCOM_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferFetchBarrierQCOM", [S381])), to: Swift.type(of: glFramebufferFetchBarrierQCOM_P))
+    glFramebufferFetchBarrierQCOM_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferFetchBarrierQCOM", [S384])), to: Swift.type(of: glFramebufferFetchBarrierQCOM_P))
     glFramebufferFetchBarrierQCOM_P()
 }
 func glFramebufferFoveationConfigQCOM_L(_ framebuffer:GLuint, _ numLayers:GLuint, _ focalPointsPerLayer:GLuint, _ requestedFeatures:GLuint, _ providedFeatures:UnsafeMutablePointer<GLuint>?) {
-    glFramebufferFoveationConfigQCOM_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferFoveationConfigQCOM", [S380])), to: Swift.type(of: glFramebufferFoveationConfigQCOM_P))
+    glFramebufferFoveationConfigQCOM_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferFoveationConfigQCOM", [S383])), to: Swift.type(of: glFramebufferFoveationConfigQCOM_P))
     glFramebufferFoveationConfigQCOM_P(framebuffer, numLayers, focalPointsPerLayer, requestedFeatures, providedFeatures)
 }
 func glFramebufferFoveationParametersQCOM_L(_ framebuffer:GLuint, _ layer:GLuint, _ focalPoint:GLuint, _ focalX:GLfloat, _ focalY:GLfloat, _ gainX:GLfloat, _ gainY:GLfloat, _ foveaArea:GLfloat) {
-    glFramebufferFoveationParametersQCOM_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferFoveationParametersQCOM", [S380])), to: Swift.type(of: glFramebufferFoveationParametersQCOM_P))
+    glFramebufferFoveationParametersQCOM_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferFoveationParametersQCOM", [S383])), to: Swift.type(of: glFramebufferFoveationParametersQCOM_P))
     glFramebufferFoveationParametersQCOM_P(framebuffer, layer, focalPoint, focalX, focalY, gainX, gainY, foveaArea)
 }
 func glFramebufferParameteri_L(_ target:GLenum, _ pname:GLenum, _ param:GLint) {
     glFramebufferParameteri_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferParameteri", [S15, S22, S80])), to: Swift.type(of: glFramebufferParameteri_P))
     glFramebufferParameteri_P(target, pname, param)
+}
+func glFramebufferParameteriMESA_L(_ target:GLenum, _ pname:GLenum, _ param:GLint) {
+    glFramebufferParameteriMESA_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferParameteriMESA", [S270])), to: Swift.type(of: glFramebufferParameteriMESA_P))
+    glFramebufferParameteriMESA_P(target, pname, param)
 }
 func glFramebufferPixelLocalStorageSizeEXT_L(_ target:GLuint, _ size:GLsizei) {
     glFramebufferPixelLocalStorageSizeEXT_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferPixelLocalStorageSizeEXT", [S226])), to: Swift.type(of: glFramebufferPixelLocalStorageSizeEXT_P))
@@ -3468,7 +3491,7 @@ func glFramebufferRenderbufferEXT_L(_ target:GLenum, _ attachment:GLenum, _ rend
     glFramebufferRenderbufferEXT_P(target, attachment, renderbuffertarget, renderbuffer)
 }
 func glFramebufferRenderbufferOES_L(_ target:GLenum, _ attachment:GLenum, _ renderbuffertarget:GLenum, _ renderbuffer:GLuint) {
-    glFramebufferRenderbufferOES_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferRenderbufferOES", [S354])), to: Swift.type(of: glFramebufferRenderbufferOES_P))
+    glFramebufferRenderbufferOES_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferRenderbufferOES", [S357])), to: Swift.type(of: glFramebufferRenderbufferOES_P))
     glFramebufferRenderbufferOES_P(target, attachment, renderbuffertarget, renderbuffer)
 }
 func glFramebufferSampleLocationsfvARB_L(_ target:GLenum, _ start:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLfloat>?) {
@@ -3476,7 +3499,7 @@ func glFramebufferSampleLocationsfvARB_L(_ target:GLenum, _ start:GLuint, _ coun
     glFramebufferSampleLocationsfvARB_P(target, start, count, v)
 }
 func glFramebufferSampleLocationsfvNV_L(_ target:GLenum, _ start:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLfloat>?) {
-    glFramebufferSampleLocationsfvNV_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferSampleLocationsfvNV", [S326])), to: Swift.type(of: glFramebufferSampleLocationsfvNV_P))
+    glFramebufferSampleLocationsfvNV_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferSampleLocationsfvNV", [S329])), to: Swift.type(of: glFramebufferSampleLocationsfvNV_P))
     glFramebufferSampleLocationsfvNV_P(target, start, count, v)
 }
 func glFramebufferSamplePositionsfvAMD_L(_ target:GLenum, _ numsamples:GLuint, _ pixelindex:GLuint, _ values:UnsafePointer<GLfloat>?) {
@@ -3516,7 +3539,7 @@ func glFramebufferTexture2DMultisampleIMG_L(_ target:GLenum, _ attachment:GLenum
     glFramebufferTexture2DMultisampleIMG_P(target, attachment, textarget, texture, level, samples)
 }
 func glFramebufferTexture2DOES_L(_ target:GLenum, _ attachment:GLenum, _ textarget:GLenum, _ texture:GLuint, _ level:GLint) {
-    glFramebufferTexture2DOES_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferTexture2DOES", [S354])), to: Swift.type(of: glFramebufferTexture2DOES_P))
+    glFramebufferTexture2DOES_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferTexture2DOES", [S357])), to: Swift.type(of: glFramebufferTexture2DOES_P))
     glFramebufferTexture2DOES_P(target, attachment, textarget, texture, level)
 }
 func glFramebufferTexture3D_L(_ target:GLenum, _ attachment:GLenum, _ textarget:GLenum, _ texture:GLuint, _ level:GLint, _ zoffset:GLint) {
@@ -3528,7 +3551,7 @@ func glFramebufferTexture3DEXT_L(_ target:GLenum, _ attachment:GLenum, _ textarg
     glFramebufferTexture3DEXT_P(target, attachment, textarget, texture, level, zoffset)
 }
 func glFramebufferTexture3DOES_L(_ target:GLenum, _ attachment:GLenum, _ textarget:GLenum, _ texture:GLuint, _ level:GLint, _ zoffset:GLint) {
-    glFramebufferTexture3DOES_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferTexture3DOES", [S365])), to: Swift.type(of: glFramebufferTexture3DOES_P))
+    glFramebufferTexture3DOES_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferTexture3DOES", [S368])), to: Swift.type(of: glFramebufferTexture3DOES_P))
     glFramebufferTexture3DOES_P(target, attachment, textarget, texture, level, zoffset)
 }
 func glFramebufferTextureARB_L(_ target:GLenum, _ attachment:GLenum, _ texture:GLuint, _ level:GLint) {
@@ -3536,7 +3559,7 @@ func glFramebufferTextureARB_L(_ target:GLenum, _ attachment:GLenum, _ texture:G
     glFramebufferTextureARB_P(target, attachment, texture, level)
 }
 func glFramebufferTextureEXT_L(_ target:GLenum, _ attachment:GLenum, _ texture:GLuint, _ level:GLint) {
-    glFramebufferTextureEXT_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferTextureEXT", [S191, S302])), to: Swift.type(of: glFramebufferTextureEXT_P))
+    glFramebufferTextureEXT_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferTextureEXT", [S191, S305])), to: Swift.type(of: glFramebufferTextureEXT_P))
     glFramebufferTextureEXT_P(target, attachment, texture, level)
 }
 func glFramebufferTextureFaceARB_L(_ target:GLenum, _ attachment:GLenum, _ texture:GLuint, _ level:GLint, _ face:GLenum) {
@@ -3544,7 +3567,7 @@ func glFramebufferTextureFaceARB_L(_ target:GLenum, _ attachment:GLenum, _ textu
     glFramebufferTextureFaceARB_P(target, attachment, texture, level, face)
 }
 func glFramebufferTextureFaceEXT_L(_ target:GLenum, _ attachment:GLenum, _ texture:GLuint, _ level:GLint, _ face:GLenum) {
-    glFramebufferTextureFaceEXT_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferTextureFaceEXT", [S302])), to: Swift.type(of: glFramebufferTextureFaceEXT_P))
+    glFramebufferTextureFaceEXT_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferTextureFaceEXT", [S305])), to: Swift.type(of: glFramebufferTextureFaceEXT_P))
     glFramebufferTextureFaceEXT_P(target, attachment, texture, level, face)
 }
 func glFramebufferTextureLayer_L(_ target:GLenum, _ attachment:GLenum, _ texture:GLuint, _ level:GLint, _ layer:GLint) {
@@ -3560,19 +3583,19 @@ func glFramebufferTextureLayerDownsampleIMG_L(_ target:GLenum, _ attachment:GLen
     glFramebufferTextureLayerDownsampleIMG_P(target, attachment, texture, level, layer, xscale, yscale)
 }
 func glFramebufferTextureLayerEXT_L(_ target:GLenum, _ attachment:GLenum, _ texture:GLuint, _ level:GLint, _ layer:GLint) {
-    glFramebufferTextureLayerEXT_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferTextureLayerEXT", [S233, S302])), to: Swift.type(of: glFramebufferTextureLayerEXT_P))
+    glFramebufferTextureLayerEXT_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferTextureLayerEXT", [S233, S305])), to: Swift.type(of: glFramebufferTextureLayerEXT_P))
     glFramebufferTextureLayerEXT_P(target, attachment, texture, level, layer)
 }
 func glFramebufferTextureMultisampleMultiviewOVR_L(_ target:GLenum, _ attachment:GLenum, _ texture:GLuint, _ level:GLint, _ samples:GLsizei, _ baseViewIndex:GLint, _ numViews:GLsizei) {
-    glFramebufferTextureMultisampleMultiviewOVR_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferTextureMultisampleMultiviewOVR", [S374])), to: Swift.type(of: glFramebufferTextureMultisampleMultiviewOVR_P))
+    glFramebufferTextureMultisampleMultiviewOVR_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferTextureMultisampleMultiviewOVR", [S377])), to: Swift.type(of: glFramebufferTextureMultisampleMultiviewOVR_P))
     glFramebufferTextureMultisampleMultiviewOVR_P(target, attachment, texture, level, samples, baseViewIndex, numViews)
 }
 func glFramebufferTextureMultiviewOVR_L(_ target:GLenum, _ attachment:GLenum, _ texture:GLuint, _ level:GLint, _ baseViewIndex:GLint, _ numViews:GLsizei) {
-    glFramebufferTextureMultiviewOVR_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferTextureMultiviewOVR", [S373])), to: Swift.type(of: glFramebufferTextureMultiviewOVR_P))
+    glFramebufferTextureMultiviewOVR_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferTextureMultiviewOVR", [S376])), to: Swift.type(of: glFramebufferTextureMultiviewOVR_P))
     glFramebufferTextureMultiviewOVR_P(target, attachment, texture, level, baseViewIndex, numViews)
 }
 func glFramebufferTextureOES_L(_ target:GLenum, _ attachment:GLenum, _ texture:GLuint, _ level:GLint) {
-    glFramebufferTextureOES_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferTextureOES", [S355])), to: Swift.type(of: glFramebufferTextureOES_P))
+    glFramebufferTextureOES_P = unsafeBitCast(getAddress(CommandInfo("glFramebufferTextureOES", [S358])), to: Swift.type(of: glFramebufferTextureOES_P))
     glFramebufferTextureOES_P(target, attachment, texture, level)
 }
 func glFreeObjectBufferATI_L(_ buffer:GLuint) {
@@ -3592,7 +3615,7 @@ func glFrustumf_L(_ l:GLfloat, _ r:GLfloat, _ b:GLfloat, _ t:GLfloat, _ n:GLfloa
     glFrustumf_P(l, r, b, t, n, f)
 }
 func glFrustumfOES_L(_ l:GLfloat, _ r:GLfloat, _ b:GLfloat, _ t:GLfloat, _ n:GLfloat, _ f:GLfloat) {
-    glFrustumfOES_P = unsafeBitCast(getAddress(CommandInfo("glFrustumfOES", [S363])), to: Swift.type(of: glFrustumfOES_P))
+    glFrustumfOES_P = unsafeBitCast(getAddress(CommandInfo("glFrustumfOES", [S366])), to: Swift.type(of: glFrustumfOES_P))
     glFrustumfOES_P(l, r, b, t, n, f)
 }
 func glFrustumx_L(_ l:GLfixed, _ r:GLfixed, _ b:GLfixed, _ t:GLfixed, _ n:GLfixed, _ f:GLfixed) {
@@ -3600,11 +3623,11 @@ func glFrustumx_L(_ l:GLfixed, _ r:GLfixed, _ b:GLfixed, _ t:GLfixed, _ n:GLfixe
     glFrustumx_P(l, r, b, t, n, f)
 }
 func glFrustumxOES_L(_ l:GLfixed, _ r:GLfixed, _ b:GLfixed, _ t:GLfixed, _ n:GLfixed, _ f:GLfixed) {
-    glFrustumxOES_P = unsafeBitCast(getAddress(CommandInfo("glFrustumxOES", [S353])), to: Swift.type(of: glFrustumxOES_P))
+    glFrustumxOES_P = unsafeBitCast(getAddress(CommandInfo("glFrustumxOES", [S356])), to: Swift.type(of: glFrustumxOES_P))
     glFrustumxOES_P(l, r, b, t, n, f)
 }
 func glGenAsyncMarkersSGIX_L(_ range:GLsizei) -> GLuint {
-    glGenAsyncMarkersSGIX_P = unsafeBitCast(getAddress(CommandInfo("glGenAsyncMarkersSGIX", [S393])), to: Swift.type(of: glGenAsyncMarkersSGIX_P))
+    glGenAsyncMarkersSGIX_P = unsafeBitCast(getAddress(CommandInfo("glGenAsyncMarkersSGIX", [S396])), to: Swift.type(of: glGenAsyncMarkersSGIX_P))
     return glGenAsyncMarkersSGIX_P(range)
 }
 func glGenBuffers_L(_ n:GLsizei, _ buffers:UnsafeMutablePointer<GLuint>?) {
@@ -3620,7 +3643,7 @@ func glGenFencesAPPLE_L(_ n:GLsizei, _ fences:UnsafeMutablePointer<GLuint>?) {
     glGenFencesAPPLE_P(n, fences)
 }
 func glGenFencesNV_L(_ n:GLsizei, _ fences:UnsafeMutablePointer<GLuint>?) {
-    glGenFencesNV_P = unsafeBitCast(getAddress(CommandInfo("glGenFencesNV", [S295])), to: Swift.type(of: glGenFencesNV_P))
+    glGenFencesNV_P = unsafeBitCast(getAddress(CommandInfo("glGenFencesNV", [S298])), to: Swift.type(of: glGenFencesNV_P))
     glGenFencesNV_P(n, fences)
 }
 func glGenFragmentShadersATI_L(_ range:GLuint) -> GLuint {
@@ -3636,7 +3659,7 @@ func glGenFramebuffersEXT_L(_ n:GLsizei, _ framebuffers:UnsafeMutablePointer<GLu
     glGenFramebuffersEXT_P(n, framebuffers)
 }
 func glGenFramebuffersOES_L(_ n:GLsizei, _ framebuffers:UnsafeMutablePointer<GLuint>?) {
-    glGenFramebuffersOES_P = unsafeBitCast(getAddress(CommandInfo("glGenFramebuffersOES", [S354])), to: Swift.type(of: glGenFramebuffersOES_P))
+    glGenFramebuffersOES_P = unsafeBitCast(getAddress(CommandInfo("glGenFramebuffersOES", [S357])), to: Swift.type(of: glGenFramebuffersOES_P))
     glGenFramebuffersOES_P(n, framebuffers)
 }
 func glGenLists_L(_ range:GLsizei) -> GLuint {
@@ -3648,11 +3671,11 @@ func glGenNamesAMD_L(_ identifier:GLenum, _ num:GLuint, _ names:UnsafeMutablePoi
     glGenNamesAMD_P(identifier, num, names)
 }
 func glGenOcclusionQueriesNV_L(_ n:GLsizei, _ ids:UnsafeMutablePointer<GLuint>?) {
-    glGenOcclusionQueriesNV_P = unsafeBitCast(getAddress(CommandInfo("glGenOcclusionQueriesNV", [S313])), to: Swift.type(of: glGenOcclusionQueriesNV_P))
+    glGenOcclusionQueriesNV_P = unsafeBitCast(getAddress(CommandInfo("glGenOcclusionQueriesNV", [S316])), to: Swift.type(of: glGenOcclusionQueriesNV_P))
     glGenOcclusionQueriesNV_P(n, ids)
 }
 func glGenPathsNV_L(_ range:GLsizei) -> GLuint {
-    glGenPathsNV_P = unsafeBitCast(getAddress(CommandInfo("glGenPathsNV", [S315])), to: Swift.type(of: glGenPathsNV_P))
+    glGenPathsNV_P = unsafeBitCast(getAddress(CommandInfo("glGenPathsNV", [S318])), to: Swift.type(of: glGenPathsNV_P))
     return glGenPathsNV_P(range)
 }
 func glGenPerfMonitorsAMD_L(_ n:GLsizei, _ monitors:UnsafeMutablePointer<GLuint>?) {
@@ -3672,7 +3695,7 @@ func glGenProgramsARB_L(_ n:GLsizei, _ programs:UnsafeMutablePointer<GLuint>?) {
     glGenProgramsARB_P(n, programs)
 }
 func glGenProgramsNV_L(_ n:GLsizei, _ programs:UnsafeMutablePointer<GLuint>?) {
-    glGenProgramsNV_P = unsafeBitCast(getAddress(CommandInfo("glGenProgramsNV", [S339])), to: Swift.type(of: glGenProgramsNV_P))
+    glGenProgramsNV_P = unsafeBitCast(getAddress(CommandInfo("glGenProgramsNV", [S342])), to: Swift.type(of: glGenProgramsNV_P))
     glGenProgramsNV_P(n, programs)
 }
 func glGenQueries_L(_ n:GLsizei, _ ids:UnsafeMutablePointer<GLuint>?) {
@@ -3688,7 +3711,7 @@ func glGenQueriesEXT_L(_ n:GLsizei, _ ids:UnsafeMutablePointer<GLuint>?) {
     glGenQueriesEXT_P(n, ids)
 }
 func glGenQueryResourceTagNV_L(_ n:GLsizei, _ tagIds:UnsafeMutablePointer<GLint>?) {
-    glGenQueryResourceTagNV_P = unsafeBitCast(getAddress(CommandInfo("glGenQueryResourceTagNV", [S322])), to: Swift.type(of: glGenQueryResourceTagNV_P))
+    glGenQueryResourceTagNV_P = unsafeBitCast(getAddress(CommandInfo("glGenQueryResourceTagNV", [S325])), to: Swift.type(of: glGenQueryResourceTagNV_P))
     glGenQueryResourceTagNV_P(n, tagIds)
 }
 func glGenRenderbuffers_L(_ n:GLsizei, _ renderbuffers:UnsafeMutablePointer<GLuint>?) {
@@ -3700,7 +3723,7 @@ func glGenRenderbuffersEXT_L(_ n:GLsizei, _ renderbuffers:UnsafeMutablePointer<G
     glGenRenderbuffersEXT_P(n, renderbuffers)
 }
 func glGenRenderbuffersOES_L(_ n:GLsizei, _ renderbuffers:UnsafeMutablePointer<GLuint>?) {
-    glGenRenderbuffersOES_P = unsafeBitCast(getAddress(CommandInfo("glGenRenderbuffersOES", [S354])), to: Swift.type(of: glGenRenderbuffersOES_P))
+    glGenRenderbuffersOES_P = unsafeBitCast(getAddress(CommandInfo("glGenRenderbuffersOES", [S357])), to: Swift.type(of: glGenRenderbuffersOES_P))
     glGenRenderbuffersOES_P(n, renderbuffers)
 }
 func glGenSamplers_L(_ count:GLsizei, _ samplers:UnsafeMutablePointer<GLuint>?) {
@@ -3728,7 +3751,7 @@ func glGenTransformFeedbacks_L(_ n:GLsizei, _ ids:UnsafeMutablePointer<GLuint>?)
     glGenTransformFeedbacks_P(n, ids)
 }
 func glGenTransformFeedbacksNV_L(_ n:GLsizei, _ ids:UnsafeMutablePointer<GLuint>?) {
-    glGenTransformFeedbacksNV_P = unsafeBitCast(getAddress(CommandInfo("glGenTransformFeedbacksNV", [S333])), to: Swift.type(of: glGenTransformFeedbacksNV_P))
+    glGenTransformFeedbacksNV_P = unsafeBitCast(getAddress(CommandInfo("glGenTransformFeedbacksNV", [S336])), to: Swift.type(of: glGenTransformFeedbacksNV_P))
     glGenTransformFeedbacksNV_P(n, ids)
 }
 func glGenVertexArrays_L(_ n:GLsizei, _ arrays:UnsafeMutablePointer<GLuint>?) {
@@ -3740,7 +3763,7 @@ func glGenVertexArraysAPPLE_L(_ n:GLsizei, _ arrays:UnsafeMutablePointer<GLuint>
     glGenVertexArraysAPPLE_P(n, arrays)
 }
 func glGenVertexArraysOES_L(_ n:GLsizei, _ arrays:UnsafeMutablePointer<GLuint>?) {
-    glGenVertexArraysOES_P = unsafeBitCast(getAddress(CommandInfo("glGenVertexArraysOES", [S371])), to: Swift.type(of: glGenVertexArraysOES_P))
+    glGenVertexArraysOES_P = unsafeBitCast(getAddress(CommandInfo("glGenVertexArraysOES", [S374])), to: Swift.type(of: glGenVertexArraysOES_P))
     glGenVertexArraysOES_P(n, arrays)
 }
 func glGenVertexShadersEXT_L(_ range:GLuint) -> GLuint {
@@ -3756,7 +3779,7 @@ func glGenerateMipmapEXT_L(_ target:GLenum) {
     glGenerateMipmapEXT_P(target)
 }
 func glGenerateMipmapOES_L(_ target:GLenum) {
-    glGenerateMipmapOES_P = unsafeBitCast(getAddress(CommandInfo("glGenerateMipmapOES", [S354])), to: Swift.type(of: glGenerateMipmapOES_P))
+    glGenerateMipmapOES_P = unsafeBitCast(getAddress(CommandInfo("glGenerateMipmapOES", [S357])), to: Swift.type(of: glGenerateMipmapOES_P))
     glGenerateMipmapOES_P(target)
 }
 func glGenerateMultiTexMipmapEXT_L(_ texunit:GLenum, _ target:GLenum) {
@@ -3783,13 +3806,13 @@ func glGetActiveAttribARB_L(_ programObj:GLhandleARB, _ index:GLuint, _ maxLengt
     glGetActiveAttribARB_P = unsafeBitCast(getAddress(CommandInfo("glGetActiveAttribARB", [S141])), to: Swift.type(of: glGetActiveAttribARB_P))
     glGetActiveAttribARB_P(programObj, index, maxLength, length, size, type, name)
 }
-func glGetActiveSubroutineName_L(_ program:GLuint, _ shadertype:GLenum, _ index:GLuint, _ bufsize:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ name:UnsafeMutablePointer<GLchar>?) {
+func glGetActiveSubroutineName_L(_ program:GLuint, _ shadertype:GLenum, _ index:GLuint, _ bufSize:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ name:UnsafeMutablePointer<GLchar>?) {
     glGetActiveSubroutineName_P = unsafeBitCast(getAddress(CommandInfo("glGetActiveSubroutineName", [S12, S115])), to: Swift.type(of: glGetActiveSubroutineName_P))
-    glGetActiveSubroutineName_P(program, shadertype, index, bufsize, length, name)
+    glGetActiveSubroutineName_P(program, shadertype, index, bufSize, length, name)
 }
-func glGetActiveSubroutineUniformName_L(_ program:GLuint, _ shadertype:GLenum, _ index:GLuint, _ bufsize:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ name:UnsafeMutablePointer<GLchar>?) {
+func glGetActiveSubroutineUniformName_L(_ program:GLuint, _ shadertype:GLenum, _ index:GLuint, _ bufSize:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ name:UnsafeMutablePointer<GLchar>?) {
     glGetActiveSubroutineUniformName_P = unsafeBitCast(getAddress(CommandInfo("glGetActiveSubroutineUniformName", [S12, S115])), to: Swift.type(of: glGetActiveSubroutineUniformName_P))
-    glGetActiveSubroutineUniformName_P(program, shadertype, index, bufsize, length, name)
+    glGetActiveSubroutineUniformName_P(program, shadertype, index, bufSize, length, name)
 }
 func glGetActiveSubroutineUniformiv_L(_ program:GLuint, _ shadertype:GLenum, _ index:GLuint, _ pname:GLenum, _ values:UnsafeMutablePointer<GLint>?) {
     glGetActiveSubroutineUniformiv_P = unsafeBitCast(getAddress(CommandInfo("glGetActiveSubroutineUniformiv", [S12, S115])), to: Swift.type(of: glGetActiveSubroutineUniformiv_P))
@@ -3820,7 +3843,7 @@ func glGetActiveUniformsiv_L(_ program:GLuint, _ uniformCount:GLsizei, _ uniform
     glGetActiveUniformsiv_P(program, uniformCount, uniformIndices, pname, params)
 }
 func glGetActiveVaryingNV_L(_ program:GLuint, _ index:GLuint, _ bufSize:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ size:UnsafeMutablePointer<GLsizei>?, _ type:UnsafeMutablePointer<GLenum>?, _ name:UnsafeMutablePointer<GLchar>?) {
-    glGetActiveVaryingNV_P = unsafeBitCast(getAddress(CommandInfo("glGetActiveVaryingNV", [S332])), to: Swift.type(of: glGetActiveVaryingNV_P))
+    glGetActiveVaryingNV_P = unsafeBitCast(getAddress(CommandInfo("glGetActiveVaryingNV", [S335])), to: Swift.type(of: glGetActiveVaryingNV_P))
     glGetActiveVaryingNV_P(program, index, bufSize, length, size, type, name)
 }
 func glGetArrayObjectfvATI_L(_ array:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
@@ -3872,7 +3895,7 @@ func glGetBufferParameterivARB_L(_ target:GLenum, _ pname:GLenum, _ params:Unsaf
     glGetBufferParameterivARB_P(target, pname, params)
 }
 func glGetBufferParameterui64vNV_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLuint64EXT>?) {
-    glGetBufferParameterui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetBufferParameterui64vNV", [S328])), to: Swift.type(of: glGetBufferParameterui64vNV_P))
+    glGetBufferParameterui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetBufferParameterui64vNV", [S331])), to: Swift.type(of: glGetBufferParameterui64vNV_P))
     glGetBufferParameterui64vNV_P(target, pname, params)
 }
 func glGetBufferPointerv_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {
@@ -3884,7 +3907,7 @@ func glGetBufferPointervARB_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMu
     glGetBufferPointervARB_P(target, pname, params)
 }
 func glGetBufferPointervOES_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {
-    glGetBufferPointervOES_P = unsafeBitCast(getAddress(CommandInfo("glGetBufferPointervOES", [S357])), to: Swift.type(of: glGetBufferPointervOES_P))
+    glGetBufferPointervOES_P = unsafeBitCast(getAddress(CommandInfo("glGetBufferPointervOES", [S360])), to: Swift.type(of: glGetBufferPointervOES_P))
     glGetBufferPointervOES_P(target, pname, params)
 }
 func glGetBufferSubData_L(_ target:GLenum, _ offset:GLintptr, _ size:GLsizeiptr, _ data:UnsafeMutableRawPointer?) {
@@ -3904,7 +3927,7 @@ func glGetClipPlanef_L(_ plane:GLenum, _ equation:UnsafeMutablePointer<GLfloat>?
     glGetClipPlanef_P(plane, equation)
 }
 func glGetClipPlanefOES_L(_ plane:GLenum, _ equation:UnsafeMutablePointer<GLfloat>?) {
-    glGetClipPlanefOES_P = unsafeBitCast(getAddress(CommandInfo("glGetClipPlanefOES", [S363])), to: Swift.type(of: glGetClipPlanefOES_P))
+    glGetClipPlanefOES_P = unsafeBitCast(getAddress(CommandInfo("glGetClipPlanefOES", [S366])), to: Swift.type(of: glGetClipPlanefOES_P))
     glGetClipPlanefOES_P(plane, equation)
 }
 func glGetClipPlanex_L(_ plane:GLenum, _ equation:UnsafeMutablePointer<GLfixed>?) {
@@ -3912,7 +3935,7 @@ func glGetClipPlanex_L(_ plane:GLenum, _ equation:UnsafeMutablePointer<GLfixed>?
     glGetClipPlanex_P(plane, equation)
 }
 func glGetClipPlanexOES_L(_ plane:GLenum, _ equation:UnsafeMutablePointer<GLfixed>?) {
-    glGetClipPlanexOES_P = unsafeBitCast(getAddress(CommandInfo("glGetClipPlanexOES", [S353])), to: Swift.type(of: glGetClipPlanexOES_P))
+    glGetClipPlanexOES_P = unsafeBitCast(getAddress(CommandInfo("glGetClipPlanexOES", [S356])), to: Swift.type(of: glGetClipPlanexOES_P))
     glGetClipPlanexOES_P(plane, equation)
 }
 func glGetColorTable_L(_ target:GLenum, _ format:GLenum, _ type:GLenum, _ table:UnsafeMutableRawPointer?) {
@@ -3932,7 +3955,7 @@ func glGetColorTableParameterfvEXT_L(_ target:GLenum, _ pname:GLenum, _ params:U
     glGetColorTableParameterfvEXT_P(target, pname, params)
 }
 func glGetColorTableParameterfvSGI_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
-    glGetColorTableParameterfvSGI_P = unsafeBitCast(getAddress(CommandInfo("glGetColorTableParameterfvSGI", [S405])), to: Swift.type(of: glGetColorTableParameterfvSGI_P))
+    glGetColorTableParameterfvSGI_P = unsafeBitCast(getAddress(CommandInfo("glGetColorTableParameterfvSGI", [S408])), to: Swift.type(of: glGetColorTableParameterfvSGI_P))
     glGetColorTableParameterfvSGI_P(target, pname, params)
 }
 func glGetColorTableParameteriv_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
@@ -3944,35 +3967,35 @@ func glGetColorTableParameterivEXT_L(_ target:GLenum, _ pname:GLenum, _ params:U
     glGetColorTableParameterivEXT_P(target, pname, params)
 }
 func glGetColorTableParameterivSGI_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetColorTableParameterivSGI_P = unsafeBitCast(getAddress(CommandInfo("glGetColorTableParameterivSGI", [S405])), to: Swift.type(of: glGetColorTableParameterivSGI_P))
+    glGetColorTableParameterivSGI_P = unsafeBitCast(getAddress(CommandInfo("glGetColorTableParameterivSGI", [S408])), to: Swift.type(of: glGetColorTableParameterivSGI_P))
     glGetColorTableParameterivSGI_P(target, pname, params)
 }
 func glGetColorTableSGI_L(_ target:GLenum, _ format:GLenum, _ type:GLenum, _ table:UnsafeMutableRawPointer?) {
-    glGetColorTableSGI_P = unsafeBitCast(getAddress(CommandInfo("glGetColorTableSGI", [S405])), to: Swift.type(of: glGetColorTableSGI_P))
+    glGetColorTableSGI_P = unsafeBitCast(getAddress(CommandInfo("glGetColorTableSGI", [S408])), to: Swift.type(of: glGetColorTableSGI_P))
     glGetColorTableSGI_P(target, format, type, table)
 }
 func glGetCombinerInputParameterfvNV_L(_ stage:GLenum, _ portion:GLenum, _ variable:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
-    glGetCombinerInputParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetCombinerInputParameterfvNV", [S324])), to: Swift.type(of: glGetCombinerInputParameterfvNV_P))
+    glGetCombinerInputParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetCombinerInputParameterfvNV", [S327])), to: Swift.type(of: glGetCombinerInputParameterfvNV_P))
     glGetCombinerInputParameterfvNV_P(stage, portion, variable, pname, params)
 }
 func glGetCombinerInputParameterivNV_L(_ stage:GLenum, _ portion:GLenum, _ variable:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetCombinerInputParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetCombinerInputParameterivNV", [S324])), to: Swift.type(of: glGetCombinerInputParameterivNV_P))
+    glGetCombinerInputParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetCombinerInputParameterivNV", [S327])), to: Swift.type(of: glGetCombinerInputParameterivNV_P))
     glGetCombinerInputParameterivNV_P(stage, portion, variable, pname, params)
 }
 func glGetCombinerOutputParameterfvNV_L(_ stage:GLenum, _ portion:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
-    glGetCombinerOutputParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetCombinerOutputParameterfvNV", [S324])), to: Swift.type(of: glGetCombinerOutputParameterfvNV_P))
+    glGetCombinerOutputParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetCombinerOutputParameterfvNV", [S327])), to: Swift.type(of: glGetCombinerOutputParameterfvNV_P))
     glGetCombinerOutputParameterfvNV_P(stage, portion, pname, params)
 }
 func glGetCombinerOutputParameterivNV_L(_ stage:GLenum, _ portion:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetCombinerOutputParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetCombinerOutputParameterivNV", [S324])), to: Swift.type(of: glGetCombinerOutputParameterivNV_P))
+    glGetCombinerOutputParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetCombinerOutputParameterivNV", [S327])), to: Swift.type(of: glGetCombinerOutputParameterivNV_P))
     glGetCombinerOutputParameterivNV_P(stage, portion, pname, params)
 }
 func glGetCombinerStageParameterfvNV_L(_ stage:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
-    glGetCombinerStageParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetCombinerStageParameterfvNV", [S325])), to: Swift.type(of: glGetCombinerStageParameterfvNV_P))
+    glGetCombinerStageParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetCombinerStageParameterfvNV", [S328])), to: Swift.type(of: glGetCombinerStageParameterfvNV_P))
     glGetCombinerStageParameterfvNV_P(stage, pname, params)
 }
 func glGetCommandHeaderNV_L(_ tokenID:GLenum, _ size:GLuint) -> GLuint {
-    glGetCommandHeaderNV_P = unsafeBitCast(getAddress(CommandInfo("glGetCommandHeaderNV", [S280])), to: Swift.type(of: glGetCommandHeaderNV_P))
+    glGetCommandHeaderNV_P = unsafeBitCast(getAddress(CommandInfo("glGetCommandHeaderNV", [S283])), to: Swift.type(of: glGetCommandHeaderNV_P))
     return glGetCommandHeaderNV_P(tokenID, size)
 }
 func glGetCompressedMultiTexImageEXT_L(_ texunit:GLenum, _ target:GLenum, _ lod:GLint, _ img:UnsafeMutableRawPointer?) {
@@ -4024,20 +4047,20 @@ func glGetConvolutionParameterivEXT_L(_ target:GLenum, _ pname:GLenum, _ params:
     glGetConvolutionParameterivEXT_P(target, pname, params)
 }
 func glGetConvolutionParameterxvOES_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfixed>?) {
-    glGetConvolutionParameterxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetConvolutionParameterxvOES", [S353])), to: Swift.type(of: glGetConvolutionParameterxvOES_P))
+    glGetConvolutionParameterxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetConvolutionParameterxvOES", [S356])), to: Swift.type(of: glGetConvolutionParameterxvOES_P))
     glGetConvolutionParameterxvOES_P(target, pname, params)
 }
-func glGetCoverageModulationTableNV_L(_ bufsize:GLsizei, _ v:UnsafeMutablePointer<GLfloat>?) {
-    glGetCoverageModulationTableNV_P = unsafeBitCast(getAddress(CommandInfo("glGetCoverageModulationTableNV", [S299])), to: Swift.type(of: glGetCoverageModulationTableNV_P))
-    glGetCoverageModulationTableNV_P(bufsize, v)
+func glGetCoverageModulationTableNV_L(_ bufSize:GLsizei, _ v:UnsafeMutablePointer<GLfloat>?) {
+    glGetCoverageModulationTableNV_P = unsafeBitCast(getAddress(CommandInfo("glGetCoverageModulationTableNV", [S302])), to: Swift.type(of: glGetCoverageModulationTableNV_P))
+    glGetCoverageModulationTableNV_P(bufSize, v)
 }
 func glGetDebugMessageLog_L(_ count:GLuint, _ bufSize:GLsizei, _ sources:UnsafeMutablePointer<GLenum>?, _ types:UnsafeMutablePointer<GLenum>?, _ ids:UnsafeMutablePointer<GLuint>?, _ severities:UnsafeMutablePointer<GLenum>?, _ lengths:UnsafeMutablePointer<GLsizei>?, _ messageLog:UnsafeMutablePointer<GLchar>?) -> GLuint {
     glGetDebugMessageLog_P = unsafeBitCast(getAddress(CommandInfo("glGetDebugMessageLog", [S15, S23, S267])), to: Swift.type(of: glGetDebugMessageLog_P))
     return glGetDebugMessageLog_P(count, bufSize, sources, types, ids, severities, lengths, messageLog)
 }
-func glGetDebugMessageLogAMD_L(_ count:GLuint, _ bufsize:GLsizei, _ categories:UnsafeMutablePointer<GLenum>?, _ severities:UnsafeMutablePointer<GLuint>?, _ ids:UnsafeMutablePointer<GLuint>?, _ lengths:UnsafeMutablePointer<GLsizei>?, _ message:UnsafeMutablePointer<GLchar>?) -> GLuint {
+func glGetDebugMessageLogAMD_L(_ count:GLuint, _ bufSize:GLsizei, _ categories:UnsafeMutablePointer<GLenum>?, _ severities:UnsafeMutablePointer<GLuint>?, _ ids:UnsafeMutablePointer<GLuint>?, _ lengths:UnsafeMutablePointer<GLsizei>?, _ message:UnsafeMutablePointer<GLchar>?) -> GLuint {
     glGetDebugMessageLogAMD_P = unsafeBitCast(getAddress(CommandInfo("glGetDebugMessageLogAMD", [S27])), to: Swift.type(of: glGetDebugMessageLogAMD_P))
-    return glGetDebugMessageLogAMD_P(count, bufsize, categories, severities, ids, lengths, message)
+    return glGetDebugMessageLogAMD_P(count, bufSize, categories, severities, ids, lengths, message)
 }
 func glGetDebugMessageLogARB_L(_ count:GLuint, _ bufSize:GLsizei, _ sources:UnsafeMutablePointer<GLenum>?, _ types:UnsafeMutablePointer<GLenum>?, _ ids:UnsafeMutablePointer<GLuint>?, _ severities:UnsafeMutablePointer<GLenum>?, _ lengths:UnsafeMutablePointer<GLsizei>?, _ messageLog:UnsafeMutablePointer<GLchar>?) -> GLuint {
     glGetDebugMessageLogARB_P = unsafeBitCast(getAddress(CommandInfo("glGetDebugMessageLogARB", [S72])), to: Swift.type(of: glGetDebugMessageLogARB_P))
@@ -4048,7 +4071,7 @@ func glGetDebugMessageLogKHR_L(_ count:GLuint, _ bufSize:GLsizei, _ sources:Unsa
     return glGetDebugMessageLogKHR_P(count, bufSize, sources, types, ids, severities, lengths, messageLog)
 }
 func glGetDetailTexFuncSGIS_L(_ target:GLenum, _ points:UnsafeMutablePointer<GLfloat>?) {
-    glGetDetailTexFuncSGIS_P = unsafeBitCast(getAddress(CommandInfo("glGetDetailTexFuncSGIS", [S384])), to: Swift.type(of: glGetDetailTexFuncSGIS_P))
+    glGetDetailTexFuncSGIS_P = unsafeBitCast(getAddress(CommandInfo("glGetDetailTexFuncSGIS", [S387])), to: Swift.type(of: glGetDetailTexFuncSGIS_P))
     glGetDetailTexFuncSGIS_P(target, points)
 }
 func glGetDoubleIndexedvEXT_L(_ target:GLenum, _ index:GLuint, _ data:UnsafeMutablePointer<GLdouble>?) {
@@ -4068,11 +4091,11 @@ func glGetDoublev_L(_ pname:GLenum, _ data:UnsafeMutablePointer<GLdouble>?) {
     glGetDoublev_P(pname, data)
 }
 func glGetDriverControlStringQCOM_L(_ driverControl:GLuint, _ bufSize:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ driverControlString:UnsafeMutablePointer<GLchar>?) {
-    glGetDriverControlStringQCOM_P = unsafeBitCast(getAddress(CommandInfo("glGetDriverControlStringQCOM", [S377])), to: Swift.type(of: glGetDriverControlStringQCOM_P))
+    glGetDriverControlStringQCOM_P = unsafeBitCast(getAddress(CommandInfo("glGetDriverControlStringQCOM", [S380])), to: Swift.type(of: glGetDriverControlStringQCOM_P))
     glGetDriverControlStringQCOM_P(driverControl, bufSize, length, driverControlString)
 }
 func glGetDriverControlsQCOM_L(_ num:UnsafeMutablePointer<GLint>?, _ size:GLsizei, _ driverControls:UnsafeMutablePointer<GLuint>?) {
-    glGetDriverControlsQCOM_P = unsafeBitCast(getAddress(CommandInfo("glGetDriverControlsQCOM", [S377])), to: Swift.type(of: glGetDriverControlsQCOM_P))
+    glGetDriverControlsQCOM_P = unsafeBitCast(getAddress(CommandInfo("glGetDriverControlsQCOM", [S380])), to: Swift.type(of: glGetDriverControlsQCOM_P))
     glGetDriverControlsQCOM_P(num, size, driverControls)
 }
 func glGetError_L() -> GLenum {
@@ -4080,15 +4103,15 @@ func glGetError_L() -> GLenum {
     return glGetError_P()
 }
 func glGetFenceivNV_L(_ fence:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetFenceivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetFenceivNV", [S295])), to: Swift.type(of: glGetFenceivNV_P))
+    glGetFenceivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetFenceivNV", [S298])), to: Swift.type(of: glGetFenceivNV_P))
     glGetFenceivNV_P(fence, pname, params)
 }
 func glGetFinalCombinerInputParameterfvNV_L(_ variable:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
-    glGetFinalCombinerInputParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetFinalCombinerInputParameterfvNV", [S324])), to: Swift.type(of: glGetFinalCombinerInputParameterfvNV_P))
+    glGetFinalCombinerInputParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetFinalCombinerInputParameterfvNV", [S327])), to: Swift.type(of: glGetFinalCombinerInputParameterfvNV_P))
     glGetFinalCombinerInputParameterfvNV_P(variable, pname, params)
 }
 func glGetFinalCombinerInputParameterivNV_L(_ variable:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetFinalCombinerInputParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetFinalCombinerInputParameterivNV", [S324])), to: Swift.type(of: glGetFinalCombinerInputParameterivNV_P))
+    glGetFinalCombinerInputParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetFinalCombinerInputParameterivNV", [S327])), to: Swift.type(of: glGetFinalCombinerInputParameterivNV_P))
     glGetFinalCombinerInputParameterivNV_P(variable, pname, params)
 }
 func glGetFirstPerfQueryIdINTEL_L(_ queryId:UnsafeMutablePointer<GLuint>?) {
@@ -4100,7 +4123,7 @@ func glGetFixedv_L(_ pname:GLenum, _ params:UnsafeMutablePointer<GLfixed>?) {
     glGetFixedv_P(pname, params)
 }
 func glGetFixedvOES_L(_ pname:GLenum, _ params:UnsafeMutablePointer<GLfixed>?) {
-    glGetFixedvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetFixedvOES", [S353])), to: Swift.type(of: glGetFixedvOES_P))
+    glGetFixedvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetFixedvOES", [S356])), to: Swift.type(of: glGetFixedvOES_P))
     glGetFixedvOES_P(pname, params)
 }
 func glGetFloatIndexedvEXT_L(_ target:GLenum, _ index:GLuint, _ data:UnsafeMutablePointer<GLfloat>?) {
@@ -4116,11 +4139,11 @@ func glGetFloati_vEXT_L(_ pname:GLenum, _ index:GLuint, _ params:UnsafeMutablePo
     glGetFloati_vEXT_P(pname, index, params)
 }
 func glGetFloati_vNV_L(_ target:GLenum, _ index:GLuint, _ data:UnsafeMutablePointer<GLfloat>?) {
-    glGetFloati_vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetFloati_vNV", [S342])), to: Swift.type(of: glGetFloati_vNV_P))
+    glGetFloati_vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetFloati_vNV", [S345])), to: Swift.type(of: glGetFloati_vNV_P))
     glGetFloati_vNV_P(target, index, data)
 }
 func glGetFloati_vOES_L(_ target:GLenum, _ index:GLuint, _ data:UnsafeMutablePointer<GLfloat>?) {
-    glGetFloati_vOES_P = unsafeBitCast(getAddress(CommandInfo("glGetFloati_vOES", [S372])), to: Swift.type(of: glGetFloati_vOES_P))
+    glGetFloati_vOES_P = unsafeBitCast(getAddress(CommandInfo("glGetFloati_vOES", [S375])), to: Swift.type(of: glGetFloati_vOES_P))
     glGetFloati_vOES_P(target, index, data)
 }
 func glGetFloatv_L(_ pname:GLenum, _ data:UnsafeMutablePointer<GLfloat>?) {
@@ -4128,7 +4151,7 @@ func glGetFloatv_L(_ pname:GLenum, _ data:UnsafeMutablePointer<GLfloat>?) {
     glGetFloatv_P(pname, data)
 }
 func glGetFogFuncSGIS_L(_ points:UnsafeMutablePointer<GLfloat>?) {
-    glGetFogFuncSGIS_P = unsafeBitCast(getAddress(CommandInfo("glGetFogFuncSGIS", [S385])), to: Swift.type(of: glGetFogFuncSGIS_P))
+    glGetFogFuncSGIS_P = unsafeBitCast(getAddress(CommandInfo("glGetFogFuncSGIS", [S388])), to: Swift.type(of: glGetFogFuncSGIS_P))
     glGetFogFuncSGIS_P(points)
 }
 func glGetFragDataIndex_L(_ program:GLuint, _ name:UnsafePointer<GLchar>?) -> GLint {
@@ -4148,19 +4171,19 @@ func glGetFragDataLocationEXT_L(_ program:GLuint, _ name:UnsafePointer<GLchar>?)
     return glGetFragDataLocationEXT_P(program, name)
 }
 func glGetFragmentLightfvSGIX_L(_ light:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
-    glGetFragmentLightfvSGIX_P = unsafeBitCast(getAddress(CommandInfo("glGetFragmentLightfvSGIX", [S395])), to: Swift.type(of: glGetFragmentLightfvSGIX_P))
+    glGetFragmentLightfvSGIX_P = unsafeBitCast(getAddress(CommandInfo("glGetFragmentLightfvSGIX", [S398])), to: Swift.type(of: glGetFragmentLightfvSGIX_P))
     glGetFragmentLightfvSGIX_P(light, pname, params)
 }
 func glGetFragmentLightivSGIX_L(_ light:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetFragmentLightivSGIX_P = unsafeBitCast(getAddress(CommandInfo("glGetFragmentLightivSGIX", [S395])), to: Swift.type(of: glGetFragmentLightivSGIX_P))
+    glGetFragmentLightivSGIX_P = unsafeBitCast(getAddress(CommandInfo("glGetFragmentLightivSGIX", [S398])), to: Swift.type(of: glGetFragmentLightivSGIX_P))
     glGetFragmentLightivSGIX_P(light, pname, params)
 }
 func glGetFragmentMaterialfvSGIX_L(_ face:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
-    glGetFragmentMaterialfvSGIX_P = unsafeBitCast(getAddress(CommandInfo("glGetFragmentMaterialfvSGIX", [S395])), to: Swift.type(of: glGetFragmentMaterialfvSGIX_P))
+    glGetFragmentMaterialfvSGIX_P = unsafeBitCast(getAddress(CommandInfo("glGetFragmentMaterialfvSGIX", [S398])), to: Swift.type(of: glGetFragmentMaterialfvSGIX_P))
     glGetFragmentMaterialfvSGIX_P(face, pname, params)
 }
 func glGetFragmentMaterialivSGIX_L(_ face:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetFragmentMaterialivSGIX_P = unsafeBitCast(getAddress(CommandInfo("glGetFragmentMaterialivSGIX", [S395])), to: Swift.type(of: glGetFragmentMaterialivSGIX_P))
+    glGetFragmentMaterialivSGIX_P = unsafeBitCast(getAddress(CommandInfo("glGetFragmentMaterialivSGIX", [S398])), to: Swift.type(of: glGetFragmentMaterialivSGIX_P))
     glGetFragmentMaterialivSGIX_P(face, pname, params)
 }
 func glGetFramebufferAttachmentParameteriv_L(_ target:GLenum, _ attachment:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
@@ -4172,7 +4195,7 @@ func glGetFramebufferAttachmentParameterivEXT_L(_ target:GLenum, _ attachment:GL
     glGetFramebufferAttachmentParameterivEXT_P(target, attachment, pname, params)
 }
 func glGetFramebufferAttachmentParameterivOES_L(_ target:GLenum, _ attachment:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetFramebufferAttachmentParameterivOES_P = unsafeBitCast(getAddress(CommandInfo("glGetFramebufferAttachmentParameterivOES", [S354])), to: Swift.type(of: glGetFramebufferAttachmentParameterivOES_P))
+    glGetFramebufferAttachmentParameterivOES_P = unsafeBitCast(getAddress(CommandInfo("glGetFramebufferAttachmentParameterivOES", [S357])), to: Swift.type(of: glGetFramebufferAttachmentParameterivOES_P))
     glGetFramebufferAttachmentParameterivOES_P(target, attachment, pname, params)
 }
 func glGetFramebufferParameterfvAMD_L(_ target:GLenum, _ pname:GLenum, _ numsamples:GLuint, _ pixelindex:GLuint, _ size:GLsizei, _ values:UnsafeMutablePointer<GLfloat>?) {
@@ -4186,6 +4209,10 @@ func glGetFramebufferParameteriv_L(_ target:GLenum, _ pname:GLenum, _ params:Uns
 func glGetFramebufferParameterivEXT_L(_ framebuffer:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
     glGetFramebufferParameterivEXT_P = unsafeBitCast(getAddress(CommandInfo("glGetFramebufferParameterivEXT", [S176])), to: Swift.type(of: glGetFramebufferParameterivEXT_P))
     glGetFramebufferParameterivEXT_P(framebuffer, pname, params)
+}
+func glGetFramebufferParameterivMESA_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
+    glGetFramebufferParameterivMESA_P = unsafeBitCast(getAddress(CommandInfo("glGetFramebufferParameterivMESA", [S270])), to: Swift.type(of: glGetFramebufferParameterivMESA_P))
+    glGetFramebufferParameterivMESA_P(target, pname, params)
 }
 func glGetFramebufferPixelLocalStorageSizeEXT_L(_ target:GLuint) -> GLsizei {
     glGetFramebufferPixelLocalStorageSizeEXT_P = unsafeBitCast(getAddress(CommandInfo("glGetFramebufferPixelLocalStorageSizeEXT", [S226])), to: Swift.type(of: glGetFramebufferPixelLocalStorageSizeEXT_P))
@@ -4236,7 +4263,7 @@ func glGetHistogramParameterivEXT_L(_ target:GLenum, _ pname:GLenum, _ params:Un
     glGetHistogramParameterivEXT_P(target, pname, params)
 }
 func glGetHistogramParameterxvOES_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfixed>?) {
-    glGetHistogramParameterxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetHistogramParameterxvOES", [S353])), to: Swift.type(of: glGetHistogramParameterxvOES_P))
+    glGetHistogramParameterxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetHistogramParameterxvOES", [S356])), to: Swift.type(of: glGetHistogramParameterxvOES_P))
     glGetHistogramParameterxvOES_P(target, pname, params)
 }
 func glGetImageHandleARB_L(_ texture:GLuint, _ level:GLint, _ layered:GLboolean, _ layer:GLint, _ format:GLenum) -> GLuint64 {
@@ -4244,7 +4271,7 @@ func glGetImageHandleARB_L(_ texture:GLuint, _ level:GLint, _ layered:GLboolean,
     return glGetImageHandleARB_P(texture, level, layered, layer, format)
 }
 func glGetImageHandleNV_L(_ texture:GLuint, _ level:GLint, _ layered:GLboolean, _ layer:GLint, _ format:GLenum) -> GLuint64 {
-    glGetImageHandleNV_P = unsafeBitCast(getAddress(CommandInfo("glGetImageHandleNV", [S277])), to: Swift.type(of: glGetImageHandleNV_P))
+    glGetImageHandleNV_P = unsafeBitCast(getAddress(CommandInfo("glGetImageHandleNV", [S280])), to: Swift.type(of: glGetImageHandleNV_P))
     return glGetImageHandleNV_P(texture, level, layered, layer, format)
 }
 func glGetImageTransformParameterfvHP_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
@@ -4260,7 +4287,7 @@ func glGetInfoLogARB_L(_ obj:GLhandleARB, _ maxLength:GLsizei, _ length:UnsafeMu
     glGetInfoLogARB_P(obj, maxLength, length, infoLog)
 }
 func glGetInstrumentsSGIX_L() -> GLint {
-    glGetInstrumentsSGIX_P = unsafeBitCast(getAddress(CommandInfo("glGetInstrumentsSGIX", [S398])), to: Swift.type(of: glGetInstrumentsSGIX_P))
+    glGetInstrumentsSGIX_P = unsafeBitCast(getAddress(CommandInfo("glGetInstrumentsSGIX", [S401])), to: Swift.type(of: glGetInstrumentsSGIX_P))
     return glGetInstrumentsSGIX_P()
 }
 func glGetInteger64i_v_L(_ target:GLenum, _ index:GLuint, _ data:UnsafeMutablePointer<GLint64>?) {
@@ -4275,6 +4302,10 @@ func glGetInteger64vAPPLE_L(_ pname:GLenum, _ params:UnsafeMutablePointer<GLint6
     glGetInteger64vAPPLE_P = unsafeBitCast(getAddress(CommandInfo("glGetInteger64vAPPLE", [S51])), to: Swift.type(of: glGetInteger64vAPPLE_P))
     glGetInteger64vAPPLE_P(pname, params)
 }
+func glGetInteger64vEXT_L(_ pname:GLenum, _ data:UnsafeMutablePointer<GLint64>?) {
+    glGetInteger64vEXT_P = unsafeBitCast(getAddress(CommandInfo("glGetInteger64vEXT", [S178])), to: Swift.type(of: glGetInteger64vEXT_P))
+    glGetInteger64vEXT_P(pname, data)
+}
 func glGetIntegerIndexedvEXT_L(_ target:GLenum, _ index:GLuint, _ data:UnsafeMutablePointer<GLint>?) {
     glGetIntegerIndexedvEXT_P = unsafeBitCast(getAddress(CommandInfo("glGetIntegerIndexedvEXT", [S176, S180])), to: Swift.type(of: glGetIntegerIndexedvEXT_P))
     glGetIntegerIndexedvEXT_P(target, index, data)
@@ -4288,28 +4319,28 @@ func glGetIntegeri_vEXT_L(_ target:GLenum, _ index:GLuint, _ data:UnsafeMutableP
     glGetIntegeri_vEXT_P(target, index, data)
 }
 func glGetIntegerui64i_vNV_L(_ value:GLenum, _ index:GLuint, _ result:UnsafeMutablePointer<GLuint64EXT>?) {
-    glGetIntegerui64i_vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetIntegerui64i_vNV", [S338])), to: Swift.type(of: glGetIntegerui64i_vNV_P))
+    glGetIntegerui64i_vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetIntegerui64i_vNV", [S341])), to: Swift.type(of: glGetIntegerui64i_vNV_P))
     glGetIntegerui64i_vNV_P(value, index, result)
 }
 func glGetIntegerui64vNV_L(_ value:GLenum, _ result:UnsafeMutablePointer<GLuint64EXT>?) {
-    glGetIntegerui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetIntegerui64vNV", [S328])), to: Swift.type(of: glGetIntegerui64vNV_P))
+    glGetIntegerui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetIntegerui64vNV", [S331])), to: Swift.type(of: glGetIntegerui64vNV_P))
     glGetIntegerui64vNV_P(value, result)
 }
 func glGetIntegerv_L(_ pname:GLenum, _ data:UnsafeMutablePointer<GLint>?) {
     glGetIntegerv_P = unsafeBitCast(getAddress(CommandInfo("glGetIntegerv", [S0, S19, S24])), to: Swift.type(of: glGetIntegerv_P))
     glGetIntegerv_P(pname, data)
 }
-func glGetInternalformatSampleivNV_L(_ target:GLenum, _ internalformat:GLenum, _ samples:GLsizei, _ pname:GLenum, _ bufSize:GLsizei, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetInternalformatSampleivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetInternalformatSampleivNV", [S309])), to: Swift.type(of: glGetInternalformatSampleivNV_P))
-    glGetInternalformatSampleivNV_P(target, internalformat, samples, pname, bufSize, params)
+func glGetInternalformatSampleivNV_L(_ target:GLenum, _ internalformat:GLenum, _ samples:GLsizei, _ pname:GLenum, _ count:GLsizei, _ params:UnsafeMutablePointer<GLint>?) {
+    glGetInternalformatSampleivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetInternalformatSampleivNV", [S312])), to: Swift.type(of: glGetInternalformatSampleivNV_P))
+    glGetInternalformatSampleivNV_P(target, internalformat, samples, pname, count, params)
 }
-func glGetInternalformati64v_L(_ target:GLenum, _ internalformat:GLenum, _ pname:GLenum, _ bufSize:GLsizei, _ params:UnsafeMutablePointer<GLint64>?) {
+func glGetInternalformati64v_L(_ target:GLenum, _ internalformat:GLenum, _ pname:GLenum, _ count:GLsizei, _ params:UnsafeMutablePointer<GLint64>?) {
     glGetInternalformati64v_P = unsafeBitCast(getAddress(CommandInfo("glGetInternalformati64v", [S15, S92])), to: Swift.type(of: glGetInternalformati64v_P))
-    glGetInternalformati64v_P(target, internalformat, pname, bufSize, params)
+    glGetInternalformati64v_P(target, internalformat, pname, count, params)
 }
-func glGetInternalformativ_L(_ target:GLenum, _ internalformat:GLenum, _ pname:GLenum, _ bufSize:GLsizei, _ params:UnsafeMutablePointer<GLint>?) {
+func glGetInternalformativ_L(_ target:GLenum, _ internalformat:GLenum, _ pname:GLenum, _ count:GLsizei, _ params:UnsafeMutablePointer<GLint>?) {
     glGetInternalformativ_P = unsafeBitCast(getAddress(CommandInfo("glGetInternalformativ", [S14, S21, S91])), to: Swift.type(of: glGetInternalformativ_P))
-    glGetInternalformativ_P(target, internalformat, pname, bufSize, params)
+    glGetInternalformativ_P(target, internalformat, pname, count, params)
 }
 func glGetInvariantBooleanvEXT_L(_ id:GLuint, _ value:GLenum, _ data:UnsafeMutablePointer<GLboolean>?) {
     glGetInvariantBooleanvEXT_P = unsafeBitCast(getAddress(CommandInfo("glGetInvariantBooleanvEXT", [S246])), to: Swift.type(of: glGetInvariantBooleanvEXT_P))
@@ -4332,7 +4363,7 @@ func glGetLightiv_L(_ light:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointe
     glGetLightiv_P(light, pname, params)
 }
 func glGetLightxOES_L(_ light:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfixed>?) {
-    glGetLightxOES_P = unsafeBitCast(getAddress(CommandInfo("glGetLightxOES", [S353])), to: Swift.type(of: glGetLightxOES_P))
+    glGetLightxOES_P = unsafeBitCast(getAddress(CommandInfo("glGetLightxOES", [S356])), to: Swift.type(of: glGetLightxOES_P))
     glGetLightxOES_P(light, pname, params)
 }
 func glGetLightxv_L(_ light:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfixed>?) {
@@ -4340,15 +4371,15 @@ func glGetLightxv_L(_ light:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointe
     glGetLightxv_P(light, pname, params)
 }
 func glGetLightxvOES_L(_ light:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfixed>?) {
-    glGetLightxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetLightxvOES", [S353])), to: Swift.type(of: glGetLightxvOES_P))
+    glGetLightxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetLightxvOES", [S356])), to: Swift.type(of: glGetLightxvOES_P))
     glGetLightxvOES_P(light, pname, params)
 }
 func glGetListParameterfvSGIX_L(_ list:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
-    glGetListParameterfvSGIX_P = unsafeBitCast(getAddress(CommandInfo("glGetListParameterfvSGIX", [S399])), to: Swift.type(of: glGetListParameterfvSGIX_P))
+    glGetListParameterfvSGIX_P = unsafeBitCast(getAddress(CommandInfo("glGetListParameterfvSGIX", [S402])), to: Swift.type(of: glGetListParameterfvSGIX_P))
     glGetListParameterfvSGIX_P(list, pname, params)
 }
 func glGetListParameterivSGIX_L(_ list:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetListParameterivSGIX_P = unsafeBitCast(getAddress(CommandInfo("glGetListParameterivSGIX", [S399])), to: Swift.type(of: glGetListParameterivSGIX_P))
+    glGetListParameterivSGIX_P = unsafeBitCast(getAddress(CommandInfo("glGetListParameterivSGIX", [S402])), to: Swift.type(of: glGetListParameterivSGIX_P))
     glGetListParameterivSGIX_P(list, pname, params)
 }
 func glGetLocalConstantBooleanvEXT_L(_ id:GLuint, _ value:GLenum, _ data:UnsafeMutablePointer<GLboolean>?) {
@@ -4364,23 +4395,23 @@ func glGetLocalConstantIntegervEXT_L(_ id:GLuint, _ value:GLenum, _ data:UnsafeM
     glGetLocalConstantIntegervEXT_P(id, value, data)
 }
 func glGetMapAttribParameterfvNV_L(_ target:GLenum, _ index:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
-    glGetMapAttribParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetMapAttribParameterfvNV", [S293])), to: Swift.type(of: glGetMapAttribParameterfvNV_P))
+    glGetMapAttribParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetMapAttribParameterfvNV", [S296])), to: Swift.type(of: glGetMapAttribParameterfvNV_P))
     glGetMapAttribParameterfvNV_P(target, index, pname, params)
 }
 func glGetMapAttribParameterivNV_L(_ target:GLenum, _ index:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetMapAttribParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetMapAttribParameterivNV", [S293])), to: Swift.type(of: glGetMapAttribParameterivNV_P))
+    glGetMapAttribParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetMapAttribParameterivNV", [S296])), to: Swift.type(of: glGetMapAttribParameterivNV_P))
     glGetMapAttribParameterivNV_P(target, index, pname, params)
 }
 func glGetMapControlPointsNV_L(_ target:GLenum, _ index:GLuint, _ type:GLenum, _ ustride:GLsizei, _ vstride:GLsizei, _ packed:GLboolean, _ points:UnsafeMutableRawPointer?) {
-    glGetMapControlPointsNV_P = unsafeBitCast(getAddress(CommandInfo("glGetMapControlPointsNV", [S293])), to: Swift.type(of: glGetMapControlPointsNV_P))
+    glGetMapControlPointsNV_P = unsafeBitCast(getAddress(CommandInfo("glGetMapControlPointsNV", [S296])), to: Swift.type(of: glGetMapControlPointsNV_P))
     glGetMapControlPointsNV_P(target, index, type, ustride, vstride, packed, points)
 }
 func glGetMapParameterfvNV_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
-    glGetMapParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetMapParameterfvNV", [S293])), to: Swift.type(of: glGetMapParameterfvNV_P))
+    glGetMapParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetMapParameterfvNV", [S296])), to: Swift.type(of: glGetMapParameterfvNV_P))
     glGetMapParameterfvNV_P(target, pname, params)
 }
 func glGetMapParameterivNV_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetMapParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetMapParameterivNV", [S293])), to: Swift.type(of: glGetMapParameterivNV_P))
+    glGetMapParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetMapParameterivNV", [S296])), to: Swift.type(of: glGetMapParameterivNV_P))
     glGetMapParameterivNV_P(target, pname, params)
 }
 func glGetMapdv_L(_ target:GLenum, _ query:GLenum, _ v:UnsafeMutablePointer<GLdouble>?) {
@@ -4396,7 +4427,7 @@ func glGetMapiv_L(_ target:GLenum, _ query:GLenum, _ v:UnsafeMutablePointer<GLin
     glGetMapiv_P(target, query, v)
 }
 func glGetMapxvOES_L(_ target:GLenum, _ query:GLenum, _ v:UnsafeMutablePointer<GLfixed>?) {
-    glGetMapxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetMapxvOES", [S353])), to: Swift.type(of: glGetMapxvOES_P))
+    glGetMapxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetMapxvOES", [S356])), to: Swift.type(of: glGetMapxvOES_P))
     glGetMapxvOES_P(target, query, v)
 }
 func glGetMaterialfv_L(_ face:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
@@ -4408,7 +4439,7 @@ func glGetMaterialiv_L(_ face:GLenum, _ pname:GLenum, _ params:UnsafeMutablePoin
     glGetMaterialiv_P(face, pname, params)
 }
 func glGetMaterialxOES_L(_ face:GLenum, _ pname:GLenum, _ param:GLfixed) {
-    glGetMaterialxOES_P = unsafeBitCast(getAddress(CommandInfo("glGetMaterialxOES", [S353])), to: Swift.type(of: glGetMaterialxOES_P))
+    glGetMaterialxOES_P = unsafeBitCast(getAddress(CommandInfo("glGetMaterialxOES", [S356])), to: Swift.type(of: glGetMaterialxOES_P))
     glGetMaterialxOES_P(face, pname, param)
 }
 func glGetMaterialxv_L(_ face:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfixed>?) {
@@ -4416,11 +4447,11 @@ func glGetMaterialxv_L(_ face:GLenum, _ pname:GLenum, _ params:UnsafeMutablePoin
     glGetMaterialxv_P(face, pname, params)
 }
 func glGetMaterialxvOES_L(_ face:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfixed>?) {
-    glGetMaterialxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetMaterialxvOES", [S353])), to: Swift.type(of: glGetMaterialxvOES_P))
+    glGetMaterialxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetMaterialxvOES", [S356])), to: Swift.type(of: glGetMaterialxvOES_P))
     glGetMaterialxvOES_P(face, pname, params)
 }
 func glGetMemoryObjectDetachedResourcesuivNV_L(_ memory:GLuint, _ pname:GLenum, _ first:GLint, _ count:GLsizei, _ params:UnsafeMutablePointer<GLuint>?) {
-    glGetMemoryObjectDetachedResourcesuivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetMemoryObjectDetachedResourcesuivNV", [S310])), to: Swift.type(of: glGetMemoryObjectDetachedResourcesuivNV_P))
+    glGetMemoryObjectDetachedResourcesuivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetMemoryObjectDetachedResourcesuivNV", [S313])), to: Swift.type(of: glGetMemoryObjectDetachedResourcesuivNV_P))
     glGetMemoryObjectDetachedResourcesuivNV_P(memory, pname, first, count, params)
 }
 func glGetMemoryObjectParameterivEXT_L(_ memoryObject:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
@@ -4504,7 +4535,7 @@ func glGetMultisamplefv_L(_ pname:GLenum, _ index:GLuint, _ val:UnsafeMutablePoi
     glGetMultisamplefv_P(pname, index, val)
 }
 func glGetMultisamplefvNV_L(_ pname:GLenum, _ index:GLuint, _ val:UnsafeMutablePointer<GLfloat>?) {
-    glGetMultisamplefvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetMultisamplefvNV", [S294])), to: Swift.type(of: glGetMultisamplefvNV_P))
+    glGetMultisamplefvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetMultisamplefvNV", [S297])), to: Swift.type(of: glGetMultisamplefvNV_P))
     glGetMultisamplefvNV_P(pname, index, val)
 }
 func glGetNamedBufferParameteri64v_L(_ buffer:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint64>?) {
@@ -4520,7 +4551,7 @@ func glGetNamedBufferParameterivEXT_L(_ buffer:GLuint, _ pname:GLenum, _ params:
     glGetNamedBufferParameterivEXT_P(buffer, pname, params)
 }
 func glGetNamedBufferParameterui64vNV_L(_ buffer:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLuint64EXT>?) {
-    glGetNamedBufferParameterui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetNamedBufferParameterui64vNV", [S328])), to: Swift.type(of: glGetNamedBufferParameterui64vNV_P))
+    glGetNamedBufferParameterui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetNamedBufferParameterui64vNV", [S331])), to: Swift.type(of: glGetNamedBufferParameterui64vNV_P))
     glGetNamedBufferParameterui64vNV_P(buffer, pname, params)
 }
 func glGetNamedBufferPointerv_L(_ buffer:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {
@@ -4644,63 +4675,63 @@ func glGetObjectPtrLabelKHR_L(_ ptr:UnsafeRawPointer?, _ bufSize:GLsizei, _ leng
     glGetObjectPtrLabelKHR_P(ptr, bufSize, length, label)
 }
 func glGetOcclusionQueryivNV_L(_ id:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetOcclusionQueryivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetOcclusionQueryivNV", [S313])), to: Swift.type(of: glGetOcclusionQueryivNV_P))
+    glGetOcclusionQueryivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetOcclusionQueryivNV", [S316])), to: Swift.type(of: glGetOcclusionQueryivNV_P))
     glGetOcclusionQueryivNV_P(id, pname, params)
 }
 func glGetOcclusionQueryuivNV_L(_ id:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLuint>?) {
-    glGetOcclusionQueryuivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetOcclusionQueryuivNV", [S313])), to: Swift.type(of: glGetOcclusionQueryuivNV_P))
+    glGetOcclusionQueryuivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetOcclusionQueryuivNV", [S316])), to: Swift.type(of: glGetOcclusionQueryuivNV_P))
     glGetOcclusionQueryuivNV_P(id, pname, params)
 }
 func glGetPathColorGenfvNV_L(_ color:GLenum, _ pname:GLenum, _ value:UnsafeMutablePointer<GLfloat>?) {
-    glGetPathColorGenfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathColorGenfvNV", [S315])), to: Swift.type(of: glGetPathColorGenfvNV_P))
+    glGetPathColorGenfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathColorGenfvNV", [S318])), to: Swift.type(of: glGetPathColorGenfvNV_P))
     glGetPathColorGenfvNV_P(color, pname, value)
 }
 func glGetPathColorGenivNV_L(_ color:GLenum, _ pname:GLenum, _ value:UnsafeMutablePointer<GLint>?) {
-    glGetPathColorGenivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathColorGenivNV", [S315])), to: Swift.type(of: glGetPathColorGenivNV_P))
+    glGetPathColorGenivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathColorGenivNV", [S318])), to: Swift.type(of: glGetPathColorGenivNV_P))
     glGetPathColorGenivNV_P(color, pname, value)
 }
 func glGetPathCommandsNV_L(_ path:GLuint, _ commands:UnsafeMutablePointer<GLubyte>?) {
-    glGetPathCommandsNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathCommandsNV", [S315])), to: Swift.type(of: glGetPathCommandsNV_P))
+    glGetPathCommandsNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathCommandsNV", [S318])), to: Swift.type(of: glGetPathCommandsNV_P))
     glGetPathCommandsNV_P(path, commands)
 }
 func glGetPathCoordsNV_L(_ path:GLuint, _ coords:UnsafeMutablePointer<GLfloat>?) {
-    glGetPathCoordsNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathCoordsNV", [S315])), to: Swift.type(of: glGetPathCoordsNV_P))
+    glGetPathCoordsNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathCoordsNV", [S318])), to: Swift.type(of: glGetPathCoordsNV_P))
     glGetPathCoordsNV_P(path, coords)
 }
 func glGetPathDashArrayNV_L(_ path:GLuint, _ dashArray:UnsafeMutablePointer<GLfloat>?) {
-    glGetPathDashArrayNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathDashArrayNV", [S315])), to: Swift.type(of: glGetPathDashArrayNV_P))
+    glGetPathDashArrayNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathDashArrayNV", [S318])), to: Swift.type(of: glGetPathDashArrayNV_P))
     glGetPathDashArrayNV_P(path, dashArray)
 }
 func glGetPathLengthNV_L(_ path:GLuint, _ startSegment:GLsizei, _ numSegments:GLsizei) -> GLfloat {
-    glGetPathLengthNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathLengthNV", [S315])), to: Swift.type(of: glGetPathLengthNV_P))
+    glGetPathLengthNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathLengthNV", [S318])), to: Swift.type(of: glGetPathLengthNV_P))
     return glGetPathLengthNV_P(path, startSegment, numSegments)
 }
 func glGetPathMetricRangeNV_L(_ metricQueryMask:GLbitfield, _ firstPathName:GLuint, _ numPaths:GLsizei, _ stride:GLsizei, _ metrics:UnsafeMutablePointer<GLfloat>?) {
-    glGetPathMetricRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathMetricRangeNV", [S315])), to: Swift.type(of: glGetPathMetricRangeNV_P))
+    glGetPathMetricRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathMetricRangeNV", [S318])), to: Swift.type(of: glGetPathMetricRangeNV_P))
     glGetPathMetricRangeNV_P(metricQueryMask, firstPathName, numPaths, stride, metrics)
 }
 func glGetPathMetricsNV_L(_ metricQueryMask:GLbitfield, _ numPaths:GLsizei, _ pathNameType:GLenum, _ paths:UnsafeRawPointer?, _ pathBase:GLuint, _ stride:GLsizei, _ metrics:UnsafeMutablePointer<GLfloat>?) {
-    glGetPathMetricsNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathMetricsNV", [S315])), to: Swift.type(of: glGetPathMetricsNV_P))
+    glGetPathMetricsNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathMetricsNV", [S318])), to: Swift.type(of: glGetPathMetricsNV_P))
     glGetPathMetricsNV_P(metricQueryMask, numPaths, pathNameType, paths, pathBase, stride, metrics)
 }
 func glGetPathParameterfvNV_L(_ path:GLuint, _ pname:GLenum, _ value:UnsafeMutablePointer<GLfloat>?) {
-    glGetPathParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathParameterfvNV", [S315])), to: Swift.type(of: glGetPathParameterfvNV_P))
+    glGetPathParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathParameterfvNV", [S318])), to: Swift.type(of: glGetPathParameterfvNV_P))
     glGetPathParameterfvNV_P(path, pname, value)
 }
 func glGetPathParameterivNV_L(_ path:GLuint, _ pname:GLenum, _ value:UnsafeMutablePointer<GLint>?) {
-    glGetPathParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathParameterivNV", [S315])), to: Swift.type(of: glGetPathParameterivNV_P))
+    glGetPathParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathParameterivNV", [S318])), to: Swift.type(of: glGetPathParameterivNV_P))
     glGetPathParameterivNV_P(path, pname, value)
 }
 func glGetPathSpacingNV_L(_ pathListMode:GLenum, _ numPaths:GLsizei, _ pathNameType:GLenum, _ paths:UnsafeRawPointer?, _ pathBase:GLuint, _ advanceScale:GLfloat, _ kerningScale:GLfloat, _ transformType:GLenum, _ returnedSpacing:UnsafeMutablePointer<GLfloat>?) {
-    glGetPathSpacingNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathSpacingNV", [S315])), to: Swift.type(of: glGetPathSpacingNV_P))
+    glGetPathSpacingNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathSpacingNV", [S318])), to: Swift.type(of: glGetPathSpacingNV_P))
     glGetPathSpacingNV_P(pathListMode, numPaths, pathNameType, paths, pathBase, advanceScale, kerningScale, transformType, returnedSpacing)
 }
 func glGetPathTexGenfvNV_L(_ texCoordSet:GLenum, _ pname:GLenum, _ value:UnsafeMutablePointer<GLfloat>?) {
-    glGetPathTexGenfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathTexGenfvNV", [S315])), to: Swift.type(of: glGetPathTexGenfvNV_P))
+    glGetPathTexGenfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathTexGenfvNV", [S318])), to: Swift.type(of: glGetPathTexGenfvNV_P))
     glGetPathTexGenfvNV_P(texCoordSet, pname, value)
 }
 func glGetPathTexGenivNV_L(_ texCoordSet:GLenum, _ pname:GLenum, _ value:UnsafeMutablePointer<GLint>?) {
-    glGetPathTexGenivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathTexGenivNV", [S315])), to: Swift.type(of: glGetPathTexGenivNV_P))
+    glGetPathTexGenivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetPathTexGenivNV", [S318])), to: Swift.type(of: glGetPathTexGenivNV_P))
     glGetPathTexGenivNV_P(texCoordSet, pname, value)
 }
 func glGetPerfCounterInfoINTEL_L(_ queryId:GLuint, _ counterId:GLuint, _ counterNameLength:GLuint, _ counterName:UnsafeMutablePointer<GLchar>?, _ counterDescLength:GLuint, _ counterDesc:UnsafeMutablePointer<GLchar>?, _ counterOffset:UnsafeMutablePointer<GLuint>?, _ counterDataSize:UnsafeMutablePointer<GLuint>?, _ counterTypeEnum:UnsafeMutablePointer<GLuint>?, _ counterDataTypeEnum:UnsafeMutablePointer<GLuint>?, _ rawCounterMaxValue:UnsafeMutablePointer<GLuint64>?) {
@@ -4756,15 +4787,15 @@ func glGetPixelMapusv_L(_ map:GLenum, _ values:UnsafeMutablePointer<GLushort>?) 
     glGetPixelMapusv_P(map, values)
 }
 func glGetPixelMapxv_L(_ map:GLenum, _ size:GLint, _ values:UnsafeMutablePointer<GLfixed>?) {
-    glGetPixelMapxv_P = unsafeBitCast(getAddress(CommandInfo("glGetPixelMapxv", [S353])), to: Swift.type(of: glGetPixelMapxv_P))
+    glGetPixelMapxv_P = unsafeBitCast(getAddress(CommandInfo("glGetPixelMapxv", [S356])), to: Swift.type(of: glGetPixelMapxv_P))
     glGetPixelMapxv_P(map, size, values)
 }
 func glGetPixelTexGenParameterfvSGIS_L(_ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
-    glGetPixelTexGenParameterfvSGIS_P = unsafeBitCast(getAddress(CommandInfo("glGetPixelTexGenParameterfvSGIS", [S387])), to: Swift.type(of: glGetPixelTexGenParameterfvSGIS_P))
+    glGetPixelTexGenParameterfvSGIS_P = unsafeBitCast(getAddress(CommandInfo("glGetPixelTexGenParameterfvSGIS", [S390])), to: Swift.type(of: glGetPixelTexGenParameterfvSGIS_P))
     glGetPixelTexGenParameterfvSGIS_P(pname, params)
 }
 func glGetPixelTexGenParameterivSGIS_L(_ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetPixelTexGenParameterivSGIS_P = unsafeBitCast(getAddress(CommandInfo("glGetPixelTexGenParameterivSGIS", [S387])), to: Swift.type(of: glGetPixelTexGenParameterivSGIS_P))
+    glGetPixelTexGenParameterivSGIS_P = unsafeBitCast(getAddress(CommandInfo("glGetPixelTexGenParameterivSGIS", [S390])), to: Swift.type(of: glGetPixelTexGenParameterivSGIS_P))
     glGetPixelTexGenParameterivSGIS_P(pname, params)
 }
 func glGetPixelTransformParameterfvEXT_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
@@ -4804,15 +4835,15 @@ func glGetProgramBinary_L(_ program:GLuint, _ bufSize:GLsizei, _ length:UnsafeMu
     glGetProgramBinary_P(program, bufSize, length, binaryFormat, binary)
 }
 func glGetProgramBinaryOES_L(_ program:GLuint, _ bufSize:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ binaryFormat:UnsafeMutablePointer<GLenum>?, _ binary:UnsafeMutableRawPointer?) {
-    glGetProgramBinaryOES_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramBinaryOES", [S356])), to: Swift.type(of: glGetProgramBinaryOES_P))
+    glGetProgramBinaryOES_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramBinaryOES", [S359])), to: Swift.type(of: glGetProgramBinaryOES_P))
     glGetProgramBinaryOES_P(program, bufSize, length, binaryFormat, binary)
 }
 func glGetProgramEnvParameterIivNV_L(_ target:GLenum, _ index:GLuint, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetProgramEnvParameterIivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramEnvParameterIivNV", [S304])), to: Swift.type(of: glGetProgramEnvParameterIivNV_P))
+    glGetProgramEnvParameterIivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramEnvParameterIivNV", [S307])), to: Swift.type(of: glGetProgramEnvParameterIivNV_P))
     glGetProgramEnvParameterIivNV_P(target, index, params)
 }
 func glGetProgramEnvParameterIuivNV_L(_ target:GLenum, _ index:GLuint, _ params:UnsafeMutablePointer<GLuint>?) {
-    glGetProgramEnvParameterIuivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramEnvParameterIuivNV", [S304])), to: Swift.type(of: glGetProgramEnvParameterIuivNV_P))
+    glGetProgramEnvParameterIuivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramEnvParameterIuivNV", [S307])), to: Swift.type(of: glGetProgramEnvParameterIuivNV_P))
     glGetProgramEnvParameterIuivNV_P(target, index, params)
 }
 func glGetProgramEnvParameterdvARB_L(_ target:GLenum, _ index:GLuint, _ params:UnsafeMutablePointer<GLdouble>?) {
@@ -4832,11 +4863,11 @@ func glGetProgramInterfaceiv_L(_ program:GLuint, _ programInterface:GLenum, _ pn
     glGetProgramInterfaceiv_P(program, programInterface, pname, params)
 }
 func glGetProgramLocalParameterIivNV_L(_ target:GLenum, _ index:GLuint, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetProgramLocalParameterIivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramLocalParameterIivNV", [S304])), to: Swift.type(of: glGetProgramLocalParameterIivNV_P))
+    glGetProgramLocalParameterIivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramLocalParameterIivNV", [S307])), to: Swift.type(of: glGetProgramLocalParameterIivNV_P))
     glGetProgramLocalParameterIivNV_P(target, index, params)
 }
 func glGetProgramLocalParameterIuivNV_L(_ target:GLenum, _ index:GLuint, _ params:UnsafeMutablePointer<GLuint>?) {
-    glGetProgramLocalParameterIuivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramLocalParameterIuivNV", [S304])), to: Swift.type(of: glGetProgramLocalParameterIuivNV_P))
+    glGetProgramLocalParameterIuivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramLocalParameterIuivNV", [S307])), to: Swift.type(of: glGetProgramLocalParameterIuivNV_P))
     glGetProgramLocalParameterIuivNV_P(target, index, params)
 }
 func glGetProgramLocalParameterdvARB_L(_ target:GLenum, _ index:GLuint, _ params:UnsafeMutablePointer<GLdouble>?) {
@@ -4848,19 +4879,19 @@ func glGetProgramLocalParameterfvARB_L(_ target:GLenum, _ index:GLuint, _ params
     glGetProgramLocalParameterfvARB_P(target, index, params)
 }
 func glGetProgramNamedParameterdvNV_L(_ id:GLuint, _ len:GLsizei, _ name:UnsafePointer<GLubyte>?, _ params:UnsafeMutablePointer<GLdouble>?) {
-    glGetProgramNamedParameterdvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramNamedParameterdvNV", [S297])), to: Swift.type(of: glGetProgramNamedParameterdvNV_P))
+    glGetProgramNamedParameterdvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramNamedParameterdvNV", [S300])), to: Swift.type(of: glGetProgramNamedParameterdvNV_P))
     glGetProgramNamedParameterdvNV_P(id, len, name, params)
 }
 func glGetProgramNamedParameterfvNV_L(_ id:GLuint, _ len:GLsizei, _ name:UnsafePointer<GLubyte>?, _ params:UnsafeMutablePointer<GLfloat>?) {
-    glGetProgramNamedParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramNamedParameterfvNV", [S297])), to: Swift.type(of: glGetProgramNamedParameterfvNV_P))
+    glGetProgramNamedParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramNamedParameterfvNV", [S300])), to: Swift.type(of: glGetProgramNamedParameterfvNV_P))
     glGetProgramNamedParameterfvNV_P(id, len, name, params)
 }
 func glGetProgramParameterdvNV_L(_ target:GLenum, _ index:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLdouble>?) {
-    glGetProgramParameterdvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramParameterdvNV", [S339])), to: Swift.type(of: glGetProgramParameterdvNV_P))
+    glGetProgramParameterdvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramParameterdvNV", [S342])), to: Swift.type(of: glGetProgramParameterdvNV_P))
     glGetProgramParameterdvNV_P(target, index, pname, params)
 }
 func glGetProgramParameterfvNV_L(_ target:GLenum, _ index:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
-    glGetProgramParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramParameterfvNV", [S339])), to: Swift.type(of: glGetProgramParameterfvNV_P))
+    glGetProgramParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramParameterfvNV", [S342])), to: Swift.type(of: glGetProgramParameterfvNV_P))
     glGetProgramParameterfvNV_P(target, index, pname, params)
 }
 func glGetProgramPipelineInfoLog_L(_ pipeline:GLuint, _ bufSize:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ infoLog:UnsafeMutablePointer<GLchar>?) {
@@ -4899,13 +4930,13 @@ func glGetProgramResourceName_L(_ program:GLuint, _ programInterface:GLenum, _ i
     glGetProgramResourceName_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramResourceName", [S15, S22, S104])), to: Swift.type(of: glGetProgramResourceName_P))
     glGetProgramResourceName_P(program, programInterface, index, bufSize, length, name)
 }
-func glGetProgramResourcefvNV_L(_ program:GLuint, _ programInterface:GLenum, _ index:GLuint, _ propCount:GLsizei, _ props:UnsafePointer<GLenum>?, _ bufSize:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ params:UnsafeMutablePointer<GLfloat>?) {
-    glGetProgramResourcefvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramResourcefvNV", [S315])), to: Swift.type(of: glGetProgramResourcefvNV_P))
-    glGetProgramResourcefvNV_P(program, programInterface, index, propCount, props, bufSize, length, params)
+func glGetProgramResourcefvNV_L(_ program:GLuint, _ programInterface:GLenum, _ index:GLuint, _ propCount:GLsizei, _ props:UnsafePointer<GLenum>?, _ count:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ params:UnsafeMutablePointer<GLfloat>?) {
+    glGetProgramResourcefvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramResourcefvNV", [S318])), to: Swift.type(of: glGetProgramResourcefvNV_P))
+    glGetProgramResourcefvNV_P(program, programInterface, index, propCount, props, count, length, params)
 }
-func glGetProgramResourceiv_L(_ program:GLuint, _ programInterface:GLenum, _ index:GLuint, _ propCount:GLsizei, _ props:UnsafePointer<GLenum>?, _ bufSize:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ params:UnsafeMutablePointer<GLint>?) {
+func glGetProgramResourceiv_L(_ program:GLuint, _ programInterface:GLenum, _ index:GLuint, _ propCount:GLsizei, _ props:UnsafePointer<GLenum>?, _ count:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ params:UnsafeMutablePointer<GLint>?) {
     glGetProgramResourceiv_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramResourceiv", [S15, S22, S104])), to: Swift.type(of: glGetProgramResourceiv_P))
-    glGetProgramResourceiv_P(program, programInterface, index, propCount, props, bufSize, length, params)
+    glGetProgramResourceiv_P(program, programInterface, index, propCount, props, count, length, params)
 }
 func glGetProgramStageiv_L(_ program:GLuint, _ shadertype:GLenum, _ pname:GLenum, _ values:UnsafeMutablePointer<GLint>?) {
     glGetProgramStageiv_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramStageiv", [S12, S115])), to: Swift.type(of: glGetProgramStageiv_P))
@@ -4916,11 +4947,11 @@ func glGetProgramStringARB_L(_ target:GLenum, _ pname:GLenum, _ string:UnsafeMut
     glGetProgramStringARB_P(target, pname, string)
 }
 func glGetProgramStringNV_L(_ id:GLuint, _ pname:GLenum, _ program:UnsafeMutablePointer<GLubyte>?) {
-    glGetProgramStringNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramStringNV", [S339])), to: Swift.type(of: glGetProgramStringNV_P))
+    glGetProgramStringNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramStringNV", [S342])), to: Swift.type(of: glGetProgramStringNV_P))
     glGetProgramStringNV_P(id, pname, program)
 }
 func glGetProgramSubroutineParameteruivNV_L(_ target:GLenum, _ index:GLuint, _ param:UnsafeMutablePointer<GLuint>?) {
-    glGetProgramSubroutineParameteruivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramSubroutineParameteruivNV", [S305])), to: Swift.type(of: glGetProgramSubroutineParameteruivNV_P))
+    glGetProgramSubroutineParameteruivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramSubroutineParameteruivNV", [S308])), to: Swift.type(of: glGetProgramSubroutineParameteruivNV_P))
     glGetProgramSubroutineParameteruivNV_P(target, index, param)
 }
 func glGetProgramiv_L(_ program:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
@@ -4932,7 +4963,7 @@ func glGetProgramivARB_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutable
     glGetProgramivARB_P(target, pname, params)
 }
 func glGetProgramivNV_L(_ id:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetProgramivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramivNV", [S339])), to: Swift.type(of: glGetProgramivNV_P))
+    glGetProgramivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetProgramivNV", [S342])), to: Swift.type(of: glGetProgramivNV_P))
     glGetProgramivNV_P(id, pname, params)
 }
 func glGetQueryBufferObjecti64v_L(_ id:GLuint, _ buffer:GLuint, _ pname:GLenum, _ offset:GLintptr) {
@@ -5016,7 +5047,7 @@ func glGetRenderbufferParameterivEXT_L(_ target:GLenum, _ pname:GLenum, _ params
     glGetRenderbufferParameterivEXT_P(target, pname, params)
 }
 func glGetRenderbufferParameterivOES_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetRenderbufferParameterivOES_P = unsafeBitCast(getAddress(CommandInfo("glGetRenderbufferParameterivOES", [S354])), to: Swift.type(of: glGetRenderbufferParameterivOES_P))
+    glGetRenderbufferParameterivOES_P = unsafeBitCast(getAddress(CommandInfo("glGetRenderbufferParameterivOES", [S357])), to: Swift.type(of: glGetRenderbufferParameterivOES_P))
     glGetRenderbufferParameterivOES_P(target, pname, params)
 }
 func glGetSamplerParameterIiv_L(_ sampler:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
@@ -5028,7 +5059,7 @@ func glGetSamplerParameterIivEXT_L(_ sampler:GLuint, _ pname:GLenum, _ params:Un
     glGetSamplerParameterIivEXT_P(sampler, pname, params)
 }
 func glGetSamplerParameterIivOES_L(_ sampler:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetSamplerParameterIivOES_P = unsafeBitCast(getAddress(CommandInfo("glGetSamplerParameterIivOES", [S366])), to: Swift.type(of: glGetSamplerParameterIivOES_P))
+    glGetSamplerParameterIivOES_P = unsafeBitCast(getAddress(CommandInfo("glGetSamplerParameterIivOES", [S369])), to: Swift.type(of: glGetSamplerParameterIivOES_P))
     glGetSamplerParameterIivOES_P(sampler, pname, params)
 }
 func glGetSamplerParameterIuiv_L(_ sampler:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLuint>?) {
@@ -5040,7 +5071,7 @@ func glGetSamplerParameterIuivEXT_L(_ sampler:GLuint, _ pname:GLenum, _ params:U
     glGetSamplerParameterIuivEXT_P(sampler, pname, params)
 }
 func glGetSamplerParameterIuivOES_L(_ sampler:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLuint>?) {
-    glGetSamplerParameterIuivOES_P = unsafeBitCast(getAddress(CommandInfo("glGetSamplerParameterIuivOES", [S366])), to: Swift.type(of: glGetSamplerParameterIuivOES_P))
+    glGetSamplerParameterIuivOES_P = unsafeBitCast(getAddress(CommandInfo("glGetSamplerParameterIuivOES", [S369])), to: Swift.type(of: glGetSamplerParameterIuivOES_P))
     glGetSamplerParameterIuivOES_P(sampler, pname, params)
 }
 func glGetSamplerParameterfv_L(_ sampler:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
@@ -5084,19 +5115,19 @@ func glGetShaderiv_L(_ shader:GLuint, _ pname:GLenum, _ params:UnsafeMutablePoin
     glGetShaderiv_P(shader, pname, params)
 }
 func glGetShadingRateImagePaletteNV_L(_ viewport:GLuint, _ entry:GLuint, _ rate:UnsafeMutablePointer<GLenum>?) {
-    glGetShadingRateImagePaletteNV_P = unsafeBitCast(getAddress(CommandInfo("glGetShadingRateImagePaletteNV", [S329])), to: Swift.type(of: glGetShadingRateImagePaletteNV_P))
+    glGetShadingRateImagePaletteNV_P = unsafeBitCast(getAddress(CommandInfo("glGetShadingRateImagePaletteNV", [S332])), to: Swift.type(of: glGetShadingRateImagePaletteNV_P))
     glGetShadingRateImagePaletteNV_P(viewport, entry, rate)
 }
 func glGetShadingRateSampleLocationivNV_L(_ rate:GLenum, _ samples:GLuint, _ index:GLuint, _ location:UnsafeMutablePointer<GLint>?) {
-    glGetShadingRateSampleLocationivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetShadingRateSampleLocationivNV", [S329])), to: Swift.type(of: glGetShadingRateSampleLocationivNV_P))
+    glGetShadingRateSampleLocationivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetShadingRateSampleLocationivNV", [S332])), to: Swift.type(of: glGetShadingRateSampleLocationivNV_P))
     glGetShadingRateSampleLocationivNV_P(rate, samples, index, location)
 }
 func glGetSharpenTexFuncSGIS_L(_ target:GLenum, _ points:UnsafeMutablePointer<GLfloat>?) {
-    glGetSharpenTexFuncSGIS_P = unsafeBitCast(getAddress(CommandInfo("glGetSharpenTexFuncSGIS", [S389])), to: Swift.type(of: glGetSharpenTexFuncSGIS_P))
+    glGetSharpenTexFuncSGIS_P = unsafeBitCast(getAddress(CommandInfo("glGetSharpenTexFuncSGIS", [S392])), to: Swift.type(of: glGetSharpenTexFuncSGIS_P))
     glGetSharpenTexFuncSGIS_P(target, points)
 }
 func glGetStageIndexNV_L(_ shadertype:GLenum) -> GLushort {
-    glGetStageIndexNV_P = unsafeBitCast(getAddress(CommandInfo("glGetStageIndexNV", [S280])), to: Swift.type(of: glGetStageIndexNV_P))
+    glGetStageIndexNV_P = unsafeBitCast(getAddress(CommandInfo("glGetStageIndexNV", [S283])), to: Swift.type(of: glGetStageIndexNV_P))
     return glGetStageIndexNV_P(shadertype)
 }
 func glGetString_L(_ name:GLenum) -> UnsafePointer<GLubyte> {
@@ -5115,13 +5146,13 @@ func glGetSubroutineUniformLocation_L(_ program:GLuint, _ shadertype:GLenum, _ n
     glGetSubroutineUniformLocation_P = unsafeBitCast(getAddress(CommandInfo("glGetSubroutineUniformLocation", [S12, S115])), to: Swift.type(of: glGetSubroutineUniformLocation_P))
     return glGetSubroutineUniformLocation_P(program, shadertype, name)
 }
-func glGetSynciv_L(_ sync:GLsync, _ pname:GLenum, _ bufSize:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ values:UnsafeMutablePointer<GLint>?) {
+func glGetSynciv_L(_ sync:GLsync, _ pname:GLenum, _ count:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ values:UnsafeMutablePointer<GLint>?) {
     glGetSynciv_P = unsafeBitCast(getAddress(CommandInfo("glGetSynciv", [S10, S21, S119])), to: Swift.type(of: glGetSynciv_P))
-    glGetSynciv_P(sync, pname, bufSize, length, values)
+    glGetSynciv_P(sync, pname, count, length, values)
 }
-func glGetSyncivAPPLE_L(_ sync:GLsync, _ pname:GLenum, _ bufSize:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ values:UnsafeMutablePointer<GLint>?) {
+func glGetSyncivAPPLE_L(_ sync:GLsync, _ pname:GLenum, _ count:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ values:UnsafeMutablePointer<GLint>?) {
     glGetSyncivAPPLE_P = unsafeBitCast(getAddress(CommandInfo("glGetSyncivAPPLE", [S51])), to: Swift.type(of: glGetSyncivAPPLE_P))
-    glGetSyncivAPPLE_P(sync, pname, bufSize, length, values)
+    glGetSyncivAPPLE_P(sync, pname, count, length, values)
 }
 func glGetTexBumpParameterfvATI_L(_ pname:GLenum, _ param:UnsafeMutablePointer<GLfloat>?) {
     glGetTexBumpParameterfvATI_P = unsafeBitCast(getAddress(CommandInfo("glGetTexBumpParameterfvATI", [S147])), to: Swift.type(of: glGetTexBumpParameterfvATI_P))
@@ -5144,11 +5175,11 @@ func glGetTexEnvxv_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePoin
     glGetTexEnvxv_P(target, pname, params)
 }
 func glGetTexEnvxvOES_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfixed>?) {
-    glGetTexEnvxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetTexEnvxvOES", [S353])), to: Swift.type(of: glGetTexEnvxvOES_P))
+    glGetTexEnvxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetTexEnvxvOES", [S356])), to: Swift.type(of: glGetTexEnvxvOES_P))
     glGetTexEnvxvOES_P(target, pname, params)
 }
 func glGetTexFilterFuncSGIS_L(_ target:GLenum, _ filter:GLenum, _ weights:UnsafeMutablePointer<GLfloat>?) {
-    glGetTexFilterFuncSGIS_P = unsafeBitCast(getAddress(CommandInfo("glGetTexFilterFuncSGIS", [S392])), to: Swift.type(of: glGetTexFilterFuncSGIS_P))
+    glGetTexFilterFuncSGIS_P = unsafeBitCast(getAddress(CommandInfo("glGetTexFilterFuncSGIS", [S395])), to: Swift.type(of: glGetTexFilterFuncSGIS_P))
     glGetTexFilterFuncSGIS_P(target, filter, weights)
 }
 func glGetTexGendv_L(_ coord:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLdouble>?) {
@@ -5160,7 +5191,7 @@ func glGetTexGenfv_L(_ coord:GLenum, _ pname:GLenum, _ params:UnsafeMutablePoint
     glGetTexGenfv_P(coord, pname, params)
 }
 func glGetTexGenfvOES_L(_ coord:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
-    glGetTexGenfvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetTexGenfvOES", [S368])), to: Swift.type(of: glGetTexGenfvOES_P))
+    glGetTexGenfvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetTexGenfvOES", [S371])), to: Swift.type(of: glGetTexGenfvOES_P))
     glGetTexGenfvOES_P(coord, pname, params)
 }
 func glGetTexGeniv_L(_ coord:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
@@ -5168,11 +5199,11 @@ func glGetTexGeniv_L(_ coord:GLenum, _ pname:GLenum, _ params:UnsafeMutablePoint
     glGetTexGeniv_P(coord, pname, params)
 }
 func glGetTexGenivOES_L(_ coord:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetTexGenivOES_P = unsafeBitCast(getAddress(CommandInfo("glGetTexGenivOES", [S368])), to: Swift.type(of: glGetTexGenivOES_P))
+    glGetTexGenivOES_P = unsafeBitCast(getAddress(CommandInfo("glGetTexGenivOES", [S371])), to: Swift.type(of: glGetTexGenivOES_P))
     glGetTexGenivOES_P(coord, pname, params)
 }
 func glGetTexGenxvOES_L(_ coord:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfixed>?) {
-    glGetTexGenxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetTexGenxvOES", [S353, S368])), to: Swift.type(of: glGetTexGenxvOES_P))
+    glGetTexGenxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetTexGenxvOES", [S356, S371])), to: Swift.type(of: glGetTexGenxvOES_P))
     glGetTexGenxvOES_P(coord, pname, params)
 }
 func glGetTexImage_L(_ target:GLenum, _ level:GLint, _ format:GLenum, _ type:GLenum, _ pixels:UnsafeMutableRawPointer?) {
@@ -5188,7 +5219,7 @@ func glGetTexLevelParameteriv_L(_ target:GLenum, _ level:GLint, _ pname:GLenum, 
     glGetTexLevelParameteriv_P(target, level, pname, params)
 }
 func glGetTexLevelParameterxvOES_L(_ target:GLenum, _ level:GLint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfixed>?) {
-    glGetTexLevelParameterxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetTexLevelParameterxvOES", [S353])), to: Swift.type(of: glGetTexLevelParameterxvOES_P))
+    glGetTexLevelParameterxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetTexLevelParameterxvOES", [S356])), to: Swift.type(of: glGetTexLevelParameterxvOES_P))
     glGetTexLevelParameterxvOES_P(target, level, pname, params)
 }
 func glGetTexParameterIiv_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
@@ -5200,7 +5231,7 @@ func glGetTexParameterIivEXT_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeM
     glGetTexParameterIivEXT_P(target, pname, params)
 }
 func glGetTexParameterIivOES_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetTexParameterIivOES_P = unsafeBitCast(getAddress(CommandInfo("glGetTexParameterIivOES", [S366])), to: Swift.type(of: glGetTexParameterIivOES_P))
+    glGetTexParameterIivOES_P = unsafeBitCast(getAddress(CommandInfo("glGetTexParameterIivOES", [S369])), to: Swift.type(of: glGetTexParameterIivOES_P))
     glGetTexParameterIivOES_P(target, pname, params)
 }
 func glGetTexParameterIuiv_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLuint>?) {
@@ -5212,7 +5243,7 @@ func glGetTexParameterIuivEXT_L(_ target:GLenum, _ pname:GLenum, _ params:Unsafe
     glGetTexParameterIuivEXT_P(target, pname, params)
 }
 func glGetTexParameterIuivOES_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLuint>?) {
-    glGetTexParameterIuivOES_P = unsafeBitCast(getAddress(CommandInfo("glGetTexParameterIuivOES", [S366])), to: Swift.type(of: glGetTexParameterIuivOES_P))
+    glGetTexParameterIuivOES_P = unsafeBitCast(getAddress(CommandInfo("glGetTexParameterIuivOES", [S369])), to: Swift.type(of: glGetTexParameterIuivOES_P))
     glGetTexParameterIuivOES_P(target, pname, params)
 }
 func glGetTexParameterPointervAPPLE_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {
@@ -5232,7 +5263,7 @@ func glGetTexParameterxv_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutab
     glGetTexParameterxv_P(target, pname, params)
 }
 func glGetTexParameterxvOES_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfixed>?) {
-    glGetTexParameterxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetTexParameterxvOES", [S353])), to: Swift.type(of: glGetTexParameterxvOES_P))
+    glGetTexParameterxvOES_P = unsafeBitCast(getAddress(CommandInfo("glGetTexParameterxvOES", [S356])), to: Swift.type(of: glGetTexParameterxvOES_P))
     glGetTexParameterxvOES_P(target, pname, params)
 }
 func glGetTextureHandleARB_L(_ texture:GLuint) -> GLuint64 {
@@ -5244,7 +5275,7 @@ func glGetTextureHandleIMG_L(_ texture:GLuint) -> GLuint64 {
     return glGetTextureHandleIMG_P(texture)
 }
 func glGetTextureHandleNV_L(_ texture:GLuint) -> GLuint64 {
-    glGetTextureHandleNV_P = unsafeBitCast(getAddress(CommandInfo("glGetTextureHandleNV", [S277])), to: Swift.type(of: glGetTextureHandleNV_P))
+    glGetTextureHandleNV_P = unsafeBitCast(getAddress(CommandInfo("glGetTextureHandleNV", [S280])), to: Swift.type(of: glGetTextureHandleNV_P))
     return glGetTextureHandleNV_P(texture)
 }
 func glGetTextureImage_L(_ texture:GLuint, _ level:GLint, _ format:GLenum, _ type:GLenum, _ bufSize:GLsizei, _ pixels:UnsafeMutableRawPointer?) {
@@ -5312,7 +5343,7 @@ func glGetTextureSamplerHandleIMG_L(_ texture:GLuint, _ sampler:GLuint) -> GLuin
     return glGetTextureSamplerHandleIMG_P(texture, sampler)
 }
 func glGetTextureSamplerHandleNV_L(_ texture:GLuint, _ sampler:GLuint) -> GLuint64 {
-    glGetTextureSamplerHandleNV_P = unsafeBitCast(getAddress(CommandInfo("glGetTextureSamplerHandleNV", [S277])), to: Swift.type(of: glGetTextureSamplerHandleNV_P))
+    glGetTextureSamplerHandleNV_P = unsafeBitCast(getAddress(CommandInfo("glGetTextureSamplerHandleNV", [S280])), to: Swift.type(of: glGetTextureSamplerHandleNV_P))
     return glGetTextureSamplerHandleNV_P(texture, sampler)
 }
 func glGetTextureSubImage_L(_ texture:GLuint, _ level:GLint, _ xoffset:GLint, _ yoffset:GLint, _ zoffset:GLint, _ width:GLsizei, _ height:GLsizei, _ depth:GLsizei, _ format:GLenum, _ type:GLenum, _ bufSize:GLsizei, _ pixels:UnsafeMutableRawPointer?) {
@@ -5320,7 +5351,7 @@ func glGetTextureSubImage_L(_ texture:GLuint, _ level:GLint, _ xoffset:GLint, _ 
     glGetTextureSubImage_P(texture, level, xoffset, yoffset, zoffset, width, height, depth, format, type, bufSize, pixels)
 }
 func glGetTrackMatrixivNV_L(_ target:GLenum, _ address:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetTrackMatrixivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetTrackMatrixivNV", [S339])), to: Swift.type(of: glGetTrackMatrixivNV_P))
+    glGetTrackMatrixivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetTrackMatrixivNV", [S342])), to: Swift.type(of: glGetTrackMatrixivNV_P))
     glGetTrackMatrixivNV_P(target, address, pname, params)
 }
 func glGetTransformFeedbackVarying_L(_ program:GLuint, _ index:GLuint, _ bufSize:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ size:UnsafeMutablePointer<GLsizei>?, _ type:UnsafeMutablePointer<GLenum>?, _ name:UnsafeMutablePointer<GLchar>?) {
@@ -5332,7 +5363,7 @@ func glGetTransformFeedbackVaryingEXT_L(_ program:GLuint, _ index:GLuint, _ bufS
     glGetTransformFeedbackVaryingEXT_P(program, index, bufSize, length, size, type, name)
 }
 func glGetTransformFeedbackVaryingNV_L(_ program:GLuint, _ index:GLuint, _ location:UnsafeMutablePointer<GLint>?) {
-    glGetTransformFeedbackVaryingNV_P = unsafeBitCast(getAddress(CommandInfo("glGetTransformFeedbackVaryingNV", [S332])), to: Swift.type(of: glGetTransformFeedbackVaryingNV_P))
+    glGetTransformFeedbackVaryingNV_P = unsafeBitCast(getAddress(CommandInfo("glGetTransformFeedbackVaryingNV", [S335])), to: Swift.type(of: glGetTransformFeedbackVaryingNV_P))
     glGetTransformFeedbackVaryingNV_P(program, index, location)
 }
 func glGetTransformFeedbacki64_v_L(_ xfb:GLuint, _ pname:GLenum, _ index:GLuint, _ param:UnsafeMutablePointer<GLint64>?) {
@@ -5347,9 +5378,9 @@ func glGetTransformFeedbackiv_L(_ xfb:GLuint, _ pname:GLenum, _ param:UnsafeMuta
     glGetTransformFeedbackiv_P = unsafeBitCast(getAddress(CommandInfo("glGetTransformFeedbackiv", [S17, S73])), to: Swift.type(of: glGetTransformFeedbackiv_P))
     glGetTransformFeedbackiv_P(xfb, pname, param)
 }
-func glGetTranslatedShaderSourceANGLE_L(_ shader:GLuint, _ bufsize:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ source:UnsafeMutablePointer<GLchar>?) {
+func glGetTranslatedShaderSourceANGLE_L(_ shader:GLuint, _ bufSize:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ source:UnsafeMutablePointer<GLchar>?) {
     glGetTranslatedShaderSourceANGLE_P = unsafeBitCast(getAddress(CommandInfo("glGetTranslatedShaderSourceANGLE", [S44])), to: Swift.type(of: glGetTranslatedShaderSourceANGLE_P))
-    glGetTranslatedShaderSourceANGLE_P(shader, bufsize, length, source)
+    glGetTranslatedShaderSourceANGLE_P(shader, bufSize, length, source)
 }
 func glGetUniformBlockIndex_L(_ program:GLuint, _ uniformBlockName:UnsafePointer<GLchar>?) -> GLuint {
     glGetUniformBlockIndex_P = unsafeBitCast(getAddress(CommandInfo("glGetUniformBlockIndex", [S9, S21, S134])), to: Swift.type(of: glGetUniformBlockIndex_P))
@@ -5396,7 +5427,7 @@ func glGetUniformi64vARB_L(_ program:GLuint, _ location:GLint, _ params:UnsafeMu
     glGetUniformi64vARB_P(program, location, params)
 }
 func glGetUniformi64vNV_L(_ program:GLuint, _ location:GLint, _ params:UnsafeMutablePointer<GLint64EXT>?) {
-    glGetUniformi64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetUniformi64vNV", [S31, S306])), to: Swift.type(of: glGetUniformi64vNV_P))
+    glGetUniformi64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetUniformi64vNV", [S31, S309])), to: Swift.type(of: glGetUniformi64vNV_P))
     glGetUniformi64vNV_P(program, location, params)
 }
 func glGetUniformiv_L(_ program:GLuint, _ location:GLint, _ params:UnsafeMutablePointer<GLint>?) {
@@ -5412,7 +5443,7 @@ func glGetUniformui64vARB_L(_ program:GLuint, _ location:GLint, _ params:UnsafeM
     glGetUniformui64vARB_P(program, location, params)
 }
 func glGetUniformui64vNV_L(_ program:GLuint, _ location:GLint, _ params:UnsafeMutablePointer<GLuint64EXT>?) {
-    glGetUniformui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetUniformui64vNV", [S31, S328])), to: Swift.type(of: glGetUniformui64vNV_P))
+    glGetUniformui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetUniformui64vNV", [S31, S331])), to: Swift.type(of: glGetUniformui64vNV_P))
     glGetUniformui64vNV_P(program, location, params)
 }
 func glGetUniformuiv_L(_ program:GLuint, _ location:GLint, _ params:UnsafeMutablePointer<GLuint>?) {
@@ -5456,7 +5487,7 @@ func glGetVariantPointervEXT_L(_ id:GLuint, _ value:GLenum, _ data:UnsafeMutable
     glGetVariantPointervEXT_P(id, value, data)
 }
 func glGetVaryingLocationNV_L(_ program:GLuint, _ name:UnsafePointer<GLchar>?) -> GLint {
-    glGetVaryingLocationNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVaryingLocationNV", [S332])), to: Swift.type(of: glGetVaryingLocationNV_P))
+    glGetVaryingLocationNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVaryingLocationNV", [S335])), to: Swift.type(of: glGetVaryingLocationNV_P))
     return glGetVaryingLocationNV_P(program, name)
 }
 func glGetVertexArrayIndexed64iv_L(_ vaobj:GLuint, _ index:GLuint, _ pname:GLenum, _ param:UnsafeMutablePointer<GLint64>?) {
@@ -5500,7 +5531,7 @@ func glGetVertexAttribIiv_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMutab
     glGetVertexAttribIiv_P(index, pname, params)
 }
 func glGetVertexAttribIivEXT_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetVertexAttribIivEXT_P = unsafeBitCast(getAddress(CommandInfo("glGetVertexAttribIivEXT", [S340])), to: Swift.type(of: glGetVertexAttribIivEXT_P))
+    glGetVertexAttribIivEXT_P = unsafeBitCast(getAddress(CommandInfo("glGetVertexAttribIivEXT", [S343])), to: Swift.type(of: glGetVertexAttribIivEXT_P))
     glGetVertexAttribIivEXT_P(index, pname, params)
 }
 func glGetVertexAttribIuiv_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLuint>?) {
@@ -5508,7 +5539,7 @@ func glGetVertexAttribIuiv_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMuta
     glGetVertexAttribIuiv_P(index, pname, params)
 }
 func glGetVertexAttribIuivEXT_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLuint>?) {
-    glGetVertexAttribIuivEXT_P = unsafeBitCast(getAddress(CommandInfo("glGetVertexAttribIuivEXT", [S340])), to: Swift.type(of: glGetVertexAttribIuivEXT_P))
+    glGetVertexAttribIuivEXT_P = unsafeBitCast(getAddress(CommandInfo("glGetVertexAttribIuivEXT", [S343])), to: Swift.type(of: glGetVertexAttribIuivEXT_P))
     glGetVertexAttribIuivEXT_P(index, pname, params)
 }
 func glGetVertexAttribLdv_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLdouble>?) {
@@ -5520,7 +5551,7 @@ func glGetVertexAttribLdvEXT_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMu
     glGetVertexAttribLdvEXT_P(index, pname, params)
 }
 func glGetVertexAttribLi64vNV_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint64EXT>?) {
-    glGetVertexAttribLi64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVertexAttribLi64vNV", [S337])), to: Swift.type(of: glGetVertexAttribLi64vNV_P))
+    glGetVertexAttribLi64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVertexAttribLi64vNV", [S340])), to: Swift.type(of: glGetVertexAttribLi64vNV_P))
     glGetVertexAttribLi64vNV_P(index, pname, params)
 }
 func glGetVertexAttribLui64vARB_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLuint64EXT>?) {
@@ -5528,7 +5559,7 @@ func glGetVertexAttribLui64vARB_L(_ index:GLuint, _ pname:GLenum, _ params:Unsaf
     glGetVertexAttribLui64vARB_P(index, pname, params)
 }
 func glGetVertexAttribLui64vNV_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLuint64EXT>?) {
-    glGetVertexAttribLui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVertexAttribLui64vNV", [S337])), to: Swift.type(of: glGetVertexAttribLui64vNV_P))
+    glGetVertexAttribLui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVertexAttribLui64vNV", [S340])), to: Swift.type(of: glGetVertexAttribLui64vNV_P))
     glGetVertexAttribLui64vNV_P(index, pname, params)
 }
 func glGetVertexAttribPointerv_L(_ index:GLuint, _ pname:GLenum, _ pointer:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {
@@ -5540,7 +5571,7 @@ func glGetVertexAttribPointervARB_L(_ index:GLuint, _ pname:GLenum, _ pointer:Un
     glGetVertexAttribPointervARB_P(index, pname, pointer)
 }
 func glGetVertexAttribPointervNV_L(_ index:GLuint, _ pname:GLenum, _ pointer:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {
-    glGetVertexAttribPointervNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVertexAttribPointervNV", [S339])), to: Swift.type(of: glGetVertexAttribPointervNV_P))
+    glGetVertexAttribPointervNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVertexAttribPointervNV", [S342])), to: Swift.type(of: glGetVertexAttribPointervNV_P))
     glGetVertexAttribPointervNV_P(index, pname, pointer)
 }
 func glGetVertexAttribdv_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLdouble>?) {
@@ -5552,7 +5583,7 @@ func glGetVertexAttribdvARB_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMut
     glGetVertexAttribdvARB_P(index, pname, params)
 }
 func glGetVertexAttribdvNV_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLdouble>?) {
-    glGetVertexAttribdvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVertexAttribdvNV", [S339])), to: Swift.type(of: glGetVertexAttribdvNV_P))
+    glGetVertexAttribdvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVertexAttribdvNV", [S342])), to: Swift.type(of: glGetVertexAttribdvNV_P))
     glGetVertexAttribdvNV_P(index, pname, params)
 }
 func glGetVertexAttribfv_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
@@ -5564,7 +5595,7 @@ func glGetVertexAttribfvARB_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMut
     glGetVertexAttribfvARB_P(index, pname, params)
 }
 func glGetVertexAttribfvNV_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
-    glGetVertexAttribfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVertexAttribfvNV", [S339])), to: Swift.type(of: glGetVertexAttribfvNV_P))
+    glGetVertexAttribfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVertexAttribfvNV", [S342])), to: Swift.type(of: glGetVertexAttribfvNV_P))
     glGetVertexAttribfvNV_P(index, pname, params)
 }
 func glGetVertexAttribiv_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
@@ -5576,43 +5607,43 @@ func glGetVertexAttribivARB_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMut
     glGetVertexAttribivARB_P(index, pname, params)
 }
 func glGetVertexAttribivNV_L(_ index:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetVertexAttribivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVertexAttribivNV", [S339])), to: Swift.type(of: glGetVertexAttribivNV_P))
+    glGetVertexAttribivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVertexAttribivNV", [S342])), to: Swift.type(of: glGetVertexAttribivNV_P))
     glGetVertexAttribivNV_P(index, pname, params)
 }
 func glGetVideoCaptureStreamdvNV_L(_ video_capture_slot:GLuint, _ stream:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLdouble>?) {
-    glGetVideoCaptureStreamdvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVideoCaptureStreamdvNV", [S341])), to: Swift.type(of: glGetVideoCaptureStreamdvNV_P))
+    glGetVideoCaptureStreamdvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVideoCaptureStreamdvNV", [S344])), to: Swift.type(of: glGetVideoCaptureStreamdvNV_P))
     glGetVideoCaptureStreamdvNV_P(video_capture_slot, stream, pname, params)
 }
 func glGetVideoCaptureStreamfvNV_L(_ video_capture_slot:GLuint, _ stream:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLfloat>?) {
-    glGetVideoCaptureStreamfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVideoCaptureStreamfvNV", [S341])), to: Swift.type(of: glGetVideoCaptureStreamfvNV_P))
+    glGetVideoCaptureStreamfvNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVideoCaptureStreamfvNV", [S344])), to: Swift.type(of: glGetVideoCaptureStreamfvNV_P))
     glGetVideoCaptureStreamfvNV_P(video_capture_slot, stream, pname, params)
 }
 func glGetVideoCaptureStreamivNV_L(_ video_capture_slot:GLuint, _ stream:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetVideoCaptureStreamivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVideoCaptureStreamivNV", [S341])), to: Swift.type(of: glGetVideoCaptureStreamivNV_P))
+    glGetVideoCaptureStreamivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVideoCaptureStreamivNV", [S344])), to: Swift.type(of: glGetVideoCaptureStreamivNV_P))
     glGetVideoCaptureStreamivNV_P(video_capture_slot, stream, pname, params)
 }
 func glGetVideoCaptureivNV_L(_ video_capture_slot:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetVideoCaptureivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVideoCaptureivNV", [S341])), to: Swift.type(of: glGetVideoCaptureivNV_P))
+    glGetVideoCaptureivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVideoCaptureivNV", [S344])), to: Swift.type(of: glGetVideoCaptureivNV_P))
     glGetVideoCaptureivNV_P(video_capture_slot, pname, params)
 }
 func glGetVideoi64vNV_L(_ video_slot:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint64EXT>?) {
-    glGetVideoi64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVideoi64vNV", [S319])), to: Swift.type(of: glGetVideoi64vNV_P))
+    glGetVideoi64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVideoi64vNV", [S322])), to: Swift.type(of: glGetVideoi64vNV_P))
     glGetVideoi64vNV_P(video_slot, pname, params)
 }
 func glGetVideoivNV_L(_ video_slot:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glGetVideoivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVideoivNV", [S319])), to: Swift.type(of: glGetVideoivNV_P))
+    glGetVideoivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVideoivNV", [S322])), to: Swift.type(of: glGetVideoivNV_P))
     glGetVideoivNV_P(video_slot, pname, params)
 }
 func glGetVideoui64vNV_L(_ video_slot:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLuint64EXT>?) {
-    glGetVideoui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVideoui64vNV", [S319])), to: Swift.type(of: glGetVideoui64vNV_P))
+    glGetVideoui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVideoui64vNV", [S322])), to: Swift.type(of: glGetVideoui64vNV_P))
     glGetVideoui64vNV_P(video_slot, pname, params)
 }
 func glGetVideouivNV_L(_ video_slot:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLuint>?) {
-    glGetVideouivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVideouivNV", [S319])), to: Swift.type(of: glGetVideouivNV_P))
+    glGetVideouivNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVideouivNV", [S322])), to: Swift.type(of: glGetVideouivNV_P))
     glGetVideouivNV_P(video_slot, pname, params)
 }
 func glGetVkProcAddrNV_L(_ name:UnsafePointer<GLchar>?) -> GLVULKANPROCNV {
-    glGetVkProcAddrNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVkProcAddrNV", [S292])), to: Swift.type(of: glGetVkProcAddrNV_P))
+    glGetVkProcAddrNV_P = unsafeBitCast(getAddress(CommandInfo("glGetVkProcAddrNV", [S295])), to: Swift.type(of: glGetVkProcAddrNV_P))
     return glGetVkProcAddrNV_P(name)
 }
 func glGetnColorTable_L(_ target:GLenum, _ format:GLenum, _ type:GLenum, _ bufSize:GLsizei, _ table:UnsafeMutableRawPointer?) {
@@ -5788,35 +5819,35 @@ func glGetnUniformuivKHR_L(_ program:GLuint, _ location:GLint, _ bufSize:GLsizei
     glGetnUniformuivKHR_P(program, location, bufSize, params)
 }
 func glGlobalAlphaFactorbSUN_L(_ factor:GLbyte) {
-    glGlobalAlphaFactorbSUN_P = unsafeBitCast(getAddress(CommandInfo("glGlobalAlphaFactorbSUN", [S407])), to: Swift.type(of: glGlobalAlphaFactorbSUN_P))
+    glGlobalAlphaFactorbSUN_P = unsafeBitCast(getAddress(CommandInfo("glGlobalAlphaFactorbSUN", [S410])), to: Swift.type(of: glGlobalAlphaFactorbSUN_P))
     glGlobalAlphaFactorbSUN_P(factor)
 }
 func glGlobalAlphaFactordSUN_L(_ factor:GLdouble) {
-    glGlobalAlphaFactordSUN_P = unsafeBitCast(getAddress(CommandInfo("glGlobalAlphaFactordSUN", [S407])), to: Swift.type(of: glGlobalAlphaFactordSUN_P))
+    glGlobalAlphaFactordSUN_P = unsafeBitCast(getAddress(CommandInfo("glGlobalAlphaFactordSUN", [S410])), to: Swift.type(of: glGlobalAlphaFactordSUN_P))
     glGlobalAlphaFactordSUN_P(factor)
 }
 func glGlobalAlphaFactorfSUN_L(_ factor:GLfloat) {
-    glGlobalAlphaFactorfSUN_P = unsafeBitCast(getAddress(CommandInfo("glGlobalAlphaFactorfSUN", [S407])), to: Swift.type(of: glGlobalAlphaFactorfSUN_P))
+    glGlobalAlphaFactorfSUN_P = unsafeBitCast(getAddress(CommandInfo("glGlobalAlphaFactorfSUN", [S410])), to: Swift.type(of: glGlobalAlphaFactorfSUN_P))
     glGlobalAlphaFactorfSUN_P(factor)
 }
 func glGlobalAlphaFactoriSUN_L(_ factor:GLint) {
-    glGlobalAlphaFactoriSUN_P = unsafeBitCast(getAddress(CommandInfo("glGlobalAlphaFactoriSUN", [S407])), to: Swift.type(of: glGlobalAlphaFactoriSUN_P))
+    glGlobalAlphaFactoriSUN_P = unsafeBitCast(getAddress(CommandInfo("glGlobalAlphaFactoriSUN", [S410])), to: Swift.type(of: glGlobalAlphaFactoriSUN_P))
     glGlobalAlphaFactoriSUN_P(factor)
 }
 func glGlobalAlphaFactorsSUN_L(_ factor:GLshort) {
-    glGlobalAlphaFactorsSUN_P = unsafeBitCast(getAddress(CommandInfo("glGlobalAlphaFactorsSUN", [S407])), to: Swift.type(of: glGlobalAlphaFactorsSUN_P))
+    glGlobalAlphaFactorsSUN_P = unsafeBitCast(getAddress(CommandInfo("glGlobalAlphaFactorsSUN", [S410])), to: Swift.type(of: glGlobalAlphaFactorsSUN_P))
     glGlobalAlphaFactorsSUN_P(factor)
 }
 func glGlobalAlphaFactorubSUN_L(_ factor:GLubyte) {
-    glGlobalAlphaFactorubSUN_P = unsafeBitCast(getAddress(CommandInfo("glGlobalAlphaFactorubSUN", [S407])), to: Swift.type(of: glGlobalAlphaFactorubSUN_P))
+    glGlobalAlphaFactorubSUN_P = unsafeBitCast(getAddress(CommandInfo("glGlobalAlphaFactorubSUN", [S410])), to: Swift.type(of: glGlobalAlphaFactorubSUN_P))
     glGlobalAlphaFactorubSUN_P(factor)
 }
 func glGlobalAlphaFactoruiSUN_L(_ factor:GLuint) {
-    glGlobalAlphaFactoruiSUN_P = unsafeBitCast(getAddress(CommandInfo("glGlobalAlphaFactoruiSUN", [S407])), to: Swift.type(of: glGlobalAlphaFactoruiSUN_P))
+    glGlobalAlphaFactoruiSUN_P = unsafeBitCast(getAddress(CommandInfo("glGlobalAlphaFactoruiSUN", [S410])), to: Swift.type(of: glGlobalAlphaFactoruiSUN_P))
     glGlobalAlphaFactoruiSUN_P(factor)
 }
 func glGlobalAlphaFactorusSUN_L(_ factor:GLushort) {
-    glGlobalAlphaFactorusSUN_P = unsafeBitCast(getAddress(CommandInfo("glGlobalAlphaFactorusSUN", [S407])), to: Swift.type(of: glGlobalAlphaFactorusSUN_P))
+    glGlobalAlphaFactorusSUN_P = unsafeBitCast(getAddress(CommandInfo("glGlobalAlphaFactorusSUN", [S410])), to: Swift.type(of: glGlobalAlphaFactorusSUN_P))
     glGlobalAlphaFactorusSUN_P(factor)
 }
 func glHint_L(_ target:GLenum, _ mode:GLenum) {
@@ -5824,7 +5855,7 @@ func glHint_L(_ target:GLenum, _ mode:GLenum) {
     glHint_P(target, mode)
 }
 func glHintPGI_L(_ target:GLenum, _ mode:GLint) {
-    glHintPGI_P = unsafeBitCast(getAddress(CommandInfo("glHintPGI", [S375])), to: Swift.type(of: glHintPGI_P))
+    glHintPGI_P = unsafeBitCast(getAddress(CommandInfo("glHintPGI", [S378])), to: Swift.type(of: glHintPGI_P))
     glHintPGI_P(target, mode)
 }
 func glHistogram_L(_ target:GLenum, _ width:GLsizei, _ internalformat:GLenum, _ sink:GLboolean) {
@@ -5836,7 +5867,7 @@ func glHistogramEXT_L(_ target:GLenum, _ width:GLsizei, _ internalformat:GLenum,
     glHistogramEXT_P(target, width, internalformat, sink)
 }
 func glIglooInterfaceSGIX_L(_ pname:GLenum, _ params:UnsafeRawPointer?) {
-    glIglooInterfaceSGIX_P = unsafeBitCast(getAddress(CommandInfo("glIglooInterfaceSGIX", [S397])), to: Swift.type(of: glIglooInterfaceSGIX_P))
+    glIglooInterfaceSGIX_P = unsafeBitCast(getAddress(CommandInfo("glIglooInterfaceSGIX", [S400])), to: Swift.type(of: glIglooInterfaceSGIX_P))
     glIglooInterfaceSGIX_P(pname, params)
 }
 func glImageTransformParameterfHP_L(_ target:GLenum, _ pname:GLenum, _ param:GLfloat) {
@@ -5884,7 +5915,7 @@ func glImportSyncEXT_L(_ external_sync_type:GLenum, _ external_sync:GLintptr, _ 
     return glImportSyncEXT_P(external_sync_type, external_sync, flags)
 }
 func glIndexFormatNV_L(_ type:GLenum, _ stride:GLsizei) {
-    glIndexFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glIndexFormatNV", [S338])), to: Swift.type(of: glIndexFormatNV_P))
+    glIndexFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glIndexFormatNV", [S341])), to: Swift.type(of: glIndexFormatNV_P))
     glIndexFormatNV_P(type, stride)
 }
 func glIndexFuncEXT_L(_ fn:GLenum, _ ref:GLclampf) {
@@ -5952,11 +5983,11 @@ func glIndexubv_L(_ c:UnsafePointer<GLubyte>?) {
     glIndexubv_P(c)
 }
 func glIndexxOES_L(_ component:GLfixed) {
-    glIndexxOES_P = unsafeBitCast(getAddress(CommandInfo("glIndexxOES", [S353])), to: Swift.type(of: glIndexxOES_P))
+    glIndexxOES_P = unsafeBitCast(getAddress(CommandInfo("glIndexxOES", [S356])), to: Swift.type(of: glIndexxOES_P))
     glIndexxOES_P(component)
 }
 func glIndexxvOES_L(_ component:UnsafePointer<GLfixed>?) {
-    glIndexxvOES_P = unsafeBitCast(getAddress(CommandInfo("glIndexxvOES", [S353])), to: Swift.type(of: glIndexxvOES_P))
+    glIndexxvOES_P = unsafeBitCast(getAddress(CommandInfo("glIndexxvOES", [S356])), to: Swift.type(of: glIndexxvOES_P))
     glIndexxvOES_P(component)
 }
 func glInitNames_L() {
@@ -5972,7 +6003,7 @@ func glInsertEventMarkerEXT_L(_ length:GLsizei, _ marker:UnsafePointer<GLchar>?)
     glInsertEventMarkerEXT_P(length, marker)
 }
 func glInstrumentsBufferSGIX_L(_ size:GLsizei, _ buffer:UnsafeMutablePointer<GLint>?) {
-    glInstrumentsBufferSGIX_P = unsafeBitCast(getAddress(CommandInfo("glInstrumentsBufferSGIX", [S398])), to: Swift.type(of: glInstrumentsBufferSGIX_P))
+    glInstrumentsBufferSGIX_P = unsafeBitCast(getAddress(CommandInfo("glInstrumentsBufferSGIX", [S401])), to: Swift.type(of: glInstrumentsBufferSGIX_P))
     glInstrumentsBufferSGIX_P(size, buffer)
 }
 func glInterleavedArrays_L(_ format:GLenum, _ stride:GLsizei, _ pointer:UnsafeRawPointer?) {
@@ -5980,7 +6011,7 @@ func glInterleavedArrays_L(_ format:GLenum, _ stride:GLsizei, _ pointer:UnsafeRa
     glInterleavedArrays_P(format, stride, pointer)
 }
 func glInterpolatePathsNV_L(_ resultPath:GLuint, _ pathA:GLuint, _ pathB:GLuint, _ weight:GLfloat) {
-    glInterpolatePathsNV_P = unsafeBitCast(getAddress(CommandInfo("glInterpolatePathsNV", [S315])), to: Swift.type(of: glInterpolatePathsNV_P))
+    glInterpolatePathsNV_P = unsafeBitCast(getAddress(CommandInfo("glInterpolatePathsNV", [S318])), to: Swift.type(of: glInterpolatePathsNV_P))
     glInterpolatePathsNV_P(resultPath, pathA, pathB, weight)
 }
 func glInvalidateBufferData_L(_ buffer:GLuint) {
@@ -6016,7 +6047,7 @@ func glInvalidateTexSubImage_L(_ texture:GLuint, _ level:GLint, _ xoffset:GLint,
     glInvalidateTexSubImage_P(texture, level, xoffset, yoffset, zoffset, width, height, depth)
 }
 func glIsAsyncMarkerSGIX_L(_ marker:GLuint) -> GLboolean {
-    glIsAsyncMarkerSGIX_P = unsafeBitCast(getAddress(CommandInfo("glIsAsyncMarkerSGIX", [S393])), to: Swift.type(of: glIsAsyncMarkerSGIX_P))
+    glIsAsyncMarkerSGIX_P = unsafeBitCast(getAddress(CommandInfo("glIsAsyncMarkerSGIX", [S396])), to: Swift.type(of: glIsAsyncMarkerSGIX_P))
     return glIsAsyncMarkerSGIX_P(marker)
 }
 func glIsBuffer_L(_ buffer:GLuint) -> GLboolean {
@@ -6028,11 +6059,11 @@ func glIsBufferARB_L(_ buffer:GLuint) -> GLboolean {
     return glIsBufferARB_P(buffer)
 }
 func glIsBufferResidentNV_L(_ target:GLenum) -> GLboolean {
-    glIsBufferResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glIsBufferResidentNV", [S328])), to: Swift.type(of: glIsBufferResidentNV_P))
+    glIsBufferResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glIsBufferResidentNV", [S331])), to: Swift.type(of: glIsBufferResidentNV_P))
     return glIsBufferResidentNV_P(target)
 }
 func glIsCommandListNV_L(_ list:GLuint) -> GLboolean {
-    glIsCommandListNV_P = unsafeBitCast(getAddress(CommandInfo("glIsCommandListNV", [S280])), to: Swift.type(of: glIsCommandListNV_P))
+    glIsCommandListNV_P = unsafeBitCast(getAddress(CommandInfo("glIsCommandListNV", [S283])), to: Swift.type(of: glIsCommandListNV_P))
     return glIsCommandListNV_P(list)
 }
 func glIsEnabled_L(_ cap:GLenum) -> GLboolean {
@@ -6052,11 +6083,11 @@ func glIsEnablediEXT_L(_ target:GLenum, _ index:GLuint) -> GLboolean {
     return glIsEnablediEXT_P(target, index)
 }
 func glIsEnablediNV_L(_ target:GLenum, _ index:GLuint) -> GLboolean {
-    glIsEnablediNV_P = unsafeBitCast(getAddress(CommandInfo("glIsEnablediNV", [S342])), to: Swift.type(of: glIsEnablediNV_P))
+    glIsEnablediNV_P = unsafeBitCast(getAddress(CommandInfo("glIsEnablediNV", [S345])), to: Swift.type(of: glIsEnablediNV_P))
     return glIsEnablediNV_P(target, index)
 }
 func glIsEnablediOES_L(_ target:GLenum, _ index:GLuint) -> GLboolean {
-    glIsEnablediOES_P = unsafeBitCast(getAddress(CommandInfo("glIsEnablediOES", [S350, S372])), to: Swift.type(of: glIsEnablediOES_P))
+    glIsEnablediOES_P = unsafeBitCast(getAddress(CommandInfo("glIsEnablediOES", [S353, S375])), to: Swift.type(of: glIsEnablediOES_P))
     return glIsEnablediOES_P(target, index)
 }
 func glIsFenceAPPLE_L(_ fence:GLuint) -> GLboolean {
@@ -6064,7 +6095,7 @@ func glIsFenceAPPLE_L(_ fence:GLuint) -> GLboolean {
     return glIsFenceAPPLE_P(fence)
 }
 func glIsFenceNV_L(_ fence:GLuint) -> GLboolean {
-    glIsFenceNV_P = unsafeBitCast(getAddress(CommandInfo("glIsFenceNV", [S295])), to: Swift.type(of: glIsFenceNV_P))
+    glIsFenceNV_P = unsafeBitCast(getAddress(CommandInfo("glIsFenceNV", [S298])), to: Swift.type(of: glIsFenceNV_P))
     return glIsFenceNV_P(fence)
 }
 func glIsFramebuffer_L(_ framebuffer:GLuint) -> GLboolean {
@@ -6076,7 +6107,7 @@ func glIsFramebufferEXT_L(_ framebuffer:GLuint) -> GLboolean {
     return glIsFramebufferEXT_P(framebuffer)
 }
 func glIsFramebufferOES_L(_ framebuffer:GLuint) -> GLboolean {
-    glIsFramebufferOES_P = unsafeBitCast(getAddress(CommandInfo("glIsFramebufferOES", [S354])), to: Swift.type(of: glIsFramebufferOES_P))
+    glIsFramebufferOES_P = unsafeBitCast(getAddress(CommandInfo("glIsFramebufferOES", [S357])), to: Swift.type(of: glIsFramebufferOES_P))
     return glIsFramebufferOES_P(framebuffer)
 }
 func glIsImageHandleResidentARB_L(_ handle:GLuint64) -> GLboolean {
@@ -6084,7 +6115,7 @@ func glIsImageHandleResidentARB_L(_ handle:GLuint64) -> GLboolean {
     return glIsImageHandleResidentARB_P(handle)
 }
 func glIsImageHandleResidentNV_L(_ handle:GLuint64) -> GLboolean {
-    glIsImageHandleResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glIsImageHandleResidentNV", [S277])), to: Swift.type(of: glIsImageHandleResidentNV_P))
+    glIsImageHandleResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glIsImageHandleResidentNV", [S280])), to: Swift.type(of: glIsImageHandleResidentNV_P))
     return glIsImageHandleResidentNV_P(handle)
 }
 func glIsList_L(_ list:GLuint) -> GLboolean {
@@ -6100,7 +6131,7 @@ func glIsNameAMD_L(_ identifier:GLenum, _ name:GLuint) -> GLboolean {
     return glIsNameAMD_P(identifier, name)
 }
 func glIsNamedBufferResidentNV_L(_ buffer:GLuint) -> GLboolean {
-    glIsNamedBufferResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glIsNamedBufferResidentNV", [S328])), to: Swift.type(of: glIsNamedBufferResidentNV_P))
+    glIsNamedBufferResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glIsNamedBufferResidentNV", [S331])), to: Swift.type(of: glIsNamedBufferResidentNV_P))
     return glIsNamedBufferResidentNV_P(buffer)
 }
 func glIsNamedStringARB_L(_ namelen:GLint, _ name:UnsafePointer<GLchar>?) -> GLboolean {
@@ -6112,19 +6143,19 @@ func glIsObjectBufferATI_L(_ buffer:GLuint) -> GLboolean {
     return glIsObjectBufferATI_P(buffer)
 }
 func glIsOcclusionQueryNV_L(_ id:GLuint) -> GLboolean {
-    glIsOcclusionQueryNV_P = unsafeBitCast(getAddress(CommandInfo("glIsOcclusionQueryNV", [S313])), to: Swift.type(of: glIsOcclusionQueryNV_P))
+    glIsOcclusionQueryNV_P = unsafeBitCast(getAddress(CommandInfo("glIsOcclusionQueryNV", [S316])), to: Swift.type(of: glIsOcclusionQueryNV_P))
     return glIsOcclusionQueryNV_P(id)
 }
 func glIsPathNV_L(_ path:GLuint) -> GLboolean {
-    glIsPathNV_P = unsafeBitCast(getAddress(CommandInfo("glIsPathNV", [S315])), to: Swift.type(of: glIsPathNV_P))
+    glIsPathNV_P = unsafeBitCast(getAddress(CommandInfo("glIsPathNV", [S318])), to: Swift.type(of: glIsPathNV_P))
     return glIsPathNV_P(path)
 }
 func glIsPointInFillPathNV_L(_ path:GLuint, _ mask:GLuint, _ x:GLfloat, _ y:GLfloat) -> GLboolean {
-    glIsPointInFillPathNV_P = unsafeBitCast(getAddress(CommandInfo("glIsPointInFillPathNV", [S315])), to: Swift.type(of: glIsPointInFillPathNV_P))
+    glIsPointInFillPathNV_P = unsafeBitCast(getAddress(CommandInfo("glIsPointInFillPathNV", [S318])), to: Swift.type(of: glIsPointInFillPathNV_P))
     return glIsPointInFillPathNV_P(path, mask, x, y)
 }
 func glIsPointInStrokePathNV_L(_ path:GLuint, _ x:GLfloat, _ y:GLfloat) -> GLboolean {
-    glIsPointInStrokePathNV_P = unsafeBitCast(getAddress(CommandInfo("glIsPointInStrokePathNV", [S315])), to: Swift.type(of: glIsPointInStrokePathNV_P))
+    glIsPointInStrokePathNV_P = unsafeBitCast(getAddress(CommandInfo("glIsPointInStrokePathNV", [S318])), to: Swift.type(of: glIsPointInStrokePathNV_P))
     return glIsPointInStrokePathNV_P(path, x, y)
 }
 func glIsProgram_L(_ program:GLuint) -> GLboolean {
@@ -6136,7 +6167,7 @@ func glIsProgramARB_L(_ program:GLuint) -> GLboolean {
     return glIsProgramARB_P(program)
 }
 func glIsProgramNV_L(_ id:GLuint) -> GLboolean {
-    glIsProgramNV_P = unsafeBitCast(getAddress(CommandInfo("glIsProgramNV", [S339])), to: Swift.type(of: glIsProgramNV_P))
+    glIsProgramNV_P = unsafeBitCast(getAddress(CommandInfo("glIsProgramNV", [S342])), to: Swift.type(of: glIsProgramNV_P))
     return glIsProgramNV_P(id)
 }
 func glIsProgramPipeline_L(_ pipeline:GLuint) -> GLboolean {
@@ -6168,7 +6199,7 @@ func glIsRenderbufferEXT_L(_ renderbuffer:GLuint) -> GLboolean {
     return glIsRenderbufferEXT_P(renderbuffer)
 }
 func glIsRenderbufferOES_L(_ renderbuffer:GLuint) -> GLboolean {
-    glIsRenderbufferOES_P = unsafeBitCast(getAddress(CommandInfo("glIsRenderbufferOES", [S354])), to: Swift.type(of: glIsRenderbufferOES_P))
+    glIsRenderbufferOES_P = unsafeBitCast(getAddress(CommandInfo("glIsRenderbufferOES", [S357])), to: Swift.type(of: glIsRenderbufferOES_P))
     return glIsRenderbufferOES_P(renderbuffer)
 }
 func glIsSampler_L(_ sampler:GLuint) -> GLboolean {
@@ -6184,7 +6215,7 @@ func glIsShader_L(_ shader:GLuint) -> GLboolean {
     return glIsShader_P(shader)
 }
 func glIsStateNV_L(_ state:GLuint) -> GLboolean {
-    glIsStateNV_P = unsafeBitCast(getAddress(CommandInfo("glIsStateNV", [S280])), to: Swift.type(of: glIsStateNV_P))
+    glIsStateNV_P = unsafeBitCast(getAddress(CommandInfo("glIsStateNV", [S283])), to: Swift.type(of: glIsStateNV_P))
     return glIsStateNV_P(state)
 }
 func glIsSync_L(_ sync:GLsync) -> GLboolean {
@@ -6208,7 +6239,7 @@ func glIsTextureHandleResidentARB_L(_ handle:GLuint64) -> GLboolean {
     return glIsTextureHandleResidentARB_P(handle)
 }
 func glIsTextureHandleResidentNV_L(_ handle:GLuint64) -> GLboolean {
-    glIsTextureHandleResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glIsTextureHandleResidentNV", [S277])), to: Swift.type(of: glIsTextureHandleResidentNV_P))
+    glIsTextureHandleResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glIsTextureHandleResidentNV", [S280])), to: Swift.type(of: glIsTextureHandleResidentNV_P))
     return glIsTextureHandleResidentNV_P(handle)
 }
 func glIsTransformFeedback_L(_ id:GLuint) -> GLboolean {
@@ -6216,7 +6247,7 @@ func glIsTransformFeedback_L(_ id:GLuint) -> GLboolean {
     return glIsTransformFeedback_P(id)
 }
 func glIsTransformFeedbackNV_L(_ id:GLuint) -> GLboolean {
-    glIsTransformFeedbackNV_P = unsafeBitCast(getAddress(CommandInfo("glIsTransformFeedbackNV", [S333])), to: Swift.type(of: glIsTransformFeedbackNV_P))
+    glIsTransformFeedbackNV_P = unsafeBitCast(getAddress(CommandInfo("glIsTransformFeedbackNV", [S336])), to: Swift.type(of: glIsTransformFeedbackNV_P))
     return glIsTransformFeedbackNV_P(id)
 }
 func glIsVariantEnabledEXT_L(_ id:GLuint, _ cap:GLenum) -> GLboolean {
@@ -6232,7 +6263,7 @@ func glIsVertexArrayAPPLE_L(_ array:GLuint) -> GLboolean {
     return glIsVertexArrayAPPLE_P(array)
 }
 func glIsVertexArrayOES_L(_ array:GLuint) -> GLboolean {
-    glIsVertexArrayOES_P = unsafeBitCast(getAddress(CommandInfo("glIsVertexArrayOES", [S371])), to: Swift.type(of: glIsVertexArrayOES_P))
+    glIsVertexArrayOES_P = unsafeBitCast(getAddress(CommandInfo("glIsVertexArrayOES", [S374])), to: Swift.type(of: glIsVertexArrayOES_P))
     return glIsVertexArrayOES_P(array)
 }
 func glIsVertexAttribEnabledAPPLE_L(_ index:GLuint, _ pname:GLenum) -> GLboolean {
@@ -6240,15 +6271,15 @@ func glIsVertexAttribEnabledAPPLE_L(_ index:GLuint, _ pname:GLenum) -> GLboolean
     return glIsVertexAttribEnabledAPPLE_P(index, pname)
 }
 func glLGPUCopyImageSubDataNVX_L(_ sourceGpu:GLuint, _ destinationGpuMask:GLbitfield, _ srcName:GLuint, _ srcTarget:GLenum, _ srcLevel:GLint, _ srcX:GLint, _ srxY:GLint, _ srcZ:GLint, _ dstName:GLuint, _ dstTarget:GLenum, _ dstLevel:GLint, _ dstX:GLint, _ dstY:GLint, _ dstZ:GLint, _ width:GLsizei, _ height:GLsizei, _ depth:GLsizei) {
-    glLGPUCopyImageSubDataNVX_P = unsafeBitCast(getAddress(CommandInfo("glLGPUCopyImageSubDataNVX", [S273])), to: Swift.type(of: glLGPUCopyImageSubDataNVX_P))
+    glLGPUCopyImageSubDataNVX_P = unsafeBitCast(getAddress(CommandInfo("glLGPUCopyImageSubDataNVX", [S275])), to: Swift.type(of: glLGPUCopyImageSubDataNVX_P))
     glLGPUCopyImageSubDataNVX_P(sourceGpu, destinationGpuMask, srcName, srcTarget, srcLevel, srcX, srxY, srcZ, dstName, dstTarget, dstLevel, dstX, dstY, dstZ, width, height, depth)
 }
 func glLGPUInterlockNVX_L() {
-    glLGPUInterlockNVX_P = unsafeBitCast(getAddress(CommandInfo("glLGPUInterlockNVX", [S273])), to: Swift.type(of: glLGPUInterlockNVX_P))
+    glLGPUInterlockNVX_P = unsafeBitCast(getAddress(CommandInfo("glLGPUInterlockNVX", [S275])), to: Swift.type(of: glLGPUInterlockNVX_P))
     glLGPUInterlockNVX_P()
 }
 func glLGPUNamedBufferSubDataNVX_L(_ gpuMask:GLbitfield, _ buffer:GLuint, _ offset:GLintptr, _ size:GLsizeiptr, _ data:UnsafeRawPointer?) {
-    glLGPUNamedBufferSubDataNVX_P = unsafeBitCast(getAddress(CommandInfo("glLGPUNamedBufferSubDataNVX", [S273])), to: Swift.type(of: glLGPUNamedBufferSubDataNVX_P))
+    glLGPUNamedBufferSubDataNVX_P = unsafeBitCast(getAddress(CommandInfo("glLGPUNamedBufferSubDataNVX", [S275])), to: Swift.type(of: glLGPUNamedBufferSubDataNVX_P))
     glLGPUNamedBufferSubDataNVX_P(gpuMask, buffer, offset, size, data)
 }
 func glLabelObjectEXT_L(_ type:GLenum, _ object:GLuint, _ length:GLsizei, _ label:UnsafePointer<GLchar>?) {
@@ -6256,7 +6287,7 @@ func glLabelObjectEXT_L(_ type:GLenum, _ object:GLuint, _ length:GLsizei, _ labe
     glLabelObjectEXT_P(type, object, length, label)
 }
 func glLightEnviSGIX_L(_ pname:GLenum, _ param:GLint) {
-    glLightEnviSGIX_P = unsafeBitCast(getAddress(CommandInfo("glLightEnviSGIX", [S395])), to: Swift.type(of: glLightEnviSGIX_P))
+    glLightEnviSGIX_P = unsafeBitCast(getAddress(CommandInfo("glLightEnviSGIX", [S398])), to: Swift.type(of: glLightEnviSGIX_P))
     glLightEnviSGIX_P(pname, param)
 }
 func glLightModelf_L(_ pname:GLenum, _ param:GLfloat) {
@@ -6280,7 +6311,7 @@ func glLightModelx_L(_ pname:GLenum, _ param:GLfixed) {
     glLightModelx_P(pname, param)
 }
 func glLightModelxOES_L(_ pname:GLenum, _ param:GLfixed) {
-    glLightModelxOES_P = unsafeBitCast(getAddress(CommandInfo("glLightModelxOES", [S353])), to: Swift.type(of: glLightModelxOES_P))
+    glLightModelxOES_P = unsafeBitCast(getAddress(CommandInfo("glLightModelxOES", [S356])), to: Swift.type(of: glLightModelxOES_P))
     glLightModelxOES_P(pname, param)
 }
 func glLightModelxv_L(_ pname:GLenum, _ param:UnsafePointer<GLfixed>?) {
@@ -6288,7 +6319,7 @@ func glLightModelxv_L(_ pname:GLenum, _ param:UnsafePointer<GLfixed>?) {
     glLightModelxv_P(pname, param)
 }
 func glLightModelxvOES_L(_ pname:GLenum, _ param:UnsafePointer<GLfixed>?) {
-    glLightModelxvOES_P = unsafeBitCast(getAddress(CommandInfo("glLightModelxvOES", [S353])), to: Swift.type(of: glLightModelxvOES_P))
+    glLightModelxvOES_P = unsafeBitCast(getAddress(CommandInfo("glLightModelxvOES", [S356])), to: Swift.type(of: glLightModelxvOES_P))
     glLightModelxvOES_P(pname, param)
 }
 func glLightf_L(_ light:GLenum, _ pname:GLenum, _ param:GLfloat) {
@@ -6312,7 +6343,7 @@ func glLightx_L(_ light:GLenum, _ pname:GLenum, _ param:GLfixed) {
     glLightx_P(light, pname, param)
 }
 func glLightxOES_L(_ light:GLenum, _ pname:GLenum, _ param:GLfixed) {
-    glLightxOES_P = unsafeBitCast(getAddress(CommandInfo("glLightxOES", [S353])), to: Swift.type(of: glLightxOES_P))
+    glLightxOES_P = unsafeBitCast(getAddress(CommandInfo("glLightxOES", [S356])), to: Swift.type(of: glLightxOES_P))
     glLightxOES_P(light, pname, param)
 }
 func glLightxv_L(_ light:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfixed>?) {
@@ -6320,7 +6351,7 @@ func glLightxv_L(_ light:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfixed>
     glLightxv_P(light, pname, params)
 }
 func glLightxvOES_L(_ light:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfixed>?) {
-    glLightxvOES_P = unsafeBitCast(getAddress(CommandInfo("glLightxvOES", [S353])), to: Swift.type(of: glLightxvOES_P))
+    glLightxvOES_P = unsafeBitCast(getAddress(CommandInfo("glLightxvOES", [S356])), to: Swift.type(of: glLightxvOES_P))
     glLightxvOES_P(light, pname, params)
 }
 func glLineStipple_L(_ factor:GLint, _ pattern:GLushort) {
@@ -6336,7 +6367,7 @@ func glLineWidthx_L(_ width:GLfixed) {
     glLineWidthx_P(width)
 }
 func glLineWidthxOES_L(_ width:GLfixed) {
-    glLineWidthxOES_P = unsafeBitCast(getAddress(CommandInfo("glLineWidthxOES", [S353])), to: Swift.type(of: glLineWidthxOES_P))
+    glLineWidthxOES_P = unsafeBitCast(getAddress(CommandInfo("glLineWidthxOES", [S356])), to: Swift.type(of: glLineWidthxOES_P))
     glLineWidthxOES_P(width)
 }
 func glLinkProgram_L(_ program:GLuint) {
@@ -6352,23 +6383,23 @@ func glListBase_L(_ base:GLuint) {
     glListBase_P(base)
 }
 func glListDrawCommandsStatesClientNV_L(_ list:GLuint, _ segment:GLuint, _ indirects:UnsafeMutablePointer<UnsafeRawPointer>?, _ sizes:UnsafePointer<GLsizei>?, _ states:UnsafePointer<GLuint>?, _ fbos:UnsafePointer<GLuint>?, _ count:GLuint) {
-    glListDrawCommandsStatesClientNV_P = unsafeBitCast(getAddress(CommandInfo("glListDrawCommandsStatesClientNV", [S280])), to: Swift.type(of: glListDrawCommandsStatesClientNV_P))
+    glListDrawCommandsStatesClientNV_P = unsafeBitCast(getAddress(CommandInfo("glListDrawCommandsStatesClientNV", [S283])), to: Swift.type(of: glListDrawCommandsStatesClientNV_P))
     glListDrawCommandsStatesClientNV_P(list, segment, indirects, sizes, states, fbos, count)
 }
 func glListParameterfSGIX_L(_ list:GLuint, _ pname:GLenum, _ param:GLfloat) {
-    glListParameterfSGIX_P = unsafeBitCast(getAddress(CommandInfo("glListParameterfSGIX", [S399])), to: Swift.type(of: glListParameterfSGIX_P))
+    glListParameterfSGIX_P = unsafeBitCast(getAddress(CommandInfo("glListParameterfSGIX", [S402])), to: Swift.type(of: glListParameterfSGIX_P))
     glListParameterfSGIX_P(list, pname, param)
 }
 func glListParameterfvSGIX_L(_ list:GLuint, _ pname:GLenum, _ params:UnsafePointer<GLfloat>?) {
-    glListParameterfvSGIX_P = unsafeBitCast(getAddress(CommandInfo("glListParameterfvSGIX", [S399])), to: Swift.type(of: glListParameterfvSGIX_P))
+    glListParameterfvSGIX_P = unsafeBitCast(getAddress(CommandInfo("glListParameterfvSGIX", [S402])), to: Swift.type(of: glListParameterfvSGIX_P))
     glListParameterfvSGIX_P(list, pname, params)
 }
 func glListParameteriSGIX_L(_ list:GLuint, _ pname:GLenum, _ param:GLint) {
-    glListParameteriSGIX_P = unsafeBitCast(getAddress(CommandInfo("glListParameteriSGIX", [S399])), to: Swift.type(of: glListParameteriSGIX_P))
+    glListParameteriSGIX_P = unsafeBitCast(getAddress(CommandInfo("glListParameteriSGIX", [S402])), to: Swift.type(of: glListParameteriSGIX_P))
     glListParameteriSGIX_P(list, pname, param)
 }
 func glListParameterivSGIX_L(_ list:GLuint, _ pname:GLenum, _ params:UnsafePointer<GLint>?) {
-    glListParameterivSGIX_P = unsafeBitCast(getAddress(CommandInfo("glListParameterivSGIX", [S399])), to: Swift.type(of: glListParameterivSGIX_P))
+    glListParameterivSGIX_P = unsafeBitCast(getAddress(CommandInfo("glListParameterivSGIX", [S402])), to: Swift.type(of: glListParameterivSGIX_P))
     glListParameterivSGIX_P(list, pname, params)
 }
 func glLoadIdentity_L() {
@@ -6376,7 +6407,7 @@ func glLoadIdentity_L() {
     glLoadIdentity_P()
 }
 func glLoadIdentityDeformationMapSGIX_L(_ mask:GLbitfield) {
-    glLoadIdentityDeformationMapSGIX_P = unsafeBitCast(getAddress(CommandInfo("glLoadIdentityDeformationMapSGIX", [S401])), to: Swift.type(of: glLoadIdentityDeformationMapSGIX_P))
+    glLoadIdentityDeformationMapSGIX_P = unsafeBitCast(getAddress(CommandInfo("glLoadIdentityDeformationMapSGIX", [S404])), to: Swift.type(of: glLoadIdentityDeformationMapSGIX_P))
     glLoadIdentityDeformationMapSGIX_P(mask)
 }
 func glLoadMatrixd_L(_ m:UnsafePointer<GLdouble>?) {
@@ -6392,7 +6423,7 @@ func glLoadMatrixx_L(_ m:UnsafePointer<GLfixed>?) {
     glLoadMatrixx_P(m)
 }
 func glLoadMatrixxOES_L(_ m:UnsafePointer<GLfixed>?) {
-    glLoadMatrixxOES_P = unsafeBitCast(getAddress(CommandInfo("glLoadMatrixxOES", [S353])), to: Swift.type(of: glLoadMatrixxOES_P))
+    glLoadMatrixxOES_P = unsafeBitCast(getAddress(CommandInfo("glLoadMatrixxOES", [S356])), to: Swift.type(of: glLoadMatrixxOES_P))
     glLoadMatrixxOES_P(m)
 }
 func glLoadName_L(_ name:GLuint) {
@@ -6400,11 +6431,11 @@ func glLoadName_L(_ name:GLuint) {
     glLoadName_P(name)
 }
 func glLoadPaletteFromModelViewMatrixOES_L() {
-    glLoadPaletteFromModelViewMatrixOES_P = unsafeBitCast(getAddress(CommandInfo("glLoadPaletteFromModelViewMatrixOES", [S358])), to: Swift.type(of: glLoadPaletteFromModelViewMatrixOES_P))
+    glLoadPaletteFromModelViewMatrixOES_P = unsafeBitCast(getAddress(CommandInfo("glLoadPaletteFromModelViewMatrixOES", [S361])), to: Swift.type(of: glLoadPaletteFromModelViewMatrixOES_P))
     glLoadPaletteFromModelViewMatrixOES_P()
 }
 func glLoadProgramNV_L(_ target:GLenum, _ id:GLuint, _ len:GLsizei, _ program:UnsafePointer<GLubyte>?) {
-    glLoadProgramNV_P = unsafeBitCast(getAddress(CommandInfo("glLoadProgramNV", [S339])), to: Swift.type(of: glLoadProgramNV_P))
+    glLoadProgramNV_P = unsafeBitCast(getAddress(CommandInfo("glLoadProgramNV", [S342])), to: Swift.type(of: glLoadProgramNV_P))
     glLoadProgramNV_P(target, id, len, program)
 }
 func glLoadTransposeMatrixd_L(_ m:UnsafePointer<GLdouble>?) {
@@ -6424,7 +6455,7 @@ func glLoadTransposeMatrixfARB_L(_ m:UnsafePointer<GLfloat>?) {
     glLoadTransposeMatrixfARB_P(m)
 }
 func glLoadTransposeMatrixxOES_L(_ m:UnsafePointer<GLfixed>?) {
-    glLoadTransposeMatrixxOES_P = unsafeBitCast(getAddress(CommandInfo("glLoadTransposeMatrixxOES", [S353])), to: Swift.type(of: glLoadTransposeMatrixxOES_P))
+    glLoadTransposeMatrixxOES_P = unsafeBitCast(getAddress(CommandInfo("glLoadTransposeMatrixxOES", [S356])), to: Swift.type(of: glLoadTransposeMatrixxOES_P))
     glLoadTransposeMatrixxOES_P(m)
 }
 func glLockArraysEXT_L(_ first:GLint, _ count:GLsizei) {
@@ -6436,11 +6467,11 @@ func glLogicOp_L(_ opcode:GLenum) {
     glLogicOp_P(opcode)
 }
 func glMakeBufferNonResidentNV_L(_ target:GLenum) {
-    glMakeBufferNonResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glMakeBufferNonResidentNV", [S328])), to: Swift.type(of: glMakeBufferNonResidentNV_P))
+    glMakeBufferNonResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glMakeBufferNonResidentNV", [S331])), to: Swift.type(of: glMakeBufferNonResidentNV_P))
     glMakeBufferNonResidentNV_P(target)
 }
 func glMakeBufferResidentNV_L(_ target:GLenum, _ access:GLenum) {
-    glMakeBufferResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glMakeBufferResidentNV", [S328])), to: Swift.type(of: glMakeBufferResidentNV_P))
+    glMakeBufferResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glMakeBufferResidentNV", [S331])), to: Swift.type(of: glMakeBufferResidentNV_P))
     glMakeBufferResidentNV_P(target, access)
 }
 func glMakeImageHandleNonResidentARB_L(_ handle:GLuint64) {
@@ -6448,7 +6479,7 @@ func glMakeImageHandleNonResidentARB_L(_ handle:GLuint64) {
     glMakeImageHandleNonResidentARB_P(handle)
 }
 func glMakeImageHandleNonResidentNV_L(_ handle:GLuint64) {
-    glMakeImageHandleNonResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glMakeImageHandleNonResidentNV", [S277])), to: Swift.type(of: glMakeImageHandleNonResidentNV_P))
+    glMakeImageHandleNonResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glMakeImageHandleNonResidentNV", [S280])), to: Swift.type(of: glMakeImageHandleNonResidentNV_P))
     glMakeImageHandleNonResidentNV_P(handle)
 }
 func glMakeImageHandleResidentARB_L(_ handle:GLuint64, _ access:GLenum) {
@@ -6456,15 +6487,15 @@ func glMakeImageHandleResidentARB_L(_ handle:GLuint64, _ access:GLenum) {
     glMakeImageHandleResidentARB_P(handle, access)
 }
 func glMakeImageHandleResidentNV_L(_ handle:GLuint64, _ access:GLenum) {
-    glMakeImageHandleResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glMakeImageHandleResidentNV", [S277])), to: Swift.type(of: glMakeImageHandleResidentNV_P))
+    glMakeImageHandleResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glMakeImageHandleResidentNV", [S280])), to: Swift.type(of: glMakeImageHandleResidentNV_P))
     glMakeImageHandleResidentNV_P(handle, access)
 }
 func glMakeNamedBufferNonResidentNV_L(_ buffer:GLuint) {
-    glMakeNamedBufferNonResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glMakeNamedBufferNonResidentNV", [S328])), to: Swift.type(of: glMakeNamedBufferNonResidentNV_P))
+    glMakeNamedBufferNonResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glMakeNamedBufferNonResidentNV", [S331])), to: Swift.type(of: glMakeNamedBufferNonResidentNV_P))
     glMakeNamedBufferNonResidentNV_P(buffer)
 }
 func glMakeNamedBufferResidentNV_L(_ buffer:GLuint, _ access:GLenum) {
-    glMakeNamedBufferResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glMakeNamedBufferResidentNV", [S328])), to: Swift.type(of: glMakeNamedBufferResidentNV_P))
+    glMakeNamedBufferResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glMakeNamedBufferResidentNV", [S331])), to: Swift.type(of: glMakeNamedBufferResidentNV_P))
     glMakeNamedBufferResidentNV_P(buffer, access)
 }
 func glMakeTextureHandleNonResidentARB_L(_ handle:GLuint64) {
@@ -6472,7 +6503,7 @@ func glMakeTextureHandleNonResidentARB_L(_ handle:GLuint64) {
     glMakeTextureHandleNonResidentARB_P(handle)
 }
 func glMakeTextureHandleNonResidentNV_L(_ handle:GLuint64) {
-    glMakeTextureHandleNonResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glMakeTextureHandleNonResidentNV", [S277])), to: Swift.type(of: glMakeTextureHandleNonResidentNV_P))
+    glMakeTextureHandleNonResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glMakeTextureHandleNonResidentNV", [S280])), to: Swift.type(of: glMakeTextureHandleNonResidentNV_P))
     glMakeTextureHandleNonResidentNV_P(handle)
 }
 func glMakeTextureHandleResidentARB_L(_ handle:GLuint64) {
@@ -6480,7 +6511,7 @@ func glMakeTextureHandleResidentARB_L(_ handle:GLuint64) {
     glMakeTextureHandleResidentARB_P(handle)
 }
 func glMakeTextureHandleResidentNV_L(_ handle:GLuint64) {
-    glMakeTextureHandleResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glMakeTextureHandleResidentNV", [S277])), to: Swift.type(of: glMakeTextureHandleResidentNV_P))
+    glMakeTextureHandleResidentNV_P = unsafeBitCast(getAddress(CommandInfo("glMakeTextureHandleResidentNV", [S280])), to: Swift.type(of: glMakeTextureHandleResidentNV_P))
     glMakeTextureHandleResidentNV_P(handle)
 }
 func glMap1d_L(_ target:GLenum, _ u1:GLdouble, _ u2:GLdouble, _ stride:GLint, _ order:GLint, _ points:UnsafePointer<GLdouble>?) {
@@ -6492,7 +6523,7 @@ func glMap1f_L(_ target:GLenum, _ u1:GLfloat, _ u2:GLfloat, _ stride:GLint, _ or
     glMap1f_P(target, u1, u2, stride, order, points)
 }
 func glMap1xOES_L(_ target:GLenum, _ u1:GLfixed, _ u2:GLfixed, _ stride:GLint, _ order:GLint, _ points:GLfixed) {
-    glMap1xOES_P = unsafeBitCast(getAddress(CommandInfo("glMap1xOES", [S353])), to: Swift.type(of: glMap1xOES_P))
+    glMap1xOES_P = unsafeBitCast(getAddress(CommandInfo("glMap1xOES", [S356])), to: Swift.type(of: glMap1xOES_P))
     glMap1xOES_P(target, u1, u2, stride, order, points)
 }
 func glMap2d_L(_ target:GLenum, _ u1:GLdouble, _ u2:GLdouble, _ ustride:GLint, _ uorder:GLint, _ v1:GLdouble, _ v2:GLdouble, _ vstride:GLint, _ vorder:GLint, _ points:UnsafePointer<GLdouble>?) {
@@ -6504,7 +6535,7 @@ func glMap2f_L(_ target:GLenum, _ u1:GLfloat, _ u2:GLfloat, _ ustride:GLint, _ u
     glMap2f_P(target, u1, u2, ustride, uorder, v1, v2, vstride, vorder, points)
 }
 func glMap2xOES_L(_ target:GLenum, _ u1:GLfixed, _ u2:GLfixed, _ ustride:GLint, _ uorder:GLint, _ v1:GLfixed, _ v2:GLfixed, _ vstride:GLint, _ vorder:GLint, _ points:GLfixed) {
-    glMap2xOES_P = unsafeBitCast(getAddress(CommandInfo("glMap2xOES", [S353])), to: Swift.type(of: glMap2xOES_P))
+    glMap2xOES_P = unsafeBitCast(getAddress(CommandInfo("glMap2xOES", [S356])), to: Swift.type(of: glMap2xOES_P))
     glMap2xOES_P(target, u1, u2, ustride, uorder, v1, v2, vstride, vorder, points)
 }
 func glMapBuffer_L(_ target:GLenum, _ access:GLenum) -> UnsafeMutableRawPointer {
@@ -6516,7 +6547,7 @@ func glMapBufferARB_L(_ target:GLenum, _ access:GLenum) -> UnsafeMutableRawPoint
     return glMapBufferARB_P(target, access)
 }
 func glMapBufferOES_L(_ target:GLenum, _ access:GLenum) -> UnsafeMutableRawPointer {
-    glMapBufferOES_P = unsafeBitCast(getAddress(CommandInfo("glMapBufferOES", [S357])), to: Swift.type(of: glMapBufferOES_P))
+    glMapBufferOES_P = unsafeBitCast(getAddress(CommandInfo("glMapBufferOES", [S360])), to: Swift.type(of: glMapBufferOES_P))
     return glMapBufferOES_P(target, access)
 }
 func glMapBufferRange_L(_ target:GLenum, _ offset:GLintptr, _ length:GLsizeiptr, _ access:GLbitfield) -> UnsafeMutableRawPointer {
@@ -6528,7 +6559,7 @@ func glMapBufferRangeEXT_L(_ target:GLenum, _ offset:GLintptr, _ length:GLsizeip
     return glMapBufferRangeEXT_P(target, offset, length, access)
 }
 func glMapControlPointsNV_L(_ target:GLenum, _ index:GLuint, _ type:GLenum, _ ustride:GLsizei, _ vstride:GLsizei, _ uorder:GLint, _ vorder:GLint, _ packed:GLboolean, _ points:UnsafeRawPointer?) {
-    glMapControlPointsNV_P = unsafeBitCast(getAddress(CommandInfo("glMapControlPointsNV", [S293])), to: Swift.type(of: glMapControlPointsNV_P))
+    glMapControlPointsNV_P = unsafeBitCast(getAddress(CommandInfo("glMapControlPointsNV", [S296])), to: Swift.type(of: glMapControlPointsNV_P))
     glMapControlPointsNV_P(target, index, type, ustride, vstride, uorder, vorder, packed, points)
 }
 func glMapGrid1d_L(_ un:GLint, _ u1:GLdouble, _ u2:GLdouble) {
@@ -6540,7 +6571,7 @@ func glMapGrid1f_L(_ un:GLint, _ u1:GLfloat, _ u2:GLfloat) {
     glMapGrid1f_P(un, u1, u2)
 }
 func glMapGrid1xOES_L(_ n:GLint, _ u1:GLfixed, _ u2:GLfixed) {
-    glMapGrid1xOES_P = unsafeBitCast(getAddress(CommandInfo("glMapGrid1xOES", [S353])), to: Swift.type(of: glMapGrid1xOES_P))
+    glMapGrid1xOES_P = unsafeBitCast(getAddress(CommandInfo("glMapGrid1xOES", [S356])), to: Swift.type(of: glMapGrid1xOES_P))
     glMapGrid1xOES_P(n, u1, u2)
 }
 func glMapGrid2d_L(_ un:GLint, _ u1:GLdouble, _ u2:GLdouble, _ vn:GLint, _ v1:GLdouble, _ v2:GLdouble) {
@@ -6552,7 +6583,7 @@ func glMapGrid2f_L(_ un:GLint, _ u1:GLfloat, _ u2:GLfloat, _ vn:GLint, _ v1:GLfl
     glMapGrid2f_P(un, u1, u2, vn, v1, v2)
 }
 func glMapGrid2xOES_L(_ n:GLint, _ u1:GLfixed, _ u2:GLfixed, _ v1:GLfixed, _ v2:GLfixed) {
-    glMapGrid2xOES_P = unsafeBitCast(getAddress(CommandInfo("glMapGrid2xOES", [S353])), to: Swift.type(of: glMapGrid2xOES_P))
+    glMapGrid2xOES_P = unsafeBitCast(getAddress(CommandInfo("glMapGrid2xOES", [S356])), to: Swift.type(of: glMapGrid2xOES_P))
     glMapGrid2xOES_P(n, u1, u2, v1, v2)
 }
 func glMapNamedBuffer_L(_ buffer:GLuint, _ access:GLenum) -> UnsafeMutableRawPointer {
@@ -6576,11 +6607,11 @@ func glMapObjectBufferATI_L(_ buffer:GLuint) -> UnsafeMutableRawPointer {
     return glMapObjectBufferATI_P(buffer)
 }
 func glMapParameterfvNV_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfloat>?) {
-    glMapParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glMapParameterfvNV", [S293])), to: Swift.type(of: glMapParameterfvNV_P))
+    glMapParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glMapParameterfvNV", [S296])), to: Swift.type(of: glMapParameterfvNV_P))
     glMapParameterfvNV_P(target, pname, params)
 }
 func glMapParameterivNV_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLint>?) {
-    glMapParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glMapParameterivNV", [S293])), to: Swift.type(of: glMapParameterivNV_P))
+    glMapParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glMapParameterivNV", [S296])), to: Swift.type(of: glMapParameterivNV_P))
     glMapParameterivNV_P(target, pname, params)
 }
 func glMapTexture2DINTEL_L(_ texture:GLuint, _ level:GLint, _ access:GLbitfield, _ stride:UnsafeMutablePointer<GLint>?, _ layout:UnsafeMutablePointer<GLenum>?) -> UnsafeMutableRawPointer {
@@ -6624,7 +6655,7 @@ func glMaterialx_L(_ face:GLenum, _ pname:GLenum, _ param:GLfixed) {
     glMaterialx_P(face, pname, param)
 }
 func glMaterialxOES_L(_ face:GLenum, _ pname:GLenum, _ param:GLfixed) {
-    glMaterialxOES_P = unsafeBitCast(getAddress(CommandInfo("glMaterialxOES", [S353])), to: Swift.type(of: glMaterialxOES_P))
+    glMaterialxOES_P = unsafeBitCast(getAddress(CommandInfo("glMaterialxOES", [S356])), to: Swift.type(of: glMaterialxOES_P))
     glMaterialxOES_P(face, pname, param)
 }
 func glMaterialxv_L(_ face:GLenum, _ pname:GLenum, _ param:UnsafePointer<GLfixed>?) {
@@ -6632,11 +6663,11 @@ func glMaterialxv_L(_ face:GLenum, _ pname:GLenum, _ param:UnsafePointer<GLfixed
     glMaterialxv_P(face, pname, param)
 }
 func glMaterialxvOES_L(_ face:GLenum, _ pname:GLenum, _ param:UnsafePointer<GLfixed>?) {
-    glMaterialxvOES_P = unsafeBitCast(getAddress(CommandInfo("glMaterialxvOES", [S353])), to: Swift.type(of: glMaterialxvOES_P))
+    glMaterialxvOES_P = unsafeBitCast(getAddress(CommandInfo("glMaterialxvOES", [S356])), to: Swift.type(of: glMaterialxvOES_P))
     glMaterialxvOES_P(face, pname, param)
 }
 func glMatrixFrustumEXT_L(_ mode:GLenum, _ left:GLdouble, _ right:GLdouble, _ bottom:GLdouble, _ top:GLdouble, _ zNear:GLdouble, _ zFar:GLdouble) {
-    glMatrixFrustumEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixFrustumEXT", [S176, S315])), to: Swift.type(of: glMatrixFrustumEXT_P))
+    glMatrixFrustumEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixFrustumEXT", [S176, S318])), to: Swift.type(of: glMatrixFrustumEXT_P))
     glMatrixFrustumEXT_P(mode, left, right, bottom, top, zNear, zFar)
 }
 func glMatrixIndexPointerARB_L(_ size:GLint, _ type:GLenum, _ stride:GLsizei, _ pointer:UnsafeRawPointer?) {
@@ -6644,7 +6675,7 @@ func glMatrixIndexPointerARB_L(_ size:GLint, _ type:GLenum, _ stride:GLsizei, _ 
     glMatrixIndexPointerARB_P(size, type, stride, pointer)
 }
 func glMatrixIndexPointerOES_L(_ size:GLint, _ type:GLenum, _ stride:GLsizei, _ pointer:UnsafeRawPointer?) {
-    glMatrixIndexPointerOES_P = unsafeBitCast(getAddress(CommandInfo("glMatrixIndexPointerOES", [S358])), to: Swift.type(of: glMatrixIndexPointerOES_P))
+    glMatrixIndexPointerOES_P = unsafeBitCast(getAddress(CommandInfo("glMatrixIndexPointerOES", [S361])), to: Swift.type(of: glMatrixIndexPointerOES_P))
     glMatrixIndexPointerOES_P(size, type, stride, pointer)
 }
 func glMatrixIndexubvARB_L(_ size:GLint, _ indices:UnsafePointer<GLubyte>?) {
@@ -6660,35 +6691,35 @@ func glMatrixIndexusvARB_L(_ size:GLint, _ indices:UnsafePointer<GLushort>?) {
     glMatrixIndexusvARB_P(size, indices)
 }
 func glMatrixLoad3x2fNV_L(_ matrixMode:GLenum, _ m:UnsafePointer<GLfloat>?) {
-    glMatrixLoad3x2fNV_P = unsafeBitCast(getAddress(CommandInfo("glMatrixLoad3x2fNV", [S315])), to: Swift.type(of: glMatrixLoad3x2fNV_P))
+    glMatrixLoad3x2fNV_P = unsafeBitCast(getAddress(CommandInfo("glMatrixLoad3x2fNV", [S318])), to: Swift.type(of: glMatrixLoad3x2fNV_P))
     glMatrixLoad3x2fNV_P(matrixMode, m)
 }
 func glMatrixLoad3x3fNV_L(_ matrixMode:GLenum, _ m:UnsafePointer<GLfloat>?) {
-    glMatrixLoad3x3fNV_P = unsafeBitCast(getAddress(CommandInfo("glMatrixLoad3x3fNV", [S315])), to: Swift.type(of: glMatrixLoad3x3fNV_P))
+    glMatrixLoad3x3fNV_P = unsafeBitCast(getAddress(CommandInfo("glMatrixLoad3x3fNV", [S318])), to: Swift.type(of: glMatrixLoad3x3fNV_P))
     glMatrixLoad3x3fNV_P(matrixMode, m)
 }
 func glMatrixLoadIdentityEXT_L(_ mode:GLenum) {
-    glMatrixLoadIdentityEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixLoadIdentityEXT", [S176, S315])), to: Swift.type(of: glMatrixLoadIdentityEXT_P))
+    glMatrixLoadIdentityEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixLoadIdentityEXT", [S176, S318])), to: Swift.type(of: glMatrixLoadIdentityEXT_P))
     glMatrixLoadIdentityEXT_P(mode)
 }
 func glMatrixLoadTranspose3x3fNV_L(_ matrixMode:GLenum, _ m:UnsafePointer<GLfloat>?) {
-    glMatrixLoadTranspose3x3fNV_P = unsafeBitCast(getAddress(CommandInfo("glMatrixLoadTranspose3x3fNV", [S315])), to: Swift.type(of: glMatrixLoadTranspose3x3fNV_P))
+    glMatrixLoadTranspose3x3fNV_P = unsafeBitCast(getAddress(CommandInfo("glMatrixLoadTranspose3x3fNV", [S318])), to: Swift.type(of: glMatrixLoadTranspose3x3fNV_P))
     glMatrixLoadTranspose3x3fNV_P(matrixMode, m)
 }
 func glMatrixLoadTransposedEXT_L(_ mode:GLenum, _ m:UnsafePointer<GLdouble>?) {
-    glMatrixLoadTransposedEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixLoadTransposedEXT", [S176, S315])), to: Swift.type(of: glMatrixLoadTransposedEXT_P))
+    glMatrixLoadTransposedEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixLoadTransposedEXT", [S176, S318])), to: Swift.type(of: glMatrixLoadTransposedEXT_P))
     glMatrixLoadTransposedEXT_P(mode, m)
 }
 func glMatrixLoadTransposefEXT_L(_ mode:GLenum, _ m:UnsafePointer<GLfloat>?) {
-    glMatrixLoadTransposefEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixLoadTransposefEXT", [S176, S315])), to: Swift.type(of: glMatrixLoadTransposefEXT_P))
+    glMatrixLoadTransposefEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixLoadTransposefEXT", [S176, S318])), to: Swift.type(of: glMatrixLoadTransposefEXT_P))
     glMatrixLoadTransposefEXT_P(mode, m)
 }
 func glMatrixLoaddEXT_L(_ mode:GLenum, _ m:UnsafePointer<GLdouble>?) {
-    glMatrixLoaddEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixLoaddEXT", [S176, S315])), to: Swift.type(of: glMatrixLoaddEXT_P))
+    glMatrixLoaddEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixLoaddEXT", [S176, S318])), to: Swift.type(of: glMatrixLoaddEXT_P))
     glMatrixLoaddEXT_P(mode, m)
 }
 func glMatrixLoadfEXT_L(_ mode:GLenum, _ m:UnsafePointer<GLfloat>?) {
-    glMatrixLoadfEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixLoadfEXT", [S176, S315])), to: Swift.type(of: glMatrixLoadfEXT_P))
+    glMatrixLoadfEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixLoadfEXT", [S176, S318])), to: Swift.type(of: glMatrixLoadfEXT_P))
     glMatrixLoadfEXT_P(mode, m)
 }
 func glMatrixMode_L(_ mode:GLenum) {
@@ -6696,67 +6727,67 @@ func glMatrixMode_L(_ mode:GLenum) {
     glMatrixMode_P(mode)
 }
 func glMatrixMult3x2fNV_L(_ matrixMode:GLenum, _ m:UnsafePointer<GLfloat>?) {
-    glMatrixMult3x2fNV_P = unsafeBitCast(getAddress(CommandInfo("glMatrixMult3x2fNV", [S315])), to: Swift.type(of: glMatrixMult3x2fNV_P))
+    glMatrixMult3x2fNV_P = unsafeBitCast(getAddress(CommandInfo("glMatrixMult3x2fNV", [S318])), to: Swift.type(of: glMatrixMult3x2fNV_P))
     glMatrixMult3x2fNV_P(matrixMode, m)
 }
 func glMatrixMult3x3fNV_L(_ matrixMode:GLenum, _ m:UnsafePointer<GLfloat>?) {
-    glMatrixMult3x3fNV_P = unsafeBitCast(getAddress(CommandInfo("glMatrixMult3x3fNV", [S315])), to: Swift.type(of: glMatrixMult3x3fNV_P))
+    glMatrixMult3x3fNV_P = unsafeBitCast(getAddress(CommandInfo("glMatrixMult3x3fNV", [S318])), to: Swift.type(of: glMatrixMult3x3fNV_P))
     glMatrixMult3x3fNV_P(matrixMode, m)
 }
 func glMatrixMultTranspose3x3fNV_L(_ matrixMode:GLenum, _ m:UnsafePointer<GLfloat>?) {
-    glMatrixMultTranspose3x3fNV_P = unsafeBitCast(getAddress(CommandInfo("glMatrixMultTranspose3x3fNV", [S315])), to: Swift.type(of: glMatrixMultTranspose3x3fNV_P))
+    glMatrixMultTranspose3x3fNV_P = unsafeBitCast(getAddress(CommandInfo("glMatrixMultTranspose3x3fNV", [S318])), to: Swift.type(of: glMatrixMultTranspose3x3fNV_P))
     glMatrixMultTranspose3x3fNV_P(matrixMode, m)
 }
 func glMatrixMultTransposedEXT_L(_ mode:GLenum, _ m:UnsafePointer<GLdouble>?) {
-    glMatrixMultTransposedEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixMultTransposedEXT", [S176, S315])), to: Swift.type(of: glMatrixMultTransposedEXT_P))
+    glMatrixMultTransposedEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixMultTransposedEXT", [S176, S318])), to: Swift.type(of: glMatrixMultTransposedEXT_P))
     glMatrixMultTransposedEXT_P(mode, m)
 }
 func glMatrixMultTransposefEXT_L(_ mode:GLenum, _ m:UnsafePointer<GLfloat>?) {
-    glMatrixMultTransposefEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixMultTransposefEXT", [S176, S315])), to: Swift.type(of: glMatrixMultTransposefEXT_P))
+    glMatrixMultTransposefEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixMultTransposefEXT", [S176, S318])), to: Swift.type(of: glMatrixMultTransposefEXT_P))
     glMatrixMultTransposefEXT_P(mode, m)
 }
 func glMatrixMultdEXT_L(_ mode:GLenum, _ m:UnsafePointer<GLdouble>?) {
-    glMatrixMultdEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixMultdEXT", [S176, S315])), to: Swift.type(of: glMatrixMultdEXT_P))
+    glMatrixMultdEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixMultdEXT", [S176, S318])), to: Swift.type(of: glMatrixMultdEXT_P))
     glMatrixMultdEXT_P(mode, m)
 }
 func glMatrixMultfEXT_L(_ mode:GLenum, _ m:UnsafePointer<GLfloat>?) {
-    glMatrixMultfEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixMultfEXT", [S176, S315])), to: Swift.type(of: glMatrixMultfEXT_P))
+    glMatrixMultfEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixMultfEXT", [S176, S318])), to: Swift.type(of: glMatrixMultfEXT_P))
     glMatrixMultfEXT_P(mode, m)
 }
 func glMatrixOrthoEXT_L(_ mode:GLenum, _ left:GLdouble, _ right:GLdouble, _ bottom:GLdouble, _ top:GLdouble, _ zNear:GLdouble, _ zFar:GLdouble) {
-    glMatrixOrthoEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixOrthoEXT", [S176, S315])), to: Swift.type(of: glMatrixOrthoEXT_P))
+    glMatrixOrthoEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixOrthoEXT", [S176, S318])), to: Swift.type(of: glMatrixOrthoEXT_P))
     glMatrixOrthoEXT_P(mode, left, right, bottom, top, zNear, zFar)
 }
 func glMatrixPopEXT_L(_ mode:GLenum) {
-    glMatrixPopEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixPopEXT", [S176, S315])), to: Swift.type(of: glMatrixPopEXT_P))
+    glMatrixPopEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixPopEXT", [S176, S318])), to: Swift.type(of: glMatrixPopEXT_P))
     glMatrixPopEXT_P(mode)
 }
 func glMatrixPushEXT_L(_ mode:GLenum) {
-    glMatrixPushEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixPushEXT", [S176, S315])), to: Swift.type(of: glMatrixPushEXT_P))
+    glMatrixPushEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixPushEXT", [S176, S318])), to: Swift.type(of: glMatrixPushEXT_P))
     glMatrixPushEXT_P(mode)
 }
 func glMatrixRotatedEXT_L(_ mode:GLenum, _ angle:GLdouble, _ x:GLdouble, _ y:GLdouble, _ z:GLdouble) {
-    glMatrixRotatedEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixRotatedEXT", [S176, S315])), to: Swift.type(of: glMatrixRotatedEXT_P))
+    glMatrixRotatedEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixRotatedEXT", [S176, S318])), to: Swift.type(of: glMatrixRotatedEXT_P))
     glMatrixRotatedEXT_P(mode, angle, x, y, z)
 }
 func glMatrixRotatefEXT_L(_ mode:GLenum, _ angle:GLfloat, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glMatrixRotatefEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixRotatefEXT", [S176, S315])), to: Swift.type(of: glMatrixRotatefEXT_P))
+    glMatrixRotatefEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixRotatefEXT", [S176, S318])), to: Swift.type(of: glMatrixRotatefEXT_P))
     glMatrixRotatefEXT_P(mode, angle, x, y, z)
 }
 func glMatrixScaledEXT_L(_ mode:GLenum, _ x:GLdouble, _ y:GLdouble, _ z:GLdouble) {
-    glMatrixScaledEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixScaledEXT", [S176, S315])), to: Swift.type(of: glMatrixScaledEXT_P))
+    glMatrixScaledEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixScaledEXT", [S176, S318])), to: Swift.type(of: glMatrixScaledEXT_P))
     glMatrixScaledEXT_P(mode, x, y, z)
 }
 func glMatrixScalefEXT_L(_ mode:GLenum, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glMatrixScalefEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixScalefEXT", [S176, S315])), to: Swift.type(of: glMatrixScalefEXT_P))
+    glMatrixScalefEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixScalefEXT", [S176, S318])), to: Swift.type(of: glMatrixScalefEXT_P))
     glMatrixScalefEXT_P(mode, x, y, z)
 }
 func glMatrixTranslatedEXT_L(_ mode:GLenum, _ x:GLdouble, _ y:GLdouble, _ z:GLdouble) {
-    glMatrixTranslatedEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixTranslatedEXT", [S176, S315])), to: Swift.type(of: glMatrixTranslatedEXT_P))
+    glMatrixTranslatedEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixTranslatedEXT", [S176, S318])), to: Swift.type(of: glMatrixTranslatedEXT_P))
     glMatrixTranslatedEXT_P(mode, x, y, z)
 }
 func glMatrixTranslatefEXT_L(_ mode:GLenum, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glMatrixTranslatefEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixTranslatefEXT", [S176, S315])), to: Swift.type(of: glMatrixTranslatefEXT_P))
+    glMatrixTranslatefEXT_P = unsafeBitCast(getAddress(CommandInfo("glMatrixTranslatefEXT", [S176, S318])), to: Swift.type(of: glMatrixTranslatefEXT_P))
     glMatrixTranslatefEXT_P(mode, x, y, z)
 }
 func glMaxShaderCompilerThreadsARB_L(_ count:GLuint) {
@@ -6792,7 +6823,7 @@ func glMinSampleShadingARB_L(_ value:GLfloat) {
     glMinSampleShadingARB_P(value)
 }
 func glMinSampleShadingOES_L(_ value:GLfloat) {
-    glMinSampleShadingOES_P = unsafeBitCast(getAddress(CommandInfo("glMinSampleShadingOES", [S362])), to: Swift.type(of: glMinSampleShadingOES_P))
+    glMinSampleShadingOES_P = unsafeBitCast(getAddress(CommandInfo("glMinSampleShadingOES", [S365])), to: Swift.type(of: glMinSampleShadingOES_P))
     glMinSampleShadingOES_P(value)
 }
 func glMinmax_L(_ target:GLenum, _ internalformat:GLenum, _ sink:GLboolean) {
@@ -6816,7 +6847,7 @@ func glMultMatrixx_L(_ m:UnsafePointer<GLfixed>?) {
     glMultMatrixx_P(m)
 }
 func glMultMatrixxOES_L(_ m:UnsafePointer<GLfixed>?) {
-    glMultMatrixxOES_P = unsafeBitCast(getAddress(CommandInfo("glMultMatrixxOES", [S353])), to: Swift.type(of: glMultMatrixxOES_P))
+    glMultMatrixxOES_P = unsafeBitCast(getAddress(CommandInfo("glMultMatrixxOES", [S356])), to: Swift.type(of: glMultMatrixxOES_P))
     glMultMatrixxOES_P(m)
 }
 func glMultTransposeMatrixd_L(_ m:UnsafePointer<GLdouble>?) {
@@ -6836,7 +6867,7 @@ func glMultTransposeMatrixfARB_L(_ m:UnsafePointer<GLfloat>?) {
     glMultTransposeMatrixfARB_P(m)
 }
 func glMultTransposeMatrixxOES_L(_ m:UnsafePointer<GLfixed>?) {
-    glMultTransposeMatrixxOES_P = unsafeBitCast(getAddress(CommandInfo("glMultTransposeMatrixxOES", [S353])), to: Swift.type(of: glMultTransposeMatrixxOES_P))
+    glMultTransposeMatrixxOES_P = unsafeBitCast(getAddress(CommandInfo("glMultTransposeMatrixxOES", [S356])), to: Swift.type(of: glMultTransposeMatrixxOES_P))
     glMultTransposeMatrixxOES_P(m)
 }
 func glMultiDrawArrays_L(_ mode:GLenum, _ first:UnsafePointer<GLint>?, _ count:UnsafePointer<GLsizei>?, _ drawcount:GLsizei) {
@@ -6856,11 +6887,11 @@ func glMultiDrawArraysIndirectAMD_L(_ mode:GLenum, _ indirect:UnsafeRawPointer?,
     glMultiDrawArraysIndirectAMD_P(mode, indirect, primcount, stride)
 }
 func glMultiDrawArraysIndirectBindlessCountNV_L(_ mode:GLenum, _ indirect:UnsafeRawPointer?, _ drawCount:GLsizei, _ maxDrawCount:GLsizei, _ stride:GLsizei, _ vertexBufferCount:GLint) {
-    glMultiDrawArraysIndirectBindlessCountNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiDrawArraysIndirectBindlessCountNV", [S276])), to: Swift.type(of: glMultiDrawArraysIndirectBindlessCountNV_P))
+    glMultiDrawArraysIndirectBindlessCountNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiDrawArraysIndirectBindlessCountNV", [S279])), to: Swift.type(of: glMultiDrawArraysIndirectBindlessCountNV_P))
     glMultiDrawArraysIndirectBindlessCountNV_P(mode, indirect, drawCount, maxDrawCount, stride, vertexBufferCount)
 }
 func glMultiDrawArraysIndirectBindlessNV_L(_ mode:GLenum, _ indirect:UnsafeRawPointer?, _ drawCount:GLsizei, _ stride:GLsizei, _ vertexBufferCount:GLint) {
-    glMultiDrawArraysIndirectBindlessNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiDrawArraysIndirectBindlessNV", [S275])), to: Swift.type(of: glMultiDrawArraysIndirectBindlessNV_P))
+    glMultiDrawArraysIndirectBindlessNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiDrawArraysIndirectBindlessNV", [S278])), to: Swift.type(of: glMultiDrawArraysIndirectBindlessNV_P))
     glMultiDrawArraysIndirectBindlessNV_P(mode, indirect, drawCount, stride, vertexBufferCount)
 }
 func glMultiDrawArraysIndirectCount_L(_ mode:GLenum, _ indirect:UnsafeRawPointer?, _ drawcount:GLintptr, _ maxdrawcount:GLsizei, _ stride:GLsizei) {
@@ -6888,7 +6919,7 @@ func glMultiDrawElementsBaseVertex_L(_ mode:GLenum, _ count:UnsafePointer<GLsize
     glMultiDrawElementsBaseVertex_P(mode, count, type, indices, drawcount, basevertex)
 }
 func glMultiDrawElementsBaseVertexEXT_L(_ mode:GLenum, _ count:UnsafePointer<GLsizei>?, _ type:GLenum, _ indices:UnsafePointer<UnsafeRawPointer>?, _ primcount:GLsizei, _ basevertex:UnsafePointer<GLint>?) {
-    glMultiDrawElementsBaseVertexEXT_P = unsafeBitCast(getAddress(CommandInfo("glMultiDrawElementsBaseVertexEXT", [S182, S351])), to: Swift.type(of: glMultiDrawElementsBaseVertexEXT_P))
+    glMultiDrawElementsBaseVertexEXT_P = unsafeBitCast(getAddress(CommandInfo("glMultiDrawElementsBaseVertexEXT", [S182, S354])), to: Swift.type(of: glMultiDrawElementsBaseVertexEXT_P))
     glMultiDrawElementsBaseVertexEXT_P(mode, count, type, indices, primcount, basevertex)
 }
 func glMultiDrawElementsEXT_L(_ mode:GLenum, _ count:UnsafePointer<GLsizei>?, _ type:GLenum, _ indices:UnsafePointer<UnsafeRawPointer>?, _ primcount:GLsizei) {
@@ -6904,11 +6935,11 @@ func glMultiDrawElementsIndirectAMD_L(_ mode:GLenum, _ type:GLenum, _ indirect:U
     glMultiDrawElementsIndirectAMD_P(mode, type, indirect, primcount, stride)
 }
 func glMultiDrawElementsIndirectBindlessCountNV_L(_ mode:GLenum, _ type:GLenum, _ indirect:UnsafeRawPointer?, _ drawCount:GLsizei, _ maxDrawCount:GLsizei, _ stride:GLsizei, _ vertexBufferCount:GLint) {
-    glMultiDrawElementsIndirectBindlessCountNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiDrawElementsIndirectBindlessCountNV", [S276])), to: Swift.type(of: glMultiDrawElementsIndirectBindlessCountNV_P))
+    glMultiDrawElementsIndirectBindlessCountNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiDrawElementsIndirectBindlessCountNV", [S279])), to: Swift.type(of: glMultiDrawElementsIndirectBindlessCountNV_P))
     glMultiDrawElementsIndirectBindlessCountNV_P(mode, type, indirect, drawCount, maxDrawCount, stride, vertexBufferCount)
 }
 func glMultiDrawElementsIndirectBindlessNV_L(_ mode:GLenum, _ type:GLenum, _ indirect:UnsafeRawPointer?, _ drawCount:GLsizei, _ stride:GLsizei, _ vertexBufferCount:GLint) {
-    glMultiDrawElementsIndirectBindlessNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiDrawElementsIndirectBindlessNV", [S275])), to: Swift.type(of: glMultiDrawElementsIndirectBindlessNV_P))
+    glMultiDrawElementsIndirectBindlessNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiDrawElementsIndirectBindlessNV", [S278])), to: Swift.type(of: glMultiDrawElementsIndirectBindlessNV_P))
     glMultiDrawElementsIndirectBindlessNV_P(mode, type, indirect, drawCount, stride, vertexBufferCount)
 }
 func glMultiDrawElementsIndirectCount_L(_ mode:GLenum, _ type:GLenum, _ indirect:UnsafeRawPointer?, _ drawcount:GLintptr, _ maxdrawcount:GLsizei, _ stride:GLsizei) {
@@ -6924,11 +6955,11 @@ func glMultiDrawElementsIndirectEXT_L(_ mode:GLenum, _ type:GLenum, _ indirect:U
     glMultiDrawElementsIndirectEXT_P(mode, type, indirect, drawcount, stride)
 }
 func glMultiDrawMeshTasksIndirectCountNV_L(_ indirect:GLintptr, _ drawcount:GLintptr, _ maxdrawcount:GLsizei, _ stride:GLsizei) {
-    glMultiDrawMeshTasksIndirectCountNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiDrawMeshTasksIndirectCountNV", [S311])), to: Swift.type(of: glMultiDrawMeshTasksIndirectCountNV_P))
+    glMultiDrawMeshTasksIndirectCountNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiDrawMeshTasksIndirectCountNV", [S314])), to: Swift.type(of: glMultiDrawMeshTasksIndirectCountNV_P))
     glMultiDrawMeshTasksIndirectCountNV_P(indirect, drawcount, maxdrawcount, stride)
 }
 func glMultiDrawMeshTasksIndirectNV_L(_ indirect:GLintptr, _ drawcount:GLsizei, _ stride:GLsizei) {
-    glMultiDrawMeshTasksIndirectNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiDrawMeshTasksIndirectNV", [S311])), to: Swift.type(of: glMultiDrawMeshTasksIndirectNV_P))
+    glMultiDrawMeshTasksIndirectNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiDrawMeshTasksIndirectNV", [S314])), to: Swift.type(of: glMultiDrawMeshTasksIndirectNV_P))
     glMultiDrawMeshTasksIndirectNV_P(indirect, drawcount, stride)
 }
 func glMultiDrawRangeElementArrayAPPLE_L(_ mode:GLenum, _ start:GLuint, _ end:GLuint, _ first:UnsafePointer<GLint>?, _ count:UnsafePointer<GLsizei>?, _ primcount:GLsizei) {
@@ -6948,11 +6979,11 @@ func glMultiTexBufferEXT_L(_ texunit:GLenum, _ target:GLenum, _ internalformat:G
     glMultiTexBufferEXT_P(texunit, target, internalformat, buffer)
 }
 func glMultiTexCoord1bOES_L(_ texture:GLenum, _ s:GLbyte) {
-    glMultiTexCoord1bOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord1bOES", [S348])), to: Swift.type(of: glMultiTexCoord1bOES_P))
+    glMultiTexCoord1bOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord1bOES", [S351])), to: Swift.type(of: glMultiTexCoord1bOES_P))
     glMultiTexCoord1bOES_P(texture, s)
 }
 func glMultiTexCoord1bvOES_L(_ texture:GLenum, _ coords:UnsafePointer<GLbyte>?) {
-    glMultiTexCoord1bvOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord1bvOES", [S348])), to: Swift.type(of: glMultiTexCoord1bvOES_P))
+    glMultiTexCoord1bvOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord1bvOES", [S351])), to: Swift.type(of: glMultiTexCoord1bvOES_P))
     glMultiTexCoord1bvOES_P(texture, coords)
 }
 func glMultiTexCoord1d_L(_ target:GLenum, _ s:GLdouble) {
@@ -6988,11 +7019,11 @@ func glMultiTexCoord1fvARB_L(_ target:GLenum, _ v:UnsafePointer<GLfloat>?) {
     glMultiTexCoord1fvARB_P(target, v)
 }
 func glMultiTexCoord1hNV_L(_ target:GLenum, _ s:GLhalfNV) {
-    glMultiTexCoord1hNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord1hNV", [S307])), to: Swift.type(of: glMultiTexCoord1hNV_P))
+    glMultiTexCoord1hNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord1hNV", [S310])), to: Swift.type(of: glMultiTexCoord1hNV_P))
     glMultiTexCoord1hNV_P(target, s)
 }
 func glMultiTexCoord1hvNV_L(_ target:GLenum, _ v:UnsafePointer<GLhalfNV>?) {
-    glMultiTexCoord1hvNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord1hvNV", [S307])), to: Swift.type(of: glMultiTexCoord1hvNV_P))
+    glMultiTexCoord1hvNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord1hvNV", [S310])), to: Swift.type(of: glMultiTexCoord1hvNV_P))
     glMultiTexCoord1hvNV_P(target, v)
 }
 func glMultiTexCoord1i_L(_ target:GLenum, _ s:GLint) {
@@ -7028,19 +7059,19 @@ func glMultiTexCoord1svARB_L(_ target:GLenum, _ v:UnsafePointer<GLshort>?) {
     glMultiTexCoord1svARB_P(target, v)
 }
 func glMultiTexCoord1xOES_L(_ texture:GLenum, _ s:GLfixed) {
-    glMultiTexCoord1xOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord1xOES", [S353])), to: Swift.type(of: glMultiTexCoord1xOES_P))
+    glMultiTexCoord1xOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord1xOES", [S356])), to: Swift.type(of: glMultiTexCoord1xOES_P))
     glMultiTexCoord1xOES_P(texture, s)
 }
 func glMultiTexCoord1xvOES_L(_ texture:GLenum, _ coords:UnsafePointer<GLfixed>?) {
-    glMultiTexCoord1xvOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord1xvOES", [S353])), to: Swift.type(of: glMultiTexCoord1xvOES_P))
+    glMultiTexCoord1xvOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord1xvOES", [S356])), to: Swift.type(of: glMultiTexCoord1xvOES_P))
     glMultiTexCoord1xvOES_P(texture, coords)
 }
 func glMultiTexCoord2bOES_L(_ texture:GLenum, _ s:GLbyte, _ t:GLbyte) {
-    glMultiTexCoord2bOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord2bOES", [S348])), to: Swift.type(of: glMultiTexCoord2bOES_P))
+    glMultiTexCoord2bOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord2bOES", [S351])), to: Swift.type(of: glMultiTexCoord2bOES_P))
     glMultiTexCoord2bOES_P(texture, s, t)
 }
 func glMultiTexCoord2bvOES_L(_ texture:GLenum, _ coords:UnsafePointer<GLbyte>?) {
-    glMultiTexCoord2bvOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord2bvOES", [S348])), to: Swift.type(of: glMultiTexCoord2bvOES_P))
+    glMultiTexCoord2bvOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord2bvOES", [S351])), to: Swift.type(of: glMultiTexCoord2bvOES_P))
     glMultiTexCoord2bvOES_P(texture, coords)
 }
 func glMultiTexCoord2d_L(_ target:GLenum, _ s:GLdouble, _ t:GLdouble) {
@@ -7076,11 +7107,11 @@ func glMultiTexCoord2fvARB_L(_ target:GLenum, _ v:UnsafePointer<GLfloat>?) {
     glMultiTexCoord2fvARB_P(target, v)
 }
 func glMultiTexCoord2hNV_L(_ target:GLenum, _ s:GLhalfNV, _ t:GLhalfNV) {
-    glMultiTexCoord2hNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord2hNV", [S307])), to: Swift.type(of: glMultiTexCoord2hNV_P))
+    glMultiTexCoord2hNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord2hNV", [S310])), to: Swift.type(of: glMultiTexCoord2hNV_P))
     glMultiTexCoord2hNV_P(target, s, t)
 }
 func glMultiTexCoord2hvNV_L(_ target:GLenum, _ v:UnsafePointer<GLhalfNV>?) {
-    glMultiTexCoord2hvNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord2hvNV", [S307])), to: Swift.type(of: glMultiTexCoord2hvNV_P))
+    glMultiTexCoord2hvNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord2hvNV", [S310])), to: Swift.type(of: glMultiTexCoord2hvNV_P))
     glMultiTexCoord2hvNV_P(target, v)
 }
 func glMultiTexCoord2i_L(_ target:GLenum, _ s:GLint, _ t:GLint) {
@@ -7116,19 +7147,19 @@ func glMultiTexCoord2svARB_L(_ target:GLenum, _ v:UnsafePointer<GLshort>?) {
     glMultiTexCoord2svARB_P(target, v)
 }
 func glMultiTexCoord2xOES_L(_ texture:GLenum, _ s:GLfixed, _ t:GLfixed) {
-    glMultiTexCoord2xOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord2xOES", [S353])), to: Swift.type(of: glMultiTexCoord2xOES_P))
+    glMultiTexCoord2xOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord2xOES", [S356])), to: Swift.type(of: glMultiTexCoord2xOES_P))
     glMultiTexCoord2xOES_P(texture, s, t)
 }
 func glMultiTexCoord2xvOES_L(_ texture:GLenum, _ coords:UnsafePointer<GLfixed>?) {
-    glMultiTexCoord2xvOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord2xvOES", [S353])), to: Swift.type(of: glMultiTexCoord2xvOES_P))
+    glMultiTexCoord2xvOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord2xvOES", [S356])), to: Swift.type(of: glMultiTexCoord2xvOES_P))
     glMultiTexCoord2xvOES_P(texture, coords)
 }
 func glMultiTexCoord3bOES_L(_ texture:GLenum, _ s:GLbyte, _ t:GLbyte, _ r:GLbyte) {
-    glMultiTexCoord3bOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord3bOES", [S348])), to: Swift.type(of: glMultiTexCoord3bOES_P))
+    glMultiTexCoord3bOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord3bOES", [S351])), to: Swift.type(of: glMultiTexCoord3bOES_P))
     glMultiTexCoord3bOES_P(texture, s, t, r)
 }
 func glMultiTexCoord3bvOES_L(_ texture:GLenum, _ coords:UnsafePointer<GLbyte>?) {
-    glMultiTexCoord3bvOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord3bvOES", [S348])), to: Swift.type(of: glMultiTexCoord3bvOES_P))
+    glMultiTexCoord3bvOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord3bvOES", [S351])), to: Swift.type(of: glMultiTexCoord3bvOES_P))
     glMultiTexCoord3bvOES_P(texture, coords)
 }
 func glMultiTexCoord3d_L(_ target:GLenum, _ s:GLdouble, _ t:GLdouble, _ r:GLdouble) {
@@ -7164,11 +7195,11 @@ func glMultiTexCoord3fvARB_L(_ target:GLenum, _ v:UnsafePointer<GLfloat>?) {
     glMultiTexCoord3fvARB_P(target, v)
 }
 func glMultiTexCoord3hNV_L(_ target:GLenum, _ s:GLhalfNV, _ t:GLhalfNV, _ r:GLhalfNV) {
-    glMultiTexCoord3hNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord3hNV", [S307])), to: Swift.type(of: glMultiTexCoord3hNV_P))
+    glMultiTexCoord3hNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord3hNV", [S310])), to: Swift.type(of: glMultiTexCoord3hNV_P))
     glMultiTexCoord3hNV_P(target, s, t, r)
 }
 func glMultiTexCoord3hvNV_L(_ target:GLenum, _ v:UnsafePointer<GLhalfNV>?) {
-    glMultiTexCoord3hvNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord3hvNV", [S307])), to: Swift.type(of: glMultiTexCoord3hvNV_P))
+    glMultiTexCoord3hvNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord3hvNV", [S310])), to: Swift.type(of: glMultiTexCoord3hvNV_P))
     glMultiTexCoord3hvNV_P(target, v)
 }
 func glMultiTexCoord3i_L(_ target:GLenum, _ s:GLint, _ t:GLint, _ r:GLint) {
@@ -7204,19 +7235,19 @@ func glMultiTexCoord3svARB_L(_ target:GLenum, _ v:UnsafePointer<GLshort>?) {
     glMultiTexCoord3svARB_P(target, v)
 }
 func glMultiTexCoord3xOES_L(_ texture:GLenum, _ s:GLfixed, _ t:GLfixed, _ r:GLfixed) {
-    glMultiTexCoord3xOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord3xOES", [S353])), to: Swift.type(of: glMultiTexCoord3xOES_P))
+    glMultiTexCoord3xOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord3xOES", [S356])), to: Swift.type(of: glMultiTexCoord3xOES_P))
     glMultiTexCoord3xOES_P(texture, s, t, r)
 }
 func glMultiTexCoord3xvOES_L(_ texture:GLenum, _ coords:UnsafePointer<GLfixed>?) {
-    glMultiTexCoord3xvOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord3xvOES", [S353])), to: Swift.type(of: glMultiTexCoord3xvOES_P))
+    glMultiTexCoord3xvOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord3xvOES", [S356])), to: Swift.type(of: glMultiTexCoord3xvOES_P))
     glMultiTexCoord3xvOES_P(texture, coords)
 }
 func glMultiTexCoord4bOES_L(_ texture:GLenum, _ s:GLbyte, _ t:GLbyte, _ r:GLbyte, _ q:GLbyte) {
-    glMultiTexCoord4bOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord4bOES", [S348])), to: Swift.type(of: glMultiTexCoord4bOES_P))
+    glMultiTexCoord4bOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord4bOES", [S351])), to: Swift.type(of: glMultiTexCoord4bOES_P))
     glMultiTexCoord4bOES_P(texture, s, t, r, q)
 }
 func glMultiTexCoord4bvOES_L(_ texture:GLenum, _ coords:UnsafePointer<GLbyte>?) {
-    glMultiTexCoord4bvOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord4bvOES", [S348])), to: Swift.type(of: glMultiTexCoord4bvOES_P))
+    glMultiTexCoord4bvOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord4bvOES", [S351])), to: Swift.type(of: glMultiTexCoord4bvOES_P))
     glMultiTexCoord4bvOES_P(texture, coords)
 }
 func glMultiTexCoord4d_L(_ target:GLenum, _ s:GLdouble, _ t:GLdouble, _ r:GLdouble, _ q:GLdouble) {
@@ -7252,11 +7283,11 @@ func glMultiTexCoord4fvARB_L(_ target:GLenum, _ v:UnsafePointer<GLfloat>?) {
     glMultiTexCoord4fvARB_P(target, v)
 }
 func glMultiTexCoord4hNV_L(_ target:GLenum, _ s:GLhalfNV, _ t:GLhalfNV, _ r:GLhalfNV, _ q:GLhalfNV) {
-    glMultiTexCoord4hNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord4hNV", [S307])), to: Swift.type(of: glMultiTexCoord4hNV_P))
+    glMultiTexCoord4hNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord4hNV", [S310])), to: Swift.type(of: glMultiTexCoord4hNV_P))
     glMultiTexCoord4hNV_P(target, s, t, r, q)
 }
 func glMultiTexCoord4hvNV_L(_ target:GLenum, _ v:UnsafePointer<GLhalfNV>?) {
-    glMultiTexCoord4hvNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord4hvNV", [S307])), to: Swift.type(of: glMultiTexCoord4hvNV_P))
+    glMultiTexCoord4hvNV_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord4hvNV", [S310])), to: Swift.type(of: glMultiTexCoord4hvNV_P))
     glMultiTexCoord4hvNV_P(target, v)
 }
 func glMultiTexCoord4i_L(_ target:GLenum, _ s:GLint, _ t:GLint, _ r:GLint, _ q:GLint) {
@@ -7296,11 +7327,11 @@ func glMultiTexCoord4x_L(_ texture:GLenum, _ s:GLfixed, _ t:GLfixed, _ r:GLfixed
     glMultiTexCoord4x_P(texture, s, t, r, q)
 }
 func glMultiTexCoord4xOES_L(_ texture:GLenum, _ s:GLfixed, _ t:GLfixed, _ r:GLfixed, _ q:GLfixed) {
-    glMultiTexCoord4xOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord4xOES", [S353])), to: Swift.type(of: glMultiTexCoord4xOES_P))
+    glMultiTexCoord4xOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord4xOES", [S356])), to: Swift.type(of: glMultiTexCoord4xOES_P))
     glMultiTexCoord4xOES_P(texture, s, t, r, q)
 }
 func glMultiTexCoord4xvOES_L(_ texture:GLenum, _ coords:UnsafePointer<GLfixed>?) {
-    glMultiTexCoord4xvOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord4xvOES", [S353])), to: Swift.type(of: glMultiTexCoord4xvOES_P))
+    glMultiTexCoord4xvOES_P = unsafeBitCast(getAddress(CommandInfo("glMultiTexCoord4xvOES", [S356])), to: Swift.type(of: glMultiTexCoord4xvOES_P))
     glMultiTexCoord4xvOES_P(texture, coords)
 }
 func glMultiTexCoordP1ui_L(_ texture:GLenum, _ type:GLenum, _ coords:GLuint) {
@@ -7432,51 +7463,63 @@ func glMultiTexSubImage3DEXT_L(_ texunit:GLenum, _ target:GLenum, _ level:GLint,
     glMultiTexSubImage3DEXT_P(texunit, target, level, xoffset, yoffset, zoffset, width, height, depth, format, type, pixels)
 }
 func glMulticastBarrierNV_L() {
-    glMulticastBarrierNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastBarrierNV", [S303])), to: Swift.type(of: glMulticastBarrierNV_P))
+    glMulticastBarrierNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastBarrierNV", [S306])), to: Swift.type(of: glMulticastBarrierNV_P))
     glMulticastBarrierNV_P()
 }
 func glMulticastBlitFramebufferNV_L(_ srcGpu:GLuint, _ dstGpu:GLuint, _ srcX0:GLint, _ srcY0:GLint, _ srcX1:GLint, _ srcY1:GLint, _ dstX0:GLint, _ dstY0:GLint, _ dstX1:GLint, _ dstY1:GLint, _ mask:GLbitfield, _ filter:GLenum) {
-    glMulticastBlitFramebufferNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastBlitFramebufferNV", [S303])), to: Swift.type(of: glMulticastBlitFramebufferNV_P))
+    glMulticastBlitFramebufferNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastBlitFramebufferNV", [S306])), to: Swift.type(of: glMulticastBlitFramebufferNV_P))
     glMulticastBlitFramebufferNV_P(srcGpu, dstGpu, srcX0, srcY0, srcX1, srcY1, dstX0, dstY0, dstX1, dstY1, mask, filter)
 }
 func glMulticastBufferSubDataNV_L(_ gpuMask:GLbitfield, _ buffer:GLuint, _ offset:GLintptr, _ size:GLsizeiptr, _ data:UnsafeRawPointer?) {
-    glMulticastBufferSubDataNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastBufferSubDataNV", [S303])), to: Swift.type(of: glMulticastBufferSubDataNV_P))
+    glMulticastBufferSubDataNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastBufferSubDataNV", [S306])), to: Swift.type(of: glMulticastBufferSubDataNV_P))
     glMulticastBufferSubDataNV_P(gpuMask, buffer, offset, size, data)
 }
 func glMulticastCopyBufferSubDataNV_L(_ readGpu:GLuint, _ writeGpuMask:GLbitfield, _ readBuffer:GLuint, _ writeBuffer:GLuint, _ readOffset:GLintptr, _ writeOffset:GLintptr, _ size:GLsizeiptr) {
-    glMulticastCopyBufferSubDataNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastCopyBufferSubDataNV", [S303])), to: Swift.type(of: glMulticastCopyBufferSubDataNV_P))
+    glMulticastCopyBufferSubDataNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastCopyBufferSubDataNV", [S306])), to: Swift.type(of: glMulticastCopyBufferSubDataNV_P))
     glMulticastCopyBufferSubDataNV_P(readGpu, writeGpuMask, readBuffer, writeBuffer, readOffset, writeOffset, size)
 }
 func glMulticastCopyImageSubDataNV_L(_ srcGpu:GLuint, _ dstGpuMask:GLbitfield, _ srcName:GLuint, _ srcTarget:GLenum, _ srcLevel:GLint, _ srcX:GLint, _ srcY:GLint, _ srcZ:GLint, _ dstName:GLuint, _ dstTarget:GLenum, _ dstLevel:GLint, _ dstX:GLint, _ dstY:GLint, _ dstZ:GLint, _ srcWidth:GLsizei, _ srcHeight:GLsizei, _ srcDepth:GLsizei) {
-    glMulticastCopyImageSubDataNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastCopyImageSubDataNV", [S303])), to: Swift.type(of: glMulticastCopyImageSubDataNV_P))
+    glMulticastCopyImageSubDataNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastCopyImageSubDataNV", [S306])), to: Swift.type(of: glMulticastCopyImageSubDataNV_P))
     glMulticastCopyImageSubDataNV_P(srcGpu, dstGpuMask, srcName, srcTarget, srcLevel, srcX, srcY, srcZ, dstName, dstTarget, dstLevel, dstX, dstY, dstZ, srcWidth, srcHeight, srcDepth)
 }
 func glMulticastFramebufferSampleLocationsfvNV_L(_ gpu:GLuint, _ framebuffer:GLuint, _ start:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLfloat>?) {
-    glMulticastFramebufferSampleLocationsfvNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastFramebufferSampleLocationsfvNV", [S303])), to: Swift.type(of: glMulticastFramebufferSampleLocationsfvNV_P))
+    glMulticastFramebufferSampleLocationsfvNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastFramebufferSampleLocationsfvNV", [S306])), to: Swift.type(of: glMulticastFramebufferSampleLocationsfvNV_P))
     glMulticastFramebufferSampleLocationsfvNV_P(gpu, framebuffer, start, count, v)
 }
 func glMulticastGetQueryObjecti64vNV_L(_ gpu:GLuint, _ id:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint64>?) {
-    glMulticastGetQueryObjecti64vNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastGetQueryObjecti64vNV", [S303])), to: Swift.type(of: glMulticastGetQueryObjecti64vNV_P))
+    glMulticastGetQueryObjecti64vNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastGetQueryObjecti64vNV", [S306])), to: Swift.type(of: glMulticastGetQueryObjecti64vNV_P))
     glMulticastGetQueryObjecti64vNV_P(gpu, id, pname, params)
 }
 func glMulticastGetQueryObjectivNV_L(_ gpu:GLuint, _ id:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLint>?) {
-    glMulticastGetQueryObjectivNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastGetQueryObjectivNV", [S303])), to: Swift.type(of: glMulticastGetQueryObjectivNV_P))
+    glMulticastGetQueryObjectivNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastGetQueryObjectivNV", [S306])), to: Swift.type(of: glMulticastGetQueryObjectivNV_P))
     glMulticastGetQueryObjectivNV_P(gpu, id, pname, params)
 }
 func glMulticastGetQueryObjectui64vNV_L(_ gpu:GLuint, _ id:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLuint64>?) {
-    glMulticastGetQueryObjectui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastGetQueryObjectui64vNV", [S303])), to: Swift.type(of: glMulticastGetQueryObjectui64vNV_P))
+    glMulticastGetQueryObjectui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastGetQueryObjectui64vNV", [S306])), to: Swift.type(of: glMulticastGetQueryObjectui64vNV_P))
     glMulticastGetQueryObjectui64vNV_P(gpu, id, pname, params)
 }
 func glMulticastGetQueryObjectuivNV_L(_ gpu:GLuint, _ id:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<GLuint>?) {
-    glMulticastGetQueryObjectuivNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastGetQueryObjectuivNV", [S303])), to: Swift.type(of: glMulticastGetQueryObjectuivNV_P))
+    glMulticastGetQueryObjectuivNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastGetQueryObjectuivNV", [S306])), to: Swift.type(of: glMulticastGetQueryObjectuivNV_P))
     glMulticastGetQueryObjectuivNV_P(gpu, id, pname, params)
 }
+func glMulticastScissorArrayvNVX_L(_ gpu:GLuint, _ first:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLint>?) {
+    glMulticastScissorArrayvNVX_P = unsafeBitCast(getAddress(CommandInfo("glMulticastScissorArrayvNVX", [S274])), to: Swift.type(of: glMulticastScissorArrayvNVX_P))
+    glMulticastScissorArrayvNVX_P(gpu, first, count, v)
+}
+func glMulticastViewportArrayvNVX_L(_ gpu:GLuint, _ first:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLfloat>?) {
+    glMulticastViewportArrayvNVX_P = unsafeBitCast(getAddress(CommandInfo("glMulticastViewportArrayvNVX", [S274])), to: Swift.type(of: glMulticastViewportArrayvNVX_P))
+    glMulticastViewportArrayvNVX_P(gpu, first, count, v)
+}
+func glMulticastViewportPositionWScaleNVX_L(_ gpu:GLuint, _ index:GLuint, _ xcoeff:GLfloat, _ ycoeff:GLfloat) {
+    glMulticastViewportPositionWScaleNVX_P = unsafeBitCast(getAddress(CommandInfo("glMulticastViewportPositionWScaleNVX", [S274])), to: Swift.type(of: glMulticastViewportPositionWScaleNVX_P))
+    glMulticastViewportPositionWScaleNVX_P(gpu, index, xcoeff, ycoeff)
+}
 func glMulticastWaitSyncNV_L(_ signalGpu:GLuint, _ waitGpuMask:GLbitfield) {
-    glMulticastWaitSyncNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastWaitSyncNV", [S303])), to: Swift.type(of: glMulticastWaitSyncNV_P))
+    glMulticastWaitSyncNV_P = unsafeBitCast(getAddress(CommandInfo("glMulticastWaitSyncNV", [S306])), to: Swift.type(of: glMulticastWaitSyncNV_P))
     glMulticastWaitSyncNV_P(signalGpu, waitGpuMask)
 }
 func glNamedBufferAttachMemoryNV_L(_ buffer:GLuint, _ memory:GLuint, _ offset:GLuint64) {
-    glNamedBufferAttachMemoryNV_P = unsafeBitCast(getAddress(CommandInfo("glNamedBufferAttachMemoryNV", [S310])), to: Swift.type(of: glNamedBufferAttachMemoryNV_P))
+    glNamedBufferAttachMemoryNV_P = unsafeBitCast(getAddress(CommandInfo("glNamedBufferAttachMemoryNV", [S313])), to: Swift.type(of: glNamedBufferAttachMemoryNV_P))
     glNamedBufferAttachMemoryNV_P(buffer, memory, offset)
 }
 func glNamedBufferData_L(_ buffer:GLuint, _ size:GLsizeiptr, _ data:UnsafeRawPointer?, _ usage:GLenum) {
@@ -7556,7 +7599,7 @@ func glNamedFramebufferSampleLocationsfvARB_L(_ framebuffer:GLuint, _ start:GLui
     glNamedFramebufferSampleLocationsfvARB_P(framebuffer, start, count, v)
 }
 func glNamedFramebufferSampleLocationsfvNV_L(_ framebuffer:GLuint, _ start:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLfloat>?) {
-    glNamedFramebufferSampleLocationsfvNV_P = unsafeBitCast(getAddress(CommandInfo("glNamedFramebufferSampleLocationsfvNV", [S326])), to: Swift.type(of: glNamedFramebufferSampleLocationsfvNV_P))
+    glNamedFramebufferSampleLocationsfvNV_P = unsafeBitCast(getAddress(CommandInfo("glNamedFramebufferSampleLocationsfvNV", [S329])), to: Swift.type(of: glNamedFramebufferSampleLocationsfvNV_P))
     glNamedFramebufferSampleLocationsfvNV_P(framebuffer, start, count, v)
 }
 func glNamedFramebufferSamplePositionsfvAMD_L(_ framebuffer:GLuint, _ numsamples:GLuint, _ pixelindex:GLuint, _ values:UnsafePointer<GLfloat>?) {
@@ -7700,11 +7743,11 @@ func glNormal3f_L(_ nx:GLfloat, _ ny:GLfloat, _ nz:GLfloat) {
     glNormal3f_P(nx, ny, nz)
 }
 func glNormal3fVertex3fSUN_L(_ nx:GLfloat, _ ny:GLfloat, _ nz:GLfloat, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glNormal3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glNormal3fVertex3fSUN", [S410])), to: Swift.type(of: glNormal3fVertex3fSUN_P))
+    glNormal3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glNormal3fVertex3fSUN", [S413])), to: Swift.type(of: glNormal3fVertex3fSUN_P))
     glNormal3fVertex3fSUN_P(nx, ny, nz, x, y, z)
 }
 func glNormal3fVertex3fvSUN_L(_ n:UnsafePointer<GLfloat>?, _ v:UnsafePointer<GLfloat>?) {
-    glNormal3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glNormal3fVertex3fvSUN", [S410])), to: Swift.type(of: glNormal3fVertex3fvSUN_P))
+    glNormal3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glNormal3fVertex3fvSUN", [S413])), to: Swift.type(of: glNormal3fVertex3fvSUN_P))
     glNormal3fVertex3fvSUN_P(n, v)
 }
 func glNormal3fv_L(_ v:UnsafePointer<GLfloat>?) {
@@ -7712,11 +7755,11 @@ func glNormal3fv_L(_ v:UnsafePointer<GLfloat>?) {
     glNormal3fv_P(v)
 }
 func glNormal3hNV_L(_ nx:GLhalfNV, _ ny:GLhalfNV, _ nz:GLhalfNV) {
-    glNormal3hNV_P = unsafeBitCast(getAddress(CommandInfo("glNormal3hNV", [S307])), to: Swift.type(of: glNormal3hNV_P))
+    glNormal3hNV_P = unsafeBitCast(getAddress(CommandInfo("glNormal3hNV", [S310])), to: Swift.type(of: glNormal3hNV_P))
     glNormal3hNV_P(nx, ny, nz)
 }
 func glNormal3hvNV_L(_ v:UnsafePointer<GLhalfNV>?) {
-    glNormal3hvNV_P = unsafeBitCast(getAddress(CommandInfo("glNormal3hvNV", [S307])), to: Swift.type(of: glNormal3hvNV_P))
+    glNormal3hvNV_P = unsafeBitCast(getAddress(CommandInfo("glNormal3hvNV", [S310])), to: Swift.type(of: glNormal3hvNV_P))
     glNormal3hvNV_P(v)
 }
 func glNormal3i_L(_ nx:GLint, _ ny:GLint, _ nz:GLint) {
@@ -7740,15 +7783,15 @@ func glNormal3x_L(_ nx:GLfixed, _ ny:GLfixed, _ nz:GLfixed) {
     glNormal3x_P(nx, ny, nz)
 }
 func glNormal3xOES_L(_ nx:GLfixed, _ ny:GLfixed, _ nz:GLfixed) {
-    glNormal3xOES_P = unsafeBitCast(getAddress(CommandInfo("glNormal3xOES", [S353])), to: Swift.type(of: glNormal3xOES_P))
+    glNormal3xOES_P = unsafeBitCast(getAddress(CommandInfo("glNormal3xOES", [S356])), to: Swift.type(of: glNormal3xOES_P))
     glNormal3xOES_P(nx, ny, nz)
 }
 func glNormal3xvOES_L(_ coords:UnsafePointer<GLfixed>?) {
-    glNormal3xvOES_P = unsafeBitCast(getAddress(CommandInfo("glNormal3xvOES", [S353])), to: Swift.type(of: glNormal3xvOES_P))
+    glNormal3xvOES_P = unsafeBitCast(getAddress(CommandInfo("glNormal3xvOES", [S356])), to: Swift.type(of: glNormal3xvOES_P))
     glNormal3xvOES_P(coords)
 }
 func glNormalFormatNV_L(_ type:GLenum, _ stride:GLsizei) {
-    glNormalFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glNormalFormatNV", [S338])), to: Swift.type(of: glNormalFormatNV_P))
+    glNormalFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glNormalFormatNV", [S341])), to: Swift.type(of: glNormalFormatNV_P))
     glNormalFormatNV_P(type, stride)
 }
 func glNormalP3ui_L(_ type:GLenum, _ coords:GLuint) {
@@ -7848,7 +7891,7 @@ func glOrthof_L(_ l:GLfloat, _ r:GLfloat, _ b:GLfloat, _ t:GLfloat, _ n:GLfloat,
     glOrthof_P(l, r, b, t, n, f)
 }
 func glOrthofOES_L(_ l:GLfloat, _ r:GLfloat, _ b:GLfloat, _ t:GLfloat, _ n:GLfloat, _ f:GLfloat) {
-    glOrthofOES_P = unsafeBitCast(getAddress(CommandInfo("glOrthofOES", [S363])), to: Swift.type(of: glOrthofOES_P))
+    glOrthofOES_P = unsafeBitCast(getAddress(CommandInfo("glOrthofOES", [S366])), to: Swift.type(of: glOrthofOES_P))
     glOrthofOES_P(l, r, b, t, n, f)
 }
 func glOrthox_L(_ l:GLfixed, _ r:GLfixed, _ b:GLfixed, _ t:GLfixed, _ n:GLfixed, _ f:GLfixed) {
@@ -7856,7 +7899,7 @@ func glOrthox_L(_ l:GLfixed, _ r:GLfixed, _ b:GLfixed, _ t:GLfixed, _ n:GLfixed,
     glOrthox_P(l, r, b, t, n, f)
 }
 func glOrthoxOES_L(_ l:GLfixed, _ r:GLfixed, _ b:GLfixed, _ t:GLfixed, _ n:GLfixed, _ f:GLfixed) {
-    glOrthoxOES_P = unsafeBitCast(getAddress(CommandInfo("glOrthoxOES", [S353])), to: Swift.type(of: glOrthoxOES_P))
+    glOrthoxOES_P = unsafeBitCast(getAddress(CommandInfo("glOrthoxOES", [S356])), to: Swift.type(of: glOrthoxOES_P))
     glOrthoxOES_P(l, r, b, t, n, f)
 }
 func glPNTrianglesfATI_L(_ pname:GLenum, _ param:GLfloat) {
@@ -7876,7 +7919,7 @@ func glPassThrough_L(_ token:GLfloat) {
     glPassThrough_P(token)
 }
 func glPassThroughxOES_L(_ token:GLfixed) {
-    glPassThroughxOES_P = unsafeBitCast(getAddress(CommandInfo("glPassThroughxOES", [S353])), to: Swift.type(of: glPassThroughxOES_P))
+    glPassThroughxOES_P = unsafeBitCast(getAddress(CommandInfo("glPassThroughxOES", [S356])), to: Swift.type(of: glPassThroughxOES_P))
     glPassThroughxOES_P(token)
 }
 func glPatchParameterfv_L(_ pname:GLenum, _ values:UnsafePointer<GLfloat>?) {
@@ -7892,91 +7935,91 @@ func glPatchParameteriEXT_L(_ pname:GLenum, _ value:GLint) {
     glPatchParameteriEXT_P(pname, value)
 }
 func glPatchParameteriOES_L(_ pname:GLenum, _ value:GLint) {
-    glPatchParameteriOES_P = unsafeBitCast(getAddress(CommandInfo("glPatchParameteriOES", [S364])), to: Swift.type(of: glPatchParameteriOES_P))
+    glPatchParameteriOES_P = unsafeBitCast(getAddress(CommandInfo("glPatchParameteriOES", [S367])), to: Swift.type(of: glPatchParameteriOES_P))
     glPatchParameteriOES_P(pname, value)
 }
 func glPathColorGenNV_L(_ color:GLenum, _ genMode:GLenum, _ colorFormat:GLenum, _ coeffs:UnsafePointer<GLfloat>?) {
-    glPathColorGenNV_P = unsafeBitCast(getAddress(CommandInfo("glPathColorGenNV", [S315])), to: Swift.type(of: glPathColorGenNV_P))
+    glPathColorGenNV_P = unsafeBitCast(getAddress(CommandInfo("glPathColorGenNV", [S318])), to: Swift.type(of: glPathColorGenNV_P))
     glPathColorGenNV_P(color, genMode, colorFormat, coeffs)
 }
 func glPathCommandsNV_L(_ path:GLuint, _ numCommands:GLsizei, _ commands:UnsafePointer<GLubyte>?, _ numCoords:GLsizei, _ coordType:GLenum, _ coords:UnsafeRawPointer?) {
-    glPathCommandsNV_P = unsafeBitCast(getAddress(CommandInfo("glPathCommandsNV", [S315])), to: Swift.type(of: glPathCommandsNV_P))
+    glPathCommandsNV_P = unsafeBitCast(getAddress(CommandInfo("glPathCommandsNV", [S318])), to: Swift.type(of: glPathCommandsNV_P))
     glPathCommandsNV_P(path, numCommands, commands, numCoords, coordType, coords)
 }
 func glPathCoordsNV_L(_ path:GLuint, _ numCoords:GLsizei, _ coordType:GLenum, _ coords:UnsafeRawPointer?) {
-    glPathCoordsNV_P = unsafeBitCast(getAddress(CommandInfo("glPathCoordsNV", [S315])), to: Swift.type(of: glPathCoordsNV_P))
+    glPathCoordsNV_P = unsafeBitCast(getAddress(CommandInfo("glPathCoordsNV", [S318])), to: Swift.type(of: glPathCoordsNV_P))
     glPathCoordsNV_P(path, numCoords, coordType, coords)
 }
 func glPathCoverDepthFuncNV_L(_ fn:GLenum) {
-    glPathCoverDepthFuncNV_P = unsafeBitCast(getAddress(CommandInfo("glPathCoverDepthFuncNV", [S315])), to: Swift.type(of: glPathCoverDepthFuncNV_P))
+    glPathCoverDepthFuncNV_P = unsafeBitCast(getAddress(CommandInfo("glPathCoverDepthFuncNV", [S318])), to: Swift.type(of: glPathCoverDepthFuncNV_P))
     glPathCoverDepthFuncNV_P(fn)
 }
 func glPathDashArrayNV_L(_ path:GLuint, _ dashCount:GLsizei, _ dashArray:UnsafePointer<GLfloat>?) {
-    glPathDashArrayNV_P = unsafeBitCast(getAddress(CommandInfo("glPathDashArrayNV", [S315])), to: Swift.type(of: glPathDashArrayNV_P))
+    glPathDashArrayNV_P = unsafeBitCast(getAddress(CommandInfo("glPathDashArrayNV", [S318])), to: Swift.type(of: glPathDashArrayNV_P))
     glPathDashArrayNV_P(path, dashCount, dashArray)
 }
 func glPathFogGenNV_L(_ genMode:GLenum) {
-    glPathFogGenNV_P = unsafeBitCast(getAddress(CommandInfo("glPathFogGenNV", [S315])), to: Swift.type(of: glPathFogGenNV_P))
+    glPathFogGenNV_P = unsafeBitCast(getAddress(CommandInfo("glPathFogGenNV", [S318])), to: Swift.type(of: glPathFogGenNV_P))
     glPathFogGenNV_P(genMode)
 }
 func glPathGlyphIndexArrayNV_L(_ firstPathName:GLuint, _ fontTarget:GLenum, _ fontName:UnsafeRawPointer?, _ fontStyle:GLbitfield, _ firstGlyphIndex:GLuint, _ numGlyphs:GLsizei, _ pathParameterTemplate:GLuint, _ emScale:GLfloat) -> GLenum {
-    glPathGlyphIndexArrayNV_P = unsafeBitCast(getAddress(CommandInfo("glPathGlyphIndexArrayNV", [S315])), to: Swift.type(of: glPathGlyphIndexArrayNV_P))
+    glPathGlyphIndexArrayNV_P = unsafeBitCast(getAddress(CommandInfo("glPathGlyphIndexArrayNV", [S318])), to: Swift.type(of: glPathGlyphIndexArrayNV_P))
     return glPathGlyphIndexArrayNV_P(firstPathName, fontTarget, fontName, fontStyle, firstGlyphIndex, numGlyphs, pathParameterTemplate, emScale)
 }
 func glPathGlyphIndexRangeNV_L(_ fontTarget:GLenum, _ fontName:UnsafeRawPointer?, _ fontStyle:GLbitfield, _ pathParameterTemplate:GLuint, _ emScale:GLfloat, _ baseAndCount:GLuint) -> GLenum {
-    glPathGlyphIndexRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glPathGlyphIndexRangeNV", [S315])), to: Swift.type(of: glPathGlyphIndexRangeNV_P))
+    glPathGlyphIndexRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glPathGlyphIndexRangeNV", [S318])), to: Swift.type(of: glPathGlyphIndexRangeNV_P))
     return glPathGlyphIndexRangeNV_P(fontTarget, fontName, fontStyle, pathParameterTemplate, emScale, baseAndCount)
 }
 func glPathGlyphRangeNV_L(_ firstPathName:GLuint, _ fontTarget:GLenum, _ fontName:UnsafeRawPointer?, _ fontStyle:GLbitfield, _ firstGlyph:GLuint, _ numGlyphs:GLsizei, _ handleMissingGlyphs:GLenum, _ pathParameterTemplate:GLuint, _ emScale:GLfloat) {
-    glPathGlyphRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glPathGlyphRangeNV", [S315])), to: Swift.type(of: glPathGlyphRangeNV_P))
+    glPathGlyphRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glPathGlyphRangeNV", [S318])), to: Swift.type(of: glPathGlyphRangeNV_P))
     glPathGlyphRangeNV_P(firstPathName, fontTarget, fontName, fontStyle, firstGlyph, numGlyphs, handleMissingGlyphs, pathParameterTemplate, emScale)
 }
 func glPathGlyphsNV_L(_ firstPathName:GLuint, _ fontTarget:GLenum, _ fontName:UnsafeRawPointer?, _ fontStyle:GLbitfield, _ numGlyphs:GLsizei, _ type:GLenum, _ charcodes:UnsafeRawPointer?, _ handleMissingGlyphs:GLenum, _ pathParameterTemplate:GLuint, _ emScale:GLfloat) {
-    glPathGlyphsNV_P = unsafeBitCast(getAddress(CommandInfo("glPathGlyphsNV", [S315])), to: Swift.type(of: glPathGlyphsNV_P))
+    glPathGlyphsNV_P = unsafeBitCast(getAddress(CommandInfo("glPathGlyphsNV", [S318])), to: Swift.type(of: glPathGlyphsNV_P))
     glPathGlyphsNV_P(firstPathName, fontTarget, fontName, fontStyle, numGlyphs, type, charcodes, handleMissingGlyphs, pathParameterTemplate, emScale)
 }
 func glPathMemoryGlyphIndexArrayNV_L(_ firstPathName:GLuint, _ fontTarget:GLenum, _ fontSize:GLsizeiptr, _ fontData:UnsafeRawPointer?, _ faceIndex:GLsizei, _ firstGlyphIndex:GLuint, _ numGlyphs:GLsizei, _ pathParameterTemplate:GLuint, _ emScale:GLfloat) -> GLenum {
-    glPathMemoryGlyphIndexArrayNV_P = unsafeBitCast(getAddress(CommandInfo("glPathMemoryGlyphIndexArrayNV", [S315])), to: Swift.type(of: glPathMemoryGlyphIndexArrayNV_P))
+    glPathMemoryGlyphIndexArrayNV_P = unsafeBitCast(getAddress(CommandInfo("glPathMemoryGlyphIndexArrayNV", [S318])), to: Swift.type(of: glPathMemoryGlyphIndexArrayNV_P))
     return glPathMemoryGlyphIndexArrayNV_P(firstPathName, fontTarget, fontSize, fontData, faceIndex, firstGlyphIndex, numGlyphs, pathParameterTemplate, emScale)
 }
 func glPathParameterfNV_L(_ path:GLuint, _ pname:GLenum, _ value:GLfloat) {
-    glPathParameterfNV_P = unsafeBitCast(getAddress(CommandInfo("glPathParameterfNV", [S315])), to: Swift.type(of: glPathParameterfNV_P))
+    glPathParameterfNV_P = unsafeBitCast(getAddress(CommandInfo("glPathParameterfNV", [S318])), to: Swift.type(of: glPathParameterfNV_P))
     glPathParameterfNV_P(path, pname, value)
 }
 func glPathParameterfvNV_L(_ path:GLuint, _ pname:GLenum, _ value:UnsafePointer<GLfloat>?) {
-    glPathParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glPathParameterfvNV", [S315])), to: Swift.type(of: glPathParameterfvNV_P))
+    glPathParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glPathParameterfvNV", [S318])), to: Swift.type(of: glPathParameterfvNV_P))
     glPathParameterfvNV_P(path, pname, value)
 }
 func glPathParameteriNV_L(_ path:GLuint, _ pname:GLenum, _ value:GLint) {
-    glPathParameteriNV_P = unsafeBitCast(getAddress(CommandInfo("glPathParameteriNV", [S315])), to: Swift.type(of: glPathParameteriNV_P))
+    glPathParameteriNV_P = unsafeBitCast(getAddress(CommandInfo("glPathParameteriNV", [S318])), to: Swift.type(of: glPathParameteriNV_P))
     glPathParameteriNV_P(path, pname, value)
 }
 func glPathParameterivNV_L(_ path:GLuint, _ pname:GLenum, _ value:UnsafePointer<GLint>?) {
-    glPathParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glPathParameterivNV", [S315])), to: Swift.type(of: glPathParameterivNV_P))
+    glPathParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glPathParameterivNV", [S318])), to: Swift.type(of: glPathParameterivNV_P))
     glPathParameterivNV_P(path, pname, value)
 }
 func glPathStencilDepthOffsetNV_L(_ factor:GLfloat, _ units:GLfloat) {
-    glPathStencilDepthOffsetNV_P = unsafeBitCast(getAddress(CommandInfo("glPathStencilDepthOffsetNV", [S315])), to: Swift.type(of: glPathStencilDepthOffsetNV_P))
+    glPathStencilDepthOffsetNV_P = unsafeBitCast(getAddress(CommandInfo("glPathStencilDepthOffsetNV", [S318])), to: Swift.type(of: glPathStencilDepthOffsetNV_P))
     glPathStencilDepthOffsetNV_P(factor, units)
 }
 func glPathStencilFuncNV_L(_ fn:GLenum, _ ref:GLint, _ mask:GLuint) {
-    glPathStencilFuncNV_P = unsafeBitCast(getAddress(CommandInfo("glPathStencilFuncNV", [S315])), to: Swift.type(of: glPathStencilFuncNV_P))
+    glPathStencilFuncNV_P = unsafeBitCast(getAddress(CommandInfo("glPathStencilFuncNV", [S318])), to: Swift.type(of: glPathStencilFuncNV_P))
     glPathStencilFuncNV_P(fn, ref, mask)
 }
 func glPathStringNV_L(_ path:GLuint, _ format:GLenum, _ length:GLsizei, _ pathString:UnsafeRawPointer?) {
-    glPathStringNV_P = unsafeBitCast(getAddress(CommandInfo("glPathStringNV", [S315])), to: Swift.type(of: glPathStringNV_P))
+    glPathStringNV_P = unsafeBitCast(getAddress(CommandInfo("glPathStringNV", [S318])), to: Swift.type(of: glPathStringNV_P))
     glPathStringNV_P(path, format, length, pathString)
 }
 func glPathSubCommandsNV_L(_ path:GLuint, _ commandStart:GLsizei, _ commandsToDelete:GLsizei, _ numCommands:GLsizei, _ commands:UnsafePointer<GLubyte>?, _ numCoords:GLsizei, _ coordType:GLenum, _ coords:UnsafeRawPointer?) {
-    glPathSubCommandsNV_P = unsafeBitCast(getAddress(CommandInfo("glPathSubCommandsNV", [S315])), to: Swift.type(of: glPathSubCommandsNV_P))
+    glPathSubCommandsNV_P = unsafeBitCast(getAddress(CommandInfo("glPathSubCommandsNV", [S318])), to: Swift.type(of: glPathSubCommandsNV_P))
     glPathSubCommandsNV_P(path, commandStart, commandsToDelete, numCommands, commands, numCoords, coordType, coords)
 }
 func glPathSubCoordsNV_L(_ path:GLuint, _ coordStart:GLsizei, _ numCoords:GLsizei, _ coordType:GLenum, _ coords:UnsafeRawPointer?) {
-    glPathSubCoordsNV_P = unsafeBitCast(getAddress(CommandInfo("glPathSubCoordsNV", [S315])), to: Swift.type(of: glPathSubCoordsNV_P))
+    glPathSubCoordsNV_P = unsafeBitCast(getAddress(CommandInfo("glPathSubCoordsNV", [S318])), to: Swift.type(of: glPathSubCoordsNV_P))
     glPathSubCoordsNV_P(path, coordStart, numCoords, coordType, coords)
 }
 func glPathTexGenNV_L(_ texCoordSet:GLenum, _ genMode:GLenum, _ components:GLint, _ coeffs:UnsafePointer<GLfloat>?) {
-    glPathTexGenNV_P = unsafeBitCast(getAddress(CommandInfo("glPathTexGenNV", [S315])), to: Swift.type(of: glPathTexGenNV_P))
+    glPathTexGenNV_P = unsafeBitCast(getAddress(CommandInfo("glPathTexGenNV", [S318])), to: Swift.type(of: glPathTexGenNV_P))
     glPathTexGenNV_P(texCoordSet, genMode, components, coeffs)
 }
 func glPauseTransformFeedback_L() {
@@ -7984,11 +8027,11 @@ func glPauseTransformFeedback_L() {
     glPauseTransformFeedback_P()
 }
 func glPauseTransformFeedbackNV_L() {
-    glPauseTransformFeedbackNV_P = unsafeBitCast(getAddress(CommandInfo("glPauseTransformFeedbackNV", [S333])), to: Swift.type(of: glPauseTransformFeedbackNV_P))
+    glPauseTransformFeedbackNV_P = unsafeBitCast(getAddress(CommandInfo("glPauseTransformFeedbackNV", [S336])), to: Swift.type(of: glPauseTransformFeedbackNV_P))
     glPauseTransformFeedbackNV_P()
 }
 func glPixelDataRangeNV_L(_ target:GLenum, _ length:GLsizei, _ pointer:UnsafeRawPointer?) {
-    glPixelDataRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glPixelDataRangeNV", [S316])), to: Swift.type(of: glPixelDataRangeNV_P))
+    glPixelDataRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glPixelDataRangeNV", [S319])), to: Swift.type(of: glPixelDataRangeNV_P))
     glPixelDataRangeNV_P(target, length, pointer)
 }
 func glPixelMapfv_L(_ map:GLenum, _ mapsize:GLsizei, _ values:UnsafePointer<GLfloat>?) {
@@ -8004,7 +8047,7 @@ func glPixelMapusv_L(_ map:GLenum, _ mapsize:GLsizei, _ values:UnsafePointer<GLu
     glPixelMapusv_P(map, mapsize, values)
 }
 func glPixelMapx_L(_ map:GLenum, _ size:GLint, _ values:UnsafePointer<GLfixed>?) {
-    glPixelMapx_P = unsafeBitCast(getAddress(CommandInfo("glPixelMapx", [S353])), to: Swift.type(of: glPixelMapx_P))
+    glPixelMapx_P = unsafeBitCast(getAddress(CommandInfo("glPixelMapx", [S356])), to: Swift.type(of: glPixelMapx_P))
     glPixelMapx_P(map, size, values)
 }
 func glPixelStoref_L(_ pname:GLenum, _ param:GLfloat) {
@@ -8016,27 +8059,27 @@ func glPixelStorei_L(_ pname:GLenum, _ param:GLint) {
     glPixelStorei_P(pname, param)
 }
 func glPixelStorex_L(_ pname:GLenum, _ param:GLfixed) {
-    glPixelStorex_P = unsafeBitCast(getAddress(CommandInfo("glPixelStorex", [S353])), to: Swift.type(of: glPixelStorex_P))
+    glPixelStorex_P = unsafeBitCast(getAddress(CommandInfo("glPixelStorex", [S356])), to: Swift.type(of: glPixelStorex_P))
     glPixelStorex_P(pname, param)
 }
 func glPixelTexGenParameterfSGIS_L(_ pname:GLenum, _ param:GLfloat) {
-    glPixelTexGenParameterfSGIS_P = unsafeBitCast(getAddress(CommandInfo("glPixelTexGenParameterfSGIS", [S387])), to: Swift.type(of: glPixelTexGenParameterfSGIS_P))
+    glPixelTexGenParameterfSGIS_P = unsafeBitCast(getAddress(CommandInfo("glPixelTexGenParameterfSGIS", [S390])), to: Swift.type(of: glPixelTexGenParameterfSGIS_P))
     glPixelTexGenParameterfSGIS_P(pname, param)
 }
 func glPixelTexGenParameterfvSGIS_L(_ pname:GLenum, _ params:UnsafePointer<GLfloat>?) {
-    glPixelTexGenParameterfvSGIS_P = unsafeBitCast(getAddress(CommandInfo("glPixelTexGenParameterfvSGIS", [S387])), to: Swift.type(of: glPixelTexGenParameterfvSGIS_P))
+    glPixelTexGenParameterfvSGIS_P = unsafeBitCast(getAddress(CommandInfo("glPixelTexGenParameterfvSGIS", [S390])), to: Swift.type(of: glPixelTexGenParameterfvSGIS_P))
     glPixelTexGenParameterfvSGIS_P(pname, params)
 }
 func glPixelTexGenParameteriSGIS_L(_ pname:GLenum, _ param:GLint) {
-    glPixelTexGenParameteriSGIS_P = unsafeBitCast(getAddress(CommandInfo("glPixelTexGenParameteriSGIS", [S387])), to: Swift.type(of: glPixelTexGenParameteriSGIS_P))
+    glPixelTexGenParameteriSGIS_P = unsafeBitCast(getAddress(CommandInfo("glPixelTexGenParameteriSGIS", [S390])), to: Swift.type(of: glPixelTexGenParameteriSGIS_P))
     glPixelTexGenParameteriSGIS_P(pname, param)
 }
 func glPixelTexGenParameterivSGIS_L(_ pname:GLenum, _ params:UnsafePointer<GLint>?) {
-    glPixelTexGenParameterivSGIS_P = unsafeBitCast(getAddress(CommandInfo("glPixelTexGenParameterivSGIS", [S387])), to: Swift.type(of: glPixelTexGenParameterivSGIS_P))
+    glPixelTexGenParameterivSGIS_P = unsafeBitCast(getAddress(CommandInfo("glPixelTexGenParameterivSGIS", [S390])), to: Swift.type(of: glPixelTexGenParameterivSGIS_P))
     glPixelTexGenParameterivSGIS_P(pname, params)
 }
 func glPixelTexGenSGIX_L(_ mode:GLenum) {
-    glPixelTexGenSGIX_P = unsafeBitCast(getAddress(CommandInfo("glPixelTexGenSGIX", [S400])), to: Swift.type(of: glPixelTexGenSGIX_P))
+    glPixelTexGenSGIX_P = unsafeBitCast(getAddress(CommandInfo("glPixelTexGenSGIX", [S403])), to: Swift.type(of: glPixelTexGenSGIX_P))
     glPixelTexGenSGIX_P(mode)
 }
 func glPixelTransferf_L(_ pname:GLenum, _ param:GLfloat) {
@@ -8048,7 +8091,7 @@ func glPixelTransferi_L(_ pname:GLenum, _ param:GLint) {
     glPixelTransferi_P(pname, param)
 }
 func glPixelTransferxOES_L(_ pname:GLenum, _ param:GLfixed) {
-    glPixelTransferxOES_P = unsafeBitCast(getAddress(CommandInfo("glPixelTransferxOES", [S353])), to: Swift.type(of: glPixelTransferxOES_P))
+    glPixelTransferxOES_P = unsafeBitCast(getAddress(CommandInfo("glPixelTransferxOES", [S356])), to: Swift.type(of: glPixelTransferxOES_P))
     glPixelTransferxOES_P(pname, param)
 }
 func glPixelTransformParameterfEXT_L(_ target:GLenum, _ pname:GLenum, _ param:GLfloat) {
@@ -8072,11 +8115,11 @@ func glPixelZoom_L(_ xfactor:GLfloat, _ yfactor:GLfloat) {
     glPixelZoom_P(xfactor, yfactor)
 }
 func glPixelZoomxOES_L(_ xfactor:GLfixed, _ yfactor:GLfixed) {
-    glPixelZoomxOES_P = unsafeBitCast(getAddress(CommandInfo("glPixelZoomxOES", [S353])), to: Swift.type(of: glPixelZoomxOES_P))
+    glPixelZoomxOES_P = unsafeBitCast(getAddress(CommandInfo("glPixelZoomxOES", [S356])), to: Swift.type(of: glPixelZoomxOES_P))
     glPixelZoomxOES_P(xfactor, yfactor)
 }
 func glPointAlongPathNV_L(_ path:GLuint, _ startSegment:GLsizei, _ numSegments:GLsizei, _ distance:GLfloat, _ x:UnsafeMutablePointer<GLfloat>?, _ y:UnsafeMutablePointer<GLfloat>?, _ tangentX:UnsafeMutablePointer<GLfloat>?, _ tangentY:UnsafeMutablePointer<GLfloat>?) -> GLboolean {
-    glPointAlongPathNV_P = unsafeBitCast(getAddress(CommandInfo("glPointAlongPathNV", [S315])), to: Swift.type(of: glPointAlongPathNV_P))
+    glPointAlongPathNV_P = unsafeBitCast(getAddress(CommandInfo("glPointAlongPathNV", [S318])), to: Swift.type(of: glPointAlongPathNV_P))
     return glPointAlongPathNV_P(path, startSegment, numSegments, distance, x, y, tangentX, tangentY)
 }
 func glPointParameterf_L(_ pname:GLenum, _ param:GLfloat) {
@@ -8092,7 +8135,7 @@ func glPointParameterfEXT_L(_ pname:GLenum, _ param:GLfloat) {
     glPointParameterfEXT_P(pname, param)
 }
 func glPointParameterfSGIS_L(_ pname:GLenum, _ param:GLfloat) {
-    glPointParameterfSGIS_P = unsafeBitCast(getAddress(CommandInfo("glPointParameterfSGIS", [S388])), to: Swift.type(of: glPointParameterfSGIS_P))
+    glPointParameterfSGIS_P = unsafeBitCast(getAddress(CommandInfo("glPointParameterfSGIS", [S391])), to: Swift.type(of: glPointParameterfSGIS_P))
     glPointParameterfSGIS_P(pname, param)
 }
 func glPointParameterfv_L(_ pname:GLenum, _ params:UnsafePointer<GLfloat>?) {
@@ -8108,7 +8151,7 @@ func glPointParameterfvEXT_L(_ pname:GLenum, _ params:UnsafePointer<GLfloat>?) {
     glPointParameterfvEXT_P(pname, params)
 }
 func glPointParameterfvSGIS_L(_ pname:GLenum, _ params:UnsafePointer<GLfloat>?) {
-    glPointParameterfvSGIS_P = unsafeBitCast(getAddress(CommandInfo("glPointParameterfvSGIS", [S388])), to: Swift.type(of: glPointParameterfvSGIS_P))
+    glPointParameterfvSGIS_P = unsafeBitCast(getAddress(CommandInfo("glPointParameterfvSGIS", [S391])), to: Swift.type(of: glPointParameterfvSGIS_P))
     glPointParameterfvSGIS_P(pname, params)
 }
 func glPointParameteri_L(_ pname:GLenum, _ param:GLint) {
@@ -8116,7 +8159,7 @@ func glPointParameteri_L(_ pname:GLenum, _ param:GLint) {
     glPointParameteri_P(pname, param)
 }
 func glPointParameteriNV_L(_ pname:GLenum, _ param:GLint) {
-    glPointParameteriNV_P = unsafeBitCast(getAddress(CommandInfo("glPointParameteriNV", [S317])), to: Swift.type(of: glPointParameteriNV_P))
+    glPointParameteriNV_P = unsafeBitCast(getAddress(CommandInfo("glPointParameteriNV", [S320])), to: Swift.type(of: glPointParameteriNV_P))
     glPointParameteriNV_P(pname, param)
 }
 func glPointParameteriv_L(_ pname:GLenum, _ params:UnsafePointer<GLint>?) {
@@ -8124,7 +8167,7 @@ func glPointParameteriv_L(_ pname:GLenum, _ params:UnsafePointer<GLint>?) {
     glPointParameteriv_P(pname, params)
 }
 func glPointParameterivNV_L(_ pname:GLenum, _ params:UnsafePointer<GLint>?) {
-    glPointParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glPointParameterivNV", [S317])), to: Swift.type(of: glPointParameterivNV_P))
+    glPointParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glPointParameterivNV", [S320])), to: Swift.type(of: glPointParameterivNV_P))
     glPointParameterivNV_P(pname, params)
 }
 func glPointParameterx_L(_ pname:GLenum, _ param:GLfixed) {
@@ -8132,7 +8175,7 @@ func glPointParameterx_L(_ pname:GLenum, _ param:GLfixed) {
     glPointParameterx_P(pname, param)
 }
 func glPointParameterxOES_L(_ pname:GLenum, _ param:GLfixed) {
-    glPointParameterxOES_P = unsafeBitCast(getAddress(CommandInfo("glPointParameterxOES", [S353])), to: Swift.type(of: glPointParameterxOES_P))
+    glPointParameterxOES_P = unsafeBitCast(getAddress(CommandInfo("glPointParameterxOES", [S356])), to: Swift.type(of: glPointParameterxOES_P))
     glPointParameterxOES_P(pname, param)
 }
 func glPointParameterxv_L(_ pname:GLenum, _ params:UnsafePointer<GLfixed>?) {
@@ -8140,7 +8183,7 @@ func glPointParameterxv_L(_ pname:GLenum, _ params:UnsafePointer<GLfixed>?) {
     glPointParameterxv_P(pname, params)
 }
 func glPointParameterxvOES_L(_ pname:GLenum, _ params:UnsafePointer<GLfixed>?) {
-    glPointParameterxvOES_P = unsafeBitCast(getAddress(CommandInfo("glPointParameterxvOES", [S353])), to: Swift.type(of: glPointParameterxvOES_P))
+    glPointParameterxvOES_P = unsafeBitCast(getAddress(CommandInfo("glPointParameterxvOES", [S356])), to: Swift.type(of: glPointParameterxvOES_P))
     glPointParameterxvOES_P(pname, params)
 }
 func glPointSize_L(_ size:GLfloat) {
@@ -8148,7 +8191,7 @@ func glPointSize_L(_ size:GLfloat) {
     glPointSize_P(size)
 }
 func glPointSizePointerOES_L(_ type:GLenum, _ stride:GLsizei, _ pointer:UnsafeRawPointer?) {
-    glPointSizePointerOES_P = unsafeBitCast(getAddress(CommandInfo("glPointSizePointerOES", [S359])), to: Swift.type(of: glPointSizePointerOES_P))
+    glPointSizePointerOES_P = unsafeBitCast(getAddress(CommandInfo("glPointSizePointerOES", [S362])), to: Swift.type(of: glPointSizePointerOES_P))
     glPointSizePointerOES_P(type, stride, pointer)
 }
 func glPointSizex_L(_ size:GLfixed) {
@@ -8156,15 +8199,15 @@ func glPointSizex_L(_ size:GLfixed) {
     glPointSizex_P(size)
 }
 func glPointSizexOES_L(_ size:GLfixed) {
-    glPointSizexOES_P = unsafeBitCast(getAddress(CommandInfo("glPointSizexOES", [S353])), to: Swift.type(of: glPointSizexOES_P))
+    glPointSizexOES_P = unsafeBitCast(getAddress(CommandInfo("glPointSizexOES", [S356])), to: Swift.type(of: glPointSizexOES_P))
     glPointSizexOES_P(size)
 }
 func glPollAsyncSGIX_L(_ markerp:UnsafeMutablePointer<GLuint>?) -> GLint {
-    glPollAsyncSGIX_P = unsafeBitCast(getAddress(CommandInfo("glPollAsyncSGIX", [S393])), to: Swift.type(of: glPollAsyncSGIX_P))
+    glPollAsyncSGIX_P = unsafeBitCast(getAddress(CommandInfo("glPollAsyncSGIX", [S396])), to: Swift.type(of: glPollAsyncSGIX_P))
     return glPollAsyncSGIX_P(markerp)
 }
 func glPollInstrumentsSGIX_L(_ marker_p:UnsafeMutablePointer<GLint>?) -> GLint {
-    glPollInstrumentsSGIX_P = unsafeBitCast(getAddress(CommandInfo("glPollInstrumentsSGIX", [S398])), to: Swift.type(of: glPollInstrumentsSGIX_P))
+    glPollInstrumentsSGIX_P = unsafeBitCast(getAddress(CommandInfo("glPollInstrumentsSGIX", [S401])), to: Swift.type(of: glPollInstrumentsSGIX_P))
     return glPollInstrumentsSGIX_P(marker_p)
 }
 func glPolygonMode_L(_ face:GLenum, _ mode:GLenum) {
@@ -8172,7 +8215,7 @@ func glPolygonMode_L(_ face:GLenum, _ mode:GLenum) {
     glPolygonMode_P(face, mode)
 }
 func glPolygonModeNV_L(_ face:GLenum, _ mode:GLenum) {
-    glPolygonModeNV_P = unsafeBitCast(getAddress(CommandInfo("glPolygonModeNV", [S318])), to: Swift.type(of: glPolygonModeNV_P))
+    glPolygonModeNV_P = unsafeBitCast(getAddress(CommandInfo("glPolygonModeNV", [S321])), to: Swift.type(of: glPolygonModeNV_P))
     glPolygonModeNV_P(face, mode)
 }
 func glPolygonOffset_L(_ factor:GLfloat, _ units:GLfloat) {
@@ -8196,7 +8239,7 @@ func glPolygonOffsetx_L(_ factor:GLfixed, _ units:GLfixed) {
     glPolygonOffsetx_P(factor, units)
 }
 func glPolygonOffsetxOES_L(_ factor:GLfixed, _ units:GLfixed) {
-    glPolygonOffsetxOES_P = unsafeBitCast(getAddress(CommandInfo("glPolygonOffsetxOES", [S353])), to: Swift.type(of: glPolygonOffsetxOES_P))
+    glPolygonOffsetxOES_P = unsafeBitCast(getAddress(CommandInfo("glPolygonOffsetxOES", [S356])), to: Swift.type(of: glPolygonOffsetxOES_P))
     glPolygonOffsetxOES_P(factor, units)
 }
 func glPolygonStipple_L(_ mask:UnsafePointer<GLubyte>?) {
@@ -8232,11 +8275,11 @@ func glPopName_L() {
     glPopName_P()
 }
 func glPresentFrameDualFillNV_L(_ video_slot:GLuint, _ minPresentTime:GLuint64EXT, _ beginPresentTimeId:GLuint, _ presentDurationId:GLuint, _ type:GLenum, _ target0:GLenum, _ fill0:GLuint, _ target1:GLenum, _ fill1:GLuint, _ target2:GLenum, _ fill2:GLuint, _ target3:GLenum, _ fill3:GLuint) {
-    glPresentFrameDualFillNV_P = unsafeBitCast(getAddress(CommandInfo("glPresentFrameDualFillNV", [S319])), to: Swift.type(of: glPresentFrameDualFillNV_P))
+    glPresentFrameDualFillNV_P = unsafeBitCast(getAddress(CommandInfo("glPresentFrameDualFillNV", [S322])), to: Swift.type(of: glPresentFrameDualFillNV_P))
     glPresentFrameDualFillNV_P(video_slot, minPresentTime, beginPresentTimeId, presentDurationId, type, target0, fill0, target1, fill1, target2, fill2, target3, fill3)
 }
 func glPresentFrameKeyedNV_L(_ video_slot:GLuint, _ minPresentTime:GLuint64EXT, _ beginPresentTimeId:GLuint, _ presentDurationId:GLuint, _ type:GLenum, _ target0:GLenum, _ fill0:GLuint, _ key0:GLuint, _ target1:GLenum, _ fill1:GLuint, _ key1:GLuint) {
-    glPresentFrameKeyedNV_P = unsafeBitCast(getAddress(CommandInfo("glPresentFrameKeyedNV", [S319])), to: Swift.type(of: glPresentFrameKeyedNV_P))
+    glPresentFrameKeyedNV_P = unsafeBitCast(getAddress(CommandInfo("glPresentFrameKeyedNV", [S322])), to: Swift.type(of: glPresentFrameKeyedNV_P))
     glPresentFrameKeyedNV_P(video_slot, minPresentTime, beginPresentTimeId, presentDurationId, type, target0, fill0, key0, target1, fill1, key1)
 }
 func glPrimitiveBoundingBox_L(_ minX:GLfloat, _ minY:GLfloat, _ minZ:GLfloat, _ minW:GLfloat, _ maxX:GLfloat, _ maxY:GLfloat, _ maxZ:GLfloat, _ maxW:GLfloat) {
@@ -8252,7 +8295,7 @@ func glPrimitiveBoundingBoxEXT_L(_ minX:GLfloat, _ minY:GLfloat, _ minZ:GLfloat,
     glPrimitiveBoundingBoxEXT_P(minX, minY, minZ, minW, maxX, maxY, maxZ, maxW)
 }
 func glPrimitiveBoundingBoxOES_L(_ minX:GLfloat, _ minY:GLfloat, _ minZ:GLfloat, _ minW:GLfloat, _ maxX:GLfloat, _ maxY:GLfloat, _ maxZ:GLfloat, _ maxW:GLfloat) {
-    glPrimitiveBoundingBoxOES_P = unsafeBitCast(getAddress(CommandInfo("glPrimitiveBoundingBoxOES", [S360])), to: Swift.type(of: glPrimitiveBoundingBoxOES_P))
+    glPrimitiveBoundingBoxOES_P = unsafeBitCast(getAddress(CommandInfo("glPrimitiveBoundingBoxOES", [S363])), to: Swift.type(of: glPrimitiveBoundingBoxOES_P))
     glPrimitiveBoundingBoxOES_P(minX, minY, minZ, minW, maxX, maxY, maxZ, maxW)
 }
 func glPrimitiveRestartIndex_L(_ index:GLuint) {
@@ -8260,11 +8303,11 @@ func glPrimitiveRestartIndex_L(_ index:GLuint) {
     glPrimitiveRestartIndex_P(index)
 }
 func glPrimitiveRestartIndexNV_L(_ index:GLuint) {
-    glPrimitiveRestartIndexNV_P = unsafeBitCast(getAddress(CommandInfo("glPrimitiveRestartIndexNV", [S320])), to: Swift.type(of: glPrimitiveRestartIndexNV_P))
+    glPrimitiveRestartIndexNV_P = unsafeBitCast(getAddress(CommandInfo("glPrimitiveRestartIndexNV", [S323])), to: Swift.type(of: glPrimitiveRestartIndexNV_P))
     glPrimitiveRestartIndexNV_P(index)
 }
 func glPrimitiveRestartNV_L() {
-    glPrimitiveRestartNV_P = unsafeBitCast(getAddress(CommandInfo("glPrimitiveRestartNV", [S320])), to: Swift.type(of: glPrimitiveRestartNV_P))
+    glPrimitiveRestartNV_P = unsafeBitCast(getAddress(CommandInfo("glPrimitiveRestartNV", [S323])), to: Swift.type(of: glPrimitiveRestartNV_P))
     glPrimitiveRestartNV_P()
 }
 func glPrioritizeTextures_L(_ n:GLsizei, _ textures:UnsafePointer<GLuint>?, _ priorities:UnsafePointer<GLfloat>?) {
@@ -8276,7 +8319,7 @@ func glPrioritizeTexturesEXT_L(_ n:GLsizei, _ textures:UnsafePointer<GLuint>?, _
     glPrioritizeTexturesEXT_P(n, textures, priorities)
 }
 func glPrioritizeTexturesxOES_L(_ n:GLsizei, _ textures:UnsafePointer<GLuint>?, _ priorities:UnsafePointer<GLfixed>?) {
-    glPrioritizeTexturesxOES_P = unsafeBitCast(getAddress(CommandInfo("glPrioritizeTexturesxOES", [S353])), to: Swift.type(of: glPrioritizeTexturesxOES_P))
+    glPrioritizeTexturesxOES_P = unsafeBitCast(getAddress(CommandInfo("glPrioritizeTexturesxOES", [S356])), to: Swift.type(of: glPrioritizeTexturesxOES_P))
     glPrioritizeTexturesxOES_P(n, textures, priorities)
 }
 func glProgramBinary_L(_ program:GLuint, _ binaryFormat:GLenum, _ binary:UnsafeRawPointer?, _ length:GLsizei) {
@@ -8284,19 +8327,19 @@ func glProgramBinary_L(_ program:GLuint, _ binaryFormat:GLenum, _ binary:UnsafeR
     glProgramBinary_P(program, binaryFormat, binary, length)
 }
 func glProgramBinaryOES_L(_ program:GLuint, _ binaryFormat:GLenum, _ binary:UnsafeRawPointer?, _ length:GLint) {
-    glProgramBinaryOES_P = unsafeBitCast(getAddress(CommandInfo("glProgramBinaryOES", [S356])), to: Swift.type(of: glProgramBinaryOES_P))
+    glProgramBinaryOES_P = unsafeBitCast(getAddress(CommandInfo("glProgramBinaryOES", [S359])), to: Swift.type(of: glProgramBinaryOES_P))
     glProgramBinaryOES_P(program, binaryFormat, binary, length)
 }
 func glProgramBufferParametersIivNV_L(_ target:GLenum, _ bindingIndex:GLuint, _ wordIndex:GLuint, _ count:GLsizei, _ params:UnsafePointer<GLint>?) {
-    glProgramBufferParametersIivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramBufferParametersIivNV", [S314])), to: Swift.type(of: glProgramBufferParametersIivNV_P))
+    glProgramBufferParametersIivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramBufferParametersIivNV", [S317])), to: Swift.type(of: glProgramBufferParametersIivNV_P))
     glProgramBufferParametersIivNV_P(target, bindingIndex, wordIndex, count, params)
 }
 func glProgramBufferParametersIuivNV_L(_ target:GLenum, _ bindingIndex:GLuint, _ wordIndex:GLuint, _ count:GLsizei, _ params:UnsafePointer<GLuint>?) {
-    glProgramBufferParametersIuivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramBufferParametersIuivNV", [S314])), to: Swift.type(of: glProgramBufferParametersIuivNV_P))
+    glProgramBufferParametersIuivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramBufferParametersIuivNV", [S317])), to: Swift.type(of: glProgramBufferParametersIuivNV_P))
     glProgramBufferParametersIuivNV_P(target, bindingIndex, wordIndex, count, params)
 }
 func glProgramBufferParametersfvNV_L(_ target:GLenum, _ bindingIndex:GLuint, _ wordIndex:GLuint, _ count:GLsizei, _ params:UnsafePointer<GLfloat>?) {
-    glProgramBufferParametersfvNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramBufferParametersfvNV", [S314])), to: Swift.type(of: glProgramBufferParametersfvNV_P))
+    glProgramBufferParametersfvNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramBufferParametersfvNV", [S317])), to: Swift.type(of: glProgramBufferParametersfvNV_P))
     glProgramBufferParametersfvNV_P(target, bindingIndex, wordIndex, count, params)
 }
 func glProgramEnvParameter4dARB_L(_ target:GLenum, _ index:GLuint, _ x:GLdouble, _ y:GLdouble, _ z:GLdouble, _ w:GLdouble) {
@@ -8316,19 +8359,19 @@ func glProgramEnvParameter4fvARB_L(_ target:GLenum, _ index:GLuint, _ params:Uns
     glProgramEnvParameter4fvARB_P(target, index, params)
 }
 func glProgramEnvParameterI4iNV_L(_ target:GLenum, _ index:GLuint, _ x:GLint, _ y:GLint, _ z:GLint, _ w:GLint) {
-    glProgramEnvParameterI4iNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramEnvParameterI4iNV", [S304])), to: Swift.type(of: glProgramEnvParameterI4iNV_P))
+    glProgramEnvParameterI4iNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramEnvParameterI4iNV", [S307])), to: Swift.type(of: glProgramEnvParameterI4iNV_P))
     glProgramEnvParameterI4iNV_P(target, index, x, y, z, w)
 }
 func glProgramEnvParameterI4ivNV_L(_ target:GLenum, _ index:GLuint, _ params:UnsafePointer<GLint>?) {
-    glProgramEnvParameterI4ivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramEnvParameterI4ivNV", [S304])), to: Swift.type(of: glProgramEnvParameterI4ivNV_P))
+    glProgramEnvParameterI4ivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramEnvParameterI4ivNV", [S307])), to: Swift.type(of: glProgramEnvParameterI4ivNV_P))
     glProgramEnvParameterI4ivNV_P(target, index, params)
 }
 func glProgramEnvParameterI4uiNV_L(_ target:GLenum, _ index:GLuint, _ x:GLuint, _ y:GLuint, _ z:GLuint, _ w:GLuint) {
-    glProgramEnvParameterI4uiNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramEnvParameterI4uiNV", [S304])), to: Swift.type(of: glProgramEnvParameterI4uiNV_P))
+    glProgramEnvParameterI4uiNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramEnvParameterI4uiNV", [S307])), to: Swift.type(of: glProgramEnvParameterI4uiNV_P))
     glProgramEnvParameterI4uiNV_P(target, index, x, y, z, w)
 }
 func glProgramEnvParameterI4uivNV_L(_ target:GLenum, _ index:GLuint, _ params:UnsafePointer<GLuint>?) {
-    glProgramEnvParameterI4uivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramEnvParameterI4uivNV", [S304])), to: Swift.type(of: glProgramEnvParameterI4uivNV_P))
+    glProgramEnvParameterI4uivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramEnvParameterI4uivNV", [S307])), to: Swift.type(of: glProgramEnvParameterI4uivNV_P))
     glProgramEnvParameterI4uivNV_P(target, index, params)
 }
 func glProgramEnvParameters4fvEXT_L(_ target:GLenum, _ index:GLuint, _ count:GLsizei, _ params:UnsafePointer<GLfloat>?) {
@@ -8336,11 +8379,11 @@ func glProgramEnvParameters4fvEXT_L(_ target:GLenum, _ index:GLuint, _ count:GLs
     glProgramEnvParameters4fvEXT_P(target, index, count, params)
 }
 func glProgramEnvParametersI4ivNV_L(_ target:GLenum, _ index:GLuint, _ count:GLsizei, _ params:UnsafePointer<GLint>?) {
-    glProgramEnvParametersI4ivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramEnvParametersI4ivNV", [S304])), to: Swift.type(of: glProgramEnvParametersI4ivNV_P))
+    glProgramEnvParametersI4ivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramEnvParametersI4ivNV", [S307])), to: Swift.type(of: glProgramEnvParametersI4ivNV_P))
     glProgramEnvParametersI4ivNV_P(target, index, count, params)
 }
 func glProgramEnvParametersI4uivNV_L(_ target:GLenum, _ index:GLuint, _ count:GLsizei, _ params:UnsafePointer<GLuint>?) {
-    glProgramEnvParametersI4uivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramEnvParametersI4uivNV", [S304])), to: Swift.type(of: glProgramEnvParametersI4uivNV_P))
+    glProgramEnvParametersI4uivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramEnvParametersI4uivNV", [S307])), to: Swift.type(of: glProgramEnvParametersI4uivNV_P))
     glProgramEnvParametersI4uivNV_P(target, index, count, params)
 }
 func glProgramLocalParameter4dARB_L(_ target:GLenum, _ index:GLuint, _ x:GLdouble, _ y:GLdouble, _ z:GLdouble, _ w:GLdouble) {
@@ -8360,19 +8403,19 @@ func glProgramLocalParameter4fvARB_L(_ target:GLenum, _ index:GLuint, _ params:U
     glProgramLocalParameter4fvARB_P(target, index, params)
 }
 func glProgramLocalParameterI4iNV_L(_ target:GLenum, _ index:GLuint, _ x:GLint, _ y:GLint, _ z:GLint, _ w:GLint) {
-    glProgramLocalParameterI4iNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramLocalParameterI4iNV", [S304])), to: Swift.type(of: glProgramLocalParameterI4iNV_P))
+    glProgramLocalParameterI4iNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramLocalParameterI4iNV", [S307])), to: Swift.type(of: glProgramLocalParameterI4iNV_P))
     glProgramLocalParameterI4iNV_P(target, index, x, y, z, w)
 }
 func glProgramLocalParameterI4ivNV_L(_ target:GLenum, _ index:GLuint, _ params:UnsafePointer<GLint>?) {
-    glProgramLocalParameterI4ivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramLocalParameterI4ivNV", [S304])), to: Swift.type(of: glProgramLocalParameterI4ivNV_P))
+    glProgramLocalParameterI4ivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramLocalParameterI4ivNV", [S307])), to: Swift.type(of: glProgramLocalParameterI4ivNV_P))
     glProgramLocalParameterI4ivNV_P(target, index, params)
 }
 func glProgramLocalParameterI4uiNV_L(_ target:GLenum, _ index:GLuint, _ x:GLuint, _ y:GLuint, _ z:GLuint, _ w:GLuint) {
-    glProgramLocalParameterI4uiNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramLocalParameterI4uiNV", [S304])), to: Swift.type(of: glProgramLocalParameterI4uiNV_P))
+    glProgramLocalParameterI4uiNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramLocalParameterI4uiNV", [S307])), to: Swift.type(of: glProgramLocalParameterI4uiNV_P))
     glProgramLocalParameterI4uiNV_P(target, index, x, y, z, w)
 }
 func glProgramLocalParameterI4uivNV_L(_ target:GLenum, _ index:GLuint, _ params:UnsafePointer<GLuint>?) {
-    glProgramLocalParameterI4uivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramLocalParameterI4uivNV", [S304])), to: Swift.type(of: glProgramLocalParameterI4uivNV_P))
+    glProgramLocalParameterI4uivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramLocalParameterI4uivNV", [S307])), to: Swift.type(of: glProgramLocalParameterI4uivNV_P))
     glProgramLocalParameterI4uivNV_P(target, index, params)
 }
 func glProgramLocalParameters4fvEXT_L(_ target:GLenum, _ index:GLuint, _ count:GLsizei, _ params:UnsafePointer<GLfloat>?) {
@@ -8380,43 +8423,43 @@ func glProgramLocalParameters4fvEXT_L(_ target:GLenum, _ index:GLuint, _ count:G
     glProgramLocalParameters4fvEXT_P(target, index, count, params)
 }
 func glProgramLocalParametersI4ivNV_L(_ target:GLenum, _ index:GLuint, _ count:GLsizei, _ params:UnsafePointer<GLint>?) {
-    glProgramLocalParametersI4ivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramLocalParametersI4ivNV", [S304])), to: Swift.type(of: glProgramLocalParametersI4ivNV_P))
+    glProgramLocalParametersI4ivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramLocalParametersI4ivNV", [S307])), to: Swift.type(of: glProgramLocalParametersI4ivNV_P))
     glProgramLocalParametersI4ivNV_P(target, index, count, params)
 }
 func glProgramLocalParametersI4uivNV_L(_ target:GLenum, _ index:GLuint, _ count:GLsizei, _ params:UnsafePointer<GLuint>?) {
-    glProgramLocalParametersI4uivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramLocalParametersI4uivNV", [S304])), to: Swift.type(of: glProgramLocalParametersI4uivNV_P))
+    glProgramLocalParametersI4uivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramLocalParametersI4uivNV", [S307])), to: Swift.type(of: glProgramLocalParametersI4uivNV_P))
     glProgramLocalParametersI4uivNV_P(target, index, count, params)
 }
 func glProgramNamedParameter4dNV_L(_ id:GLuint, _ len:GLsizei, _ name:UnsafePointer<GLubyte>?, _ x:GLdouble, _ y:GLdouble, _ z:GLdouble, _ w:GLdouble) {
-    glProgramNamedParameter4dNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramNamedParameter4dNV", [S297])), to: Swift.type(of: glProgramNamedParameter4dNV_P))
+    glProgramNamedParameter4dNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramNamedParameter4dNV", [S300])), to: Swift.type(of: glProgramNamedParameter4dNV_P))
     glProgramNamedParameter4dNV_P(id, len, name, x, y, z, w)
 }
 func glProgramNamedParameter4dvNV_L(_ id:GLuint, _ len:GLsizei, _ name:UnsafePointer<GLubyte>?, _ v:UnsafePointer<GLdouble>?) {
-    glProgramNamedParameter4dvNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramNamedParameter4dvNV", [S297])), to: Swift.type(of: glProgramNamedParameter4dvNV_P))
+    glProgramNamedParameter4dvNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramNamedParameter4dvNV", [S300])), to: Swift.type(of: glProgramNamedParameter4dvNV_P))
     glProgramNamedParameter4dvNV_P(id, len, name, v)
 }
 func glProgramNamedParameter4fNV_L(_ id:GLuint, _ len:GLsizei, _ name:UnsafePointer<GLubyte>?, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat, _ w:GLfloat) {
-    glProgramNamedParameter4fNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramNamedParameter4fNV", [S297])), to: Swift.type(of: glProgramNamedParameter4fNV_P))
+    glProgramNamedParameter4fNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramNamedParameter4fNV", [S300])), to: Swift.type(of: glProgramNamedParameter4fNV_P))
     glProgramNamedParameter4fNV_P(id, len, name, x, y, z, w)
 }
 func glProgramNamedParameter4fvNV_L(_ id:GLuint, _ len:GLsizei, _ name:UnsafePointer<GLubyte>?, _ v:UnsafePointer<GLfloat>?) {
-    glProgramNamedParameter4fvNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramNamedParameter4fvNV", [S297])), to: Swift.type(of: glProgramNamedParameter4fvNV_P))
+    glProgramNamedParameter4fvNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramNamedParameter4fvNV", [S300])), to: Swift.type(of: glProgramNamedParameter4fvNV_P))
     glProgramNamedParameter4fvNV_P(id, len, name, v)
 }
 func glProgramParameter4dNV_L(_ target:GLenum, _ index:GLuint, _ x:GLdouble, _ y:GLdouble, _ z:GLdouble, _ w:GLdouble) {
-    glProgramParameter4dNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramParameter4dNV", [S339])), to: Swift.type(of: glProgramParameter4dNV_P))
+    glProgramParameter4dNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramParameter4dNV", [S342])), to: Swift.type(of: glProgramParameter4dNV_P))
     glProgramParameter4dNV_P(target, index, x, y, z, w)
 }
 func glProgramParameter4dvNV_L(_ target:GLenum, _ index:GLuint, _ v:UnsafePointer<GLdouble>?) {
-    glProgramParameter4dvNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramParameter4dvNV", [S339])), to: Swift.type(of: glProgramParameter4dvNV_P))
+    glProgramParameter4dvNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramParameter4dvNV", [S342])), to: Swift.type(of: glProgramParameter4dvNV_P))
     glProgramParameter4dvNV_P(target, index, v)
 }
 func glProgramParameter4fNV_L(_ target:GLenum, _ index:GLuint, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat, _ w:GLfloat) {
-    glProgramParameter4fNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramParameter4fNV", [S339])), to: Swift.type(of: glProgramParameter4fNV_P))
+    glProgramParameter4fNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramParameter4fNV", [S342])), to: Swift.type(of: glProgramParameter4fNV_P))
     glProgramParameter4fNV_P(target, index, x, y, z, w)
 }
 func glProgramParameter4fvNV_L(_ target:GLenum, _ index:GLuint, _ v:UnsafePointer<GLfloat>?) {
-    glProgramParameter4fvNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramParameter4fvNV", [S339])), to: Swift.type(of: glProgramParameter4fvNV_P))
+    glProgramParameter4fvNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramParameter4fvNV", [S342])), to: Swift.type(of: glProgramParameter4fvNV_P))
     glProgramParameter4fvNV_P(target, index, v)
 }
 func glProgramParameteri_L(_ program:GLuint, _ pname:GLenum, _ value:GLint) {
@@ -8432,15 +8475,15 @@ func glProgramParameteriEXT_L(_ program:GLuint, _ pname:GLenum, _ value:GLint) {
     glProgramParameteriEXT_P(program, pname, value)
 }
 func glProgramParameters4dvNV_L(_ target:GLenum, _ index:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLdouble>?) {
-    glProgramParameters4dvNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramParameters4dvNV", [S339])), to: Swift.type(of: glProgramParameters4dvNV_P))
+    glProgramParameters4dvNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramParameters4dvNV", [S342])), to: Swift.type(of: glProgramParameters4dvNV_P))
     glProgramParameters4dvNV_P(target, index, count, v)
 }
 func glProgramParameters4fvNV_L(_ target:GLenum, _ index:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLfloat>?) {
-    glProgramParameters4fvNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramParameters4fvNV", [S339])), to: Swift.type(of: glProgramParameters4fvNV_P))
+    glProgramParameters4fvNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramParameters4fvNV", [S342])), to: Swift.type(of: glProgramParameters4fvNV_P))
     glProgramParameters4fvNV_P(target, index, count, v)
 }
 func glProgramPathFragmentInputGenNV_L(_ program:GLuint, _ location:GLint, _ genMode:GLenum, _ components:GLint, _ coeffs:UnsafePointer<GLfloat>?) {
-    glProgramPathFragmentInputGenNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramPathFragmentInputGenNV", [S315])), to: Swift.type(of: glProgramPathFragmentInputGenNV_P))
+    glProgramPathFragmentInputGenNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramPathFragmentInputGenNV", [S318])), to: Swift.type(of: glProgramPathFragmentInputGenNV_P))
     glProgramPathFragmentInputGenNV_P(program, location, genMode, components, coeffs)
 }
 func glProgramStringARB_L(_ target:GLenum, _ format:GLenum, _ len:GLsizei, _ string:UnsafeRawPointer?) {
@@ -8448,7 +8491,7 @@ func glProgramStringARB_L(_ target:GLenum, _ format:GLenum, _ len:GLsizei, _ str
     glProgramStringARB_P(target, format, len, string)
 }
 func glProgramSubroutineParametersuivNV_L(_ target:GLenum, _ count:GLsizei, _ params:UnsafePointer<GLuint>?) {
-    glProgramSubroutineParametersuivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramSubroutineParametersuivNV", [S305])), to: Swift.type(of: glProgramSubroutineParametersuivNV_P))
+    glProgramSubroutineParametersuivNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramSubroutineParametersuivNV", [S308])), to: Swift.type(of: glProgramSubroutineParametersuivNV_P))
     glProgramSubroutineParametersuivNV_P(target, count, params)
 }
 func glProgramUniform1d_L(_ program:GLuint, _ location:GLint, _ v0:GLdouble) {
@@ -8492,7 +8535,7 @@ func glProgramUniform1i64ARB_L(_ program:GLuint, _ location:GLint, _ x:GLint64) 
     glProgramUniform1i64ARB_P(program, location, x)
 }
 func glProgramUniform1i64NV_L(_ program:GLuint, _ location:GLint, _ x:GLint64EXT) {
-    glProgramUniform1i64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform1i64NV", [S31, S306])), to: Swift.type(of: glProgramUniform1i64NV_P))
+    glProgramUniform1i64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform1i64NV", [S31, S309])), to: Swift.type(of: glProgramUniform1i64NV_P))
     glProgramUniform1i64NV_P(program, location, x)
 }
 func glProgramUniform1i64vARB_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLint64>?) {
@@ -8500,7 +8543,7 @@ func glProgramUniform1i64vARB_L(_ program:GLuint, _ location:GLint, _ count:GLsi
     glProgramUniform1i64vARB_P(program, location, count, value)
 }
 func glProgramUniform1i64vNV_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLint64EXT>?) {
-    glProgramUniform1i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform1i64vNV", [S31, S306])), to: Swift.type(of: glProgramUniform1i64vNV_P))
+    glProgramUniform1i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform1i64vNV", [S31, S309])), to: Swift.type(of: glProgramUniform1i64vNV_P))
     glProgramUniform1i64vNV_P(program, location, count, value)
 }
 func glProgramUniform1iEXT_L(_ program:GLuint, _ location:GLint, _ v0:GLint) {
@@ -8524,7 +8567,7 @@ func glProgramUniform1ui64ARB_L(_ program:GLuint, _ location:GLint, _ x:GLuint64
     glProgramUniform1ui64ARB_P(program, location, x)
 }
 func glProgramUniform1ui64NV_L(_ program:GLuint, _ location:GLint, _ x:GLuint64EXT) {
-    glProgramUniform1ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform1ui64NV", [S31, S306])), to: Swift.type(of: glProgramUniform1ui64NV_P))
+    glProgramUniform1ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform1ui64NV", [S31, S309])), to: Swift.type(of: glProgramUniform1ui64NV_P))
     glProgramUniform1ui64NV_P(program, location, x)
 }
 func glProgramUniform1ui64vARB_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64>?) {
@@ -8532,7 +8575,7 @@ func glProgramUniform1ui64vARB_L(_ program:GLuint, _ location:GLint, _ count:GLs
     glProgramUniform1ui64vARB_P(program, location, count, value)
 }
 func glProgramUniform1ui64vNV_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64EXT>?) {
-    glProgramUniform1ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform1ui64vNV", [S31, S306])), to: Swift.type(of: glProgramUniform1ui64vNV_P))
+    glProgramUniform1ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform1ui64vNV", [S31, S309])), to: Swift.type(of: glProgramUniform1ui64vNV_P))
     glProgramUniform1ui64vNV_P(program, location, count, value)
 }
 func glProgramUniform1uiEXT_L(_ program:GLuint, _ location:GLint, _ v0:GLuint) {
@@ -8588,7 +8631,7 @@ func glProgramUniform2i64ARB_L(_ program:GLuint, _ location:GLint, _ x:GLint64, 
     glProgramUniform2i64ARB_P(program, location, x, y)
 }
 func glProgramUniform2i64NV_L(_ program:GLuint, _ location:GLint, _ x:GLint64EXT, _ y:GLint64EXT) {
-    glProgramUniform2i64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform2i64NV", [S31, S306])), to: Swift.type(of: glProgramUniform2i64NV_P))
+    glProgramUniform2i64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform2i64NV", [S31, S309])), to: Swift.type(of: glProgramUniform2i64NV_P))
     glProgramUniform2i64NV_P(program, location, x, y)
 }
 func glProgramUniform2i64vARB_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLint64>?) {
@@ -8596,7 +8639,7 @@ func glProgramUniform2i64vARB_L(_ program:GLuint, _ location:GLint, _ count:GLsi
     glProgramUniform2i64vARB_P(program, location, count, value)
 }
 func glProgramUniform2i64vNV_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLint64EXT>?) {
-    glProgramUniform2i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform2i64vNV", [S31, S306])), to: Swift.type(of: glProgramUniform2i64vNV_P))
+    glProgramUniform2i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform2i64vNV", [S31, S309])), to: Swift.type(of: glProgramUniform2i64vNV_P))
     glProgramUniform2i64vNV_P(program, location, count, value)
 }
 func glProgramUniform2iEXT_L(_ program:GLuint, _ location:GLint, _ v0:GLint, _ v1:GLint) {
@@ -8620,7 +8663,7 @@ func glProgramUniform2ui64ARB_L(_ program:GLuint, _ location:GLint, _ x:GLuint64
     glProgramUniform2ui64ARB_P(program, location, x, y)
 }
 func glProgramUniform2ui64NV_L(_ program:GLuint, _ location:GLint, _ x:GLuint64EXT, _ y:GLuint64EXT) {
-    glProgramUniform2ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform2ui64NV", [S31, S306])), to: Swift.type(of: glProgramUniform2ui64NV_P))
+    glProgramUniform2ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform2ui64NV", [S31, S309])), to: Swift.type(of: glProgramUniform2ui64NV_P))
     glProgramUniform2ui64NV_P(program, location, x, y)
 }
 func glProgramUniform2ui64vARB_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64>?) {
@@ -8628,7 +8671,7 @@ func glProgramUniform2ui64vARB_L(_ program:GLuint, _ location:GLint, _ count:GLs
     glProgramUniform2ui64vARB_P(program, location, count, value)
 }
 func glProgramUniform2ui64vNV_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64EXT>?) {
-    glProgramUniform2ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform2ui64vNV", [S31, S306])), to: Swift.type(of: glProgramUniform2ui64vNV_P))
+    glProgramUniform2ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform2ui64vNV", [S31, S309])), to: Swift.type(of: glProgramUniform2ui64vNV_P))
     glProgramUniform2ui64vNV_P(program, location, count, value)
 }
 func glProgramUniform2uiEXT_L(_ program:GLuint, _ location:GLint, _ v0:GLuint, _ v1:GLuint) {
@@ -8684,7 +8727,7 @@ func glProgramUniform3i64ARB_L(_ program:GLuint, _ location:GLint, _ x:GLint64, 
     glProgramUniform3i64ARB_P(program, location, x, y, z)
 }
 func glProgramUniform3i64NV_L(_ program:GLuint, _ location:GLint, _ x:GLint64EXT, _ y:GLint64EXT, _ z:GLint64EXT) {
-    glProgramUniform3i64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform3i64NV", [S31, S306])), to: Swift.type(of: glProgramUniform3i64NV_P))
+    glProgramUniform3i64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform3i64NV", [S31, S309])), to: Swift.type(of: glProgramUniform3i64NV_P))
     glProgramUniform3i64NV_P(program, location, x, y, z)
 }
 func glProgramUniform3i64vARB_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLint64>?) {
@@ -8692,7 +8735,7 @@ func glProgramUniform3i64vARB_L(_ program:GLuint, _ location:GLint, _ count:GLsi
     glProgramUniform3i64vARB_P(program, location, count, value)
 }
 func glProgramUniform3i64vNV_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLint64EXT>?) {
-    glProgramUniform3i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform3i64vNV", [S31, S306])), to: Swift.type(of: glProgramUniform3i64vNV_P))
+    glProgramUniform3i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform3i64vNV", [S31, S309])), to: Swift.type(of: glProgramUniform3i64vNV_P))
     glProgramUniform3i64vNV_P(program, location, count, value)
 }
 func glProgramUniform3iEXT_L(_ program:GLuint, _ location:GLint, _ v0:GLint, _ v1:GLint, _ v2:GLint) {
@@ -8716,7 +8759,7 @@ func glProgramUniform3ui64ARB_L(_ program:GLuint, _ location:GLint, _ x:GLuint64
     glProgramUniform3ui64ARB_P(program, location, x, y, z)
 }
 func glProgramUniform3ui64NV_L(_ program:GLuint, _ location:GLint, _ x:GLuint64EXT, _ y:GLuint64EXT, _ z:GLuint64EXT) {
-    glProgramUniform3ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform3ui64NV", [S31, S306])), to: Swift.type(of: glProgramUniform3ui64NV_P))
+    glProgramUniform3ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform3ui64NV", [S31, S309])), to: Swift.type(of: glProgramUniform3ui64NV_P))
     glProgramUniform3ui64NV_P(program, location, x, y, z)
 }
 func glProgramUniform3ui64vARB_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64>?) {
@@ -8724,7 +8767,7 @@ func glProgramUniform3ui64vARB_L(_ program:GLuint, _ location:GLint, _ count:GLs
     glProgramUniform3ui64vARB_P(program, location, count, value)
 }
 func glProgramUniform3ui64vNV_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64EXT>?) {
-    glProgramUniform3ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform3ui64vNV", [S31, S306])), to: Swift.type(of: glProgramUniform3ui64vNV_P))
+    glProgramUniform3ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform3ui64vNV", [S31, S309])), to: Swift.type(of: glProgramUniform3ui64vNV_P))
     glProgramUniform3ui64vNV_P(program, location, count, value)
 }
 func glProgramUniform3uiEXT_L(_ program:GLuint, _ location:GLint, _ v0:GLuint, _ v1:GLuint, _ v2:GLuint) {
@@ -8780,7 +8823,7 @@ func glProgramUniform4i64ARB_L(_ program:GLuint, _ location:GLint, _ x:GLint64, 
     glProgramUniform4i64ARB_P(program, location, x, y, z, w)
 }
 func glProgramUniform4i64NV_L(_ program:GLuint, _ location:GLint, _ x:GLint64EXT, _ y:GLint64EXT, _ z:GLint64EXT, _ w:GLint64EXT) {
-    glProgramUniform4i64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform4i64NV", [S31, S306])), to: Swift.type(of: glProgramUniform4i64NV_P))
+    glProgramUniform4i64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform4i64NV", [S31, S309])), to: Swift.type(of: glProgramUniform4i64NV_P))
     glProgramUniform4i64NV_P(program, location, x, y, z, w)
 }
 func glProgramUniform4i64vARB_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLint64>?) {
@@ -8788,7 +8831,7 @@ func glProgramUniform4i64vARB_L(_ program:GLuint, _ location:GLint, _ count:GLsi
     glProgramUniform4i64vARB_P(program, location, count, value)
 }
 func glProgramUniform4i64vNV_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLint64EXT>?) {
-    glProgramUniform4i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform4i64vNV", [S31, S306])), to: Swift.type(of: glProgramUniform4i64vNV_P))
+    glProgramUniform4i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform4i64vNV", [S31, S309])), to: Swift.type(of: glProgramUniform4i64vNV_P))
     glProgramUniform4i64vNV_P(program, location, count, value)
 }
 func glProgramUniform4iEXT_L(_ program:GLuint, _ location:GLint, _ v0:GLint, _ v1:GLint, _ v2:GLint, _ v3:GLint) {
@@ -8812,7 +8855,7 @@ func glProgramUniform4ui64ARB_L(_ program:GLuint, _ location:GLint, _ x:GLuint64
     glProgramUniform4ui64ARB_P(program, location, x, y, z, w)
 }
 func glProgramUniform4ui64NV_L(_ program:GLuint, _ location:GLint, _ x:GLuint64EXT, _ y:GLuint64EXT, _ z:GLuint64EXT, _ w:GLuint64EXT) {
-    glProgramUniform4ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform4ui64NV", [S31, S306])), to: Swift.type(of: glProgramUniform4ui64NV_P))
+    glProgramUniform4ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform4ui64NV", [S31, S309])), to: Swift.type(of: glProgramUniform4ui64NV_P))
     glProgramUniform4ui64NV_P(program, location, x, y, z, w)
 }
 func glProgramUniform4ui64vARB_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64>?) {
@@ -8820,7 +8863,7 @@ func glProgramUniform4ui64vARB_L(_ program:GLuint, _ location:GLint, _ count:GLs
     glProgramUniform4ui64vARB_P(program, location, count, value)
 }
 func glProgramUniform4ui64vNV_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64EXT>?) {
-    glProgramUniform4ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform4ui64vNV", [S31, S306])), to: Swift.type(of: glProgramUniform4ui64vNV_P))
+    glProgramUniform4ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniform4ui64vNV", [S31, S309])), to: Swift.type(of: glProgramUniform4ui64vNV_P))
     glProgramUniform4ui64vNV_P(program, location, count, value)
 }
 func glProgramUniform4uiEXT_L(_ program:GLuint, _ location:GLint, _ v0:GLuint, _ v1:GLuint, _ v2:GLuint, _ v3:GLuint) {
@@ -8844,7 +8887,7 @@ func glProgramUniformHandleui64IMG_L(_ program:GLuint, _ location:GLint, _ value
     glProgramUniformHandleui64IMG_P(program, location, value)
 }
 func glProgramUniformHandleui64NV_L(_ program:GLuint, _ location:GLint, _ value:GLuint64) {
-    glProgramUniformHandleui64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniformHandleui64NV", [S277])), to: Swift.type(of: glProgramUniformHandleui64NV_P))
+    glProgramUniformHandleui64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniformHandleui64NV", [S280])), to: Swift.type(of: glProgramUniformHandleui64NV_P))
     glProgramUniformHandleui64NV_P(program, location, value)
 }
 func glProgramUniformHandleui64vARB_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ values:UnsafePointer<GLuint64>?) {
@@ -8856,7 +8899,7 @@ func glProgramUniformHandleui64vIMG_L(_ program:GLuint, _ location:GLint, _ coun
     glProgramUniformHandleui64vIMG_P(program, location, count, values)
 }
 func glProgramUniformHandleui64vNV_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ values:UnsafePointer<GLuint64>?) {
-    glProgramUniformHandleui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniformHandleui64vNV", [S277])), to: Swift.type(of: glProgramUniformHandleui64vNV_P))
+    glProgramUniformHandleui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniformHandleui64vNV", [S280])), to: Swift.type(of: glProgramUniformHandleui64vNV_P))
     glProgramUniformHandleui64vNV_P(program, location, count, values)
 }
 func glProgramUniformMatrix2dv_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ transpose:GLboolean, _ value:UnsafePointer<GLdouble>?) {
@@ -9004,15 +9047,15 @@ func glProgramUniformMatrix4x3fvEXT_L(_ program:GLuint, _ location:GLint, _ coun
     glProgramUniformMatrix4x3fvEXT_P(program, location, count, transpose, value)
 }
 func glProgramUniformui64NV_L(_ program:GLuint, _ location:GLint, _ value:GLuint64EXT) {
-    glProgramUniformui64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniformui64NV", [S328])), to: Swift.type(of: glProgramUniformui64NV_P))
+    glProgramUniformui64NV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniformui64NV", [S331])), to: Swift.type(of: glProgramUniformui64NV_P))
     glProgramUniformui64NV_P(program, location, value)
 }
 func glProgramUniformui64vNV_L(_ program:GLuint, _ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64EXT>?) {
-    glProgramUniformui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniformui64vNV", [S328])), to: Swift.type(of: glProgramUniformui64vNV_P))
+    glProgramUniformui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramUniformui64vNV", [S331])), to: Swift.type(of: glProgramUniformui64vNV_P))
     glProgramUniformui64vNV_P(program, location, count, value)
 }
 func glProgramVertexLimitNV_L(_ target:GLenum, _ limit:GLint) {
-    glProgramVertexLimitNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramVertexLimitNV", [S302])), to: Swift.type(of: glProgramVertexLimitNV_P))
+    glProgramVertexLimitNV_P = unsafeBitCast(getAddress(CommandInfo("glProgramVertexLimitNV", [S305])), to: Swift.type(of: glProgramVertexLimitNV_P))
     glProgramVertexLimitNV_P(target, limit)
 }
 func glProvokingVertex_L(_ mode:GLenum) {
@@ -9064,19 +9107,19 @@ func glQueryCounterEXT_L(_ id:GLuint, _ target:GLenum) {
     glQueryCounterEXT_P(id, target)
 }
 func glQueryMatrixxOES_L(_ mantissa:UnsafeMutablePointer<GLfixed>?, _ exponent:UnsafeMutablePointer<GLint>?) -> GLbitfield {
-    glQueryMatrixxOES_P = unsafeBitCast(getAddress(CommandInfo("glQueryMatrixxOES", [S361])), to: Swift.type(of: glQueryMatrixxOES_P))
+    glQueryMatrixxOES_P = unsafeBitCast(getAddress(CommandInfo("glQueryMatrixxOES", [S364])), to: Swift.type(of: glQueryMatrixxOES_P))
     return glQueryMatrixxOES_P(mantissa, exponent)
 }
 func glQueryObjectParameteruiAMD_L(_ target:GLenum, _ id:GLuint, _ pname:GLenum, _ param:GLuint) {
     glQueryObjectParameteruiAMD_P = unsafeBitCast(getAddress(CommandInfo("glQueryObjectParameteruiAMD", [S35])), to: Swift.type(of: glQueryObjectParameteruiAMD_P))
     glQueryObjectParameteruiAMD_P(target, id, pname, param)
 }
-func glQueryResourceNV_L(_ queryType:GLenum, _ tagId:GLint, _ bufSize:GLuint, _ buffer:UnsafeMutablePointer<GLint>?) -> GLint {
-    glQueryResourceNV_P = unsafeBitCast(getAddress(CommandInfo("glQueryResourceNV", [S321])), to: Swift.type(of: glQueryResourceNV_P))
-    return glQueryResourceNV_P(queryType, tagId, bufSize, buffer)
+func glQueryResourceNV_L(_ queryType:GLenum, _ tagId:GLint, _ count:GLuint, _ buffer:UnsafeMutablePointer<GLint>?) -> GLint {
+    glQueryResourceNV_P = unsafeBitCast(getAddress(CommandInfo("glQueryResourceNV", [S324])), to: Swift.type(of: glQueryResourceNV_P))
+    return glQueryResourceNV_P(queryType, tagId, count, buffer)
 }
 func glQueryResourceTagNV_L(_ tagId:GLint, _ tagString:UnsafePointer<GLchar>?) {
-    glQueryResourceTagNV_P = unsafeBitCast(getAddress(CommandInfo("glQueryResourceTagNV", [S322])), to: Swift.type(of: glQueryResourceTagNV_P))
+    glQueryResourceTagNV_P = unsafeBitCast(getAddress(CommandInfo("glQueryResourceTagNV", [S325])), to: Swift.type(of: glQueryResourceTagNV_P))
     glQueryResourceTagNV_P(tagId, tagString)
 }
 func glRasterPos2d_L(_ x:GLdouble, _ y:GLdouble) {
@@ -9112,11 +9155,11 @@ func glRasterPos2sv_L(_ v:UnsafePointer<GLshort>?) {
     glRasterPos2sv_P(v)
 }
 func glRasterPos2xOES_L(_ x:GLfixed, _ y:GLfixed) {
-    glRasterPos2xOES_P = unsafeBitCast(getAddress(CommandInfo("glRasterPos2xOES", [S353])), to: Swift.type(of: glRasterPos2xOES_P))
+    glRasterPos2xOES_P = unsafeBitCast(getAddress(CommandInfo("glRasterPos2xOES", [S356])), to: Swift.type(of: glRasterPos2xOES_P))
     glRasterPos2xOES_P(x, y)
 }
 func glRasterPos2xvOES_L(_ coords:UnsafePointer<GLfixed>?) {
-    glRasterPos2xvOES_P = unsafeBitCast(getAddress(CommandInfo("glRasterPos2xvOES", [S353])), to: Swift.type(of: glRasterPos2xvOES_P))
+    glRasterPos2xvOES_P = unsafeBitCast(getAddress(CommandInfo("glRasterPos2xvOES", [S356])), to: Swift.type(of: glRasterPos2xvOES_P))
     glRasterPos2xvOES_P(coords)
 }
 func glRasterPos3d_L(_ x:GLdouble, _ y:GLdouble, _ z:GLdouble) {
@@ -9152,11 +9195,11 @@ func glRasterPos3sv_L(_ v:UnsafePointer<GLshort>?) {
     glRasterPos3sv_P(v)
 }
 func glRasterPos3xOES_L(_ x:GLfixed, _ y:GLfixed, _ z:GLfixed) {
-    glRasterPos3xOES_P = unsafeBitCast(getAddress(CommandInfo("glRasterPos3xOES", [S353])), to: Swift.type(of: glRasterPos3xOES_P))
+    glRasterPos3xOES_P = unsafeBitCast(getAddress(CommandInfo("glRasterPos3xOES", [S356])), to: Swift.type(of: glRasterPos3xOES_P))
     glRasterPos3xOES_P(x, y, z)
 }
 func glRasterPos3xvOES_L(_ coords:UnsafePointer<GLfixed>?) {
-    glRasterPos3xvOES_P = unsafeBitCast(getAddress(CommandInfo("glRasterPos3xvOES", [S353])), to: Swift.type(of: glRasterPos3xvOES_P))
+    glRasterPos3xvOES_P = unsafeBitCast(getAddress(CommandInfo("glRasterPos3xvOES", [S356])), to: Swift.type(of: glRasterPos3xvOES_P))
     glRasterPos3xvOES_P(coords)
 }
 func glRasterPos4d_L(_ x:GLdouble, _ y:GLdouble, _ z:GLdouble, _ w:GLdouble) {
@@ -9192,15 +9235,15 @@ func glRasterPos4sv_L(_ v:UnsafePointer<GLshort>?) {
     glRasterPos4sv_P(v)
 }
 func glRasterPos4xOES_L(_ x:GLfixed, _ y:GLfixed, _ z:GLfixed, _ w:GLfixed) {
-    glRasterPos4xOES_P = unsafeBitCast(getAddress(CommandInfo("glRasterPos4xOES", [S353])), to: Swift.type(of: glRasterPos4xOES_P))
+    glRasterPos4xOES_P = unsafeBitCast(getAddress(CommandInfo("glRasterPos4xOES", [S356])), to: Swift.type(of: glRasterPos4xOES_P))
     glRasterPos4xOES_P(x, y, z, w)
 }
 func glRasterPos4xvOES_L(_ coords:UnsafePointer<GLfixed>?) {
-    glRasterPos4xvOES_P = unsafeBitCast(getAddress(CommandInfo("glRasterPos4xvOES", [S353])), to: Swift.type(of: glRasterPos4xvOES_P))
+    glRasterPos4xvOES_P = unsafeBitCast(getAddress(CommandInfo("glRasterPos4xvOES", [S356])), to: Swift.type(of: glRasterPos4xvOES_P))
     glRasterPos4xvOES_P(coords)
 }
 func glRasterSamplesEXT_L(_ samples:GLuint, _ fixedsamplelocations:GLboolean) {
-    glRasterSamplesEXT_P = unsafeBitCast(getAddress(CommandInfo("glRasterSamplesEXT", [S217, S299])), to: Swift.type(of: glRasterSamplesEXT_P))
+    glRasterSamplesEXT_P = unsafeBitCast(getAddress(CommandInfo("glRasterSamplesEXT", [S217, S302])), to: Swift.type(of: glRasterSamplesEXT_P))
     glRasterSamplesEXT_P(samples, fixedsamplelocations)
 }
 func glReadBuffer_L(_ src:GLenum) {
@@ -9212,11 +9255,11 @@ func glReadBufferIndexedEXT_L(_ src:GLenum, _ index:GLint) {
     glReadBufferIndexedEXT_P(src, index)
 }
 func glReadBufferNV_L(_ mode:GLenum) {
-    glReadBufferNV_P = unsafeBitCast(getAddress(CommandInfo("glReadBufferNV", [S323])), to: Swift.type(of: glReadBufferNV_P))
+    glReadBufferNV_P = unsafeBitCast(getAddress(CommandInfo("glReadBufferNV", [S326])), to: Swift.type(of: glReadBufferNV_P))
     glReadBufferNV_P(mode)
 }
 func glReadInstrumentsSGIX_L(_ marker:GLint) {
-    glReadInstrumentsSGIX_P = unsafeBitCast(getAddress(CommandInfo("glReadInstrumentsSGIX", [S398])), to: Swift.type(of: glReadInstrumentsSGIX_P))
+    glReadInstrumentsSGIX_P = unsafeBitCast(getAddress(CommandInfo("glReadInstrumentsSGIX", [S401])), to: Swift.type(of: glReadInstrumentsSGIX_P))
     glReadInstrumentsSGIX_P(marker)
 }
 func glReadPixels_L(_ x:GLint, _ y:GLint, _ width:GLsizei, _ height:GLsizei, _ format:GLenum, _ type:GLenum, _ pixels:UnsafeMutableRawPointer?) {
@@ -9272,15 +9315,15 @@ func glRectsv_L(_ v1:UnsafePointer<GLshort>?, _ v2:UnsafePointer<GLshort>?) {
     glRectsv_P(v1, v2)
 }
 func glRectxOES_L(_ x1:GLfixed, _ y1:GLfixed, _ x2:GLfixed, _ y2:GLfixed) {
-    glRectxOES_P = unsafeBitCast(getAddress(CommandInfo("glRectxOES", [S353])), to: Swift.type(of: glRectxOES_P))
+    glRectxOES_P = unsafeBitCast(getAddress(CommandInfo("glRectxOES", [S356])), to: Swift.type(of: glRectxOES_P))
     glRectxOES_P(x1, y1, x2, y2)
 }
 func glRectxvOES_L(_ v1:UnsafePointer<GLfixed>?, _ v2:UnsafePointer<GLfixed>?) {
-    glRectxvOES_P = unsafeBitCast(getAddress(CommandInfo("glRectxvOES", [S353])), to: Swift.type(of: glRectxvOES_P))
+    glRectxvOES_P = unsafeBitCast(getAddress(CommandInfo("glRectxvOES", [S356])), to: Swift.type(of: glRectxvOES_P))
     glRectxvOES_P(v1, v2)
 }
 func glReferencePlaneSGIX_L(_ equation:UnsafePointer<GLdouble>?) {
-    glReferencePlaneSGIX_P = unsafeBitCast(getAddress(CommandInfo("glReferencePlaneSGIX", [S402])), to: Swift.type(of: glReferencePlaneSGIX_P))
+    glReferencePlaneSGIX_P = unsafeBitCast(getAddress(CommandInfo("glReferencePlaneSGIX", [S405])), to: Swift.type(of: glReferencePlaneSGIX_P))
     glReferencePlaneSGIX_P(equation)
 }
 func glReleaseKeyedMutexWin32EXT_L(_ memory:GLuint, _ key:GLuint64) -> GLboolean {
@@ -9292,7 +9335,7 @@ func glReleaseShaderCompiler_L() {
     glReleaseShaderCompiler_P()
 }
 func glRenderGpuMaskNV_L(_ mask:GLbitfield) {
-    glRenderGpuMaskNV_P = unsafeBitCast(getAddress(CommandInfo("glRenderGpuMaskNV", [S303])), to: Swift.type(of: glRenderGpuMaskNV_P))
+    glRenderGpuMaskNV_P = unsafeBitCast(getAddress(CommandInfo("glRenderGpuMaskNV", [S306])), to: Swift.type(of: glRenderGpuMaskNV_P))
     glRenderGpuMaskNV_P(mask)
 }
 func glRenderMode_L(_ mode:GLenum) -> GLint {
@@ -9324,7 +9367,7 @@ func glRenderbufferStorageMultisampleAdvancedAMD_L(_ target:GLenum, _ samples:GL
     glRenderbufferStorageMultisampleAdvancedAMD_P(target, samples, storageSamples, internalformat, width, height)
 }
 func glRenderbufferStorageMultisampleCoverageNV_L(_ target:GLenum, _ coverageSamples:GLsizei, _ colorSamples:GLsizei, _ internalformat:GLenum, _ width:GLsizei, _ height:GLsizei) {
-    glRenderbufferStorageMultisampleCoverageNV_P = unsafeBitCast(getAddress(CommandInfo("glRenderbufferStorageMultisampleCoverageNV", [S301])), to: Swift.type(of: glRenderbufferStorageMultisampleCoverageNV_P))
+    glRenderbufferStorageMultisampleCoverageNV_P = unsafeBitCast(getAddress(CommandInfo("glRenderbufferStorageMultisampleCoverageNV", [S304])), to: Swift.type(of: glRenderbufferStorageMultisampleCoverageNV_P))
     glRenderbufferStorageMultisampleCoverageNV_P(target, coverageSamples, colorSamples, internalformat, width, height)
 }
 func glRenderbufferStorageMultisampleEXT_L(_ target:GLenum, _ samples:GLsizei, _ internalformat:GLenum, _ width:GLsizei, _ height:GLsizei) {
@@ -9336,107 +9379,107 @@ func glRenderbufferStorageMultisampleIMG_L(_ target:GLenum, _ samples:GLsizei, _
     glRenderbufferStorageMultisampleIMG_P(target, samples, internalformat, width, height)
 }
 func glRenderbufferStorageMultisampleNV_L(_ target:GLenum, _ samples:GLsizei, _ internalformat:GLenum, _ width:GLsizei, _ height:GLsizei) {
-    glRenderbufferStorageMultisampleNV_P = unsafeBitCast(getAddress(CommandInfo("glRenderbufferStorageMultisampleNV", [S300])), to: Swift.type(of: glRenderbufferStorageMultisampleNV_P))
+    glRenderbufferStorageMultisampleNV_P = unsafeBitCast(getAddress(CommandInfo("glRenderbufferStorageMultisampleNV", [S303])), to: Swift.type(of: glRenderbufferStorageMultisampleNV_P))
     glRenderbufferStorageMultisampleNV_P(target, samples, internalformat, width, height)
 }
 func glRenderbufferStorageOES_L(_ target:GLenum, _ internalformat:GLenum, _ width:GLsizei, _ height:GLsizei) {
-    glRenderbufferStorageOES_P = unsafeBitCast(getAddress(CommandInfo("glRenderbufferStorageOES", [S354])), to: Swift.type(of: glRenderbufferStorageOES_P))
+    glRenderbufferStorageOES_P = unsafeBitCast(getAddress(CommandInfo("glRenderbufferStorageOES", [S357])), to: Swift.type(of: glRenderbufferStorageOES_P))
     glRenderbufferStorageOES_P(target, internalformat, width, height)
 }
 func glReplacementCodePointerSUN_L(_ type:GLenum, _ stride:GLsizei, _ pointer:UnsafeMutablePointer<UnsafeRawPointer>?) {
-    glReplacementCodePointerSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodePointerSUN", [S409])), to: Swift.type(of: glReplacementCodePointerSUN_P))
+    glReplacementCodePointerSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodePointerSUN", [S412])), to: Swift.type(of: glReplacementCodePointerSUN_P))
     glReplacementCodePointerSUN_P(type, stride, pointer)
 }
 func glReplacementCodeubSUN_L(_ code:GLubyte) {
-    glReplacementCodeubSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeubSUN", [S409])), to: Swift.type(of: glReplacementCodeubSUN_P))
+    glReplacementCodeubSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeubSUN", [S412])), to: Swift.type(of: glReplacementCodeubSUN_P))
     glReplacementCodeubSUN_P(code)
 }
 func glReplacementCodeubvSUN_L(_ code:UnsafePointer<GLubyte>?) {
-    glReplacementCodeubvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeubvSUN", [S409])), to: Swift.type(of: glReplacementCodeubvSUN_P))
+    glReplacementCodeubvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeubvSUN", [S412])), to: Swift.type(of: glReplacementCodeubvSUN_P))
     glReplacementCodeubvSUN_P(code)
 }
 func glReplacementCodeuiColor3fVertex3fSUN_L(_ rc:GLuint, _ r:GLfloat, _ g:GLfloat, _ b:GLfloat, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glReplacementCodeuiColor3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiColor3fVertex3fSUN", [S410])), to: Swift.type(of: glReplacementCodeuiColor3fVertex3fSUN_P))
+    glReplacementCodeuiColor3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiColor3fVertex3fSUN", [S413])), to: Swift.type(of: glReplacementCodeuiColor3fVertex3fSUN_P))
     glReplacementCodeuiColor3fVertex3fSUN_P(rc, r, g, b, x, y, z)
 }
 func glReplacementCodeuiColor3fVertex3fvSUN_L(_ rc:UnsafePointer<GLuint>?, _ c:UnsafePointer<GLfloat>?, _ v:UnsafePointer<GLfloat>?) {
-    glReplacementCodeuiColor3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiColor3fVertex3fvSUN", [S410])), to: Swift.type(of: glReplacementCodeuiColor3fVertex3fvSUN_P))
+    glReplacementCodeuiColor3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiColor3fVertex3fvSUN", [S413])), to: Swift.type(of: glReplacementCodeuiColor3fVertex3fvSUN_P))
     glReplacementCodeuiColor3fVertex3fvSUN_P(rc, c, v)
 }
 func glReplacementCodeuiColor4fNormal3fVertex3fSUN_L(_ rc:GLuint, _ r:GLfloat, _ g:GLfloat, _ b:GLfloat, _ a:GLfloat, _ nx:GLfloat, _ ny:GLfloat, _ nz:GLfloat, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glReplacementCodeuiColor4fNormal3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiColor4fNormal3fVertex3fSUN", [S410])), to: Swift.type(of: glReplacementCodeuiColor4fNormal3fVertex3fSUN_P))
+    glReplacementCodeuiColor4fNormal3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiColor4fNormal3fVertex3fSUN", [S413])), to: Swift.type(of: glReplacementCodeuiColor4fNormal3fVertex3fSUN_P))
     glReplacementCodeuiColor4fNormal3fVertex3fSUN_P(rc, r, g, b, a, nx, ny, nz, x, y, z)
 }
 func glReplacementCodeuiColor4fNormal3fVertex3fvSUN_L(_ rc:UnsafePointer<GLuint>?, _ c:UnsafePointer<GLfloat>?, _ n:UnsafePointer<GLfloat>?, _ v:UnsafePointer<GLfloat>?) {
-    glReplacementCodeuiColor4fNormal3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiColor4fNormal3fVertex3fvSUN", [S410])), to: Swift.type(of: glReplacementCodeuiColor4fNormal3fVertex3fvSUN_P))
+    glReplacementCodeuiColor4fNormal3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiColor4fNormal3fVertex3fvSUN", [S413])), to: Swift.type(of: glReplacementCodeuiColor4fNormal3fVertex3fvSUN_P))
     glReplacementCodeuiColor4fNormal3fVertex3fvSUN_P(rc, c, n, v)
 }
 func glReplacementCodeuiColor4ubVertex3fSUN_L(_ rc:GLuint, _ r:GLubyte, _ g:GLubyte, _ b:GLubyte, _ a:GLubyte, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glReplacementCodeuiColor4ubVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiColor4ubVertex3fSUN", [S410])), to: Swift.type(of: glReplacementCodeuiColor4ubVertex3fSUN_P))
+    glReplacementCodeuiColor4ubVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiColor4ubVertex3fSUN", [S413])), to: Swift.type(of: glReplacementCodeuiColor4ubVertex3fSUN_P))
     glReplacementCodeuiColor4ubVertex3fSUN_P(rc, r, g, b, a, x, y, z)
 }
 func glReplacementCodeuiColor4ubVertex3fvSUN_L(_ rc:UnsafePointer<GLuint>?, _ c:UnsafePointer<GLubyte>?, _ v:UnsafePointer<GLfloat>?) {
-    glReplacementCodeuiColor4ubVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiColor4ubVertex3fvSUN", [S410])), to: Swift.type(of: glReplacementCodeuiColor4ubVertex3fvSUN_P))
+    glReplacementCodeuiColor4ubVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiColor4ubVertex3fvSUN", [S413])), to: Swift.type(of: glReplacementCodeuiColor4ubVertex3fvSUN_P))
     glReplacementCodeuiColor4ubVertex3fvSUN_P(rc, c, v)
 }
 func glReplacementCodeuiNormal3fVertex3fSUN_L(_ rc:GLuint, _ nx:GLfloat, _ ny:GLfloat, _ nz:GLfloat, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glReplacementCodeuiNormal3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiNormal3fVertex3fSUN", [S410])), to: Swift.type(of: glReplacementCodeuiNormal3fVertex3fSUN_P))
+    glReplacementCodeuiNormal3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiNormal3fVertex3fSUN", [S413])), to: Swift.type(of: glReplacementCodeuiNormal3fVertex3fSUN_P))
     glReplacementCodeuiNormal3fVertex3fSUN_P(rc, nx, ny, nz, x, y, z)
 }
 func glReplacementCodeuiNormal3fVertex3fvSUN_L(_ rc:UnsafePointer<GLuint>?, _ n:UnsafePointer<GLfloat>?, _ v:UnsafePointer<GLfloat>?) {
-    glReplacementCodeuiNormal3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiNormal3fVertex3fvSUN", [S410])), to: Swift.type(of: glReplacementCodeuiNormal3fVertex3fvSUN_P))
+    glReplacementCodeuiNormal3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiNormal3fVertex3fvSUN", [S413])), to: Swift.type(of: glReplacementCodeuiNormal3fVertex3fvSUN_P))
     glReplacementCodeuiNormal3fVertex3fvSUN_P(rc, n, v)
 }
 func glReplacementCodeuiSUN_L(_ code:GLuint) {
-    glReplacementCodeuiSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiSUN", [S409])), to: Swift.type(of: glReplacementCodeuiSUN_P))
+    glReplacementCodeuiSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiSUN", [S412])), to: Swift.type(of: glReplacementCodeuiSUN_P))
     glReplacementCodeuiSUN_P(code)
 }
 func glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fSUN_L(_ rc:GLuint, _ s:GLfloat, _ t:GLfloat, _ r:GLfloat, _ g:GLfloat, _ b:GLfloat, _ a:GLfloat, _ nx:GLfloat, _ ny:GLfloat, _ nz:GLfloat, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fSUN", [S410])), to: Swift.type(of: glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fSUN_P))
+    glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fSUN", [S413])), to: Swift.type(of: glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fSUN_P))
     glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fSUN_P(rc, s, t, r, g, b, a, nx, ny, nz, x, y, z)
 }
 func glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fvSUN_L(_ rc:UnsafePointer<GLuint>?, _ tc:UnsafePointer<GLfloat>?, _ c:UnsafePointer<GLfloat>?, _ n:UnsafePointer<GLfloat>?, _ v:UnsafePointer<GLfloat>?) {
-    glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fvSUN", [S410])), to: Swift.type(of: glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fvSUN_P))
+    glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fvSUN", [S413])), to: Swift.type(of: glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fvSUN_P))
     glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fvSUN_P(rc, tc, c, n, v)
 }
 func glReplacementCodeuiTexCoord2fNormal3fVertex3fSUN_L(_ rc:GLuint, _ s:GLfloat, _ t:GLfloat, _ nx:GLfloat, _ ny:GLfloat, _ nz:GLfloat, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glReplacementCodeuiTexCoord2fNormal3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiTexCoord2fNormal3fVertex3fSUN", [S410])), to: Swift.type(of: glReplacementCodeuiTexCoord2fNormal3fVertex3fSUN_P))
+    glReplacementCodeuiTexCoord2fNormal3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiTexCoord2fNormal3fVertex3fSUN", [S413])), to: Swift.type(of: glReplacementCodeuiTexCoord2fNormal3fVertex3fSUN_P))
     glReplacementCodeuiTexCoord2fNormal3fVertex3fSUN_P(rc, s, t, nx, ny, nz, x, y, z)
 }
 func glReplacementCodeuiTexCoord2fNormal3fVertex3fvSUN_L(_ rc:UnsafePointer<GLuint>?, _ tc:UnsafePointer<GLfloat>?, _ n:UnsafePointer<GLfloat>?, _ v:UnsafePointer<GLfloat>?) {
-    glReplacementCodeuiTexCoord2fNormal3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiTexCoord2fNormal3fVertex3fvSUN", [S410])), to: Swift.type(of: glReplacementCodeuiTexCoord2fNormal3fVertex3fvSUN_P))
+    glReplacementCodeuiTexCoord2fNormal3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiTexCoord2fNormal3fVertex3fvSUN", [S413])), to: Swift.type(of: glReplacementCodeuiTexCoord2fNormal3fVertex3fvSUN_P))
     glReplacementCodeuiTexCoord2fNormal3fVertex3fvSUN_P(rc, tc, n, v)
 }
 func glReplacementCodeuiTexCoord2fVertex3fSUN_L(_ rc:GLuint, _ s:GLfloat, _ t:GLfloat, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glReplacementCodeuiTexCoord2fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiTexCoord2fVertex3fSUN", [S410])), to: Swift.type(of: glReplacementCodeuiTexCoord2fVertex3fSUN_P))
+    glReplacementCodeuiTexCoord2fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiTexCoord2fVertex3fSUN", [S413])), to: Swift.type(of: glReplacementCodeuiTexCoord2fVertex3fSUN_P))
     glReplacementCodeuiTexCoord2fVertex3fSUN_P(rc, s, t, x, y, z)
 }
 func glReplacementCodeuiTexCoord2fVertex3fvSUN_L(_ rc:UnsafePointer<GLuint>?, _ tc:UnsafePointer<GLfloat>?, _ v:UnsafePointer<GLfloat>?) {
-    glReplacementCodeuiTexCoord2fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiTexCoord2fVertex3fvSUN", [S410])), to: Swift.type(of: glReplacementCodeuiTexCoord2fVertex3fvSUN_P))
+    glReplacementCodeuiTexCoord2fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiTexCoord2fVertex3fvSUN", [S413])), to: Swift.type(of: glReplacementCodeuiTexCoord2fVertex3fvSUN_P))
     glReplacementCodeuiTexCoord2fVertex3fvSUN_P(rc, tc, v)
 }
 func glReplacementCodeuiVertex3fSUN_L(_ rc:GLuint, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glReplacementCodeuiVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiVertex3fSUN", [S410])), to: Swift.type(of: glReplacementCodeuiVertex3fSUN_P))
+    glReplacementCodeuiVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiVertex3fSUN", [S413])), to: Swift.type(of: glReplacementCodeuiVertex3fSUN_P))
     glReplacementCodeuiVertex3fSUN_P(rc, x, y, z)
 }
 func glReplacementCodeuiVertex3fvSUN_L(_ rc:UnsafePointer<GLuint>?, _ v:UnsafePointer<GLfloat>?) {
-    glReplacementCodeuiVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiVertex3fvSUN", [S410])), to: Swift.type(of: glReplacementCodeuiVertex3fvSUN_P))
+    glReplacementCodeuiVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuiVertex3fvSUN", [S413])), to: Swift.type(of: glReplacementCodeuiVertex3fvSUN_P))
     glReplacementCodeuiVertex3fvSUN_P(rc, v)
 }
 func glReplacementCodeuivSUN_L(_ code:UnsafePointer<GLuint>?) {
-    glReplacementCodeuivSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuivSUN", [S409])), to: Swift.type(of: glReplacementCodeuivSUN_P))
+    glReplacementCodeuivSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeuivSUN", [S412])), to: Swift.type(of: glReplacementCodeuivSUN_P))
     glReplacementCodeuivSUN_P(code)
 }
 func glReplacementCodeusSUN_L(_ code:GLushort) {
-    glReplacementCodeusSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeusSUN", [S409])), to: Swift.type(of: glReplacementCodeusSUN_P))
+    glReplacementCodeusSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeusSUN", [S412])), to: Swift.type(of: glReplacementCodeusSUN_P))
     glReplacementCodeusSUN_P(code)
 }
 func glReplacementCodeusvSUN_L(_ code:UnsafePointer<GLushort>?) {
-    glReplacementCodeusvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeusvSUN", [S409])), to: Swift.type(of: glReplacementCodeusvSUN_P))
+    glReplacementCodeusvSUN_P = unsafeBitCast(getAddress(CommandInfo("glReplacementCodeusvSUN", [S412])), to: Swift.type(of: glReplacementCodeusvSUN_P))
     glReplacementCodeusvSUN_P(code)
 }
 func glRequestResidentProgramsNV_L(_ n:GLsizei, _ programs:UnsafePointer<GLuint>?) {
-    glRequestResidentProgramsNV_P = unsafeBitCast(getAddress(CommandInfo("glRequestResidentProgramsNV", [S339])), to: Swift.type(of: glRequestResidentProgramsNV_P))
+    glRequestResidentProgramsNV_P = unsafeBitCast(getAddress(CommandInfo("glRequestResidentProgramsNV", [S342])), to: Swift.type(of: glRequestResidentProgramsNV_P))
     glRequestResidentProgramsNV_P(n, programs)
 }
 func glResetHistogram_L(_ target:GLenum) {
@@ -9448,7 +9491,7 @@ func glResetHistogramEXT_L(_ target:GLenum) {
     glResetHistogramEXT_P(target)
 }
 func glResetMemoryObjectParameterNV_L(_ memory:GLuint, _ pname:GLenum) {
-    glResetMemoryObjectParameterNV_P = unsafeBitCast(getAddress(CommandInfo("glResetMemoryObjectParameterNV", [S310])), to: Swift.type(of: glResetMemoryObjectParameterNV_P))
+    glResetMemoryObjectParameterNV_P = unsafeBitCast(getAddress(CommandInfo("glResetMemoryObjectParameterNV", [S313])), to: Swift.type(of: glResetMemoryObjectParameterNV_P))
     glResetMemoryObjectParameterNV_P(memory, pname)
 }
 func glResetMinmax_L(_ target:GLenum) {
@@ -9460,11 +9503,11 @@ func glResetMinmaxEXT_L(_ target:GLenum) {
     glResetMinmaxEXT_P(target)
 }
 func glResizeBuffersMESA_L() {
-    glResizeBuffersMESA_P = unsafeBitCast(getAddress(CommandInfo("glResizeBuffersMESA", [S270])), to: Swift.type(of: glResizeBuffersMESA_P))
+    glResizeBuffersMESA_P = unsafeBitCast(getAddress(CommandInfo("glResizeBuffersMESA", [S271])), to: Swift.type(of: glResizeBuffersMESA_P))
     glResizeBuffersMESA_P()
 }
 func glResolveDepthValuesNV_L() {
-    glResolveDepthValuesNV_P = unsafeBitCast(getAddress(CommandInfo("glResolveDepthValuesNV", [S326])), to: Swift.type(of: glResolveDepthValuesNV_P))
+    glResolveDepthValuesNV_P = unsafeBitCast(getAddress(CommandInfo("glResolveDepthValuesNV", [S329])), to: Swift.type(of: glResolveDepthValuesNV_P))
     glResolveDepthValuesNV_P()
 }
 func glResolveMultisampleFramebufferAPPLE_L() {
@@ -9476,7 +9519,7 @@ func glResumeTransformFeedback_L() {
     glResumeTransformFeedback_P()
 }
 func glResumeTransformFeedbackNV_L() {
-    glResumeTransformFeedbackNV_P = unsafeBitCast(getAddress(CommandInfo("glResumeTransformFeedbackNV", [S333])), to: Swift.type(of: glResumeTransformFeedbackNV_P))
+    glResumeTransformFeedbackNV_P = unsafeBitCast(getAddress(CommandInfo("glResumeTransformFeedbackNV", [S336])), to: Swift.type(of: glResumeTransformFeedbackNV_P))
     glResumeTransformFeedbackNV_P()
 }
 func glRotated_L(_ angle:GLdouble, _ x:GLdouble, _ y:GLdouble, _ z:GLdouble) {
@@ -9492,7 +9535,7 @@ func glRotatex_L(_ angle:GLfixed, _ x:GLfixed, _ y:GLfixed, _ z:GLfixed) {
     glRotatex_P(angle, x, y, z)
 }
 func glRotatexOES_L(_ angle:GLfixed, _ x:GLfixed, _ y:GLfixed, _ z:GLfixed) {
-    glRotatexOES_P = unsafeBitCast(getAddress(CommandInfo("glRotatexOES", [S353])), to: Swift.type(of: glRotatexOES_P))
+    glRotatexOES_P = unsafeBitCast(getAddress(CommandInfo("glRotatexOES", [S356])), to: Swift.type(of: glRotatexOES_P))
     glRotatexOES_P(angle, x, y, z)
 }
 func glSampleCoverage_L(_ value:GLfloat, _ invert:GLboolean) {
@@ -9508,7 +9551,7 @@ func glSampleCoveragex_L(_ value:GLclampx, _ invert:GLboolean) {
     glSampleCoveragex_P(value, invert)
 }
 func glSampleCoveragexOES_L(_ value:GLclampx, _ invert:GLboolean) {
-    glSampleCoveragexOES_P = unsafeBitCast(getAddress(CommandInfo("glSampleCoveragexOES", [S353])), to: Swift.type(of: glSampleCoveragexOES_P))
+    glSampleCoveragexOES_P = unsafeBitCast(getAddress(CommandInfo("glSampleCoveragexOES", [S356])), to: Swift.type(of: glSampleCoveragexOES_P))
     glSampleCoveragexOES_P(value, invert)
 }
 func glSampleMapATI_L(_ dst:GLuint, _ interp:GLuint, _ swizzle:GLenum) {
@@ -9520,11 +9563,11 @@ func glSampleMaskEXT_L(_ value:GLclampf, _ invert:GLboolean) {
     glSampleMaskEXT_P(value, invert)
 }
 func glSampleMaskIndexedNV_L(_ index:GLuint, _ mask:GLbitfield) {
-    glSampleMaskIndexedNV_P = unsafeBitCast(getAddress(CommandInfo("glSampleMaskIndexedNV", [S294])), to: Swift.type(of: glSampleMaskIndexedNV_P))
+    glSampleMaskIndexedNV_P = unsafeBitCast(getAddress(CommandInfo("glSampleMaskIndexedNV", [S297])), to: Swift.type(of: glSampleMaskIndexedNV_P))
     glSampleMaskIndexedNV_P(index, mask)
 }
 func glSampleMaskSGIS_L(_ value:GLclampf, _ invert:GLboolean) {
-    glSampleMaskSGIS_P = unsafeBitCast(getAddress(CommandInfo("glSampleMaskSGIS", [S386])), to: Swift.type(of: glSampleMaskSGIS_P))
+    glSampleMaskSGIS_P = unsafeBitCast(getAddress(CommandInfo("glSampleMaskSGIS", [S389])), to: Swift.type(of: glSampleMaskSGIS_P))
     glSampleMaskSGIS_P(value, invert)
 }
 func glSampleMaski_L(_ maskNumber:GLuint, _ mask:GLbitfield) {
@@ -9536,7 +9579,7 @@ func glSamplePatternEXT_L(_ pattern:GLenum) {
     glSamplePatternEXT_P(pattern)
 }
 func glSamplePatternSGIS_L(_ pattern:GLenum) {
-    glSamplePatternSGIS_P = unsafeBitCast(getAddress(CommandInfo("glSamplePatternSGIS", [S386])), to: Swift.type(of: glSamplePatternSGIS_P))
+    glSamplePatternSGIS_P = unsafeBitCast(getAddress(CommandInfo("glSamplePatternSGIS", [S389])), to: Swift.type(of: glSamplePatternSGIS_P))
     glSamplePatternSGIS_P(pattern)
 }
 func glSamplerParameterIiv_L(_ sampler:GLuint, _ pname:GLenum, _ param:UnsafePointer<GLint>?) {
@@ -9548,7 +9591,7 @@ func glSamplerParameterIivEXT_L(_ sampler:GLuint, _ pname:GLenum, _ param:Unsafe
     glSamplerParameterIivEXT_P(sampler, pname, param)
 }
 func glSamplerParameterIivOES_L(_ sampler:GLuint, _ pname:GLenum, _ param:UnsafePointer<GLint>?) {
-    glSamplerParameterIivOES_P = unsafeBitCast(getAddress(CommandInfo("glSamplerParameterIivOES", [S366])), to: Swift.type(of: glSamplerParameterIivOES_P))
+    glSamplerParameterIivOES_P = unsafeBitCast(getAddress(CommandInfo("glSamplerParameterIivOES", [S369])), to: Swift.type(of: glSamplerParameterIivOES_P))
     glSamplerParameterIivOES_P(sampler, pname, param)
 }
 func glSamplerParameterIuiv_L(_ sampler:GLuint, _ pname:GLenum, _ param:UnsafePointer<GLuint>?) {
@@ -9560,7 +9603,7 @@ func glSamplerParameterIuivEXT_L(_ sampler:GLuint, _ pname:GLenum, _ param:Unsaf
     glSamplerParameterIuivEXT_P(sampler, pname, param)
 }
 func glSamplerParameterIuivOES_L(_ sampler:GLuint, _ pname:GLenum, _ param:UnsafePointer<GLuint>?) {
-    glSamplerParameterIuivOES_P = unsafeBitCast(getAddress(CommandInfo("glSamplerParameterIuivOES", [S366])), to: Swift.type(of: glSamplerParameterIuivOES_P))
+    glSamplerParameterIuivOES_P = unsafeBitCast(getAddress(CommandInfo("glSamplerParameterIuivOES", [S369])), to: Swift.type(of: glSamplerParameterIuivOES_P))
     glSamplerParameterIuivOES_P(sampler, pname, param)
 }
 func glSamplerParameterf_L(_ sampler:GLuint, _ pname:GLenum, _ param:GLfloat) {
@@ -9592,7 +9635,7 @@ func glScalex_L(_ x:GLfixed, _ y:GLfixed, _ z:GLfixed) {
     glScalex_P(x, y, z)
 }
 func glScalexOES_L(_ x:GLfixed, _ y:GLfixed, _ z:GLfixed) {
-    glScalexOES_P = unsafeBitCast(getAddress(CommandInfo("glScalexOES", [S353])), to: Swift.type(of: glScalexOES_P))
+    glScalexOES_P = unsafeBitCast(getAddress(CommandInfo("glScalexOES", [S356])), to: Swift.type(of: glScalexOES_P))
     glScalexOES_P(x, y, z)
 }
 func glScissor_L(_ x:GLint, _ y:GLint, _ width:GLsizei, _ height:GLsizei) {
@@ -9604,19 +9647,19 @@ func glScissorArrayv_L(_ first:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLint>
     glScissorArrayv_P(first, count, v)
 }
 func glScissorArrayvNV_L(_ first:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLint>?) {
-    glScissorArrayvNV_P = unsafeBitCast(getAddress(CommandInfo("glScissorArrayvNV", [S342])), to: Swift.type(of: glScissorArrayvNV_P))
+    glScissorArrayvNV_P = unsafeBitCast(getAddress(CommandInfo("glScissorArrayvNV", [S345])), to: Swift.type(of: glScissorArrayvNV_P))
     glScissorArrayvNV_P(first, count, v)
 }
 func glScissorArrayvOES_L(_ first:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLint>?) {
-    glScissorArrayvOES_P = unsafeBitCast(getAddress(CommandInfo("glScissorArrayvOES", [S372])), to: Swift.type(of: glScissorArrayvOES_P))
+    glScissorArrayvOES_P = unsafeBitCast(getAddress(CommandInfo("glScissorArrayvOES", [S375])), to: Swift.type(of: glScissorArrayvOES_P))
     glScissorArrayvOES_P(first, count, v)
 }
 func glScissorExclusiveArrayvNV_L(_ first:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLint>?) {
-    glScissorExclusiveArrayvNV_P = unsafeBitCast(getAddress(CommandInfo("glScissorExclusiveArrayvNV", [S327])), to: Swift.type(of: glScissorExclusiveArrayvNV_P))
+    glScissorExclusiveArrayvNV_P = unsafeBitCast(getAddress(CommandInfo("glScissorExclusiveArrayvNV", [S330])), to: Swift.type(of: glScissorExclusiveArrayvNV_P))
     glScissorExclusiveArrayvNV_P(first, count, v)
 }
 func glScissorExclusiveNV_L(_ x:GLint, _ y:GLint, _ width:GLsizei, _ height:GLsizei) {
-    glScissorExclusiveNV_P = unsafeBitCast(getAddress(CommandInfo("glScissorExclusiveNV", [S327])), to: Swift.type(of: glScissorExclusiveNV_P))
+    glScissorExclusiveNV_P = unsafeBitCast(getAddress(CommandInfo("glScissorExclusiveNV", [S330])), to: Swift.type(of: glScissorExclusiveNV_P))
     glScissorExclusiveNV_P(x, y, width, height)
 }
 func glScissorIndexed_L(_ index:GLuint, _ left:GLint, _ bottom:GLint, _ width:GLsizei, _ height:GLsizei) {
@@ -9624,11 +9667,11 @@ func glScissorIndexed_L(_ index:GLuint, _ left:GLint, _ bottom:GLint, _ width:GL
     glScissorIndexed_P(index, left, bottom, width, height)
 }
 func glScissorIndexedNV_L(_ index:GLuint, _ left:GLint, _ bottom:GLint, _ width:GLsizei, _ height:GLsizei) {
-    glScissorIndexedNV_P = unsafeBitCast(getAddress(CommandInfo("glScissorIndexedNV", [S342])), to: Swift.type(of: glScissorIndexedNV_P))
+    glScissorIndexedNV_P = unsafeBitCast(getAddress(CommandInfo("glScissorIndexedNV", [S345])), to: Swift.type(of: glScissorIndexedNV_P))
     glScissorIndexedNV_P(index, left, bottom, width, height)
 }
 func glScissorIndexedOES_L(_ index:GLuint, _ left:GLint, _ bottom:GLint, _ width:GLsizei, _ height:GLsizei) {
-    glScissorIndexedOES_P = unsafeBitCast(getAddress(CommandInfo("glScissorIndexedOES", [S372])), to: Swift.type(of: glScissorIndexedOES_P))
+    glScissorIndexedOES_P = unsafeBitCast(getAddress(CommandInfo("glScissorIndexedOES", [S375])), to: Swift.type(of: glScissorIndexedOES_P))
     glScissorIndexedOES_P(index, left, bottom, width, height)
 }
 func glScissorIndexedv_L(_ index:GLuint, _ v:UnsafePointer<GLint>?) {
@@ -9636,11 +9679,11 @@ func glScissorIndexedv_L(_ index:GLuint, _ v:UnsafePointer<GLint>?) {
     glScissorIndexedv_P(index, v)
 }
 func glScissorIndexedvNV_L(_ index:GLuint, _ v:UnsafePointer<GLint>?) {
-    glScissorIndexedvNV_P = unsafeBitCast(getAddress(CommandInfo("glScissorIndexedvNV", [S342])), to: Swift.type(of: glScissorIndexedvNV_P))
+    glScissorIndexedvNV_P = unsafeBitCast(getAddress(CommandInfo("glScissorIndexedvNV", [S345])), to: Swift.type(of: glScissorIndexedvNV_P))
     glScissorIndexedvNV_P(index, v)
 }
 func glScissorIndexedvOES_L(_ index:GLuint, _ v:UnsafePointer<GLint>?) {
-    glScissorIndexedvOES_P = unsafeBitCast(getAddress(CommandInfo("glScissorIndexedvOES", [S372])), to: Swift.type(of: glScissorIndexedvOES_P))
+    glScissorIndexedvOES_P = unsafeBitCast(getAddress(CommandInfo("glScissorIndexedvOES", [S375])), to: Swift.type(of: glScissorIndexedvOES_P))
     glScissorIndexedvOES_P(index, v)
 }
 func glSecondaryColor3b_L(_ red:GLbyte, _ green:GLbyte, _ blue:GLbyte) {
@@ -9692,11 +9735,11 @@ func glSecondaryColor3fvEXT_L(_ v:UnsafePointer<GLfloat>?) {
     glSecondaryColor3fvEXT_P(v)
 }
 func glSecondaryColor3hNV_L(_ red:GLhalfNV, _ green:GLhalfNV, _ blue:GLhalfNV) {
-    glSecondaryColor3hNV_P = unsafeBitCast(getAddress(CommandInfo("glSecondaryColor3hNV", [S307])), to: Swift.type(of: glSecondaryColor3hNV_P))
+    glSecondaryColor3hNV_P = unsafeBitCast(getAddress(CommandInfo("glSecondaryColor3hNV", [S310])), to: Swift.type(of: glSecondaryColor3hNV_P))
     glSecondaryColor3hNV_P(red, green, blue)
 }
 func glSecondaryColor3hvNV_L(_ v:UnsafePointer<GLhalfNV>?) {
-    glSecondaryColor3hvNV_P = unsafeBitCast(getAddress(CommandInfo("glSecondaryColor3hvNV", [S307])), to: Swift.type(of: glSecondaryColor3hvNV_P))
+    glSecondaryColor3hvNV_P = unsafeBitCast(getAddress(CommandInfo("glSecondaryColor3hvNV", [S310])), to: Swift.type(of: glSecondaryColor3hvNV_P))
     glSecondaryColor3hvNV_P(v)
 }
 func glSecondaryColor3i_L(_ red:GLint, _ green:GLint, _ blue:GLint) {
@@ -9780,7 +9823,7 @@ func glSecondaryColor3usvEXT_L(_ v:UnsafePointer<GLushort>?) {
     glSecondaryColor3usvEXT_P(v)
 }
 func glSecondaryColorFormatNV_L(_ size:GLint, _ type:GLenum, _ stride:GLsizei) {
-    glSecondaryColorFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glSecondaryColorFormatNV", [S338])), to: Swift.type(of: glSecondaryColorFormatNV_P))
+    glSecondaryColorFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glSecondaryColorFormatNV", [S341])), to: Swift.type(of: glSecondaryColorFormatNV_P))
     glSecondaryColorFormatNV_P(size, type, stride)
 }
 func glSecondaryColorP3ui_L(_ type:GLenum, _ color:GLuint) {
@@ -9828,7 +9871,7 @@ func glSetFenceAPPLE_L(_ fence:GLuint) {
     glSetFenceAPPLE_P(fence)
 }
 func glSetFenceNV_L(_ fence:GLuint, _ condition:GLenum) {
-    glSetFenceNV_P = unsafeBitCast(getAddress(CommandInfo("glSetFenceNV", [S295])), to: Swift.type(of: glSetFenceNV_P))
+    glSetFenceNV_P = unsafeBitCast(getAddress(CommandInfo("glSetFenceNV", [S298])), to: Swift.type(of: glSetFenceNV_P))
     glSetFenceNV_P(fence, condition)
 }
 func glSetFragmentShaderConstantATI_L(_ dst:GLuint, _ value:UnsafePointer<GLfloat>?) {
@@ -9880,35 +9923,39 @@ func glShaderStorageBlockBinding_L(_ program:GLuint, _ storageBlockIndex:GLuint,
     glShaderStorageBlockBinding_P(program, storageBlockIndex, storageBlockBinding)
 }
 func glShadingRateImageBarrierNV_L(_ synchronize:GLboolean) {
-    glShadingRateImageBarrierNV_P = unsafeBitCast(getAddress(CommandInfo("glShadingRateImageBarrierNV", [S329, S329])), to: Swift.type(of: glShadingRateImageBarrierNV_P))
+    glShadingRateImageBarrierNV_P = unsafeBitCast(getAddress(CommandInfo("glShadingRateImageBarrierNV", [S332, S332])), to: Swift.type(of: glShadingRateImageBarrierNV_P))
     glShadingRateImageBarrierNV_P(synchronize)
 }
 func glShadingRateImagePaletteNV_L(_ viewport:GLuint, _ first:GLuint, _ count:GLsizei, _ rates:UnsafePointer<GLenum>?) {
-    glShadingRateImagePaletteNV_P = unsafeBitCast(getAddress(CommandInfo("glShadingRateImagePaletteNV", [S329])), to: Swift.type(of: glShadingRateImagePaletteNV_P))
+    glShadingRateImagePaletteNV_P = unsafeBitCast(getAddress(CommandInfo("glShadingRateImagePaletteNV", [S332])), to: Swift.type(of: glShadingRateImagePaletteNV_P))
     glShadingRateImagePaletteNV_P(viewport, first, count, rates)
 }
 func glShadingRateSampleOrderCustomNV_L(_ rate:GLenum, _ samples:GLuint, _ locations:UnsafePointer<GLint>?) {
-    glShadingRateSampleOrderCustomNV_P = unsafeBitCast(getAddress(CommandInfo("glShadingRateSampleOrderCustomNV", [S329])), to: Swift.type(of: glShadingRateSampleOrderCustomNV_P))
+    glShadingRateSampleOrderCustomNV_P = unsafeBitCast(getAddress(CommandInfo("glShadingRateSampleOrderCustomNV", [S332])), to: Swift.type(of: glShadingRateSampleOrderCustomNV_P))
     glShadingRateSampleOrderCustomNV_P(rate, samples, locations)
 }
 func glShadingRateSampleOrderNV_L(_ order:GLenum) {
-    glShadingRateSampleOrderNV_P = unsafeBitCast(getAddress(CommandInfo("glShadingRateSampleOrderNV", [S329])), to: Swift.type(of: glShadingRateSampleOrderNV_P))
+    glShadingRateSampleOrderNV_P = unsafeBitCast(getAddress(CommandInfo("glShadingRateSampleOrderNV", [S332])), to: Swift.type(of: glShadingRateSampleOrderNV_P))
     glShadingRateSampleOrderNV_P(order)
 }
 func glSharpenTexFuncSGIS_L(_ target:GLenum, _ n:GLsizei, _ points:UnsafePointer<GLfloat>?) {
-    glSharpenTexFuncSGIS_P = unsafeBitCast(getAddress(CommandInfo("glSharpenTexFuncSGIS", [S389])), to: Swift.type(of: glSharpenTexFuncSGIS_P))
+    glSharpenTexFuncSGIS_P = unsafeBitCast(getAddress(CommandInfo("glSharpenTexFuncSGIS", [S392])), to: Swift.type(of: glSharpenTexFuncSGIS_P))
     glSharpenTexFuncSGIS_P(target, n, points)
 }
 func glSignalSemaphoreEXT_L(_ semaphore:GLuint, _ numBufferBarriers:GLuint, _ buffers:UnsafePointer<GLuint>?, _ numTextureBarriers:GLuint, _ textures:UnsafePointer<GLuint>?, _ dstLayouts:UnsafePointer<GLenum>?) {
     glSignalSemaphoreEXT_P = unsafeBitCast(getAddress(CommandInfo("glSignalSemaphoreEXT", [S220])), to: Swift.type(of: glSignalSemaphoreEXT_P))
     glSignalSemaphoreEXT_P(semaphore, numBufferBarriers, buffers, numTextureBarriers, textures, dstLayouts)
 }
+func glSignalSemaphoreui64NVX_L(_ signalGpu:GLuint, _ fenceObjectCount:GLsizei, _ semaphoreArray:UnsafePointer<GLuint>?, _ fenceValueArray:UnsafePointer<GLuint64>?) {
+    glSignalSemaphoreui64NVX_P = unsafeBitCast(getAddress(CommandInfo("glSignalSemaphoreui64NVX", [S276])), to: Swift.type(of: glSignalSemaphoreui64NVX_P))
+    glSignalSemaphoreui64NVX_P(signalGpu, fenceObjectCount, semaphoreArray, fenceValueArray)
+}
 func glSignalVkFenceNV_L(_ vkFence:GLuint64) {
-    glSignalVkFenceNV_P = unsafeBitCast(getAddress(CommandInfo("glSignalVkFenceNV", [S292])), to: Swift.type(of: glSignalVkFenceNV_P))
+    glSignalVkFenceNV_P = unsafeBitCast(getAddress(CommandInfo("glSignalVkFenceNV", [S295])), to: Swift.type(of: glSignalVkFenceNV_P))
     glSignalVkFenceNV_P(vkFence)
 }
 func glSignalVkSemaphoreNV_L(_ vkSemaphore:GLuint64) {
-    glSignalVkSemaphoreNV_P = unsafeBitCast(getAddress(CommandInfo("glSignalVkSemaphoreNV", [S292])), to: Swift.type(of: glSignalVkSemaphoreNV_P))
+    glSignalVkSemaphoreNV_P = unsafeBitCast(getAddress(CommandInfo("glSignalVkSemaphoreNV", [S295])), to: Swift.type(of: glSignalVkSemaphoreNV_P))
     glSignalVkSemaphoreNV_P(vkSemaphore)
 }
 func glSpecializeShader_L(_ shader:GLuint, _ pEntryPoint:UnsafePointer<GLchar>?, _ numSpecializationConstants:GLuint, _ pConstantIndex:UnsafePointer<GLuint>?, _ pConstantValue:UnsafePointer<GLuint>?) {
@@ -9920,31 +9967,31 @@ func glSpecializeShaderARB_L(_ shader:GLuint, _ pEntryPoint:UnsafePointer<GLchar
     glSpecializeShaderARB_P(shader, pEntryPoint, numSpecializationConstants, pConstantIndex, pConstantValue)
 }
 func glSpriteParameterfSGIX_L(_ pname:GLenum, _ param:GLfloat) {
-    glSpriteParameterfSGIX_P = unsafeBitCast(getAddress(CommandInfo("glSpriteParameterfSGIX", [S403])), to: Swift.type(of: glSpriteParameterfSGIX_P))
+    glSpriteParameterfSGIX_P = unsafeBitCast(getAddress(CommandInfo("glSpriteParameterfSGIX", [S406])), to: Swift.type(of: glSpriteParameterfSGIX_P))
     glSpriteParameterfSGIX_P(pname, param)
 }
 func glSpriteParameterfvSGIX_L(_ pname:GLenum, _ params:UnsafePointer<GLfloat>?) {
-    glSpriteParameterfvSGIX_P = unsafeBitCast(getAddress(CommandInfo("glSpriteParameterfvSGIX", [S403])), to: Swift.type(of: glSpriteParameterfvSGIX_P))
+    glSpriteParameterfvSGIX_P = unsafeBitCast(getAddress(CommandInfo("glSpriteParameterfvSGIX", [S406])), to: Swift.type(of: glSpriteParameterfvSGIX_P))
     glSpriteParameterfvSGIX_P(pname, params)
 }
 func glSpriteParameteriSGIX_L(_ pname:GLenum, _ param:GLint) {
-    glSpriteParameteriSGIX_P = unsafeBitCast(getAddress(CommandInfo("glSpriteParameteriSGIX", [S403])), to: Swift.type(of: glSpriteParameteriSGIX_P))
+    glSpriteParameteriSGIX_P = unsafeBitCast(getAddress(CommandInfo("glSpriteParameteriSGIX", [S406])), to: Swift.type(of: glSpriteParameteriSGIX_P))
     glSpriteParameteriSGIX_P(pname, param)
 }
 func glSpriteParameterivSGIX_L(_ pname:GLenum, _ params:UnsafePointer<GLint>?) {
-    glSpriteParameterivSGIX_P = unsafeBitCast(getAddress(CommandInfo("glSpriteParameterivSGIX", [S403])), to: Swift.type(of: glSpriteParameterivSGIX_P))
+    glSpriteParameterivSGIX_P = unsafeBitCast(getAddress(CommandInfo("glSpriteParameterivSGIX", [S406])), to: Swift.type(of: glSpriteParameterivSGIX_P))
     glSpriteParameterivSGIX_P(pname, params)
 }
 func glStartInstrumentsSGIX_L() {
-    glStartInstrumentsSGIX_P = unsafeBitCast(getAddress(CommandInfo("glStartInstrumentsSGIX", [S398])), to: Swift.type(of: glStartInstrumentsSGIX_P))
+    glStartInstrumentsSGIX_P = unsafeBitCast(getAddress(CommandInfo("glStartInstrumentsSGIX", [S401])), to: Swift.type(of: glStartInstrumentsSGIX_P))
     glStartInstrumentsSGIX_P()
 }
 func glStartTilingQCOM_L(_ x:GLuint, _ y:GLuint, _ width:GLuint, _ height:GLuint, _ preserveMask:GLbitfield) {
-    glStartTilingQCOM_P = unsafeBitCast(getAddress(CommandInfo("glStartTilingQCOM", [S383])), to: Swift.type(of: glStartTilingQCOM_P))
+    glStartTilingQCOM_P = unsafeBitCast(getAddress(CommandInfo("glStartTilingQCOM", [S386])), to: Swift.type(of: glStartTilingQCOM_P))
     glStartTilingQCOM_P(x, y, width, height, preserveMask)
 }
 func glStateCaptureNV_L(_ state:GLuint, _ mode:GLenum) {
-    glStateCaptureNV_P = unsafeBitCast(getAddress(CommandInfo("glStateCaptureNV", [S280])), to: Swift.type(of: glStateCaptureNV_P))
+    glStateCaptureNV_P = unsafeBitCast(getAddress(CommandInfo("glStateCaptureNV", [S283])), to: Swift.type(of: glStateCaptureNV_P))
     glStateCaptureNV_P(state, mode)
 }
 func glStencilClearTagEXT_L(_ stencilTagBits:GLsizei, _ stencilClearTag:GLuint) {
@@ -9952,11 +9999,11 @@ func glStencilClearTagEXT_L(_ stencilTagBits:GLsizei, _ stencilClearTag:GLuint) 
     glStencilClearTagEXT_P(stencilTagBits, stencilClearTag)
 }
 func glStencilFillPathInstancedNV_L(_ numPaths:GLsizei, _ pathNameType:GLenum, _ paths:UnsafeRawPointer?, _ pathBase:GLuint, _ fillMode:GLenum, _ mask:GLuint, _ transformType:GLenum, _ transformValues:UnsafePointer<GLfloat>?) {
-    glStencilFillPathInstancedNV_P = unsafeBitCast(getAddress(CommandInfo("glStencilFillPathInstancedNV", [S315])), to: Swift.type(of: glStencilFillPathInstancedNV_P))
+    glStencilFillPathInstancedNV_P = unsafeBitCast(getAddress(CommandInfo("glStencilFillPathInstancedNV", [S318])), to: Swift.type(of: glStencilFillPathInstancedNV_P))
     glStencilFillPathInstancedNV_P(numPaths, pathNameType, paths, pathBase, fillMode, mask, transformType, transformValues)
 }
 func glStencilFillPathNV_L(_ path:GLuint, _ fillMode:GLenum, _ mask:GLuint) {
-    glStencilFillPathNV_P = unsafeBitCast(getAddress(CommandInfo("glStencilFillPathNV", [S315])), to: Swift.type(of: glStencilFillPathNV_P))
+    glStencilFillPathNV_P = unsafeBitCast(getAddress(CommandInfo("glStencilFillPathNV", [S318])), to: Swift.type(of: glStencilFillPathNV_P))
     glStencilFillPathNV_P(path, fillMode, mask)
 }
 func glStencilFunc_L(_ fn:GLenum, _ ref:GLint, _ mask:GLuint) {
@@ -9996,31 +10043,31 @@ func glStencilOpValueAMD_L(_ face:GLenum, _ value:GLuint) {
     glStencilOpValueAMD_P(face, value)
 }
 func glStencilStrokePathInstancedNV_L(_ numPaths:GLsizei, _ pathNameType:GLenum, _ paths:UnsafeRawPointer?, _ pathBase:GLuint, _ reference:GLint, _ mask:GLuint, _ transformType:GLenum, _ transformValues:UnsafePointer<GLfloat>?) {
-    glStencilStrokePathInstancedNV_P = unsafeBitCast(getAddress(CommandInfo("glStencilStrokePathInstancedNV", [S315])), to: Swift.type(of: glStencilStrokePathInstancedNV_P))
+    glStencilStrokePathInstancedNV_P = unsafeBitCast(getAddress(CommandInfo("glStencilStrokePathInstancedNV", [S318])), to: Swift.type(of: glStencilStrokePathInstancedNV_P))
     glStencilStrokePathInstancedNV_P(numPaths, pathNameType, paths, pathBase, reference, mask, transformType, transformValues)
 }
 func glStencilStrokePathNV_L(_ path:GLuint, _ reference:GLint, _ mask:GLuint) {
-    glStencilStrokePathNV_P = unsafeBitCast(getAddress(CommandInfo("glStencilStrokePathNV", [S315])), to: Swift.type(of: glStencilStrokePathNV_P))
+    glStencilStrokePathNV_P = unsafeBitCast(getAddress(CommandInfo("glStencilStrokePathNV", [S318])), to: Swift.type(of: glStencilStrokePathNV_P))
     glStencilStrokePathNV_P(path, reference, mask)
 }
 func glStencilThenCoverFillPathInstancedNV_L(_ numPaths:GLsizei, _ pathNameType:GLenum, _ paths:UnsafeRawPointer?, _ pathBase:GLuint, _ fillMode:GLenum, _ mask:GLuint, _ coverMode:GLenum, _ transformType:GLenum, _ transformValues:UnsafePointer<GLfloat>?) {
-    glStencilThenCoverFillPathInstancedNV_P = unsafeBitCast(getAddress(CommandInfo("glStencilThenCoverFillPathInstancedNV", [S315])), to: Swift.type(of: glStencilThenCoverFillPathInstancedNV_P))
+    glStencilThenCoverFillPathInstancedNV_P = unsafeBitCast(getAddress(CommandInfo("glStencilThenCoverFillPathInstancedNV", [S318])), to: Swift.type(of: glStencilThenCoverFillPathInstancedNV_P))
     glStencilThenCoverFillPathInstancedNV_P(numPaths, pathNameType, paths, pathBase, fillMode, mask, coverMode, transformType, transformValues)
 }
 func glStencilThenCoverFillPathNV_L(_ path:GLuint, _ fillMode:GLenum, _ mask:GLuint, _ coverMode:GLenum) {
-    glStencilThenCoverFillPathNV_P = unsafeBitCast(getAddress(CommandInfo("glStencilThenCoverFillPathNV", [S315])), to: Swift.type(of: glStencilThenCoverFillPathNV_P))
+    glStencilThenCoverFillPathNV_P = unsafeBitCast(getAddress(CommandInfo("glStencilThenCoverFillPathNV", [S318])), to: Swift.type(of: glStencilThenCoverFillPathNV_P))
     glStencilThenCoverFillPathNV_P(path, fillMode, mask, coverMode)
 }
 func glStencilThenCoverStrokePathInstancedNV_L(_ numPaths:GLsizei, _ pathNameType:GLenum, _ paths:UnsafeRawPointer?, _ pathBase:GLuint, _ reference:GLint, _ mask:GLuint, _ coverMode:GLenum, _ transformType:GLenum, _ transformValues:UnsafePointer<GLfloat>?) {
-    glStencilThenCoverStrokePathInstancedNV_P = unsafeBitCast(getAddress(CommandInfo("glStencilThenCoverStrokePathInstancedNV", [S315])), to: Swift.type(of: glStencilThenCoverStrokePathInstancedNV_P))
+    glStencilThenCoverStrokePathInstancedNV_P = unsafeBitCast(getAddress(CommandInfo("glStencilThenCoverStrokePathInstancedNV", [S318])), to: Swift.type(of: glStencilThenCoverStrokePathInstancedNV_P))
     glStencilThenCoverStrokePathInstancedNV_P(numPaths, pathNameType, paths, pathBase, reference, mask, coverMode, transformType, transformValues)
 }
 func glStencilThenCoverStrokePathNV_L(_ path:GLuint, _ reference:GLint, _ mask:GLuint, _ coverMode:GLenum) {
-    glStencilThenCoverStrokePathNV_P = unsafeBitCast(getAddress(CommandInfo("glStencilThenCoverStrokePathNV", [S315])), to: Swift.type(of: glStencilThenCoverStrokePathNV_P))
+    glStencilThenCoverStrokePathNV_P = unsafeBitCast(getAddress(CommandInfo("glStencilThenCoverStrokePathNV", [S318])), to: Swift.type(of: glStencilThenCoverStrokePathNV_P))
     glStencilThenCoverStrokePathNV_P(path, reference, mask, coverMode)
 }
 func glStopInstrumentsSGIX_L(_ marker:GLint) {
-    glStopInstrumentsSGIX_P = unsafeBitCast(getAddress(CommandInfo("glStopInstrumentsSGIX", [S398])), to: Swift.type(of: glStopInstrumentsSGIX_P))
+    glStopInstrumentsSGIX_P = unsafeBitCast(getAddress(CommandInfo("glStopInstrumentsSGIX", [S401])), to: Swift.type(of: glStopInstrumentsSGIX_P))
     glStopInstrumentsSGIX_P(marker)
 }
 func glStringMarkerGREMEDY_L(_ len:GLsizei, _ string:UnsafeRawPointer?) {
@@ -10028,7 +10075,7 @@ func glStringMarkerGREMEDY_L(_ len:GLsizei, _ string:UnsafeRawPointer?) {
     glStringMarkerGREMEDY_P(len, string)
 }
 func glSubpixelPrecisionBiasNV_L(_ xbits:GLuint, _ ybits:GLuint) {
-    glSubpixelPrecisionBiasNV_P = unsafeBitCast(getAddress(CommandInfo("glSubpixelPrecisionBiasNV", [S282])), to: Swift.type(of: glSubpixelPrecisionBiasNV_P))
+    glSubpixelPrecisionBiasNV_P = unsafeBitCast(getAddress(CommandInfo("glSubpixelPrecisionBiasNV", [S285])), to: Swift.type(of: glSubpixelPrecisionBiasNV_P))
     glSubpixelPrecisionBiasNV_P(xbits, ybits)
 }
 func glSwizzleEXT_L(_ res:GLuint, _ input:GLuint, _ outX:GLenum, _ outY:GLenum, _ outZ:GLenum, _ outW:GLenum) {
@@ -10040,7 +10087,7 @@ func glSyncTextureINTEL_L(_ texture:GLuint) {
     glSyncTextureINTEL_P(texture)
 }
 func glTagSampleBufferSGIX_L() {
-    glTagSampleBufferSGIX_P = unsafeBitCast(getAddress(CommandInfo("glTagSampleBufferSGIX", [S404])), to: Swift.type(of: glTagSampleBufferSGIX_P))
+    glTagSampleBufferSGIX_P = unsafeBitCast(getAddress(CommandInfo("glTagSampleBufferSGIX", [S407])), to: Swift.type(of: glTagSampleBufferSGIX_P))
     glTagSampleBufferSGIX_P()
 }
 func glTangent3bEXT_L(_ tx:GLbyte, _ ty:GLbyte, _ tz:GLbyte) {
@@ -10104,7 +10151,7 @@ func glTestFenceAPPLE_L(_ fence:GLuint) -> GLboolean {
     return glTestFenceAPPLE_P(fence)
 }
 func glTestFenceNV_L(_ fence:GLuint) -> GLboolean {
-    glTestFenceNV_P = unsafeBitCast(getAddress(CommandInfo("glTestFenceNV", [S295])), to: Swift.type(of: glTestFenceNV_P))
+    glTestFenceNV_P = unsafeBitCast(getAddress(CommandInfo("glTestFenceNV", [S298])), to: Swift.type(of: glTestFenceNV_P))
     return glTestFenceNV_P(fence)
 }
 func glTestObjectAPPLE_L(_ object:GLenum, _ name:GLuint) -> GLboolean {
@@ -10112,7 +10159,7 @@ func glTestObjectAPPLE_L(_ object:GLenum, _ name:GLuint) -> GLboolean {
     return glTestObjectAPPLE_P(object, name)
 }
 func glTexAttachMemoryNV_L(_ target:GLenum, _ memory:GLuint, _ offset:GLuint64) {
-    glTexAttachMemoryNV_P = unsafeBitCast(getAddress(CommandInfo("glTexAttachMemoryNV", [S310])), to: Swift.type(of: glTexAttachMemoryNV_P))
+    glTexAttachMemoryNV_P = unsafeBitCast(getAddress(CommandInfo("glTexAttachMemoryNV", [S313])), to: Swift.type(of: glTexAttachMemoryNV_P))
     glTexAttachMemoryNV_P(target, memory, offset)
 }
 func glTexBuffer_L(_ target:GLenum, _ internalformat:GLenum, _ buffer:GLuint) {
@@ -10128,7 +10175,7 @@ func glTexBufferEXT_L(_ target:GLenum, _ internalformat:GLenum, _ buffer:GLuint)
     glTexBufferEXT_P(target, internalformat, buffer)
 }
 func glTexBufferOES_L(_ target:GLenum, _ internalformat:GLenum, _ buffer:GLuint) {
-    glTexBufferOES_P = unsafeBitCast(getAddress(CommandInfo("glTexBufferOES", [S367])), to: Swift.type(of: glTexBufferOES_P))
+    glTexBufferOES_P = unsafeBitCast(getAddress(CommandInfo("glTexBufferOES", [S370])), to: Swift.type(of: glTexBufferOES_P))
     glTexBufferOES_P(target, internalformat, buffer)
 }
 func glTexBufferRange_L(_ target:GLenum, _ internalformat:GLenum, _ buffer:GLuint, _ offset:GLintptr, _ size:GLsizeiptr) {
@@ -10140,7 +10187,7 @@ func glTexBufferRangeEXT_L(_ target:GLenum, _ internalformat:GLenum, _ buffer:GL
     glTexBufferRangeEXT_P(target, internalformat, buffer, offset, size)
 }
 func glTexBufferRangeOES_L(_ target:GLenum, _ internalformat:GLenum, _ buffer:GLuint, _ offset:GLintptr, _ size:GLsizeiptr) {
-    glTexBufferRangeOES_P = unsafeBitCast(getAddress(CommandInfo("glTexBufferRangeOES", [S367])), to: Swift.type(of: glTexBufferRangeOES_P))
+    glTexBufferRangeOES_P = unsafeBitCast(getAddress(CommandInfo("glTexBufferRangeOES", [S370])), to: Swift.type(of: glTexBufferRangeOES_P))
     glTexBufferRangeOES_P(target, internalformat, buffer, offset, size)
 }
 func glTexBumpParameterfvATI_L(_ pname:GLenum, _ param:UnsafePointer<GLfloat>?) {
@@ -10152,11 +10199,11 @@ func glTexBumpParameterivATI_L(_ pname:GLenum, _ param:UnsafePointer<GLint>?) {
     glTexBumpParameterivATI_P(pname, param)
 }
 func glTexCoord1bOES_L(_ s:GLbyte) {
-    glTexCoord1bOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord1bOES", [S348])), to: Swift.type(of: glTexCoord1bOES_P))
+    glTexCoord1bOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord1bOES", [S351])), to: Swift.type(of: glTexCoord1bOES_P))
     glTexCoord1bOES_P(s)
 }
 func glTexCoord1bvOES_L(_ coords:UnsafePointer<GLbyte>?) {
-    glTexCoord1bvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord1bvOES", [S348])), to: Swift.type(of: glTexCoord1bvOES_P))
+    glTexCoord1bvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord1bvOES", [S351])), to: Swift.type(of: glTexCoord1bvOES_P))
     glTexCoord1bvOES_P(coords)
 }
 func glTexCoord1d_L(_ s:GLdouble) {
@@ -10176,11 +10223,11 @@ func glTexCoord1fv_L(_ v:UnsafePointer<GLfloat>?) {
     glTexCoord1fv_P(v)
 }
 func glTexCoord1hNV_L(_ s:GLhalfNV) {
-    glTexCoord1hNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord1hNV", [S307])), to: Swift.type(of: glTexCoord1hNV_P))
+    glTexCoord1hNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord1hNV", [S310])), to: Swift.type(of: glTexCoord1hNV_P))
     glTexCoord1hNV_P(s)
 }
 func glTexCoord1hvNV_L(_ v:UnsafePointer<GLhalfNV>?) {
-    glTexCoord1hvNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord1hvNV", [S307])), to: Swift.type(of: glTexCoord1hvNV_P))
+    glTexCoord1hvNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord1hvNV", [S310])), to: Swift.type(of: glTexCoord1hvNV_P))
     glTexCoord1hvNV_P(v)
 }
 func glTexCoord1i_L(_ s:GLint) {
@@ -10200,19 +10247,19 @@ func glTexCoord1sv_L(_ v:UnsafePointer<GLshort>?) {
     glTexCoord1sv_P(v)
 }
 func glTexCoord1xOES_L(_ s:GLfixed) {
-    glTexCoord1xOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord1xOES", [S353])), to: Swift.type(of: glTexCoord1xOES_P))
+    glTexCoord1xOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord1xOES", [S356])), to: Swift.type(of: glTexCoord1xOES_P))
     glTexCoord1xOES_P(s)
 }
 func glTexCoord1xvOES_L(_ coords:UnsafePointer<GLfixed>?) {
-    glTexCoord1xvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord1xvOES", [S353])), to: Swift.type(of: glTexCoord1xvOES_P))
+    glTexCoord1xvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord1xvOES", [S356])), to: Swift.type(of: glTexCoord1xvOES_P))
     glTexCoord1xvOES_P(coords)
 }
 func glTexCoord2bOES_L(_ s:GLbyte, _ t:GLbyte) {
-    glTexCoord2bOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2bOES", [S348])), to: Swift.type(of: glTexCoord2bOES_P))
+    glTexCoord2bOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2bOES", [S351])), to: Swift.type(of: glTexCoord2bOES_P))
     glTexCoord2bOES_P(s, t)
 }
 func glTexCoord2bvOES_L(_ coords:UnsafePointer<GLbyte>?) {
-    glTexCoord2bvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2bvOES", [S348])), to: Swift.type(of: glTexCoord2bvOES_P))
+    glTexCoord2bvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2bvOES", [S351])), to: Swift.type(of: glTexCoord2bvOES_P))
     glTexCoord2bvOES_P(coords)
 }
 func glTexCoord2d_L(_ s:GLdouble, _ t:GLdouble) {
@@ -10228,43 +10275,43 @@ func glTexCoord2f_L(_ s:GLfloat, _ t:GLfloat) {
     glTexCoord2f_P(s, t)
 }
 func glTexCoord2fColor3fVertex3fSUN_L(_ s:GLfloat, _ t:GLfloat, _ r:GLfloat, _ g:GLfloat, _ b:GLfloat, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glTexCoord2fColor3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fColor3fVertex3fSUN", [S410])), to: Swift.type(of: glTexCoord2fColor3fVertex3fSUN_P))
+    glTexCoord2fColor3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fColor3fVertex3fSUN", [S413])), to: Swift.type(of: glTexCoord2fColor3fVertex3fSUN_P))
     glTexCoord2fColor3fVertex3fSUN_P(s, t, r, g, b, x, y, z)
 }
 func glTexCoord2fColor3fVertex3fvSUN_L(_ tc:UnsafePointer<GLfloat>?, _ c:UnsafePointer<GLfloat>?, _ v:UnsafePointer<GLfloat>?) {
-    glTexCoord2fColor3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fColor3fVertex3fvSUN", [S410])), to: Swift.type(of: glTexCoord2fColor3fVertex3fvSUN_P))
+    glTexCoord2fColor3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fColor3fVertex3fvSUN", [S413])), to: Swift.type(of: glTexCoord2fColor3fVertex3fvSUN_P))
     glTexCoord2fColor3fVertex3fvSUN_P(tc, c, v)
 }
 func glTexCoord2fColor4fNormal3fVertex3fSUN_L(_ s:GLfloat, _ t:GLfloat, _ r:GLfloat, _ g:GLfloat, _ b:GLfloat, _ a:GLfloat, _ nx:GLfloat, _ ny:GLfloat, _ nz:GLfloat, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glTexCoord2fColor4fNormal3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fColor4fNormal3fVertex3fSUN", [S410])), to: Swift.type(of: glTexCoord2fColor4fNormal3fVertex3fSUN_P))
+    glTexCoord2fColor4fNormal3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fColor4fNormal3fVertex3fSUN", [S413])), to: Swift.type(of: glTexCoord2fColor4fNormal3fVertex3fSUN_P))
     glTexCoord2fColor4fNormal3fVertex3fSUN_P(s, t, r, g, b, a, nx, ny, nz, x, y, z)
 }
 func glTexCoord2fColor4fNormal3fVertex3fvSUN_L(_ tc:UnsafePointer<GLfloat>?, _ c:UnsafePointer<GLfloat>?, _ n:UnsafePointer<GLfloat>?, _ v:UnsafePointer<GLfloat>?) {
-    glTexCoord2fColor4fNormal3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fColor4fNormal3fVertex3fvSUN", [S410])), to: Swift.type(of: glTexCoord2fColor4fNormal3fVertex3fvSUN_P))
+    glTexCoord2fColor4fNormal3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fColor4fNormal3fVertex3fvSUN", [S413])), to: Swift.type(of: glTexCoord2fColor4fNormal3fVertex3fvSUN_P))
     glTexCoord2fColor4fNormal3fVertex3fvSUN_P(tc, c, n, v)
 }
 func glTexCoord2fColor4ubVertex3fSUN_L(_ s:GLfloat, _ t:GLfloat, _ r:GLubyte, _ g:GLubyte, _ b:GLubyte, _ a:GLubyte, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glTexCoord2fColor4ubVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fColor4ubVertex3fSUN", [S410])), to: Swift.type(of: glTexCoord2fColor4ubVertex3fSUN_P))
+    glTexCoord2fColor4ubVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fColor4ubVertex3fSUN", [S413])), to: Swift.type(of: glTexCoord2fColor4ubVertex3fSUN_P))
     glTexCoord2fColor4ubVertex3fSUN_P(s, t, r, g, b, a, x, y, z)
 }
 func glTexCoord2fColor4ubVertex3fvSUN_L(_ tc:UnsafePointer<GLfloat>?, _ c:UnsafePointer<GLubyte>?, _ v:UnsafePointer<GLfloat>?) {
-    glTexCoord2fColor4ubVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fColor4ubVertex3fvSUN", [S410])), to: Swift.type(of: glTexCoord2fColor4ubVertex3fvSUN_P))
+    glTexCoord2fColor4ubVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fColor4ubVertex3fvSUN", [S413])), to: Swift.type(of: glTexCoord2fColor4ubVertex3fvSUN_P))
     glTexCoord2fColor4ubVertex3fvSUN_P(tc, c, v)
 }
 func glTexCoord2fNormal3fVertex3fSUN_L(_ s:GLfloat, _ t:GLfloat, _ nx:GLfloat, _ ny:GLfloat, _ nz:GLfloat, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glTexCoord2fNormal3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fNormal3fVertex3fSUN", [S410])), to: Swift.type(of: glTexCoord2fNormal3fVertex3fSUN_P))
+    glTexCoord2fNormal3fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fNormal3fVertex3fSUN", [S413])), to: Swift.type(of: glTexCoord2fNormal3fVertex3fSUN_P))
     glTexCoord2fNormal3fVertex3fSUN_P(s, t, nx, ny, nz, x, y, z)
 }
 func glTexCoord2fNormal3fVertex3fvSUN_L(_ tc:UnsafePointer<GLfloat>?, _ n:UnsafePointer<GLfloat>?, _ v:UnsafePointer<GLfloat>?) {
-    glTexCoord2fNormal3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fNormal3fVertex3fvSUN", [S410])), to: Swift.type(of: glTexCoord2fNormal3fVertex3fvSUN_P))
+    glTexCoord2fNormal3fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fNormal3fVertex3fvSUN", [S413])), to: Swift.type(of: glTexCoord2fNormal3fVertex3fvSUN_P))
     glTexCoord2fNormal3fVertex3fvSUN_P(tc, n, v)
 }
 func glTexCoord2fVertex3fSUN_L(_ s:GLfloat, _ t:GLfloat, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glTexCoord2fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fVertex3fSUN", [S410])), to: Swift.type(of: glTexCoord2fVertex3fSUN_P))
+    glTexCoord2fVertex3fSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fVertex3fSUN", [S413])), to: Swift.type(of: glTexCoord2fVertex3fSUN_P))
     glTexCoord2fVertex3fSUN_P(s, t, x, y, z)
 }
 func glTexCoord2fVertex3fvSUN_L(_ tc:UnsafePointer<GLfloat>?, _ v:UnsafePointer<GLfloat>?) {
-    glTexCoord2fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fVertex3fvSUN", [S410])), to: Swift.type(of: glTexCoord2fVertex3fvSUN_P))
+    glTexCoord2fVertex3fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2fVertex3fvSUN", [S413])), to: Swift.type(of: glTexCoord2fVertex3fvSUN_P))
     glTexCoord2fVertex3fvSUN_P(tc, v)
 }
 func glTexCoord2fv_L(_ v:UnsafePointer<GLfloat>?) {
@@ -10272,11 +10319,11 @@ func glTexCoord2fv_L(_ v:UnsafePointer<GLfloat>?) {
     glTexCoord2fv_P(v)
 }
 func glTexCoord2hNV_L(_ s:GLhalfNV, _ t:GLhalfNV) {
-    glTexCoord2hNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2hNV", [S307])), to: Swift.type(of: glTexCoord2hNV_P))
+    glTexCoord2hNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2hNV", [S310])), to: Swift.type(of: glTexCoord2hNV_P))
     glTexCoord2hNV_P(s, t)
 }
 func glTexCoord2hvNV_L(_ v:UnsafePointer<GLhalfNV>?) {
-    glTexCoord2hvNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2hvNV", [S307])), to: Swift.type(of: glTexCoord2hvNV_P))
+    glTexCoord2hvNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2hvNV", [S310])), to: Swift.type(of: glTexCoord2hvNV_P))
     glTexCoord2hvNV_P(v)
 }
 func glTexCoord2i_L(_ s:GLint, _ t:GLint) {
@@ -10296,19 +10343,19 @@ func glTexCoord2sv_L(_ v:UnsafePointer<GLshort>?) {
     glTexCoord2sv_P(v)
 }
 func glTexCoord2xOES_L(_ s:GLfixed, _ t:GLfixed) {
-    glTexCoord2xOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2xOES", [S353])), to: Swift.type(of: glTexCoord2xOES_P))
+    glTexCoord2xOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2xOES", [S356])), to: Swift.type(of: glTexCoord2xOES_P))
     glTexCoord2xOES_P(s, t)
 }
 func glTexCoord2xvOES_L(_ coords:UnsafePointer<GLfixed>?) {
-    glTexCoord2xvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2xvOES", [S353])), to: Swift.type(of: glTexCoord2xvOES_P))
+    glTexCoord2xvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord2xvOES", [S356])), to: Swift.type(of: glTexCoord2xvOES_P))
     glTexCoord2xvOES_P(coords)
 }
 func glTexCoord3bOES_L(_ s:GLbyte, _ t:GLbyte, _ r:GLbyte) {
-    glTexCoord3bOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord3bOES", [S348])), to: Swift.type(of: glTexCoord3bOES_P))
+    glTexCoord3bOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord3bOES", [S351])), to: Swift.type(of: glTexCoord3bOES_P))
     glTexCoord3bOES_P(s, t, r)
 }
 func glTexCoord3bvOES_L(_ coords:UnsafePointer<GLbyte>?) {
-    glTexCoord3bvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord3bvOES", [S348])), to: Swift.type(of: glTexCoord3bvOES_P))
+    glTexCoord3bvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord3bvOES", [S351])), to: Swift.type(of: glTexCoord3bvOES_P))
     glTexCoord3bvOES_P(coords)
 }
 func glTexCoord3d_L(_ s:GLdouble, _ t:GLdouble, _ r:GLdouble) {
@@ -10328,11 +10375,11 @@ func glTexCoord3fv_L(_ v:UnsafePointer<GLfloat>?) {
     glTexCoord3fv_P(v)
 }
 func glTexCoord3hNV_L(_ s:GLhalfNV, _ t:GLhalfNV, _ r:GLhalfNV) {
-    glTexCoord3hNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord3hNV", [S307])), to: Swift.type(of: glTexCoord3hNV_P))
+    glTexCoord3hNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord3hNV", [S310])), to: Swift.type(of: glTexCoord3hNV_P))
     glTexCoord3hNV_P(s, t, r)
 }
 func glTexCoord3hvNV_L(_ v:UnsafePointer<GLhalfNV>?) {
-    glTexCoord3hvNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord3hvNV", [S307])), to: Swift.type(of: glTexCoord3hvNV_P))
+    glTexCoord3hvNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord3hvNV", [S310])), to: Swift.type(of: glTexCoord3hvNV_P))
     glTexCoord3hvNV_P(v)
 }
 func glTexCoord3i_L(_ s:GLint, _ t:GLint, _ r:GLint) {
@@ -10352,19 +10399,19 @@ func glTexCoord3sv_L(_ v:UnsafePointer<GLshort>?) {
     glTexCoord3sv_P(v)
 }
 func glTexCoord3xOES_L(_ s:GLfixed, _ t:GLfixed, _ r:GLfixed) {
-    glTexCoord3xOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord3xOES", [S353])), to: Swift.type(of: glTexCoord3xOES_P))
+    glTexCoord3xOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord3xOES", [S356])), to: Swift.type(of: glTexCoord3xOES_P))
     glTexCoord3xOES_P(s, t, r)
 }
 func glTexCoord3xvOES_L(_ coords:UnsafePointer<GLfixed>?) {
-    glTexCoord3xvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord3xvOES", [S353])), to: Swift.type(of: glTexCoord3xvOES_P))
+    glTexCoord3xvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord3xvOES", [S356])), to: Swift.type(of: glTexCoord3xvOES_P))
     glTexCoord3xvOES_P(coords)
 }
 func glTexCoord4bOES_L(_ s:GLbyte, _ t:GLbyte, _ r:GLbyte, _ q:GLbyte) {
-    glTexCoord4bOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4bOES", [S348])), to: Swift.type(of: glTexCoord4bOES_P))
+    glTexCoord4bOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4bOES", [S351])), to: Swift.type(of: glTexCoord4bOES_P))
     glTexCoord4bOES_P(s, t, r, q)
 }
 func glTexCoord4bvOES_L(_ coords:UnsafePointer<GLbyte>?) {
-    glTexCoord4bvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4bvOES", [S348])), to: Swift.type(of: glTexCoord4bvOES_P))
+    glTexCoord4bvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4bvOES", [S351])), to: Swift.type(of: glTexCoord4bvOES_P))
     glTexCoord4bvOES_P(coords)
 }
 func glTexCoord4d_L(_ s:GLdouble, _ t:GLdouble, _ r:GLdouble, _ q:GLdouble) {
@@ -10380,19 +10427,19 @@ func glTexCoord4f_L(_ s:GLfloat, _ t:GLfloat, _ r:GLfloat, _ q:GLfloat) {
     glTexCoord4f_P(s, t, r, q)
 }
 func glTexCoord4fColor4fNormal3fVertex4fSUN_L(_ s:GLfloat, _ t:GLfloat, _ p:GLfloat, _ q:GLfloat, _ r:GLfloat, _ g:GLfloat, _ b:GLfloat, _ a:GLfloat, _ nx:GLfloat, _ ny:GLfloat, _ nz:GLfloat, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat, _ w:GLfloat) {
-    glTexCoord4fColor4fNormal3fVertex4fSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4fColor4fNormal3fVertex4fSUN", [S410])), to: Swift.type(of: glTexCoord4fColor4fNormal3fVertex4fSUN_P))
+    glTexCoord4fColor4fNormal3fVertex4fSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4fColor4fNormal3fVertex4fSUN", [S413])), to: Swift.type(of: glTexCoord4fColor4fNormal3fVertex4fSUN_P))
     glTexCoord4fColor4fNormal3fVertex4fSUN_P(s, t, p, q, r, g, b, a, nx, ny, nz, x, y, z, w)
 }
 func glTexCoord4fColor4fNormal3fVertex4fvSUN_L(_ tc:UnsafePointer<GLfloat>?, _ c:UnsafePointer<GLfloat>?, _ n:UnsafePointer<GLfloat>?, _ v:UnsafePointer<GLfloat>?) {
-    glTexCoord4fColor4fNormal3fVertex4fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4fColor4fNormal3fVertex4fvSUN", [S410])), to: Swift.type(of: glTexCoord4fColor4fNormal3fVertex4fvSUN_P))
+    glTexCoord4fColor4fNormal3fVertex4fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4fColor4fNormal3fVertex4fvSUN", [S413])), to: Swift.type(of: glTexCoord4fColor4fNormal3fVertex4fvSUN_P))
     glTexCoord4fColor4fNormal3fVertex4fvSUN_P(tc, c, n, v)
 }
 func glTexCoord4fVertex4fSUN_L(_ s:GLfloat, _ t:GLfloat, _ p:GLfloat, _ q:GLfloat, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat, _ w:GLfloat) {
-    glTexCoord4fVertex4fSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4fVertex4fSUN", [S410])), to: Swift.type(of: glTexCoord4fVertex4fSUN_P))
+    glTexCoord4fVertex4fSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4fVertex4fSUN", [S413])), to: Swift.type(of: glTexCoord4fVertex4fSUN_P))
     glTexCoord4fVertex4fSUN_P(s, t, p, q, x, y, z, w)
 }
 func glTexCoord4fVertex4fvSUN_L(_ tc:UnsafePointer<GLfloat>?, _ v:UnsafePointer<GLfloat>?) {
-    glTexCoord4fVertex4fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4fVertex4fvSUN", [S410])), to: Swift.type(of: glTexCoord4fVertex4fvSUN_P))
+    glTexCoord4fVertex4fvSUN_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4fVertex4fvSUN", [S413])), to: Swift.type(of: glTexCoord4fVertex4fvSUN_P))
     glTexCoord4fVertex4fvSUN_P(tc, v)
 }
 func glTexCoord4fv_L(_ v:UnsafePointer<GLfloat>?) {
@@ -10400,11 +10447,11 @@ func glTexCoord4fv_L(_ v:UnsafePointer<GLfloat>?) {
     glTexCoord4fv_P(v)
 }
 func glTexCoord4hNV_L(_ s:GLhalfNV, _ t:GLhalfNV, _ r:GLhalfNV, _ q:GLhalfNV) {
-    glTexCoord4hNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4hNV", [S307])), to: Swift.type(of: glTexCoord4hNV_P))
+    glTexCoord4hNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4hNV", [S310])), to: Swift.type(of: glTexCoord4hNV_P))
     glTexCoord4hNV_P(s, t, r, q)
 }
 func glTexCoord4hvNV_L(_ v:UnsafePointer<GLhalfNV>?) {
-    glTexCoord4hvNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4hvNV", [S307])), to: Swift.type(of: glTexCoord4hvNV_P))
+    glTexCoord4hvNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4hvNV", [S310])), to: Swift.type(of: glTexCoord4hvNV_P))
     glTexCoord4hvNV_P(v)
 }
 func glTexCoord4i_L(_ s:GLint, _ t:GLint, _ r:GLint, _ q:GLint) {
@@ -10424,15 +10471,15 @@ func glTexCoord4sv_L(_ v:UnsafePointer<GLshort>?) {
     glTexCoord4sv_P(v)
 }
 func glTexCoord4xOES_L(_ s:GLfixed, _ t:GLfixed, _ r:GLfixed, _ q:GLfixed) {
-    glTexCoord4xOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4xOES", [S353])), to: Swift.type(of: glTexCoord4xOES_P))
+    glTexCoord4xOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4xOES", [S356])), to: Swift.type(of: glTexCoord4xOES_P))
     glTexCoord4xOES_P(s, t, r, q)
 }
 func glTexCoord4xvOES_L(_ coords:UnsafePointer<GLfixed>?) {
-    glTexCoord4xvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4xvOES", [S353])), to: Swift.type(of: glTexCoord4xvOES_P))
+    glTexCoord4xvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexCoord4xvOES", [S356])), to: Swift.type(of: glTexCoord4xvOES_P))
     glTexCoord4xvOES_P(coords)
 }
 func glTexCoordFormatNV_L(_ size:GLint, _ type:GLenum, _ stride:GLsizei) {
-    glTexCoordFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoordFormatNV", [S338])), to: Swift.type(of: glTexCoordFormatNV_P))
+    glTexCoordFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glTexCoordFormatNV", [S341])), to: Swift.type(of: glTexCoordFormatNV_P))
     glTexCoordFormatNV_P(size, type, stride)
 }
 func glTexCoordP1ui_L(_ type:GLenum, _ coords:GLuint) {
@@ -10504,7 +10551,7 @@ func glTexEnvx_L(_ target:GLenum, _ pname:GLenum, _ param:GLfixed) {
     glTexEnvx_P(target, pname, param)
 }
 func glTexEnvxOES_L(_ target:GLenum, _ pname:GLenum, _ param:GLfixed) {
-    glTexEnvxOES_P = unsafeBitCast(getAddress(CommandInfo("glTexEnvxOES", [S353])), to: Swift.type(of: glTexEnvxOES_P))
+    glTexEnvxOES_P = unsafeBitCast(getAddress(CommandInfo("glTexEnvxOES", [S356])), to: Swift.type(of: glTexEnvxOES_P))
     glTexEnvxOES_P(target, pname, param)
 }
 func glTexEnvxv_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfixed>?) {
@@ -10512,11 +10559,11 @@ func glTexEnvxv_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfixe
     glTexEnvxv_P(target, pname, params)
 }
 func glTexEnvxvOES_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfixed>?) {
-    glTexEnvxvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexEnvxvOES", [S353])), to: Swift.type(of: glTexEnvxvOES_P))
+    glTexEnvxvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexEnvxvOES", [S356])), to: Swift.type(of: glTexEnvxvOES_P))
     glTexEnvxvOES_P(target, pname, params)
 }
 func glTexFilterFuncSGIS_L(_ target:GLenum, _ filter:GLenum, _ n:GLsizei, _ weights:UnsafePointer<GLfloat>?) {
-    glTexFilterFuncSGIS_P = unsafeBitCast(getAddress(CommandInfo("glTexFilterFuncSGIS", [S392])), to: Swift.type(of: glTexFilterFuncSGIS_P))
+    glTexFilterFuncSGIS_P = unsafeBitCast(getAddress(CommandInfo("glTexFilterFuncSGIS", [S395])), to: Swift.type(of: glTexFilterFuncSGIS_P))
     glTexFilterFuncSGIS_P(target, filter, n, weights)
 }
 func glTexGend_L(_ coord:GLenum, _ pname:GLenum, _ param:GLdouble) {
@@ -10532,7 +10579,7 @@ func glTexGenf_L(_ coord:GLenum, _ pname:GLenum, _ param:GLfloat) {
     glTexGenf_P(coord, pname, param)
 }
 func glTexGenfOES_L(_ coord:GLenum, _ pname:GLenum, _ param:GLfloat) {
-    glTexGenfOES_P = unsafeBitCast(getAddress(CommandInfo("glTexGenfOES", [S368])), to: Swift.type(of: glTexGenfOES_P))
+    glTexGenfOES_P = unsafeBitCast(getAddress(CommandInfo("glTexGenfOES", [S371])), to: Swift.type(of: glTexGenfOES_P))
     glTexGenfOES_P(coord, pname, param)
 }
 func glTexGenfv_L(_ coord:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfloat>?) {
@@ -10540,7 +10587,7 @@ func glTexGenfv_L(_ coord:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfloat
     glTexGenfv_P(coord, pname, params)
 }
 func glTexGenfvOES_L(_ coord:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfloat>?) {
-    glTexGenfvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexGenfvOES", [S368])), to: Swift.type(of: glTexGenfvOES_P))
+    glTexGenfvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexGenfvOES", [S371])), to: Swift.type(of: glTexGenfvOES_P))
     glTexGenfvOES_P(coord, pname, params)
 }
 func glTexGeni_L(_ coord:GLenum, _ pname:GLenum, _ param:GLint) {
@@ -10548,7 +10595,7 @@ func glTexGeni_L(_ coord:GLenum, _ pname:GLenum, _ param:GLint) {
     glTexGeni_P(coord, pname, param)
 }
 func glTexGeniOES_L(_ coord:GLenum, _ pname:GLenum, _ param:GLint) {
-    glTexGeniOES_P = unsafeBitCast(getAddress(CommandInfo("glTexGeniOES", [S368])), to: Swift.type(of: glTexGeniOES_P))
+    glTexGeniOES_P = unsafeBitCast(getAddress(CommandInfo("glTexGeniOES", [S371])), to: Swift.type(of: glTexGeniOES_P))
     glTexGeniOES_P(coord, pname, param)
 }
 func glTexGeniv_L(_ coord:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLint>?) {
@@ -10556,15 +10603,15 @@ func glTexGeniv_L(_ coord:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLint>?
     glTexGeniv_P(coord, pname, params)
 }
 func glTexGenivOES_L(_ coord:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLint>?) {
-    glTexGenivOES_P = unsafeBitCast(getAddress(CommandInfo("glTexGenivOES", [S368])), to: Swift.type(of: glTexGenivOES_P))
+    glTexGenivOES_P = unsafeBitCast(getAddress(CommandInfo("glTexGenivOES", [S371])), to: Swift.type(of: glTexGenivOES_P))
     glTexGenivOES_P(coord, pname, params)
 }
 func glTexGenxOES_L(_ coord:GLenum, _ pname:GLenum, _ param:GLfixed) {
-    glTexGenxOES_P = unsafeBitCast(getAddress(CommandInfo("glTexGenxOES", [S353, S368])), to: Swift.type(of: glTexGenxOES_P))
+    glTexGenxOES_P = unsafeBitCast(getAddress(CommandInfo("glTexGenxOES", [S356, S371])), to: Swift.type(of: glTexGenxOES_P))
     glTexGenxOES_P(coord, pname, param)
 }
 func glTexGenxvOES_L(_ coord:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfixed>?) {
-    glTexGenxvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexGenxvOES", [S353, S368])), to: Swift.type(of: glTexGenxvOES_P))
+    glTexGenxvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexGenxvOES", [S356, S371])), to: Swift.type(of: glTexGenxvOES_P))
     glTexGenxvOES_P(coord, pname, params)
 }
 func glTexImage1D_L(_ target:GLenum, _ level:GLint, _ internalformat:GLint, _ width:GLsizei, _ border:GLint, _ format:GLenum, _ type:GLenum, _ pixels:UnsafeRawPointer?) {
@@ -10580,7 +10627,7 @@ func glTexImage2DMultisample_L(_ target:GLenum, _ samples:GLsizei, _ internalfor
     glTexImage2DMultisample_P(target, samples, internalformat, width, height, fixedsamplelocations)
 }
 func glTexImage2DMultisampleCoverageNV_L(_ target:GLenum, _ coverageSamples:GLsizei, _ colorSamples:GLsizei, _ internalFormat:GLint, _ width:GLsizei, _ height:GLsizei, _ fixedSampleLocations:GLboolean) {
-    glTexImage2DMultisampleCoverageNV_P = unsafeBitCast(getAddress(CommandInfo("glTexImage2DMultisampleCoverageNV", [S331])), to: Swift.type(of: glTexImage2DMultisampleCoverageNV_P))
+    glTexImage2DMultisampleCoverageNV_P = unsafeBitCast(getAddress(CommandInfo("glTexImage2DMultisampleCoverageNV", [S334])), to: Swift.type(of: glTexImage2DMultisampleCoverageNV_P))
     glTexImage2DMultisampleCoverageNV_P(target, coverageSamples, colorSamples, internalFormat, width, height, fixedSampleLocations)
 }
 func glTexImage3D_L(_ target:GLenum, _ level:GLint, _ internalformat:GLint, _ width:GLsizei, _ height:GLsizei, _ depth:GLsizei, _ border:GLint, _ format:GLenum, _ type:GLenum, _ pixels:UnsafeRawPointer?) {
@@ -10596,15 +10643,15 @@ func glTexImage3DMultisample_L(_ target:GLenum, _ samples:GLsizei, _ internalfor
     glTexImage3DMultisample_P(target, samples, internalformat, width, height, depth, fixedsamplelocations)
 }
 func glTexImage3DMultisampleCoverageNV_L(_ target:GLenum, _ coverageSamples:GLsizei, _ colorSamples:GLsizei, _ internalFormat:GLint, _ width:GLsizei, _ height:GLsizei, _ depth:GLsizei, _ fixedSampleLocations:GLboolean) {
-    glTexImage3DMultisampleCoverageNV_P = unsafeBitCast(getAddress(CommandInfo("glTexImage3DMultisampleCoverageNV", [S331])), to: Swift.type(of: glTexImage3DMultisampleCoverageNV_P))
+    glTexImage3DMultisampleCoverageNV_P = unsafeBitCast(getAddress(CommandInfo("glTexImage3DMultisampleCoverageNV", [S334])), to: Swift.type(of: glTexImage3DMultisampleCoverageNV_P))
     glTexImage3DMultisampleCoverageNV_P(target, coverageSamples, colorSamples, internalFormat, width, height, depth, fixedSampleLocations)
 }
 func glTexImage3DOES_L(_ target:GLenum, _ level:GLint, _ internalformat:GLenum, _ width:GLsizei, _ height:GLsizei, _ depth:GLsizei, _ border:GLint, _ format:GLenum, _ type:GLenum, _ pixels:UnsafeRawPointer?) {
-    glTexImage3DOES_P = unsafeBitCast(getAddress(CommandInfo("glTexImage3DOES", [S365])), to: Swift.type(of: glTexImage3DOES_P))
+    glTexImage3DOES_P = unsafeBitCast(getAddress(CommandInfo("glTexImage3DOES", [S368])), to: Swift.type(of: glTexImage3DOES_P))
     glTexImage3DOES_P(target, level, internalformat, width, height, depth, border, format, type, pixels)
 }
 func glTexImage4DSGIS_L(_ target:GLenum, _ level:GLint, _ internalformat:GLenum, _ width:GLsizei, _ height:GLsizei, _ depth:GLsizei, _ size4d:GLsizei, _ border:GLint, _ format:GLenum, _ type:GLenum, _ pixels:UnsafeRawPointer?) {
-    glTexImage4DSGIS_P = unsafeBitCast(getAddress(CommandInfo("glTexImage4DSGIS", [S390])), to: Swift.type(of: glTexImage4DSGIS_P))
+    glTexImage4DSGIS_P = unsafeBitCast(getAddress(CommandInfo("glTexImage4DSGIS", [S393])), to: Swift.type(of: glTexImage4DSGIS_P))
     glTexImage4DSGIS_P(target, level, internalformat, width, height, depth, size4d, border, format, type, pixels)
 }
 func glTexPageCommitmentARB_L(_ target:GLenum, _ level:GLint, _ xoffset:GLint, _ yoffset:GLint, _ zoffset:GLint, _ width:GLsizei, _ height:GLsizei, _ depth:GLsizei, _ commit:GLboolean) {
@@ -10624,7 +10671,7 @@ func glTexParameterIivEXT_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafePoin
     glTexParameterIivEXT_P(target, pname, params)
 }
 func glTexParameterIivOES_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLint>?) {
-    glTexParameterIivOES_P = unsafeBitCast(getAddress(CommandInfo("glTexParameterIivOES", [S366])), to: Swift.type(of: glTexParameterIivOES_P))
+    glTexParameterIivOES_P = unsafeBitCast(getAddress(CommandInfo("glTexParameterIivOES", [S369])), to: Swift.type(of: glTexParameterIivOES_P))
     glTexParameterIivOES_P(target, pname, params)
 }
 func glTexParameterIuiv_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLuint>?) {
@@ -10636,7 +10683,7 @@ func glTexParameterIuivEXT_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafePoi
     glTexParameterIuivEXT_P(target, pname, params)
 }
 func glTexParameterIuivOES_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLuint>?) {
-    glTexParameterIuivOES_P = unsafeBitCast(getAddress(CommandInfo("glTexParameterIuivOES", [S366])), to: Swift.type(of: glTexParameterIuivOES_P))
+    glTexParameterIuivOES_P = unsafeBitCast(getAddress(CommandInfo("glTexParameterIuivOES", [S369])), to: Swift.type(of: glTexParameterIuivOES_P))
     glTexParameterIuivOES_P(target, pname, params)
 }
 func glTexParameterf_L(_ target:GLenum, _ pname:GLenum, _ param:GLfloat) {
@@ -10660,7 +10707,7 @@ func glTexParameterx_L(_ target:GLenum, _ pname:GLenum, _ param:GLfixed) {
     glTexParameterx_P(target, pname, param)
 }
 func glTexParameterxOES_L(_ target:GLenum, _ pname:GLenum, _ param:GLfixed) {
-    glTexParameterxOES_P = unsafeBitCast(getAddress(CommandInfo("glTexParameterxOES", [S353])), to: Swift.type(of: glTexParameterxOES_P))
+    glTexParameterxOES_P = unsafeBitCast(getAddress(CommandInfo("glTexParameterxOES", [S356])), to: Swift.type(of: glTexParameterxOES_P))
     glTexParameterxOES_P(target, pname, param)
 }
 func glTexParameterxv_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfixed>?) {
@@ -10668,11 +10715,11 @@ func glTexParameterxv_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafePointer<
     glTexParameterxv_P(target, pname, params)
 }
 func glTexParameterxvOES_L(_ target:GLenum, _ pname:GLenum, _ params:UnsafePointer<GLfixed>?) {
-    glTexParameterxvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexParameterxvOES", [S353])), to: Swift.type(of: glTexParameterxvOES_P))
+    glTexParameterxvOES_P = unsafeBitCast(getAddress(CommandInfo("glTexParameterxvOES", [S356])), to: Swift.type(of: glTexParameterxvOES_P))
     glTexParameterxvOES_P(target, pname, params)
 }
 func glTexRenderbufferNV_L(_ target:GLenum, _ renderbuffer:GLuint) {
-    glTexRenderbufferNV_P = unsafeBitCast(getAddress(CommandInfo("glTexRenderbufferNV", [S294])), to: Swift.type(of: glTexRenderbufferNV_P))
+    glTexRenderbufferNV_P = unsafeBitCast(getAddress(CommandInfo("glTexRenderbufferNV", [S297])), to: Swift.type(of: glTexRenderbufferNV_P))
     glTexRenderbufferNV_P(target, renderbuffer)
 }
 func glTexStorage1D_L(_ target:GLenum, _ levels:GLsizei, _ internalformat:GLenum, _ width:GLsizei) {
@@ -10708,7 +10755,7 @@ func glTexStorage3DMultisample_L(_ target:GLenum, _ samples:GLsizei, _ internalf
     glTexStorage3DMultisample_P(target, samples, internalformat, width, height, depth, fixedsamplelocations)
 }
 func glTexStorage3DMultisampleOES_L(_ target:GLenum, _ samples:GLsizei, _ internalformat:GLenum, _ width:GLsizei, _ height:GLsizei, _ depth:GLsizei, _ fixedsamplelocations:GLboolean) {
-    glTexStorage3DMultisampleOES_P = unsafeBitCast(getAddress(CommandInfo("glTexStorage3DMultisampleOES", [S369])), to: Swift.type(of: glTexStorage3DMultisampleOES_P))
+    glTexStorage3DMultisampleOES_P = unsafeBitCast(getAddress(CommandInfo("glTexStorage3DMultisampleOES", [S372])), to: Swift.type(of: glTexStorage3DMultisampleOES_P))
     glTexStorage3DMultisampleOES_P(target, samples, internalformat, width, height, depth, fixedsamplelocations)
 }
 func glTexStorageMem1DEXT_L(_ target:GLenum, _ levels:GLsizei, _ internalFormat:GLenum, _ width:GLsizei, _ memory:GLuint, _ offset:GLuint64) {
@@ -10760,15 +10807,15 @@ func glTexSubImage3DEXT_L(_ target:GLenum, _ level:GLint, _ xoffset:GLint, _ yof
     glTexSubImage3DEXT_P(target, level, xoffset, yoffset, zoffset, width, height, depth, format, type, pixels)
 }
 func glTexSubImage3DOES_L(_ target:GLenum, _ level:GLint, _ xoffset:GLint, _ yoffset:GLint, _ zoffset:GLint, _ width:GLsizei, _ height:GLsizei, _ depth:GLsizei, _ format:GLenum, _ type:GLenum, _ pixels:UnsafeRawPointer?) {
-    glTexSubImage3DOES_P = unsafeBitCast(getAddress(CommandInfo("glTexSubImage3DOES", [S365])), to: Swift.type(of: glTexSubImage3DOES_P))
+    glTexSubImage3DOES_P = unsafeBitCast(getAddress(CommandInfo("glTexSubImage3DOES", [S368])), to: Swift.type(of: glTexSubImage3DOES_P))
     glTexSubImage3DOES_P(target, level, xoffset, yoffset, zoffset, width, height, depth, format, type, pixels)
 }
 func glTexSubImage4DSGIS_L(_ target:GLenum, _ level:GLint, _ xoffset:GLint, _ yoffset:GLint, _ zoffset:GLint, _ woffset:GLint, _ width:GLsizei, _ height:GLsizei, _ depth:GLsizei, _ size4d:GLsizei, _ format:GLenum, _ type:GLenum, _ pixels:UnsafeRawPointer?) {
-    glTexSubImage4DSGIS_P = unsafeBitCast(getAddress(CommandInfo("glTexSubImage4DSGIS", [S390])), to: Swift.type(of: glTexSubImage4DSGIS_P))
+    glTexSubImage4DSGIS_P = unsafeBitCast(getAddress(CommandInfo("glTexSubImage4DSGIS", [S393])), to: Swift.type(of: glTexSubImage4DSGIS_P))
     glTexSubImage4DSGIS_P(target, level, xoffset, yoffset, zoffset, woffset, width, height, depth, size4d, format, type, pixels)
 }
 func glTextureAttachMemoryNV_L(_ texture:GLuint, _ memory:GLuint, _ offset:GLuint64) {
-    glTextureAttachMemoryNV_P = unsafeBitCast(getAddress(CommandInfo("glTextureAttachMemoryNV", [S310])), to: Swift.type(of: glTextureAttachMemoryNV_P))
+    glTextureAttachMemoryNV_P = unsafeBitCast(getAddress(CommandInfo("glTextureAttachMemoryNV", [S313])), to: Swift.type(of: glTextureAttachMemoryNV_P))
     glTextureAttachMemoryNV_P(texture, memory, offset)
 }
 func glTextureBarrier_L() {
@@ -10776,7 +10823,7 @@ func glTextureBarrier_L() {
     glTextureBarrier_P()
 }
 func glTextureBarrierNV_L() {
-    glTextureBarrierNV_P = unsafeBitCast(getAddress(CommandInfo("glTextureBarrierNV", [S330])), to: Swift.type(of: glTextureBarrierNV_P))
+    glTextureBarrierNV_P = unsafeBitCast(getAddress(CommandInfo("glTextureBarrierNV", [S333])), to: Swift.type(of: glTextureBarrierNV_P))
     glTextureBarrierNV_P()
 }
 func glTextureBuffer_L(_ texture:GLuint, _ internalformat:GLenum, _ buffer:GLuint) {
@@ -10796,11 +10843,11 @@ func glTextureBufferRangeEXT_L(_ texture:GLuint, _ target:GLenum, _ internalform
     glTextureBufferRangeEXT_P(texture, target, internalformat, buffer, offset, size)
 }
 func glTextureColorMaskSGIS_L(_ red:GLboolean, _ green:GLboolean, _ blue:GLboolean, _ alpha:GLboolean) {
-    glTextureColorMaskSGIS_P = unsafeBitCast(getAddress(CommandInfo("glTextureColorMaskSGIS", [S391])), to: Swift.type(of: glTextureColorMaskSGIS_P))
+    glTextureColorMaskSGIS_P = unsafeBitCast(getAddress(CommandInfo("glTextureColorMaskSGIS", [S394])), to: Swift.type(of: glTextureColorMaskSGIS_P))
     glTextureColorMaskSGIS_P(red, green, blue, alpha)
 }
 func glTextureFoveationParametersQCOM_L(_ texture:GLuint, _ layer:GLuint, _ focalPoint:GLuint, _ focalX:GLfloat, _ focalY:GLfloat, _ gainX:GLfloat, _ gainY:GLfloat, _ foveaArea:GLfloat) {
-    glTextureFoveationParametersQCOM_P = unsafeBitCast(getAddress(CommandInfo("glTextureFoveationParametersQCOM", [S382])), to: Swift.type(of: glTextureFoveationParametersQCOM_P))
+    glTextureFoveationParametersQCOM_P = unsafeBitCast(getAddress(CommandInfo("glTextureFoveationParametersQCOM", [S385])), to: Swift.type(of: glTextureFoveationParametersQCOM_P))
     glTextureFoveationParametersQCOM_P(texture, layer, focalPoint, focalX, focalY, gainX, gainY, foveaArea)
 }
 func glTextureImage1DEXT_L(_ texture:GLuint, _ target:GLenum, _ level:GLint, _ internalformat:GLint, _ width:GLsizei, _ border:GLint, _ format:GLenum, _ type:GLenum, _ pixels:UnsafeRawPointer?) {
@@ -10812,11 +10859,11 @@ func glTextureImage2DEXT_L(_ texture:GLuint, _ target:GLenum, _ level:GLint, _ i
     glTextureImage2DEXT_P(texture, target, level, internalformat, width, height, border, format, type, pixels)
 }
 func glTextureImage2DMultisampleCoverageNV_L(_ texture:GLuint, _ target:GLenum, _ coverageSamples:GLsizei, _ colorSamples:GLsizei, _ internalFormat:GLint, _ width:GLsizei, _ height:GLsizei, _ fixedSampleLocations:GLboolean) {
-    glTextureImage2DMultisampleCoverageNV_P = unsafeBitCast(getAddress(CommandInfo("glTextureImage2DMultisampleCoverageNV", [S331])), to: Swift.type(of: glTextureImage2DMultisampleCoverageNV_P))
+    glTextureImage2DMultisampleCoverageNV_P = unsafeBitCast(getAddress(CommandInfo("glTextureImage2DMultisampleCoverageNV", [S334])), to: Swift.type(of: glTextureImage2DMultisampleCoverageNV_P))
     glTextureImage2DMultisampleCoverageNV_P(texture, target, coverageSamples, colorSamples, internalFormat, width, height, fixedSampleLocations)
 }
 func glTextureImage2DMultisampleNV_L(_ texture:GLuint, _ target:GLenum, _ samples:GLsizei, _ internalFormat:GLint, _ width:GLsizei, _ height:GLsizei, _ fixedSampleLocations:GLboolean) {
-    glTextureImage2DMultisampleNV_P = unsafeBitCast(getAddress(CommandInfo("glTextureImage2DMultisampleNV", [S331])), to: Swift.type(of: glTextureImage2DMultisampleNV_P))
+    glTextureImage2DMultisampleNV_P = unsafeBitCast(getAddress(CommandInfo("glTextureImage2DMultisampleNV", [S334])), to: Swift.type(of: glTextureImage2DMultisampleNV_P))
     glTextureImage2DMultisampleNV_P(texture, target, samples, internalFormat, width, height, fixedSampleLocations)
 }
 func glTextureImage3DEXT_L(_ texture:GLuint, _ target:GLenum, _ level:GLint, _ internalformat:GLint, _ width:GLsizei, _ height:GLsizei, _ depth:GLsizei, _ border:GLint, _ format:GLenum, _ type:GLenum, _ pixels:UnsafeRawPointer?) {
@@ -10824,11 +10871,11 @@ func glTextureImage3DEXT_L(_ texture:GLuint, _ target:GLenum, _ level:GLint, _ i
     glTextureImage3DEXT_P(texture, target, level, internalformat, width, height, depth, border, format, type, pixels)
 }
 func glTextureImage3DMultisampleCoverageNV_L(_ texture:GLuint, _ target:GLenum, _ coverageSamples:GLsizei, _ colorSamples:GLsizei, _ internalFormat:GLint, _ width:GLsizei, _ height:GLsizei, _ depth:GLsizei, _ fixedSampleLocations:GLboolean) {
-    glTextureImage3DMultisampleCoverageNV_P = unsafeBitCast(getAddress(CommandInfo("glTextureImage3DMultisampleCoverageNV", [S331])), to: Swift.type(of: glTextureImage3DMultisampleCoverageNV_P))
+    glTextureImage3DMultisampleCoverageNV_P = unsafeBitCast(getAddress(CommandInfo("glTextureImage3DMultisampleCoverageNV", [S334])), to: Swift.type(of: glTextureImage3DMultisampleCoverageNV_P))
     glTextureImage3DMultisampleCoverageNV_P(texture, target, coverageSamples, colorSamples, internalFormat, width, height, depth, fixedSampleLocations)
 }
 func glTextureImage3DMultisampleNV_L(_ texture:GLuint, _ target:GLenum, _ samples:GLsizei, _ internalFormat:GLint, _ width:GLsizei, _ height:GLsizei, _ depth:GLsizei, _ fixedSampleLocations:GLboolean) {
-    glTextureImage3DMultisampleNV_P = unsafeBitCast(getAddress(CommandInfo("glTextureImage3DMultisampleNV", [S331])), to: Swift.type(of: glTextureImage3DMultisampleNV_P))
+    glTextureImage3DMultisampleNV_P = unsafeBitCast(getAddress(CommandInfo("glTextureImage3DMultisampleNV", [S334])), to: Swift.type(of: glTextureImage3DMultisampleNV_P))
     glTextureImage3DMultisampleNV_P(texture, target, samples, internalFormat, width, height, depth, fixedSampleLocations)
 }
 func glTextureLightEXT_L(_ pname:GLenum) {
@@ -11000,15 +11047,15 @@ func glTextureViewEXT_L(_ texture:GLuint, _ target:GLenum, _ origtexture:GLuint,
     glTextureViewEXT_P(texture, target, origtexture, internalformat, minlevel, numlevels, minlayer, numlayers)
 }
 func glTextureViewOES_L(_ texture:GLuint, _ target:GLenum, _ origtexture:GLuint, _ internalformat:GLenum, _ minlevel:GLuint, _ numlevels:GLuint, _ minlayer:GLuint, _ numlayers:GLuint) {
-    glTextureViewOES_P = unsafeBitCast(getAddress(CommandInfo("glTextureViewOES", [S370])), to: Swift.type(of: glTextureViewOES_P))
+    glTextureViewOES_P = unsafeBitCast(getAddress(CommandInfo("glTextureViewOES", [S373])), to: Swift.type(of: glTextureViewOES_P))
     glTextureViewOES_P(texture, target, origtexture, internalformat, minlevel, numlevels, minlayer, numlayers)
 }
 func glTrackMatrixNV_L(_ target:GLenum, _ address:GLuint, _ matrix:GLenum, _ transform:GLenum) {
-    glTrackMatrixNV_P = unsafeBitCast(getAddress(CommandInfo("glTrackMatrixNV", [S339])), to: Swift.type(of: glTrackMatrixNV_P))
+    glTrackMatrixNV_P = unsafeBitCast(getAddress(CommandInfo("glTrackMatrixNV", [S342])), to: Swift.type(of: glTrackMatrixNV_P))
     glTrackMatrixNV_P(target, address, matrix, transform)
 }
 func glTransformFeedbackAttribsNV_L(_ count:GLsizei, _ attribs:UnsafePointer<GLint>?, _ bufferMode:GLenum) {
-    glTransformFeedbackAttribsNV_P = unsafeBitCast(getAddress(CommandInfo("glTransformFeedbackAttribsNV", [S332])), to: Swift.type(of: glTransformFeedbackAttribsNV_P))
+    glTransformFeedbackAttribsNV_P = unsafeBitCast(getAddress(CommandInfo("glTransformFeedbackAttribsNV", [S335])), to: Swift.type(of: glTransformFeedbackAttribsNV_P))
     glTransformFeedbackAttribsNV_P(count, attribs, bufferMode)
 }
 func glTransformFeedbackBufferBase_L(_ xfb:GLuint, _ index:GLuint, _ buffer:GLuint) {
@@ -11020,7 +11067,7 @@ func glTransformFeedbackBufferRange_L(_ xfb:GLuint, _ index:GLuint, _ buffer:GLu
     glTransformFeedbackBufferRange_P(xfb, index, buffer, offset, size)
 }
 func glTransformFeedbackStreamAttribsNV_L(_ count:GLsizei, _ attribs:UnsafePointer<GLint>?, _ nbuffers:GLsizei, _ bufstreams:UnsafePointer<GLint>?, _ bufferMode:GLenum) {
-    glTransformFeedbackStreamAttribsNV_P = unsafeBitCast(getAddress(CommandInfo("glTransformFeedbackStreamAttribsNV", [S332])), to: Swift.type(of: glTransformFeedbackStreamAttribsNV_P))
+    glTransformFeedbackStreamAttribsNV_P = unsafeBitCast(getAddress(CommandInfo("glTransformFeedbackStreamAttribsNV", [S335])), to: Swift.type(of: glTransformFeedbackStreamAttribsNV_P))
     glTransformFeedbackStreamAttribsNV_P(count, attribs, nbuffers, bufstreams, bufferMode)
 }
 func glTransformFeedbackVaryings_L(_ program:GLuint, _ count:GLsizei, _ varyings:UnsafePointer<UnsafePointer<GLchar>>?, _ bufferMode:GLenum) {
@@ -11032,11 +11079,11 @@ func glTransformFeedbackVaryingsEXT_L(_ program:GLuint, _ count:GLsizei, _ varyi
     glTransformFeedbackVaryingsEXT_P(program, count, varyings, bufferMode)
 }
 func glTransformFeedbackVaryingsNV_L(_ program:GLuint, _ count:GLsizei, _ locations:UnsafePointer<GLint>?, _ bufferMode:GLenum) {
-    glTransformFeedbackVaryingsNV_P = unsafeBitCast(getAddress(CommandInfo("glTransformFeedbackVaryingsNV", [S332])), to: Swift.type(of: glTransformFeedbackVaryingsNV_P))
+    glTransformFeedbackVaryingsNV_P = unsafeBitCast(getAddress(CommandInfo("glTransformFeedbackVaryingsNV", [S335])), to: Swift.type(of: glTransformFeedbackVaryingsNV_P))
     glTransformFeedbackVaryingsNV_P(program, count, locations, bufferMode)
 }
 func glTransformPathNV_L(_ resultPath:GLuint, _ srcPath:GLuint, _ transformType:GLenum, _ transformValues:UnsafePointer<GLfloat>?) {
-    glTransformPathNV_P = unsafeBitCast(getAddress(CommandInfo("glTransformPathNV", [S315])), to: Swift.type(of: glTransformPathNV_P))
+    glTransformPathNV_P = unsafeBitCast(getAddress(CommandInfo("glTransformPathNV", [S318])), to: Swift.type(of: glTransformPathNV_P))
     glTransformPathNV_P(resultPath, srcPath, transformType, transformValues)
 }
 func glTranslated_L(_ x:GLdouble, _ y:GLdouble, _ z:GLdouble) {
@@ -11052,7 +11099,7 @@ func glTranslatex_L(_ x:GLfixed, _ y:GLfixed, _ z:GLfixed) {
     glTranslatex_P(x, y, z)
 }
 func glTranslatexOES_L(_ x:GLfixed, _ y:GLfixed, _ z:GLfixed) {
-    glTranslatexOES_P = unsafeBitCast(getAddress(CommandInfo("glTranslatexOES", [S353])), to: Swift.type(of: glTranslatexOES_P))
+    glTranslatexOES_P = unsafeBitCast(getAddress(CommandInfo("glTranslatexOES", [S356])), to: Swift.type(of: glTranslatexOES_P))
     glTranslatexOES_P(x, y, z)
 }
 func glUniform1d_L(_ location:GLint, _ x:GLdouble) {
@@ -11088,7 +11135,7 @@ func glUniform1i64ARB_L(_ location:GLint, _ x:GLint64) {
     glUniform1i64ARB_P(location, x)
 }
 func glUniform1i64NV_L(_ location:GLint, _ x:GLint64EXT) {
-    glUniform1i64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniform1i64NV", [S31, S306])), to: Swift.type(of: glUniform1i64NV_P))
+    glUniform1i64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniform1i64NV", [S31, S309])), to: Swift.type(of: glUniform1i64NV_P))
     glUniform1i64NV_P(location, x)
 }
 func glUniform1i64vARB_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLint64>?) {
@@ -11096,7 +11143,7 @@ func glUniform1i64vARB_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointe
     glUniform1i64vARB_P(location, count, value)
 }
 func glUniform1i64vNV_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLint64EXT>?) {
-    glUniform1i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniform1i64vNV", [S31, S306])), to: Swift.type(of: glUniform1i64vNV_P))
+    glUniform1i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniform1i64vNV", [S31, S309])), to: Swift.type(of: glUniform1i64vNV_P))
     glUniform1i64vNV_P(location, count, value)
 }
 func glUniform1iARB_L(_ location:GLint, _ v0:GLint) {
@@ -11120,7 +11167,7 @@ func glUniform1ui64ARB_L(_ location:GLint, _ x:GLuint64) {
     glUniform1ui64ARB_P(location, x)
 }
 func glUniform1ui64NV_L(_ location:GLint, _ x:GLuint64EXT) {
-    glUniform1ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniform1ui64NV", [S31, S306])), to: Swift.type(of: glUniform1ui64NV_P))
+    glUniform1ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniform1ui64NV", [S31, S309])), to: Swift.type(of: glUniform1ui64NV_P))
     glUniform1ui64NV_P(location, x)
 }
 func glUniform1ui64vARB_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64>?) {
@@ -11128,7 +11175,7 @@ func glUniform1ui64vARB_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePoint
     glUniform1ui64vARB_P(location, count, value)
 }
 func glUniform1ui64vNV_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64EXT>?) {
-    glUniform1ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniform1ui64vNV", [S31, S306])), to: Swift.type(of: glUniform1ui64vNV_P))
+    glUniform1ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniform1ui64vNV", [S31, S309])), to: Swift.type(of: glUniform1ui64vNV_P))
     glUniform1ui64vNV_P(location, count, value)
 }
 func glUniform1uiEXT_L(_ location:GLint, _ v0:GLuint) {
@@ -11176,7 +11223,7 @@ func glUniform2i64ARB_L(_ location:GLint, _ x:GLint64, _ y:GLint64) {
     glUniform2i64ARB_P(location, x, y)
 }
 func glUniform2i64NV_L(_ location:GLint, _ x:GLint64EXT, _ y:GLint64EXT) {
-    glUniform2i64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniform2i64NV", [S31, S306])), to: Swift.type(of: glUniform2i64NV_P))
+    glUniform2i64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniform2i64NV", [S31, S309])), to: Swift.type(of: glUniform2i64NV_P))
     glUniform2i64NV_P(location, x, y)
 }
 func glUniform2i64vARB_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLint64>?) {
@@ -11184,7 +11231,7 @@ func glUniform2i64vARB_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointe
     glUniform2i64vARB_P(location, count, value)
 }
 func glUniform2i64vNV_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLint64EXT>?) {
-    glUniform2i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniform2i64vNV", [S31, S306])), to: Swift.type(of: glUniform2i64vNV_P))
+    glUniform2i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniform2i64vNV", [S31, S309])), to: Swift.type(of: glUniform2i64vNV_P))
     glUniform2i64vNV_P(location, count, value)
 }
 func glUniform2iARB_L(_ location:GLint, _ v0:GLint, _ v1:GLint) {
@@ -11208,7 +11255,7 @@ func glUniform2ui64ARB_L(_ location:GLint, _ x:GLuint64, _ y:GLuint64) {
     glUniform2ui64ARB_P(location, x, y)
 }
 func glUniform2ui64NV_L(_ location:GLint, _ x:GLuint64EXT, _ y:GLuint64EXT) {
-    glUniform2ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniform2ui64NV", [S31, S306])), to: Swift.type(of: glUniform2ui64NV_P))
+    glUniform2ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniform2ui64NV", [S31, S309])), to: Swift.type(of: glUniform2ui64NV_P))
     glUniform2ui64NV_P(location, x, y)
 }
 func glUniform2ui64vARB_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64>?) {
@@ -11216,7 +11263,7 @@ func glUniform2ui64vARB_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePoint
     glUniform2ui64vARB_P(location, count, value)
 }
 func glUniform2ui64vNV_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64EXT>?) {
-    glUniform2ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniform2ui64vNV", [S31, S306])), to: Swift.type(of: glUniform2ui64vNV_P))
+    glUniform2ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniform2ui64vNV", [S31, S309])), to: Swift.type(of: glUniform2ui64vNV_P))
     glUniform2ui64vNV_P(location, count, value)
 }
 func glUniform2uiEXT_L(_ location:GLint, _ v0:GLuint, _ v1:GLuint) {
@@ -11264,7 +11311,7 @@ func glUniform3i64ARB_L(_ location:GLint, _ x:GLint64, _ y:GLint64, _ z:GLint64)
     glUniform3i64ARB_P(location, x, y, z)
 }
 func glUniform3i64NV_L(_ location:GLint, _ x:GLint64EXT, _ y:GLint64EXT, _ z:GLint64EXT) {
-    glUniform3i64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniform3i64NV", [S31, S306])), to: Swift.type(of: glUniform3i64NV_P))
+    glUniform3i64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniform3i64NV", [S31, S309])), to: Swift.type(of: glUniform3i64NV_P))
     glUniform3i64NV_P(location, x, y, z)
 }
 func glUniform3i64vARB_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLint64>?) {
@@ -11272,7 +11319,7 @@ func glUniform3i64vARB_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointe
     glUniform3i64vARB_P(location, count, value)
 }
 func glUniform3i64vNV_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLint64EXT>?) {
-    glUniform3i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniform3i64vNV", [S31, S306])), to: Swift.type(of: glUniform3i64vNV_P))
+    glUniform3i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniform3i64vNV", [S31, S309])), to: Swift.type(of: glUniform3i64vNV_P))
     glUniform3i64vNV_P(location, count, value)
 }
 func glUniform3iARB_L(_ location:GLint, _ v0:GLint, _ v1:GLint, _ v2:GLint) {
@@ -11296,7 +11343,7 @@ func glUniform3ui64ARB_L(_ location:GLint, _ x:GLuint64, _ y:GLuint64, _ z:GLuin
     glUniform3ui64ARB_P(location, x, y, z)
 }
 func glUniform3ui64NV_L(_ location:GLint, _ x:GLuint64EXT, _ y:GLuint64EXT, _ z:GLuint64EXT) {
-    glUniform3ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniform3ui64NV", [S31, S306])), to: Swift.type(of: glUniform3ui64NV_P))
+    glUniform3ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniform3ui64NV", [S31, S309])), to: Swift.type(of: glUniform3ui64NV_P))
     glUniform3ui64NV_P(location, x, y, z)
 }
 func glUniform3ui64vARB_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64>?) {
@@ -11304,7 +11351,7 @@ func glUniform3ui64vARB_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePoint
     glUniform3ui64vARB_P(location, count, value)
 }
 func glUniform3ui64vNV_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64EXT>?) {
-    glUniform3ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniform3ui64vNV", [S31, S306])), to: Swift.type(of: glUniform3ui64vNV_P))
+    glUniform3ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniform3ui64vNV", [S31, S309])), to: Swift.type(of: glUniform3ui64vNV_P))
     glUniform3ui64vNV_P(location, count, value)
 }
 func glUniform3uiEXT_L(_ location:GLint, _ v0:GLuint, _ v1:GLuint, _ v2:GLuint) {
@@ -11352,7 +11399,7 @@ func glUniform4i64ARB_L(_ location:GLint, _ x:GLint64, _ y:GLint64, _ z:GLint64,
     glUniform4i64ARB_P(location, x, y, z, w)
 }
 func glUniform4i64NV_L(_ location:GLint, _ x:GLint64EXT, _ y:GLint64EXT, _ z:GLint64EXT, _ w:GLint64EXT) {
-    glUniform4i64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniform4i64NV", [S31, S306])), to: Swift.type(of: glUniform4i64NV_P))
+    glUniform4i64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniform4i64NV", [S31, S309])), to: Swift.type(of: glUniform4i64NV_P))
     glUniform4i64NV_P(location, x, y, z, w)
 }
 func glUniform4i64vARB_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLint64>?) {
@@ -11360,7 +11407,7 @@ func glUniform4i64vARB_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointe
     glUniform4i64vARB_P(location, count, value)
 }
 func glUniform4i64vNV_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLint64EXT>?) {
-    glUniform4i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniform4i64vNV", [S31, S306])), to: Swift.type(of: glUniform4i64vNV_P))
+    glUniform4i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniform4i64vNV", [S31, S309])), to: Swift.type(of: glUniform4i64vNV_P))
     glUniform4i64vNV_P(location, count, value)
 }
 func glUniform4iARB_L(_ location:GLint, _ v0:GLint, _ v1:GLint, _ v2:GLint, _ v3:GLint) {
@@ -11384,7 +11431,7 @@ func glUniform4ui64ARB_L(_ location:GLint, _ x:GLuint64, _ y:GLuint64, _ z:GLuin
     glUniform4ui64ARB_P(location, x, y, z, w)
 }
 func glUniform4ui64NV_L(_ location:GLint, _ x:GLuint64EXT, _ y:GLuint64EXT, _ z:GLuint64EXT, _ w:GLuint64EXT) {
-    glUniform4ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniform4ui64NV", [S31, S306])), to: Swift.type(of: glUniform4ui64NV_P))
+    glUniform4ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniform4ui64NV", [S31, S309])), to: Swift.type(of: glUniform4ui64NV_P))
     glUniform4ui64NV_P(location, x, y, z, w)
 }
 func glUniform4ui64vARB_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64>?) {
@@ -11392,7 +11439,7 @@ func glUniform4ui64vARB_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePoint
     glUniform4ui64vARB_P(location, count, value)
 }
 func glUniform4ui64vNV_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64EXT>?) {
-    glUniform4ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniform4ui64vNV", [S31, S306])), to: Swift.type(of: glUniform4ui64vNV_P))
+    glUniform4ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniform4ui64vNV", [S31, S309])), to: Swift.type(of: glUniform4ui64vNV_P))
     glUniform4ui64vNV_P(location, count, value)
 }
 func glUniform4uiEXT_L(_ location:GLint, _ v0:GLuint, _ v1:GLuint, _ v2:GLuint, _ v3:GLuint) {
@@ -11424,7 +11471,7 @@ func glUniformHandleui64IMG_L(_ location:GLint, _ value:GLuint64) {
     glUniformHandleui64IMG_P(location, value)
 }
 func glUniformHandleui64NV_L(_ location:GLint, _ value:GLuint64) {
-    glUniformHandleui64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniformHandleui64NV", [S277])), to: Swift.type(of: glUniformHandleui64NV_P))
+    glUniformHandleui64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniformHandleui64NV", [S280])), to: Swift.type(of: glUniformHandleui64NV_P))
     glUniformHandleui64NV_P(location, value)
 }
 func glUniformHandleui64vARB_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64>?) {
@@ -11436,7 +11483,7 @@ func glUniformHandleui64vIMG_L(_ location:GLint, _ count:GLsizei, _ value:Unsafe
     glUniformHandleui64vIMG_P(location, count, value)
 }
 func glUniformHandleui64vNV_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64>?) {
-    glUniformHandleui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniformHandleui64vNV", [S277])), to: Swift.type(of: glUniformHandleui64vNV_P))
+    glUniformHandleui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniformHandleui64vNV", [S280])), to: Swift.type(of: glUniformHandleui64vNV_P))
     glUniformHandleui64vNV_P(location, count, value)
 }
 func glUniformMatrix2dv_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboolean, _ value:UnsafePointer<GLdouble>?) {
@@ -11460,7 +11507,7 @@ func glUniformMatrix2x3fv_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboo
     glUniformMatrix2x3fv_P(location, count, transpose, value)
 }
 func glUniformMatrix2x3fvNV_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboolean, _ value:UnsafePointer<GLfloat>?) {
-    glUniformMatrix2x3fvNV_P = unsafeBitCast(getAddress(CommandInfo("glUniformMatrix2x3fvNV", [S312])), to: Swift.type(of: glUniformMatrix2x3fvNV_P))
+    glUniformMatrix2x3fvNV_P = unsafeBitCast(getAddress(CommandInfo("glUniformMatrix2x3fvNV", [S315])), to: Swift.type(of: glUniformMatrix2x3fvNV_P))
     glUniformMatrix2x3fvNV_P(location, count, transpose, value)
 }
 func glUniformMatrix2x4dv_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboolean, _ value:UnsafePointer<GLdouble>?) {
@@ -11472,7 +11519,7 @@ func glUniformMatrix2x4fv_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboo
     glUniformMatrix2x4fv_P(location, count, transpose, value)
 }
 func glUniformMatrix2x4fvNV_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboolean, _ value:UnsafePointer<GLfloat>?) {
-    glUniformMatrix2x4fvNV_P = unsafeBitCast(getAddress(CommandInfo("glUniformMatrix2x4fvNV", [S312])), to: Swift.type(of: glUniformMatrix2x4fvNV_P))
+    glUniformMatrix2x4fvNV_P = unsafeBitCast(getAddress(CommandInfo("glUniformMatrix2x4fvNV", [S315])), to: Swift.type(of: glUniformMatrix2x4fvNV_P))
     glUniformMatrix2x4fvNV_P(location, count, transpose, value)
 }
 func glUniformMatrix3dv_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboolean, _ value:UnsafePointer<GLdouble>?) {
@@ -11496,7 +11543,7 @@ func glUniformMatrix3x2fv_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboo
     glUniformMatrix3x2fv_P(location, count, transpose, value)
 }
 func glUniformMatrix3x2fvNV_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboolean, _ value:UnsafePointer<GLfloat>?) {
-    glUniformMatrix3x2fvNV_P = unsafeBitCast(getAddress(CommandInfo("glUniformMatrix3x2fvNV", [S312])), to: Swift.type(of: glUniformMatrix3x2fvNV_P))
+    glUniformMatrix3x2fvNV_P = unsafeBitCast(getAddress(CommandInfo("glUniformMatrix3x2fvNV", [S315])), to: Swift.type(of: glUniformMatrix3x2fvNV_P))
     glUniformMatrix3x2fvNV_P(location, count, transpose, value)
 }
 func glUniformMatrix3x4dv_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboolean, _ value:UnsafePointer<GLdouble>?) {
@@ -11508,7 +11555,7 @@ func glUniformMatrix3x4fv_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboo
     glUniformMatrix3x4fv_P(location, count, transpose, value)
 }
 func glUniformMatrix3x4fvNV_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboolean, _ value:UnsafePointer<GLfloat>?) {
-    glUniformMatrix3x4fvNV_P = unsafeBitCast(getAddress(CommandInfo("glUniformMatrix3x4fvNV", [S312])), to: Swift.type(of: glUniformMatrix3x4fvNV_P))
+    glUniformMatrix3x4fvNV_P = unsafeBitCast(getAddress(CommandInfo("glUniformMatrix3x4fvNV", [S315])), to: Swift.type(of: glUniformMatrix3x4fvNV_P))
     glUniformMatrix3x4fvNV_P(location, count, transpose, value)
 }
 func glUniformMatrix4dv_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboolean, _ value:UnsafePointer<GLdouble>?) {
@@ -11532,7 +11579,7 @@ func glUniformMatrix4x2fv_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboo
     glUniformMatrix4x2fv_P(location, count, transpose, value)
 }
 func glUniformMatrix4x2fvNV_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboolean, _ value:UnsafePointer<GLfloat>?) {
-    glUniformMatrix4x2fvNV_P = unsafeBitCast(getAddress(CommandInfo("glUniformMatrix4x2fvNV", [S312])), to: Swift.type(of: glUniformMatrix4x2fvNV_P))
+    glUniformMatrix4x2fvNV_P = unsafeBitCast(getAddress(CommandInfo("glUniformMatrix4x2fvNV", [S315])), to: Swift.type(of: glUniformMatrix4x2fvNV_P))
     glUniformMatrix4x2fvNV_P(location, count, transpose, value)
 }
 func glUniformMatrix4x3dv_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboolean, _ value:UnsafePointer<GLdouble>?) {
@@ -11544,7 +11591,7 @@ func glUniformMatrix4x3fv_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboo
     glUniformMatrix4x3fv_P(location, count, transpose, value)
 }
 func glUniformMatrix4x3fvNV_L(_ location:GLint, _ count:GLsizei, _ transpose:GLboolean, _ value:UnsafePointer<GLfloat>?) {
-    glUniformMatrix4x3fvNV_P = unsafeBitCast(getAddress(CommandInfo("glUniformMatrix4x3fvNV", [S312])), to: Swift.type(of: glUniformMatrix4x3fvNV_P))
+    glUniformMatrix4x3fvNV_P = unsafeBitCast(getAddress(CommandInfo("glUniformMatrix4x3fvNV", [S315])), to: Swift.type(of: glUniformMatrix4x3fvNV_P))
     glUniformMatrix4x3fvNV_P(location, count, transpose, value)
 }
 func glUniformSubroutinesuiv_L(_ shadertype:GLenum, _ count:GLsizei, _ indices:UnsafePointer<GLuint>?) {
@@ -11552,11 +11599,11 @@ func glUniformSubroutinesuiv_L(_ shadertype:GLenum, _ count:GLsizei, _ indices:U
     glUniformSubroutinesuiv_P(shadertype, count, indices)
 }
 func glUniformui64NV_L(_ location:GLint, _ value:GLuint64EXT) {
-    glUniformui64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniformui64NV", [S328])), to: Swift.type(of: glUniformui64NV_P))
+    glUniformui64NV_P = unsafeBitCast(getAddress(CommandInfo("glUniformui64NV", [S331])), to: Swift.type(of: glUniformui64NV_P))
     glUniformui64NV_P(location, value)
 }
 func glUniformui64vNV_L(_ location:GLint, _ count:GLsizei, _ value:UnsafePointer<GLuint64EXT>?) {
-    glUniformui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniformui64vNV", [S328])), to: Swift.type(of: glUniformui64vNV_P))
+    glUniformui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glUniformui64vNV", [S331])), to: Swift.type(of: glUniformui64vNV_P))
     glUniformui64vNV_P(location, count, value)
 }
 func glUnlockArraysEXT_L() {
@@ -11572,7 +11619,7 @@ func glUnmapBufferARB_L(_ target:GLenum) -> GLboolean {
     return glUnmapBufferARB_P(target)
 }
 func glUnmapBufferOES_L(_ target:GLenum) -> GLboolean {
-    glUnmapBufferOES_P = unsafeBitCast(getAddress(CommandInfo("glUnmapBufferOES", [S357])), to: Swift.type(of: glUnmapBufferOES_P))
+    glUnmapBufferOES_P = unsafeBitCast(getAddress(CommandInfo("glUnmapBufferOES", [S360])), to: Swift.type(of: glUnmapBufferOES_P))
     return glUnmapBufferOES_P(target)
 }
 func glUnmapNamedBuffer_L(_ buffer:GLuint) -> GLboolean {
@@ -11595,6 +11642,10 @@ func glUpdateObjectBufferATI_L(_ buffer:GLuint, _ offset:GLuint, _ size:GLsizei,
     glUpdateObjectBufferATI_P = unsafeBitCast(getAddress(CommandInfo("glUpdateObjectBufferATI", [S152])), to: Swift.type(of: glUpdateObjectBufferATI_P))
     glUpdateObjectBufferATI_P(buffer, offset, size, pointer, preserve)
 }
+func glUploadGpuMaskNVX_L(_ mask:GLbitfield) {
+    glUploadGpuMaskNVX_P = unsafeBitCast(getAddress(CommandInfo("glUploadGpuMaskNVX", [S274])), to: Swift.type(of: glUploadGpuMaskNVX_P))
+    glUploadGpuMaskNVX_P(mask)
+}
 func glUseProgram_L(_ program:GLuint) {
     glUseProgram_P = unsafeBitCast(getAddress(CommandInfo("glUseProgram", [S6, S20, S24])), to: Swift.type(of: glUseProgram_P))
     glUseProgram_P(program)
@@ -11616,47 +11667,47 @@ func glUseShaderProgramEXT_L(_ type:GLenum, _ program:GLuint) {
     glUseShaderProgramEXT_P(type, program)
 }
 func glVDPAUFiniNV_L() {
-    glVDPAUFiniNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAUFiniNV", [S334])), to: Swift.type(of: glVDPAUFiniNV_P))
+    glVDPAUFiniNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAUFiniNV", [S337])), to: Swift.type(of: glVDPAUFiniNV_P))
     glVDPAUFiniNV_P()
 }
-func glVDPAUGetSurfaceivNV_L(_ surface:GLvdpauSurfaceNV, _ pname:GLenum, _ bufSize:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ values:UnsafeMutablePointer<GLint>?) {
-    glVDPAUGetSurfaceivNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAUGetSurfaceivNV", [S334])), to: Swift.type(of: glVDPAUGetSurfaceivNV_P))
-    glVDPAUGetSurfaceivNV_P(surface, pname, bufSize, length, values)
+func glVDPAUGetSurfaceivNV_L(_ surface:GLvdpauSurfaceNV, _ pname:GLenum, _ count:GLsizei, _ length:UnsafeMutablePointer<GLsizei>?, _ values:UnsafeMutablePointer<GLint>?) {
+    glVDPAUGetSurfaceivNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAUGetSurfaceivNV", [S337])), to: Swift.type(of: glVDPAUGetSurfaceivNV_P))
+    glVDPAUGetSurfaceivNV_P(surface, pname, count, length, values)
 }
 func glVDPAUInitNV_L(_ vdpDevice:UnsafeRawPointer?, _ getProcAddress:UnsafeRawPointer?) {
-    glVDPAUInitNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAUInitNV", [S334])), to: Swift.type(of: glVDPAUInitNV_P))
+    glVDPAUInitNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAUInitNV", [S337])), to: Swift.type(of: glVDPAUInitNV_P))
     glVDPAUInitNV_P(vdpDevice, getProcAddress)
 }
 func glVDPAUIsSurfaceNV_L(_ surface:GLvdpauSurfaceNV) -> GLboolean {
-    glVDPAUIsSurfaceNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAUIsSurfaceNV", [S334])), to: Swift.type(of: glVDPAUIsSurfaceNV_P))
+    glVDPAUIsSurfaceNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAUIsSurfaceNV", [S337])), to: Swift.type(of: glVDPAUIsSurfaceNV_P))
     return glVDPAUIsSurfaceNV_P(surface)
 }
 func glVDPAUMapSurfacesNV_L(_ numSurfaces:GLsizei, _ surfaces:UnsafePointer<GLvdpauSurfaceNV>?) {
-    glVDPAUMapSurfacesNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAUMapSurfacesNV", [S334])), to: Swift.type(of: glVDPAUMapSurfacesNV_P))
+    glVDPAUMapSurfacesNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAUMapSurfacesNV", [S337])), to: Swift.type(of: glVDPAUMapSurfacesNV_P))
     glVDPAUMapSurfacesNV_P(numSurfaces, surfaces)
 }
 func glVDPAURegisterOutputSurfaceNV_L(_ vdpSurface:UnsafeRawPointer?, _ target:GLenum, _ numTextureNames:GLsizei, _ textureNames:UnsafePointer<GLuint>?) -> GLvdpauSurfaceNV {
-    glVDPAURegisterOutputSurfaceNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAURegisterOutputSurfaceNV", [S334])), to: Swift.type(of: glVDPAURegisterOutputSurfaceNV_P))
+    glVDPAURegisterOutputSurfaceNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAURegisterOutputSurfaceNV", [S337])), to: Swift.type(of: glVDPAURegisterOutputSurfaceNV_P))
     return glVDPAURegisterOutputSurfaceNV_P(vdpSurface, target, numTextureNames, textureNames)
 }
 func glVDPAURegisterVideoSurfaceNV_L(_ vdpSurface:UnsafeRawPointer?, _ target:GLenum, _ numTextureNames:GLsizei, _ textureNames:UnsafePointer<GLuint>?) -> GLvdpauSurfaceNV {
-    glVDPAURegisterVideoSurfaceNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAURegisterVideoSurfaceNV", [S334])), to: Swift.type(of: glVDPAURegisterVideoSurfaceNV_P))
+    glVDPAURegisterVideoSurfaceNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAURegisterVideoSurfaceNV", [S337])), to: Swift.type(of: glVDPAURegisterVideoSurfaceNV_P))
     return glVDPAURegisterVideoSurfaceNV_P(vdpSurface, target, numTextureNames, textureNames)
 }
 func glVDPAURegisterVideoSurfaceWithPictureStructureNV_L(_ vdpSurface:UnsafeRawPointer?, _ target:GLenum, _ numTextureNames:GLsizei, _ textureNames:UnsafePointer<GLuint>?, _ isFrameStructure:GLboolean) -> GLvdpauSurfaceNV {
-    glVDPAURegisterVideoSurfaceWithPictureStructureNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAURegisterVideoSurfaceWithPictureStructureNV", [S335])), to: Swift.type(of: glVDPAURegisterVideoSurfaceWithPictureStructureNV_P))
+    glVDPAURegisterVideoSurfaceWithPictureStructureNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAURegisterVideoSurfaceWithPictureStructureNV", [S338])), to: Swift.type(of: glVDPAURegisterVideoSurfaceWithPictureStructureNV_P))
     return glVDPAURegisterVideoSurfaceWithPictureStructureNV_P(vdpSurface, target, numTextureNames, textureNames, isFrameStructure)
 }
 func glVDPAUSurfaceAccessNV_L(_ surface:GLvdpauSurfaceNV, _ access:GLenum) {
-    glVDPAUSurfaceAccessNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAUSurfaceAccessNV", [S334])), to: Swift.type(of: glVDPAUSurfaceAccessNV_P))
+    glVDPAUSurfaceAccessNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAUSurfaceAccessNV", [S337])), to: Swift.type(of: glVDPAUSurfaceAccessNV_P))
     glVDPAUSurfaceAccessNV_P(surface, access)
 }
 func glVDPAUUnmapSurfacesNV_L(_ numSurface:GLsizei, _ surfaces:UnsafePointer<GLvdpauSurfaceNV>?) {
-    glVDPAUUnmapSurfacesNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAUUnmapSurfacesNV", [S334])), to: Swift.type(of: glVDPAUUnmapSurfacesNV_P))
+    glVDPAUUnmapSurfacesNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAUUnmapSurfacesNV", [S337])), to: Swift.type(of: glVDPAUUnmapSurfacesNV_P))
     glVDPAUUnmapSurfacesNV_P(numSurface, surfaces)
 }
 func glVDPAUUnregisterSurfaceNV_L(_ surface:GLvdpauSurfaceNV) {
-    glVDPAUUnregisterSurfaceNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAUUnregisterSurfaceNV", [S334])), to: Swift.type(of: glVDPAUUnregisterSurfaceNV_P))
+    glVDPAUUnregisterSurfaceNV_P = unsafeBitCast(getAddress(CommandInfo("glVDPAUUnregisterSurfaceNV", [S337])), to: Swift.type(of: glVDPAUUnregisterSurfaceNV_P))
     glVDPAUUnregisterSurfaceNV_P(surface)
 }
 func glValidateProgram_L(_ program:GLuint) {
@@ -11716,11 +11767,11 @@ func glVariantusvEXT_L(_ id:GLuint, _ addr:UnsafePointer<GLushort>?) {
     glVariantusvEXT_P(id, addr)
 }
 func glVertex2bOES_L(_ x:GLbyte, _ y:GLbyte) {
-    glVertex2bOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex2bOES", [S348])), to: Swift.type(of: glVertex2bOES_P))
+    glVertex2bOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex2bOES", [S351])), to: Swift.type(of: glVertex2bOES_P))
     glVertex2bOES_P(x, y)
 }
 func glVertex2bvOES_L(_ coords:UnsafePointer<GLbyte>?) {
-    glVertex2bvOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex2bvOES", [S348])), to: Swift.type(of: glVertex2bvOES_P))
+    glVertex2bvOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex2bvOES", [S351])), to: Swift.type(of: glVertex2bvOES_P))
     glVertex2bvOES_P(coords)
 }
 func glVertex2d_L(_ x:GLdouble, _ y:GLdouble) {
@@ -11740,11 +11791,11 @@ func glVertex2fv_L(_ v:UnsafePointer<GLfloat>?) {
     glVertex2fv_P(v)
 }
 func glVertex2hNV_L(_ x:GLhalfNV, _ y:GLhalfNV) {
-    glVertex2hNV_P = unsafeBitCast(getAddress(CommandInfo("glVertex2hNV", [S307])), to: Swift.type(of: glVertex2hNV_P))
+    glVertex2hNV_P = unsafeBitCast(getAddress(CommandInfo("glVertex2hNV", [S310])), to: Swift.type(of: glVertex2hNV_P))
     glVertex2hNV_P(x, y)
 }
 func glVertex2hvNV_L(_ v:UnsafePointer<GLhalfNV>?) {
-    glVertex2hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertex2hvNV", [S307])), to: Swift.type(of: glVertex2hvNV_P))
+    glVertex2hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertex2hvNV", [S310])), to: Swift.type(of: glVertex2hvNV_P))
     glVertex2hvNV_P(v)
 }
 func glVertex2i_L(_ x:GLint, _ y:GLint) {
@@ -11764,19 +11815,19 @@ func glVertex2sv_L(_ v:UnsafePointer<GLshort>?) {
     glVertex2sv_P(v)
 }
 func glVertex2xOES_L(_ x:GLfixed) {
-    glVertex2xOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex2xOES", [S353])), to: Swift.type(of: glVertex2xOES_P))
+    glVertex2xOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex2xOES", [S356])), to: Swift.type(of: glVertex2xOES_P))
     glVertex2xOES_P(x)
 }
 func glVertex2xvOES_L(_ coords:UnsafePointer<GLfixed>?) {
-    glVertex2xvOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex2xvOES", [S353])), to: Swift.type(of: glVertex2xvOES_P))
+    glVertex2xvOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex2xvOES", [S356])), to: Swift.type(of: glVertex2xvOES_P))
     glVertex2xvOES_P(coords)
 }
 func glVertex3bOES_L(_ x:GLbyte, _ y:GLbyte, _ z:GLbyte) {
-    glVertex3bOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex3bOES", [S348])), to: Swift.type(of: glVertex3bOES_P))
+    glVertex3bOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex3bOES", [S351])), to: Swift.type(of: glVertex3bOES_P))
     glVertex3bOES_P(x, y, z)
 }
 func glVertex3bvOES_L(_ coords:UnsafePointer<GLbyte>?) {
-    glVertex3bvOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex3bvOES", [S348])), to: Swift.type(of: glVertex3bvOES_P))
+    glVertex3bvOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex3bvOES", [S351])), to: Swift.type(of: glVertex3bvOES_P))
     glVertex3bvOES_P(coords)
 }
 func glVertex3d_L(_ x:GLdouble, _ y:GLdouble, _ z:GLdouble) {
@@ -11796,11 +11847,11 @@ func glVertex3fv_L(_ v:UnsafePointer<GLfloat>?) {
     glVertex3fv_P(v)
 }
 func glVertex3hNV_L(_ x:GLhalfNV, _ y:GLhalfNV, _ z:GLhalfNV) {
-    glVertex3hNV_P = unsafeBitCast(getAddress(CommandInfo("glVertex3hNV", [S307])), to: Swift.type(of: glVertex3hNV_P))
+    glVertex3hNV_P = unsafeBitCast(getAddress(CommandInfo("glVertex3hNV", [S310])), to: Swift.type(of: glVertex3hNV_P))
     glVertex3hNV_P(x, y, z)
 }
 func glVertex3hvNV_L(_ v:UnsafePointer<GLhalfNV>?) {
-    glVertex3hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertex3hvNV", [S307])), to: Swift.type(of: glVertex3hvNV_P))
+    glVertex3hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertex3hvNV", [S310])), to: Swift.type(of: glVertex3hvNV_P))
     glVertex3hvNV_P(v)
 }
 func glVertex3i_L(_ x:GLint, _ y:GLint, _ z:GLint) {
@@ -11820,19 +11871,19 @@ func glVertex3sv_L(_ v:UnsafePointer<GLshort>?) {
     glVertex3sv_P(v)
 }
 func glVertex3xOES_L(_ x:GLfixed, _ y:GLfixed) {
-    glVertex3xOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex3xOES", [S353])), to: Swift.type(of: glVertex3xOES_P))
+    glVertex3xOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex3xOES", [S356])), to: Swift.type(of: glVertex3xOES_P))
     glVertex3xOES_P(x, y)
 }
 func glVertex3xvOES_L(_ coords:UnsafePointer<GLfixed>?) {
-    glVertex3xvOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex3xvOES", [S353])), to: Swift.type(of: glVertex3xvOES_P))
+    glVertex3xvOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex3xvOES", [S356])), to: Swift.type(of: glVertex3xvOES_P))
     glVertex3xvOES_P(coords)
 }
 func glVertex4bOES_L(_ x:GLbyte, _ y:GLbyte, _ z:GLbyte, _ w:GLbyte) {
-    glVertex4bOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex4bOES", [S348])), to: Swift.type(of: glVertex4bOES_P))
+    glVertex4bOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex4bOES", [S351])), to: Swift.type(of: glVertex4bOES_P))
     glVertex4bOES_P(x, y, z, w)
 }
 func glVertex4bvOES_L(_ coords:UnsafePointer<GLbyte>?) {
-    glVertex4bvOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex4bvOES", [S348])), to: Swift.type(of: glVertex4bvOES_P))
+    glVertex4bvOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex4bvOES", [S351])), to: Swift.type(of: glVertex4bvOES_P))
     glVertex4bvOES_P(coords)
 }
 func glVertex4d_L(_ x:GLdouble, _ y:GLdouble, _ z:GLdouble, _ w:GLdouble) {
@@ -11852,11 +11903,11 @@ func glVertex4fv_L(_ v:UnsafePointer<GLfloat>?) {
     glVertex4fv_P(v)
 }
 func glVertex4hNV_L(_ x:GLhalfNV, _ y:GLhalfNV, _ z:GLhalfNV, _ w:GLhalfNV) {
-    glVertex4hNV_P = unsafeBitCast(getAddress(CommandInfo("glVertex4hNV", [S307])), to: Swift.type(of: glVertex4hNV_P))
+    glVertex4hNV_P = unsafeBitCast(getAddress(CommandInfo("glVertex4hNV", [S310])), to: Swift.type(of: glVertex4hNV_P))
     glVertex4hNV_P(x, y, z, w)
 }
 func glVertex4hvNV_L(_ v:UnsafePointer<GLhalfNV>?) {
-    glVertex4hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertex4hvNV", [S307])), to: Swift.type(of: glVertex4hvNV_P))
+    glVertex4hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertex4hvNV", [S310])), to: Swift.type(of: glVertex4hvNV_P))
     glVertex4hvNV_P(v)
 }
 func glVertex4i_L(_ x:GLint, _ y:GLint, _ z:GLint, _ w:GLint) {
@@ -11876,11 +11927,11 @@ func glVertex4sv_L(_ v:UnsafePointer<GLshort>?) {
     glVertex4sv_P(v)
 }
 func glVertex4xOES_L(_ x:GLfixed, _ y:GLfixed, _ z:GLfixed) {
-    glVertex4xOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex4xOES", [S353])), to: Swift.type(of: glVertex4xOES_P))
+    glVertex4xOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex4xOES", [S356])), to: Swift.type(of: glVertex4xOES_P))
     glVertex4xOES_P(x, y, z)
 }
 func glVertex4xvOES_L(_ coords:UnsafePointer<GLfixed>?) {
-    glVertex4xvOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex4xvOES", [S353])), to: Swift.type(of: glVertex4xvOES_P))
+    glVertex4xvOES_P = unsafeBitCast(getAddress(CommandInfo("glVertex4xvOES", [S356])), to: Swift.type(of: glVertex4xvOES_P))
     glVertex4xvOES_P(coords)
 }
 func glVertexArrayAttribBinding_L(_ vaobj:GLuint, _ attribindex:GLuint, _ bindingindex:GLuint) {
@@ -11944,7 +11995,7 @@ func glVertexArrayRangeAPPLE_L(_ length:GLsizei, _ pointer:UnsafeMutableRawPoint
     glVertexArrayRangeAPPLE_P(length, pointer)
 }
 func glVertexArrayRangeNV_L(_ length:GLsizei, _ pointer:UnsafeRawPointer?) {
-    glVertexArrayRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexArrayRangeNV", [S336])), to: Swift.type(of: glVertexArrayRangeNV_P))
+    glVertexArrayRangeNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexArrayRangeNV", [S339])), to: Swift.type(of: glVertexArrayRangeNV_P))
     glVertexArrayRangeNV_P(length, pointer)
 }
 func glVertexArraySecondaryColorOffsetEXT_L(_ vaobj:GLuint, _ buffer:GLuint, _ size:GLint, _ type:GLenum, _ stride:GLsizei, _ offset:GLintptr) {
@@ -12012,7 +12063,7 @@ func glVertexAttrib1dARB_L(_ index:GLuint, _ x:GLdouble) {
     glVertexAttrib1dARB_P(index, x)
 }
 func glVertexAttrib1dNV_L(_ index:GLuint, _ x:GLdouble) {
-    glVertexAttrib1dNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib1dNV", [S339])), to: Swift.type(of: glVertexAttrib1dNV_P))
+    glVertexAttrib1dNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib1dNV", [S342])), to: Swift.type(of: glVertexAttrib1dNV_P))
     glVertexAttrib1dNV_P(index, x)
 }
 func glVertexAttrib1dv_L(_ index:GLuint, _ v:UnsafePointer<GLdouble>?) {
@@ -12024,7 +12075,7 @@ func glVertexAttrib1dvARB_L(_ index:GLuint, _ v:UnsafePointer<GLdouble>?) {
     glVertexAttrib1dvARB_P(index, v)
 }
 func glVertexAttrib1dvNV_L(_ index:GLuint, _ v:UnsafePointer<GLdouble>?) {
-    glVertexAttrib1dvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib1dvNV", [S339])), to: Swift.type(of: glVertexAttrib1dvNV_P))
+    glVertexAttrib1dvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib1dvNV", [S342])), to: Swift.type(of: glVertexAttrib1dvNV_P))
     glVertexAttrib1dvNV_P(index, v)
 }
 func glVertexAttrib1f_L(_ index:GLuint, _ x:GLfloat) {
@@ -12036,7 +12087,7 @@ func glVertexAttrib1fARB_L(_ index:GLuint, _ x:GLfloat) {
     glVertexAttrib1fARB_P(index, x)
 }
 func glVertexAttrib1fNV_L(_ index:GLuint, _ x:GLfloat) {
-    glVertexAttrib1fNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib1fNV", [S339])), to: Swift.type(of: glVertexAttrib1fNV_P))
+    glVertexAttrib1fNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib1fNV", [S342])), to: Swift.type(of: glVertexAttrib1fNV_P))
     glVertexAttrib1fNV_P(index, x)
 }
 func glVertexAttrib1fv_L(_ index:GLuint, _ v:UnsafePointer<GLfloat>?) {
@@ -12048,15 +12099,15 @@ func glVertexAttrib1fvARB_L(_ index:GLuint, _ v:UnsafePointer<GLfloat>?) {
     glVertexAttrib1fvARB_P(index, v)
 }
 func glVertexAttrib1fvNV_L(_ index:GLuint, _ v:UnsafePointer<GLfloat>?) {
-    glVertexAttrib1fvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib1fvNV", [S339])), to: Swift.type(of: glVertexAttrib1fvNV_P))
+    glVertexAttrib1fvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib1fvNV", [S342])), to: Swift.type(of: glVertexAttrib1fvNV_P))
     glVertexAttrib1fvNV_P(index, v)
 }
 func glVertexAttrib1hNV_L(_ index:GLuint, _ x:GLhalfNV) {
-    glVertexAttrib1hNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib1hNV", [S307])), to: Swift.type(of: glVertexAttrib1hNV_P))
+    glVertexAttrib1hNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib1hNV", [S310])), to: Swift.type(of: glVertexAttrib1hNV_P))
     glVertexAttrib1hNV_P(index, x)
 }
 func glVertexAttrib1hvNV_L(_ index:GLuint, _ v:UnsafePointer<GLhalfNV>?) {
-    glVertexAttrib1hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib1hvNV", [S307])), to: Swift.type(of: glVertexAttrib1hvNV_P))
+    glVertexAttrib1hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib1hvNV", [S310])), to: Swift.type(of: glVertexAttrib1hvNV_P))
     glVertexAttrib1hvNV_P(index, v)
 }
 func glVertexAttrib1s_L(_ index:GLuint, _ x:GLshort) {
@@ -12068,7 +12119,7 @@ func glVertexAttrib1sARB_L(_ index:GLuint, _ x:GLshort) {
     glVertexAttrib1sARB_P(index, x)
 }
 func glVertexAttrib1sNV_L(_ index:GLuint, _ x:GLshort) {
-    glVertexAttrib1sNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib1sNV", [S339])), to: Swift.type(of: glVertexAttrib1sNV_P))
+    glVertexAttrib1sNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib1sNV", [S342])), to: Swift.type(of: glVertexAttrib1sNV_P))
     glVertexAttrib1sNV_P(index, x)
 }
 func glVertexAttrib1sv_L(_ index:GLuint, _ v:UnsafePointer<GLshort>?) {
@@ -12080,7 +12131,7 @@ func glVertexAttrib1svARB_L(_ index:GLuint, _ v:UnsafePointer<GLshort>?) {
     glVertexAttrib1svARB_P(index, v)
 }
 func glVertexAttrib1svNV_L(_ index:GLuint, _ v:UnsafePointer<GLshort>?) {
-    glVertexAttrib1svNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib1svNV", [S339])), to: Swift.type(of: glVertexAttrib1svNV_P))
+    glVertexAttrib1svNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib1svNV", [S342])), to: Swift.type(of: glVertexAttrib1svNV_P))
     glVertexAttrib1svNV_P(index, v)
 }
 func glVertexAttrib2d_L(_ index:GLuint, _ x:GLdouble, _ y:GLdouble) {
@@ -12092,7 +12143,7 @@ func glVertexAttrib2dARB_L(_ index:GLuint, _ x:GLdouble, _ y:GLdouble) {
     glVertexAttrib2dARB_P(index, x, y)
 }
 func glVertexAttrib2dNV_L(_ index:GLuint, _ x:GLdouble, _ y:GLdouble) {
-    glVertexAttrib2dNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib2dNV", [S339])), to: Swift.type(of: glVertexAttrib2dNV_P))
+    glVertexAttrib2dNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib2dNV", [S342])), to: Swift.type(of: glVertexAttrib2dNV_P))
     glVertexAttrib2dNV_P(index, x, y)
 }
 func glVertexAttrib2dv_L(_ index:GLuint, _ v:UnsafePointer<GLdouble>?) {
@@ -12104,7 +12155,7 @@ func glVertexAttrib2dvARB_L(_ index:GLuint, _ v:UnsafePointer<GLdouble>?) {
     glVertexAttrib2dvARB_P(index, v)
 }
 func glVertexAttrib2dvNV_L(_ index:GLuint, _ v:UnsafePointer<GLdouble>?) {
-    glVertexAttrib2dvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib2dvNV", [S339])), to: Swift.type(of: glVertexAttrib2dvNV_P))
+    glVertexAttrib2dvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib2dvNV", [S342])), to: Swift.type(of: glVertexAttrib2dvNV_P))
     glVertexAttrib2dvNV_P(index, v)
 }
 func glVertexAttrib2f_L(_ index:GLuint, _ x:GLfloat, _ y:GLfloat) {
@@ -12116,7 +12167,7 @@ func glVertexAttrib2fARB_L(_ index:GLuint, _ x:GLfloat, _ y:GLfloat) {
     glVertexAttrib2fARB_P(index, x, y)
 }
 func glVertexAttrib2fNV_L(_ index:GLuint, _ x:GLfloat, _ y:GLfloat) {
-    glVertexAttrib2fNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib2fNV", [S339])), to: Swift.type(of: glVertexAttrib2fNV_P))
+    glVertexAttrib2fNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib2fNV", [S342])), to: Swift.type(of: glVertexAttrib2fNV_P))
     glVertexAttrib2fNV_P(index, x, y)
 }
 func glVertexAttrib2fv_L(_ index:GLuint, _ v:UnsafePointer<GLfloat>?) {
@@ -12128,15 +12179,15 @@ func glVertexAttrib2fvARB_L(_ index:GLuint, _ v:UnsafePointer<GLfloat>?) {
     glVertexAttrib2fvARB_P(index, v)
 }
 func glVertexAttrib2fvNV_L(_ index:GLuint, _ v:UnsafePointer<GLfloat>?) {
-    glVertexAttrib2fvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib2fvNV", [S339])), to: Swift.type(of: glVertexAttrib2fvNV_P))
+    glVertexAttrib2fvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib2fvNV", [S342])), to: Swift.type(of: glVertexAttrib2fvNV_P))
     glVertexAttrib2fvNV_P(index, v)
 }
 func glVertexAttrib2hNV_L(_ index:GLuint, _ x:GLhalfNV, _ y:GLhalfNV) {
-    glVertexAttrib2hNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib2hNV", [S307])), to: Swift.type(of: glVertexAttrib2hNV_P))
+    glVertexAttrib2hNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib2hNV", [S310])), to: Swift.type(of: glVertexAttrib2hNV_P))
     glVertexAttrib2hNV_P(index, x, y)
 }
 func glVertexAttrib2hvNV_L(_ index:GLuint, _ v:UnsafePointer<GLhalfNV>?) {
-    glVertexAttrib2hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib2hvNV", [S307])), to: Swift.type(of: glVertexAttrib2hvNV_P))
+    glVertexAttrib2hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib2hvNV", [S310])), to: Swift.type(of: glVertexAttrib2hvNV_P))
     glVertexAttrib2hvNV_P(index, v)
 }
 func glVertexAttrib2s_L(_ index:GLuint, _ x:GLshort, _ y:GLshort) {
@@ -12148,7 +12199,7 @@ func glVertexAttrib2sARB_L(_ index:GLuint, _ x:GLshort, _ y:GLshort) {
     glVertexAttrib2sARB_P(index, x, y)
 }
 func glVertexAttrib2sNV_L(_ index:GLuint, _ x:GLshort, _ y:GLshort) {
-    glVertexAttrib2sNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib2sNV", [S339])), to: Swift.type(of: glVertexAttrib2sNV_P))
+    glVertexAttrib2sNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib2sNV", [S342])), to: Swift.type(of: glVertexAttrib2sNV_P))
     glVertexAttrib2sNV_P(index, x, y)
 }
 func glVertexAttrib2sv_L(_ index:GLuint, _ v:UnsafePointer<GLshort>?) {
@@ -12160,7 +12211,7 @@ func glVertexAttrib2svARB_L(_ index:GLuint, _ v:UnsafePointer<GLshort>?) {
     glVertexAttrib2svARB_P(index, v)
 }
 func glVertexAttrib2svNV_L(_ index:GLuint, _ v:UnsafePointer<GLshort>?) {
-    glVertexAttrib2svNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib2svNV", [S339])), to: Swift.type(of: glVertexAttrib2svNV_P))
+    glVertexAttrib2svNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib2svNV", [S342])), to: Swift.type(of: glVertexAttrib2svNV_P))
     glVertexAttrib2svNV_P(index, v)
 }
 func glVertexAttrib3d_L(_ index:GLuint, _ x:GLdouble, _ y:GLdouble, _ z:GLdouble) {
@@ -12172,7 +12223,7 @@ func glVertexAttrib3dARB_L(_ index:GLuint, _ x:GLdouble, _ y:GLdouble, _ z:GLdou
     glVertexAttrib3dARB_P(index, x, y, z)
 }
 func glVertexAttrib3dNV_L(_ index:GLuint, _ x:GLdouble, _ y:GLdouble, _ z:GLdouble) {
-    glVertexAttrib3dNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib3dNV", [S339])), to: Swift.type(of: glVertexAttrib3dNV_P))
+    glVertexAttrib3dNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib3dNV", [S342])), to: Swift.type(of: glVertexAttrib3dNV_P))
     glVertexAttrib3dNV_P(index, x, y, z)
 }
 func glVertexAttrib3dv_L(_ index:GLuint, _ v:UnsafePointer<GLdouble>?) {
@@ -12184,7 +12235,7 @@ func glVertexAttrib3dvARB_L(_ index:GLuint, _ v:UnsafePointer<GLdouble>?) {
     glVertexAttrib3dvARB_P(index, v)
 }
 func glVertexAttrib3dvNV_L(_ index:GLuint, _ v:UnsafePointer<GLdouble>?) {
-    glVertexAttrib3dvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib3dvNV", [S339])), to: Swift.type(of: glVertexAttrib3dvNV_P))
+    glVertexAttrib3dvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib3dvNV", [S342])), to: Swift.type(of: glVertexAttrib3dvNV_P))
     glVertexAttrib3dvNV_P(index, v)
 }
 func glVertexAttrib3f_L(_ index:GLuint, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
@@ -12196,7 +12247,7 @@ func glVertexAttrib3fARB_L(_ index:GLuint, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat
     glVertexAttrib3fARB_P(index, x, y, z)
 }
 func glVertexAttrib3fNV_L(_ index:GLuint, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glVertexAttrib3fNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib3fNV", [S339])), to: Swift.type(of: glVertexAttrib3fNV_P))
+    glVertexAttrib3fNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib3fNV", [S342])), to: Swift.type(of: glVertexAttrib3fNV_P))
     glVertexAttrib3fNV_P(index, x, y, z)
 }
 func glVertexAttrib3fv_L(_ index:GLuint, _ v:UnsafePointer<GLfloat>?) {
@@ -12208,15 +12259,15 @@ func glVertexAttrib3fvARB_L(_ index:GLuint, _ v:UnsafePointer<GLfloat>?) {
     glVertexAttrib3fvARB_P(index, v)
 }
 func glVertexAttrib3fvNV_L(_ index:GLuint, _ v:UnsafePointer<GLfloat>?) {
-    glVertexAttrib3fvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib3fvNV", [S339])), to: Swift.type(of: glVertexAttrib3fvNV_P))
+    glVertexAttrib3fvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib3fvNV", [S342])), to: Swift.type(of: glVertexAttrib3fvNV_P))
     glVertexAttrib3fvNV_P(index, v)
 }
 func glVertexAttrib3hNV_L(_ index:GLuint, _ x:GLhalfNV, _ y:GLhalfNV, _ z:GLhalfNV) {
-    glVertexAttrib3hNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib3hNV", [S307])), to: Swift.type(of: glVertexAttrib3hNV_P))
+    glVertexAttrib3hNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib3hNV", [S310])), to: Swift.type(of: glVertexAttrib3hNV_P))
     glVertexAttrib3hNV_P(index, x, y, z)
 }
 func glVertexAttrib3hvNV_L(_ index:GLuint, _ v:UnsafePointer<GLhalfNV>?) {
-    glVertexAttrib3hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib3hvNV", [S307])), to: Swift.type(of: glVertexAttrib3hvNV_P))
+    glVertexAttrib3hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib3hvNV", [S310])), to: Swift.type(of: glVertexAttrib3hvNV_P))
     glVertexAttrib3hvNV_P(index, v)
 }
 func glVertexAttrib3s_L(_ index:GLuint, _ x:GLshort, _ y:GLshort, _ z:GLshort) {
@@ -12228,7 +12279,7 @@ func glVertexAttrib3sARB_L(_ index:GLuint, _ x:GLshort, _ y:GLshort, _ z:GLshort
     glVertexAttrib3sARB_P(index, x, y, z)
 }
 func glVertexAttrib3sNV_L(_ index:GLuint, _ x:GLshort, _ y:GLshort, _ z:GLshort) {
-    glVertexAttrib3sNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib3sNV", [S339])), to: Swift.type(of: glVertexAttrib3sNV_P))
+    glVertexAttrib3sNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib3sNV", [S342])), to: Swift.type(of: glVertexAttrib3sNV_P))
     glVertexAttrib3sNV_P(index, x, y, z)
 }
 func glVertexAttrib3sv_L(_ index:GLuint, _ v:UnsafePointer<GLshort>?) {
@@ -12240,7 +12291,7 @@ func glVertexAttrib3svARB_L(_ index:GLuint, _ v:UnsafePointer<GLshort>?) {
     glVertexAttrib3svARB_P(index, v)
 }
 func glVertexAttrib3svNV_L(_ index:GLuint, _ v:UnsafePointer<GLshort>?) {
-    glVertexAttrib3svNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib3svNV", [S339])), to: Swift.type(of: glVertexAttrib3svNV_P))
+    glVertexAttrib3svNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib3svNV", [S342])), to: Swift.type(of: glVertexAttrib3svNV_P))
     glVertexAttrib3svNV_P(index, v)
 }
 func glVertexAttrib4Nbv_L(_ index:GLuint, _ v:UnsafePointer<GLbyte>?) {
@@ -12316,7 +12367,7 @@ func glVertexAttrib4dARB_L(_ index:GLuint, _ x:GLdouble, _ y:GLdouble, _ z:GLdou
     glVertexAttrib4dARB_P(index, x, y, z, w)
 }
 func glVertexAttrib4dNV_L(_ index:GLuint, _ x:GLdouble, _ y:GLdouble, _ z:GLdouble, _ w:GLdouble) {
-    glVertexAttrib4dNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4dNV", [S339])), to: Swift.type(of: glVertexAttrib4dNV_P))
+    glVertexAttrib4dNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4dNV", [S342])), to: Swift.type(of: glVertexAttrib4dNV_P))
     glVertexAttrib4dNV_P(index, x, y, z, w)
 }
 func glVertexAttrib4dv_L(_ index:GLuint, _ v:UnsafePointer<GLdouble>?) {
@@ -12328,7 +12379,7 @@ func glVertexAttrib4dvARB_L(_ index:GLuint, _ v:UnsafePointer<GLdouble>?) {
     glVertexAttrib4dvARB_P(index, v)
 }
 func glVertexAttrib4dvNV_L(_ index:GLuint, _ v:UnsafePointer<GLdouble>?) {
-    glVertexAttrib4dvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4dvNV", [S339])), to: Swift.type(of: glVertexAttrib4dvNV_P))
+    glVertexAttrib4dvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4dvNV", [S342])), to: Swift.type(of: glVertexAttrib4dvNV_P))
     glVertexAttrib4dvNV_P(index, v)
 }
 func glVertexAttrib4f_L(_ index:GLuint, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat, _ w:GLfloat) {
@@ -12340,7 +12391,7 @@ func glVertexAttrib4fARB_L(_ index:GLuint, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat
     glVertexAttrib4fARB_P(index, x, y, z, w)
 }
 func glVertexAttrib4fNV_L(_ index:GLuint, _ x:GLfloat, _ y:GLfloat, _ z:GLfloat, _ w:GLfloat) {
-    glVertexAttrib4fNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4fNV", [S339])), to: Swift.type(of: glVertexAttrib4fNV_P))
+    glVertexAttrib4fNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4fNV", [S342])), to: Swift.type(of: glVertexAttrib4fNV_P))
     glVertexAttrib4fNV_P(index, x, y, z, w)
 }
 func glVertexAttrib4fv_L(_ index:GLuint, _ v:UnsafePointer<GLfloat>?) {
@@ -12352,15 +12403,15 @@ func glVertexAttrib4fvARB_L(_ index:GLuint, _ v:UnsafePointer<GLfloat>?) {
     glVertexAttrib4fvARB_P(index, v)
 }
 func glVertexAttrib4fvNV_L(_ index:GLuint, _ v:UnsafePointer<GLfloat>?) {
-    glVertexAttrib4fvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4fvNV", [S339])), to: Swift.type(of: glVertexAttrib4fvNV_P))
+    glVertexAttrib4fvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4fvNV", [S342])), to: Swift.type(of: glVertexAttrib4fvNV_P))
     glVertexAttrib4fvNV_P(index, v)
 }
 func glVertexAttrib4hNV_L(_ index:GLuint, _ x:GLhalfNV, _ y:GLhalfNV, _ z:GLhalfNV, _ w:GLhalfNV) {
-    glVertexAttrib4hNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4hNV", [S307])), to: Swift.type(of: glVertexAttrib4hNV_P))
+    glVertexAttrib4hNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4hNV", [S310])), to: Swift.type(of: glVertexAttrib4hNV_P))
     glVertexAttrib4hNV_P(index, x, y, z, w)
 }
 func glVertexAttrib4hvNV_L(_ index:GLuint, _ v:UnsafePointer<GLhalfNV>?) {
-    glVertexAttrib4hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4hvNV", [S307])), to: Swift.type(of: glVertexAttrib4hvNV_P))
+    glVertexAttrib4hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4hvNV", [S310])), to: Swift.type(of: glVertexAttrib4hvNV_P))
     glVertexAttrib4hvNV_P(index, v)
 }
 func glVertexAttrib4iv_L(_ index:GLuint, _ v:UnsafePointer<GLint>?) {
@@ -12380,7 +12431,7 @@ func glVertexAttrib4sARB_L(_ index:GLuint, _ x:GLshort, _ y:GLshort, _ z:GLshort
     glVertexAttrib4sARB_P(index, x, y, z, w)
 }
 func glVertexAttrib4sNV_L(_ index:GLuint, _ x:GLshort, _ y:GLshort, _ z:GLshort, _ w:GLshort) {
-    glVertexAttrib4sNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4sNV", [S339])), to: Swift.type(of: glVertexAttrib4sNV_P))
+    glVertexAttrib4sNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4sNV", [S342])), to: Swift.type(of: glVertexAttrib4sNV_P))
     glVertexAttrib4sNV_P(index, x, y, z, w)
 }
 func glVertexAttrib4sv_L(_ index:GLuint, _ v:UnsafePointer<GLshort>?) {
@@ -12392,11 +12443,11 @@ func glVertexAttrib4svARB_L(_ index:GLuint, _ v:UnsafePointer<GLshort>?) {
     glVertexAttrib4svARB_P(index, v)
 }
 func glVertexAttrib4svNV_L(_ index:GLuint, _ v:UnsafePointer<GLshort>?) {
-    glVertexAttrib4svNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4svNV", [S339])), to: Swift.type(of: glVertexAttrib4svNV_P))
+    glVertexAttrib4svNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4svNV", [S342])), to: Swift.type(of: glVertexAttrib4svNV_P))
     glVertexAttrib4svNV_P(index, v)
 }
 func glVertexAttrib4ubNV_L(_ index:GLuint, _ x:GLubyte, _ y:GLubyte, _ z:GLubyte, _ w:GLubyte) {
-    glVertexAttrib4ubNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4ubNV", [S339])), to: Swift.type(of: glVertexAttrib4ubNV_P))
+    glVertexAttrib4ubNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4ubNV", [S342])), to: Swift.type(of: glVertexAttrib4ubNV_P))
     glVertexAttrib4ubNV_P(index, x, y, z, w)
 }
 func glVertexAttrib4ubv_L(_ index:GLuint, _ v:UnsafePointer<GLubyte>?) {
@@ -12408,7 +12459,7 @@ func glVertexAttrib4ubvARB_L(_ index:GLuint, _ v:UnsafePointer<GLubyte>?) {
     glVertexAttrib4ubvARB_P(index, v)
 }
 func glVertexAttrib4ubvNV_L(_ index:GLuint, _ v:UnsafePointer<GLubyte>?) {
-    glVertexAttrib4ubvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4ubvNV", [S339])), to: Swift.type(of: glVertexAttrib4ubvNV_P))
+    glVertexAttrib4ubvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttrib4ubvNV", [S342])), to: Swift.type(of: glVertexAttrib4ubvNV_P))
     glVertexAttrib4ubvNV_P(index, v)
 }
 func glVertexAttrib4uiv_L(_ index:GLuint, _ v:UnsafePointer<GLuint>?) {
@@ -12452,7 +12503,7 @@ func glVertexAttribDivisorEXT_L(_ index:GLuint, _ divisor:GLuint) {
     glVertexAttribDivisorEXT_P(index, divisor)
 }
 func glVertexAttribDivisorNV_L(_ index:GLuint, _ divisor:GLuint) {
-    glVertexAttribDivisorNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribDivisorNV", [S308])), to: Swift.type(of: glVertexAttribDivisorNV_P))
+    glVertexAttribDivisorNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribDivisorNV", [S311])), to: Swift.type(of: glVertexAttribDivisorNV_P))
     glVertexAttribDivisorNV_P(index, divisor)
 }
 func glVertexAttribFormat_L(_ attribindex:GLuint, _ size:GLint, _ type:GLenum, _ normalized:GLboolean, _ relativeoffset:GLuint) {
@@ -12460,7 +12511,7 @@ func glVertexAttribFormat_L(_ attribindex:GLuint, _ size:GLint, _ type:GLenum, _
     glVertexAttribFormat_P(attribindex, size, type, normalized, relativeoffset)
 }
 func glVertexAttribFormatNV_L(_ index:GLuint, _ size:GLint, _ type:GLenum, _ normalized:GLboolean, _ stride:GLsizei) {
-    glVertexAttribFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribFormatNV", [S338])), to: Swift.type(of: glVertexAttribFormatNV_P))
+    glVertexAttribFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribFormatNV", [S341])), to: Swift.type(of: glVertexAttribFormatNV_P))
     glVertexAttribFormatNV_P(index, size, type, normalized, stride)
 }
 func glVertexAttribI1i_L(_ index:GLuint, _ x:GLint) {
@@ -12468,7 +12519,7 @@ func glVertexAttribI1i_L(_ index:GLuint, _ x:GLint) {
     glVertexAttribI1i_P(index, x)
 }
 func glVertexAttribI1iEXT_L(_ index:GLuint, _ x:GLint) {
-    glVertexAttribI1iEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI1iEXT", [S340])), to: Swift.type(of: glVertexAttribI1iEXT_P))
+    glVertexAttribI1iEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI1iEXT", [S343])), to: Swift.type(of: glVertexAttribI1iEXT_P))
     glVertexAttribI1iEXT_P(index, x)
 }
 func glVertexAttribI1iv_L(_ index:GLuint, _ v:UnsafePointer<GLint>?) {
@@ -12476,7 +12527,7 @@ func glVertexAttribI1iv_L(_ index:GLuint, _ v:UnsafePointer<GLint>?) {
     glVertexAttribI1iv_P(index, v)
 }
 func glVertexAttribI1ivEXT_L(_ index:GLuint, _ v:UnsafePointer<GLint>?) {
-    glVertexAttribI1ivEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI1ivEXT", [S340])), to: Swift.type(of: glVertexAttribI1ivEXT_P))
+    glVertexAttribI1ivEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI1ivEXT", [S343])), to: Swift.type(of: glVertexAttribI1ivEXT_P))
     glVertexAttribI1ivEXT_P(index, v)
 }
 func glVertexAttribI1ui_L(_ index:GLuint, _ x:GLuint) {
@@ -12484,7 +12535,7 @@ func glVertexAttribI1ui_L(_ index:GLuint, _ x:GLuint) {
     glVertexAttribI1ui_P(index, x)
 }
 func glVertexAttribI1uiEXT_L(_ index:GLuint, _ x:GLuint) {
-    glVertexAttribI1uiEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI1uiEXT", [S340])), to: Swift.type(of: glVertexAttribI1uiEXT_P))
+    glVertexAttribI1uiEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI1uiEXT", [S343])), to: Swift.type(of: glVertexAttribI1uiEXT_P))
     glVertexAttribI1uiEXT_P(index, x)
 }
 func glVertexAttribI1uiv_L(_ index:GLuint, _ v:UnsafePointer<GLuint>?) {
@@ -12492,7 +12543,7 @@ func glVertexAttribI1uiv_L(_ index:GLuint, _ v:UnsafePointer<GLuint>?) {
     glVertexAttribI1uiv_P(index, v)
 }
 func glVertexAttribI1uivEXT_L(_ index:GLuint, _ v:UnsafePointer<GLuint>?) {
-    glVertexAttribI1uivEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI1uivEXT", [S340])), to: Swift.type(of: glVertexAttribI1uivEXT_P))
+    glVertexAttribI1uivEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI1uivEXT", [S343])), to: Swift.type(of: glVertexAttribI1uivEXT_P))
     glVertexAttribI1uivEXT_P(index, v)
 }
 func glVertexAttribI2i_L(_ index:GLuint, _ x:GLint, _ y:GLint) {
@@ -12500,7 +12551,7 @@ func glVertexAttribI2i_L(_ index:GLuint, _ x:GLint, _ y:GLint) {
     glVertexAttribI2i_P(index, x, y)
 }
 func glVertexAttribI2iEXT_L(_ index:GLuint, _ x:GLint, _ y:GLint) {
-    glVertexAttribI2iEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI2iEXT", [S340])), to: Swift.type(of: glVertexAttribI2iEXT_P))
+    glVertexAttribI2iEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI2iEXT", [S343])), to: Swift.type(of: glVertexAttribI2iEXT_P))
     glVertexAttribI2iEXT_P(index, x, y)
 }
 func glVertexAttribI2iv_L(_ index:GLuint, _ v:UnsafePointer<GLint>?) {
@@ -12508,7 +12559,7 @@ func glVertexAttribI2iv_L(_ index:GLuint, _ v:UnsafePointer<GLint>?) {
     glVertexAttribI2iv_P(index, v)
 }
 func glVertexAttribI2ivEXT_L(_ index:GLuint, _ v:UnsafePointer<GLint>?) {
-    glVertexAttribI2ivEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI2ivEXT", [S340])), to: Swift.type(of: glVertexAttribI2ivEXT_P))
+    glVertexAttribI2ivEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI2ivEXT", [S343])), to: Swift.type(of: glVertexAttribI2ivEXT_P))
     glVertexAttribI2ivEXT_P(index, v)
 }
 func glVertexAttribI2ui_L(_ index:GLuint, _ x:GLuint, _ y:GLuint) {
@@ -12516,7 +12567,7 @@ func glVertexAttribI2ui_L(_ index:GLuint, _ x:GLuint, _ y:GLuint) {
     glVertexAttribI2ui_P(index, x, y)
 }
 func glVertexAttribI2uiEXT_L(_ index:GLuint, _ x:GLuint, _ y:GLuint) {
-    glVertexAttribI2uiEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI2uiEXT", [S340])), to: Swift.type(of: glVertexAttribI2uiEXT_P))
+    glVertexAttribI2uiEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI2uiEXT", [S343])), to: Swift.type(of: glVertexAttribI2uiEXT_P))
     glVertexAttribI2uiEXT_P(index, x, y)
 }
 func glVertexAttribI2uiv_L(_ index:GLuint, _ v:UnsafePointer<GLuint>?) {
@@ -12524,7 +12575,7 @@ func glVertexAttribI2uiv_L(_ index:GLuint, _ v:UnsafePointer<GLuint>?) {
     glVertexAttribI2uiv_P(index, v)
 }
 func glVertexAttribI2uivEXT_L(_ index:GLuint, _ v:UnsafePointer<GLuint>?) {
-    glVertexAttribI2uivEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI2uivEXT", [S340])), to: Swift.type(of: glVertexAttribI2uivEXT_P))
+    glVertexAttribI2uivEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI2uivEXT", [S343])), to: Swift.type(of: glVertexAttribI2uivEXT_P))
     glVertexAttribI2uivEXT_P(index, v)
 }
 func glVertexAttribI3i_L(_ index:GLuint, _ x:GLint, _ y:GLint, _ z:GLint) {
@@ -12532,7 +12583,7 @@ func glVertexAttribI3i_L(_ index:GLuint, _ x:GLint, _ y:GLint, _ z:GLint) {
     glVertexAttribI3i_P(index, x, y, z)
 }
 func glVertexAttribI3iEXT_L(_ index:GLuint, _ x:GLint, _ y:GLint, _ z:GLint) {
-    glVertexAttribI3iEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI3iEXT", [S340])), to: Swift.type(of: glVertexAttribI3iEXT_P))
+    glVertexAttribI3iEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI3iEXT", [S343])), to: Swift.type(of: glVertexAttribI3iEXT_P))
     glVertexAttribI3iEXT_P(index, x, y, z)
 }
 func glVertexAttribI3iv_L(_ index:GLuint, _ v:UnsafePointer<GLint>?) {
@@ -12540,7 +12591,7 @@ func glVertexAttribI3iv_L(_ index:GLuint, _ v:UnsafePointer<GLint>?) {
     glVertexAttribI3iv_P(index, v)
 }
 func glVertexAttribI3ivEXT_L(_ index:GLuint, _ v:UnsafePointer<GLint>?) {
-    glVertexAttribI3ivEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI3ivEXT", [S340])), to: Swift.type(of: glVertexAttribI3ivEXT_P))
+    glVertexAttribI3ivEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI3ivEXT", [S343])), to: Swift.type(of: glVertexAttribI3ivEXT_P))
     glVertexAttribI3ivEXT_P(index, v)
 }
 func glVertexAttribI3ui_L(_ index:GLuint, _ x:GLuint, _ y:GLuint, _ z:GLuint) {
@@ -12548,7 +12599,7 @@ func glVertexAttribI3ui_L(_ index:GLuint, _ x:GLuint, _ y:GLuint, _ z:GLuint) {
     glVertexAttribI3ui_P(index, x, y, z)
 }
 func glVertexAttribI3uiEXT_L(_ index:GLuint, _ x:GLuint, _ y:GLuint, _ z:GLuint) {
-    glVertexAttribI3uiEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI3uiEXT", [S340])), to: Swift.type(of: glVertexAttribI3uiEXT_P))
+    glVertexAttribI3uiEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI3uiEXT", [S343])), to: Swift.type(of: glVertexAttribI3uiEXT_P))
     glVertexAttribI3uiEXT_P(index, x, y, z)
 }
 func glVertexAttribI3uiv_L(_ index:GLuint, _ v:UnsafePointer<GLuint>?) {
@@ -12556,7 +12607,7 @@ func glVertexAttribI3uiv_L(_ index:GLuint, _ v:UnsafePointer<GLuint>?) {
     glVertexAttribI3uiv_P(index, v)
 }
 func glVertexAttribI3uivEXT_L(_ index:GLuint, _ v:UnsafePointer<GLuint>?) {
-    glVertexAttribI3uivEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI3uivEXT", [S340])), to: Swift.type(of: glVertexAttribI3uivEXT_P))
+    glVertexAttribI3uivEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI3uivEXT", [S343])), to: Swift.type(of: glVertexAttribI3uivEXT_P))
     glVertexAttribI3uivEXT_P(index, v)
 }
 func glVertexAttribI4bv_L(_ index:GLuint, _ v:UnsafePointer<GLbyte>?) {
@@ -12564,7 +12615,7 @@ func glVertexAttribI4bv_L(_ index:GLuint, _ v:UnsafePointer<GLbyte>?) {
     glVertexAttribI4bv_P(index, v)
 }
 func glVertexAttribI4bvEXT_L(_ index:GLuint, _ v:UnsafePointer<GLbyte>?) {
-    glVertexAttribI4bvEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI4bvEXT", [S340])), to: Swift.type(of: glVertexAttribI4bvEXT_P))
+    glVertexAttribI4bvEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI4bvEXT", [S343])), to: Swift.type(of: glVertexAttribI4bvEXT_P))
     glVertexAttribI4bvEXT_P(index, v)
 }
 func glVertexAttribI4i_L(_ index:GLuint, _ x:GLint, _ y:GLint, _ z:GLint, _ w:GLint) {
@@ -12572,7 +12623,7 @@ func glVertexAttribI4i_L(_ index:GLuint, _ x:GLint, _ y:GLint, _ z:GLint, _ w:GL
     glVertexAttribI4i_P(index, x, y, z, w)
 }
 func glVertexAttribI4iEXT_L(_ index:GLuint, _ x:GLint, _ y:GLint, _ z:GLint, _ w:GLint) {
-    glVertexAttribI4iEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI4iEXT", [S340])), to: Swift.type(of: glVertexAttribI4iEXT_P))
+    glVertexAttribI4iEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI4iEXT", [S343])), to: Swift.type(of: glVertexAttribI4iEXT_P))
     glVertexAttribI4iEXT_P(index, x, y, z, w)
 }
 func glVertexAttribI4iv_L(_ index:GLuint, _ v:UnsafePointer<GLint>?) {
@@ -12580,7 +12631,7 @@ func glVertexAttribI4iv_L(_ index:GLuint, _ v:UnsafePointer<GLint>?) {
     glVertexAttribI4iv_P(index, v)
 }
 func glVertexAttribI4ivEXT_L(_ index:GLuint, _ v:UnsafePointer<GLint>?) {
-    glVertexAttribI4ivEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI4ivEXT", [S340])), to: Swift.type(of: glVertexAttribI4ivEXT_P))
+    glVertexAttribI4ivEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI4ivEXT", [S343])), to: Swift.type(of: glVertexAttribI4ivEXT_P))
     glVertexAttribI4ivEXT_P(index, v)
 }
 func glVertexAttribI4sv_L(_ index:GLuint, _ v:UnsafePointer<GLshort>?) {
@@ -12588,7 +12639,7 @@ func glVertexAttribI4sv_L(_ index:GLuint, _ v:UnsafePointer<GLshort>?) {
     glVertexAttribI4sv_P(index, v)
 }
 func glVertexAttribI4svEXT_L(_ index:GLuint, _ v:UnsafePointer<GLshort>?) {
-    glVertexAttribI4svEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI4svEXT", [S340])), to: Swift.type(of: glVertexAttribI4svEXT_P))
+    glVertexAttribI4svEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI4svEXT", [S343])), to: Swift.type(of: glVertexAttribI4svEXT_P))
     glVertexAttribI4svEXT_P(index, v)
 }
 func glVertexAttribI4ubv_L(_ index:GLuint, _ v:UnsafePointer<GLubyte>?) {
@@ -12596,7 +12647,7 @@ func glVertexAttribI4ubv_L(_ index:GLuint, _ v:UnsafePointer<GLubyte>?) {
     glVertexAttribI4ubv_P(index, v)
 }
 func glVertexAttribI4ubvEXT_L(_ index:GLuint, _ v:UnsafePointer<GLubyte>?) {
-    glVertexAttribI4ubvEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI4ubvEXT", [S340])), to: Swift.type(of: glVertexAttribI4ubvEXT_P))
+    glVertexAttribI4ubvEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI4ubvEXT", [S343])), to: Swift.type(of: glVertexAttribI4ubvEXT_P))
     glVertexAttribI4ubvEXT_P(index, v)
 }
 func glVertexAttribI4ui_L(_ index:GLuint, _ x:GLuint, _ y:GLuint, _ z:GLuint, _ w:GLuint) {
@@ -12604,7 +12655,7 @@ func glVertexAttribI4ui_L(_ index:GLuint, _ x:GLuint, _ y:GLuint, _ z:GLuint, _ 
     glVertexAttribI4ui_P(index, x, y, z, w)
 }
 func glVertexAttribI4uiEXT_L(_ index:GLuint, _ x:GLuint, _ y:GLuint, _ z:GLuint, _ w:GLuint) {
-    glVertexAttribI4uiEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI4uiEXT", [S340])), to: Swift.type(of: glVertexAttribI4uiEXT_P))
+    glVertexAttribI4uiEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI4uiEXT", [S343])), to: Swift.type(of: glVertexAttribI4uiEXT_P))
     glVertexAttribI4uiEXT_P(index, x, y, z, w)
 }
 func glVertexAttribI4uiv_L(_ index:GLuint, _ v:UnsafePointer<GLuint>?) {
@@ -12612,7 +12663,7 @@ func glVertexAttribI4uiv_L(_ index:GLuint, _ v:UnsafePointer<GLuint>?) {
     glVertexAttribI4uiv_P(index, v)
 }
 func glVertexAttribI4uivEXT_L(_ index:GLuint, _ v:UnsafePointer<GLuint>?) {
-    glVertexAttribI4uivEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI4uivEXT", [S340])), to: Swift.type(of: glVertexAttribI4uivEXT_P))
+    glVertexAttribI4uivEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI4uivEXT", [S343])), to: Swift.type(of: glVertexAttribI4uivEXT_P))
     glVertexAttribI4uivEXT_P(index, v)
 }
 func glVertexAttribI4usv_L(_ index:GLuint, _ v:UnsafePointer<GLushort>?) {
@@ -12620,7 +12671,7 @@ func glVertexAttribI4usv_L(_ index:GLuint, _ v:UnsafePointer<GLushort>?) {
     glVertexAttribI4usv_P(index, v)
 }
 func glVertexAttribI4usvEXT_L(_ index:GLuint, _ v:UnsafePointer<GLushort>?) {
-    glVertexAttribI4usvEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI4usvEXT", [S340])), to: Swift.type(of: glVertexAttribI4usvEXT_P))
+    glVertexAttribI4usvEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribI4usvEXT", [S343])), to: Swift.type(of: glVertexAttribI4usvEXT_P))
     glVertexAttribI4usvEXT_P(index, v)
 }
 func glVertexAttribIFormat_L(_ attribindex:GLuint, _ size:GLint, _ type:GLenum, _ relativeoffset:GLuint) {
@@ -12628,7 +12679,7 @@ func glVertexAttribIFormat_L(_ attribindex:GLuint, _ size:GLint, _ type:GLenum, 
     glVertexAttribIFormat_P(attribindex, size, type, relativeoffset)
 }
 func glVertexAttribIFormatNV_L(_ index:GLuint, _ size:GLint, _ type:GLenum, _ stride:GLsizei) {
-    glVertexAttribIFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribIFormatNV", [S338])), to: Swift.type(of: glVertexAttribIFormatNV_P))
+    glVertexAttribIFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribIFormatNV", [S341])), to: Swift.type(of: glVertexAttribIFormatNV_P))
     glVertexAttribIFormatNV_P(index, size, type, stride)
 }
 func glVertexAttribIPointer_L(_ index:GLuint, _ size:GLint, _ type:GLenum, _ stride:GLsizei, _ pointer:UnsafeRawPointer?) {
@@ -12636,7 +12687,7 @@ func glVertexAttribIPointer_L(_ index:GLuint, _ size:GLint, _ type:GLenum, _ str
     glVertexAttribIPointer_P(index, size, type, stride, pointer)
 }
 func glVertexAttribIPointerEXT_L(_ index:GLuint, _ size:GLint, _ type:GLenum, _ stride:GLsizei, _ pointer:UnsafeRawPointer?) {
-    glVertexAttribIPointerEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribIPointerEXT", [S340])), to: Swift.type(of: glVertexAttribIPointerEXT_P))
+    glVertexAttribIPointerEXT_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribIPointerEXT", [S343])), to: Swift.type(of: glVertexAttribIPointerEXT_P))
     glVertexAttribIPointerEXT_P(index, size, type, stride, pointer)
 }
 func glVertexAttribL1d_L(_ index:GLuint, _ x:GLdouble) {
@@ -12656,11 +12707,11 @@ func glVertexAttribL1dvEXT_L(_ index:GLuint, _ v:UnsafePointer<GLdouble>?) {
     glVertexAttribL1dvEXT_P(index, v)
 }
 func glVertexAttribL1i64NV_L(_ index:GLuint, _ x:GLint64EXT) {
-    glVertexAttribL1i64NV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL1i64NV", [S337])), to: Swift.type(of: glVertexAttribL1i64NV_P))
+    glVertexAttribL1i64NV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL1i64NV", [S340])), to: Swift.type(of: glVertexAttribL1i64NV_P))
     glVertexAttribL1i64NV_P(index, x)
 }
 func glVertexAttribL1i64vNV_L(_ index:GLuint, _ v:UnsafePointer<GLint64EXT>?) {
-    glVertexAttribL1i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL1i64vNV", [S337])), to: Swift.type(of: glVertexAttribL1i64vNV_P))
+    glVertexAttribL1i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL1i64vNV", [S340])), to: Swift.type(of: glVertexAttribL1i64vNV_P))
     glVertexAttribL1i64vNV_P(index, v)
 }
 func glVertexAttribL1ui64ARB_L(_ index:GLuint, _ x:GLuint64EXT) {
@@ -12668,7 +12719,7 @@ func glVertexAttribL1ui64ARB_L(_ index:GLuint, _ x:GLuint64EXT) {
     glVertexAttribL1ui64ARB_P(index, x)
 }
 func glVertexAttribL1ui64NV_L(_ index:GLuint, _ x:GLuint64EXT) {
-    glVertexAttribL1ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL1ui64NV", [S337])), to: Swift.type(of: glVertexAttribL1ui64NV_P))
+    glVertexAttribL1ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL1ui64NV", [S340])), to: Swift.type(of: glVertexAttribL1ui64NV_P))
     glVertexAttribL1ui64NV_P(index, x)
 }
 func glVertexAttribL1ui64vARB_L(_ index:GLuint, _ v:UnsafePointer<GLuint64EXT>?) {
@@ -12676,7 +12727,7 @@ func glVertexAttribL1ui64vARB_L(_ index:GLuint, _ v:UnsafePointer<GLuint64EXT>?)
     glVertexAttribL1ui64vARB_P(index, v)
 }
 func glVertexAttribL1ui64vNV_L(_ index:GLuint, _ v:UnsafePointer<GLuint64EXT>?) {
-    glVertexAttribL1ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL1ui64vNV", [S337])), to: Swift.type(of: glVertexAttribL1ui64vNV_P))
+    glVertexAttribL1ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL1ui64vNV", [S340])), to: Swift.type(of: glVertexAttribL1ui64vNV_P))
     glVertexAttribL1ui64vNV_P(index, v)
 }
 func glVertexAttribL2d_L(_ index:GLuint, _ x:GLdouble, _ y:GLdouble) {
@@ -12696,19 +12747,19 @@ func glVertexAttribL2dvEXT_L(_ index:GLuint, _ v:UnsafePointer<GLdouble>?) {
     glVertexAttribL2dvEXT_P(index, v)
 }
 func glVertexAttribL2i64NV_L(_ index:GLuint, _ x:GLint64EXT, _ y:GLint64EXT) {
-    glVertexAttribL2i64NV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL2i64NV", [S337])), to: Swift.type(of: glVertexAttribL2i64NV_P))
+    glVertexAttribL2i64NV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL2i64NV", [S340])), to: Swift.type(of: glVertexAttribL2i64NV_P))
     glVertexAttribL2i64NV_P(index, x, y)
 }
 func glVertexAttribL2i64vNV_L(_ index:GLuint, _ v:UnsafePointer<GLint64EXT>?) {
-    glVertexAttribL2i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL2i64vNV", [S337])), to: Swift.type(of: glVertexAttribL2i64vNV_P))
+    glVertexAttribL2i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL2i64vNV", [S340])), to: Swift.type(of: glVertexAttribL2i64vNV_P))
     glVertexAttribL2i64vNV_P(index, v)
 }
 func glVertexAttribL2ui64NV_L(_ index:GLuint, _ x:GLuint64EXT, _ y:GLuint64EXT) {
-    glVertexAttribL2ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL2ui64NV", [S337])), to: Swift.type(of: glVertexAttribL2ui64NV_P))
+    glVertexAttribL2ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL2ui64NV", [S340])), to: Swift.type(of: glVertexAttribL2ui64NV_P))
     glVertexAttribL2ui64NV_P(index, x, y)
 }
 func glVertexAttribL2ui64vNV_L(_ index:GLuint, _ v:UnsafePointer<GLuint64EXT>?) {
-    glVertexAttribL2ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL2ui64vNV", [S337])), to: Swift.type(of: glVertexAttribL2ui64vNV_P))
+    glVertexAttribL2ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL2ui64vNV", [S340])), to: Swift.type(of: glVertexAttribL2ui64vNV_P))
     glVertexAttribL2ui64vNV_P(index, v)
 }
 func glVertexAttribL3d_L(_ index:GLuint, _ x:GLdouble, _ y:GLdouble, _ z:GLdouble) {
@@ -12728,19 +12779,19 @@ func glVertexAttribL3dvEXT_L(_ index:GLuint, _ v:UnsafePointer<GLdouble>?) {
     glVertexAttribL3dvEXT_P(index, v)
 }
 func glVertexAttribL3i64NV_L(_ index:GLuint, _ x:GLint64EXT, _ y:GLint64EXT, _ z:GLint64EXT) {
-    glVertexAttribL3i64NV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL3i64NV", [S337])), to: Swift.type(of: glVertexAttribL3i64NV_P))
+    glVertexAttribL3i64NV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL3i64NV", [S340])), to: Swift.type(of: glVertexAttribL3i64NV_P))
     glVertexAttribL3i64NV_P(index, x, y, z)
 }
 func glVertexAttribL3i64vNV_L(_ index:GLuint, _ v:UnsafePointer<GLint64EXT>?) {
-    glVertexAttribL3i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL3i64vNV", [S337])), to: Swift.type(of: glVertexAttribL3i64vNV_P))
+    glVertexAttribL3i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL3i64vNV", [S340])), to: Swift.type(of: glVertexAttribL3i64vNV_P))
     glVertexAttribL3i64vNV_P(index, v)
 }
 func glVertexAttribL3ui64NV_L(_ index:GLuint, _ x:GLuint64EXT, _ y:GLuint64EXT, _ z:GLuint64EXT) {
-    glVertexAttribL3ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL3ui64NV", [S337])), to: Swift.type(of: glVertexAttribL3ui64NV_P))
+    glVertexAttribL3ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL3ui64NV", [S340])), to: Swift.type(of: glVertexAttribL3ui64NV_P))
     glVertexAttribL3ui64NV_P(index, x, y, z)
 }
 func glVertexAttribL3ui64vNV_L(_ index:GLuint, _ v:UnsafePointer<GLuint64EXT>?) {
-    glVertexAttribL3ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL3ui64vNV", [S337])), to: Swift.type(of: glVertexAttribL3ui64vNV_P))
+    glVertexAttribL3ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL3ui64vNV", [S340])), to: Swift.type(of: glVertexAttribL3ui64vNV_P))
     glVertexAttribL3ui64vNV_P(index, v)
 }
 func glVertexAttribL4d_L(_ index:GLuint, _ x:GLdouble, _ y:GLdouble, _ z:GLdouble, _ w:GLdouble) {
@@ -12760,19 +12811,19 @@ func glVertexAttribL4dvEXT_L(_ index:GLuint, _ v:UnsafePointer<GLdouble>?) {
     glVertexAttribL4dvEXT_P(index, v)
 }
 func glVertexAttribL4i64NV_L(_ index:GLuint, _ x:GLint64EXT, _ y:GLint64EXT, _ z:GLint64EXT, _ w:GLint64EXT) {
-    glVertexAttribL4i64NV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL4i64NV", [S337])), to: Swift.type(of: glVertexAttribL4i64NV_P))
+    glVertexAttribL4i64NV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL4i64NV", [S340])), to: Swift.type(of: glVertexAttribL4i64NV_P))
     glVertexAttribL4i64NV_P(index, x, y, z, w)
 }
 func glVertexAttribL4i64vNV_L(_ index:GLuint, _ v:UnsafePointer<GLint64EXT>?) {
-    glVertexAttribL4i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL4i64vNV", [S337])), to: Swift.type(of: glVertexAttribL4i64vNV_P))
+    glVertexAttribL4i64vNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL4i64vNV", [S340])), to: Swift.type(of: glVertexAttribL4i64vNV_P))
     glVertexAttribL4i64vNV_P(index, v)
 }
 func glVertexAttribL4ui64NV_L(_ index:GLuint, _ x:GLuint64EXT, _ y:GLuint64EXT, _ z:GLuint64EXT, _ w:GLuint64EXT) {
-    glVertexAttribL4ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL4ui64NV", [S337])), to: Swift.type(of: glVertexAttribL4ui64NV_P))
+    glVertexAttribL4ui64NV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL4ui64NV", [S340])), to: Swift.type(of: glVertexAttribL4ui64NV_P))
     glVertexAttribL4ui64NV_P(index, x, y, z, w)
 }
 func glVertexAttribL4ui64vNV_L(_ index:GLuint, _ v:UnsafePointer<GLuint64EXT>?) {
-    glVertexAttribL4ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL4ui64vNV", [S337])), to: Swift.type(of: glVertexAttribL4ui64vNV_P))
+    glVertexAttribL4ui64vNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribL4ui64vNV", [S340])), to: Swift.type(of: glVertexAttribL4ui64vNV_P))
     glVertexAttribL4ui64vNV_P(index, v)
 }
 func glVertexAttribLFormat_L(_ attribindex:GLuint, _ size:GLint, _ type:GLenum, _ relativeoffset:GLuint) {
@@ -12780,7 +12831,7 @@ func glVertexAttribLFormat_L(_ attribindex:GLuint, _ size:GLint, _ type:GLenum, 
     glVertexAttribLFormat_P(attribindex, size, type, relativeoffset)
 }
 func glVertexAttribLFormatNV_L(_ index:GLuint, _ size:GLint, _ type:GLenum, _ stride:GLsizei) {
-    glVertexAttribLFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribLFormatNV", [S337])), to: Swift.type(of: glVertexAttribLFormatNV_P))
+    glVertexAttribLFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribLFormatNV", [S340])), to: Swift.type(of: glVertexAttribLFormatNV_P))
     glVertexAttribLFormatNV_P(index, size, type, stride)
 }
 func glVertexAttribLPointer_L(_ index:GLuint, _ size:GLint, _ type:GLenum, _ stride:GLsizei, _ pointer:UnsafeRawPointer?) {
@@ -12836,75 +12887,75 @@ func glVertexAttribPointerARB_L(_ index:GLuint, _ size:GLint, _ type:GLenum, _ n
     glVertexAttribPointerARB_P(index, size, type, normalized, stride, pointer)
 }
 func glVertexAttribPointerNV_L(_ index:GLuint, _ fsize:GLint, _ type:GLenum, _ stride:GLsizei, _ pointer:UnsafeRawPointer?) {
-    glVertexAttribPointerNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribPointerNV", [S339])), to: Swift.type(of: glVertexAttribPointerNV_P))
+    glVertexAttribPointerNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribPointerNV", [S342])), to: Swift.type(of: glVertexAttribPointerNV_P))
     glVertexAttribPointerNV_P(index, fsize, type, stride, pointer)
 }
 func glVertexAttribs1dvNV_L(_ index:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLdouble>?) {
-    glVertexAttribs1dvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs1dvNV", [S339])), to: Swift.type(of: glVertexAttribs1dvNV_P))
+    glVertexAttribs1dvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs1dvNV", [S342])), to: Swift.type(of: glVertexAttribs1dvNV_P))
     glVertexAttribs1dvNV_P(index, count, v)
 }
 func glVertexAttribs1fvNV_L(_ index:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLfloat>?) {
-    glVertexAttribs1fvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs1fvNV", [S339])), to: Swift.type(of: glVertexAttribs1fvNV_P))
+    glVertexAttribs1fvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs1fvNV", [S342])), to: Swift.type(of: glVertexAttribs1fvNV_P))
     glVertexAttribs1fvNV_P(index, count, v)
 }
 func glVertexAttribs1hvNV_L(_ index:GLuint, _ n:GLsizei, _ v:UnsafePointer<GLhalfNV>?) {
-    glVertexAttribs1hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs1hvNV", [S307])), to: Swift.type(of: glVertexAttribs1hvNV_P))
+    glVertexAttribs1hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs1hvNV", [S310])), to: Swift.type(of: glVertexAttribs1hvNV_P))
     glVertexAttribs1hvNV_P(index, n, v)
 }
 func glVertexAttribs1svNV_L(_ index:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLshort>?) {
-    glVertexAttribs1svNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs1svNV", [S339])), to: Swift.type(of: glVertexAttribs1svNV_P))
+    glVertexAttribs1svNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs1svNV", [S342])), to: Swift.type(of: glVertexAttribs1svNV_P))
     glVertexAttribs1svNV_P(index, count, v)
 }
 func glVertexAttribs2dvNV_L(_ index:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLdouble>?) {
-    glVertexAttribs2dvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs2dvNV", [S339])), to: Swift.type(of: glVertexAttribs2dvNV_P))
+    glVertexAttribs2dvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs2dvNV", [S342])), to: Swift.type(of: glVertexAttribs2dvNV_P))
     glVertexAttribs2dvNV_P(index, count, v)
 }
 func glVertexAttribs2fvNV_L(_ index:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLfloat>?) {
-    glVertexAttribs2fvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs2fvNV", [S339])), to: Swift.type(of: glVertexAttribs2fvNV_P))
+    glVertexAttribs2fvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs2fvNV", [S342])), to: Swift.type(of: glVertexAttribs2fvNV_P))
     glVertexAttribs2fvNV_P(index, count, v)
 }
 func glVertexAttribs2hvNV_L(_ index:GLuint, _ n:GLsizei, _ v:UnsafePointer<GLhalfNV>?) {
-    glVertexAttribs2hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs2hvNV", [S307])), to: Swift.type(of: glVertexAttribs2hvNV_P))
+    glVertexAttribs2hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs2hvNV", [S310])), to: Swift.type(of: glVertexAttribs2hvNV_P))
     glVertexAttribs2hvNV_P(index, n, v)
 }
 func glVertexAttribs2svNV_L(_ index:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLshort>?) {
-    glVertexAttribs2svNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs2svNV", [S339])), to: Swift.type(of: glVertexAttribs2svNV_P))
+    glVertexAttribs2svNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs2svNV", [S342])), to: Swift.type(of: glVertexAttribs2svNV_P))
     glVertexAttribs2svNV_P(index, count, v)
 }
 func glVertexAttribs3dvNV_L(_ index:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLdouble>?) {
-    glVertexAttribs3dvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs3dvNV", [S339])), to: Swift.type(of: glVertexAttribs3dvNV_P))
+    glVertexAttribs3dvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs3dvNV", [S342])), to: Swift.type(of: glVertexAttribs3dvNV_P))
     glVertexAttribs3dvNV_P(index, count, v)
 }
 func glVertexAttribs3fvNV_L(_ index:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLfloat>?) {
-    glVertexAttribs3fvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs3fvNV", [S339])), to: Swift.type(of: glVertexAttribs3fvNV_P))
+    glVertexAttribs3fvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs3fvNV", [S342])), to: Swift.type(of: glVertexAttribs3fvNV_P))
     glVertexAttribs3fvNV_P(index, count, v)
 }
 func glVertexAttribs3hvNV_L(_ index:GLuint, _ n:GLsizei, _ v:UnsafePointer<GLhalfNV>?) {
-    glVertexAttribs3hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs3hvNV", [S307])), to: Swift.type(of: glVertexAttribs3hvNV_P))
+    glVertexAttribs3hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs3hvNV", [S310])), to: Swift.type(of: glVertexAttribs3hvNV_P))
     glVertexAttribs3hvNV_P(index, n, v)
 }
 func glVertexAttribs3svNV_L(_ index:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLshort>?) {
-    glVertexAttribs3svNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs3svNV", [S339])), to: Swift.type(of: glVertexAttribs3svNV_P))
+    glVertexAttribs3svNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs3svNV", [S342])), to: Swift.type(of: glVertexAttribs3svNV_P))
     glVertexAttribs3svNV_P(index, count, v)
 }
 func glVertexAttribs4dvNV_L(_ index:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLdouble>?) {
-    glVertexAttribs4dvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs4dvNV", [S339])), to: Swift.type(of: glVertexAttribs4dvNV_P))
+    glVertexAttribs4dvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs4dvNV", [S342])), to: Swift.type(of: glVertexAttribs4dvNV_P))
     glVertexAttribs4dvNV_P(index, count, v)
 }
 func glVertexAttribs4fvNV_L(_ index:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLfloat>?) {
-    glVertexAttribs4fvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs4fvNV", [S339])), to: Swift.type(of: glVertexAttribs4fvNV_P))
+    glVertexAttribs4fvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs4fvNV", [S342])), to: Swift.type(of: glVertexAttribs4fvNV_P))
     glVertexAttribs4fvNV_P(index, count, v)
 }
 func glVertexAttribs4hvNV_L(_ index:GLuint, _ n:GLsizei, _ v:UnsafePointer<GLhalfNV>?) {
-    glVertexAttribs4hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs4hvNV", [S307])), to: Swift.type(of: glVertexAttribs4hvNV_P))
+    glVertexAttribs4hvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs4hvNV", [S310])), to: Swift.type(of: glVertexAttribs4hvNV_P))
     glVertexAttribs4hvNV_P(index, n, v)
 }
 func glVertexAttribs4svNV_L(_ index:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLshort>?) {
-    glVertexAttribs4svNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs4svNV", [S339])), to: Swift.type(of: glVertexAttribs4svNV_P))
+    glVertexAttribs4svNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs4svNV", [S342])), to: Swift.type(of: glVertexAttribs4svNV_P))
     glVertexAttribs4svNV_P(index, count, v)
 }
 func glVertexAttribs4ubvNV_L(_ index:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLubyte>?) {
-    glVertexAttribs4ubvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs4ubvNV", [S339])), to: Swift.type(of: glVertexAttribs4ubvNV_P))
+    glVertexAttribs4ubvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexAttribs4ubvNV", [S342])), to: Swift.type(of: glVertexAttribs4ubvNV_P))
     glVertexAttribs4ubvNV_P(index, count, v)
 }
 func glVertexBindingDivisor_L(_ bindingindex:GLuint, _ divisor:GLuint) {
@@ -12924,7 +12975,7 @@ func glVertexBlendEnviATI_L(_ pname:GLenum, _ param:GLint) {
     glVertexBlendEnviATI_P(pname, param)
 }
 func glVertexFormatNV_L(_ size:GLint, _ type:GLenum, _ stride:GLsizei) {
-    glVertexFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexFormatNV", [S338])), to: Swift.type(of: glVertexFormatNV_P))
+    glVertexFormatNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexFormatNV", [S341])), to: Swift.type(of: glVertexFormatNV_P))
     glVertexFormatNV_P(size, type, stride)
 }
 func glVertexP2ui_L(_ type:GLenum, _ value:GLuint) {
@@ -13108,27 +13159,27 @@ func glVertexWeightfvEXT_L(_ weight:UnsafePointer<GLfloat>?) {
     glVertexWeightfvEXT_P(weight)
 }
 func glVertexWeighthNV_L(_ weight:GLhalfNV) {
-    glVertexWeighthNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexWeighthNV", [S307])), to: Swift.type(of: glVertexWeighthNV_P))
+    glVertexWeighthNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexWeighthNV", [S310])), to: Swift.type(of: glVertexWeighthNV_P))
     glVertexWeighthNV_P(weight)
 }
 func glVertexWeighthvNV_L(_ weight:UnsafePointer<GLhalfNV>?) {
-    glVertexWeighthvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexWeighthvNV", [S307])), to: Swift.type(of: glVertexWeighthvNV_P))
+    glVertexWeighthvNV_P = unsafeBitCast(getAddress(CommandInfo("glVertexWeighthvNV", [S310])), to: Swift.type(of: glVertexWeighthvNV_P))
     glVertexWeighthvNV_P(weight)
 }
 func glVideoCaptureNV_L(_ video_capture_slot:GLuint, _ sequence_num:UnsafeMutablePointer<GLuint>?, _ capture_time:UnsafeMutablePointer<GLuint64EXT>?) -> GLenum {
-    glVideoCaptureNV_P = unsafeBitCast(getAddress(CommandInfo("glVideoCaptureNV", [S341])), to: Swift.type(of: glVideoCaptureNV_P))
+    glVideoCaptureNV_P = unsafeBitCast(getAddress(CommandInfo("glVideoCaptureNV", [S344])), to: Swift.type(of: glVideoCaptureNV_P))
     return glVideoCaptureNV_P(video_capture_slot, sequence_num, capture_time)
 }
 func glVideoCaptureStreamParameterdvNV_L(_ video_capture_slot:GLuint, _ stream:GLuint, _ pname:GLenum, _ params:UnsafePointer<GLdouble>?) {
-    glVideoCaptureStreamParameterdvNV_P = unsafeBitCast(getAddress(CommandInfo("glVideoCaptureStreamParameterdvNV", [S341])), to: Swift.type(of: glVideoCaptureStreamParameterdvNV_P))
+    glVideoCaptureStreamParameterdvNV_P = unsafeBitCast(getAddress(CommandInfo("glVideoCaptureStreamParameterdvNV", [S344])), to: Swift.type(of: glVideoCaptureStreamParameterdvNV_P))
     glVideoCaptureStreamParameterdvNV_P(video_capture_slot, stream, pname, params)
 }
 func glVideoCaptureStreamParameterfvNV_L(_ video_capture_slot:GLuint, _ stream:GLuint, _ pname:GLenum, _ params:UnsafePointer<GLfloat>?) {
-    glVideoCaptureStreamParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glVideoCaptureStreamParameterfvNV", [S341])), to: Swift.type(of: glVideoCaptureStreamParameterfvNV_P))
+    glVideoCaptureStreamParameterfvNV_P = unsafeBitCast(getAddress(CommandInfo("glVideoCaptureStreamParameterfvNV", [S344])), to: Swift.type(of: glVideoCaptureStreamParameterfvNV_P))
     glVideoCaptureStreamParameterfvNV_P(video_capture_slot, stream, pname, params)
 }
 func glVideoCaptureStreamParameterivNV_L(_ video_capture_slot:GLuint, _ stream:GLuint, _ pname:GLenum, _ params:UnsafePointer<GLint>?) {
-    glVideoCaptureStreamParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glVideoCaptureStreamParameterivNV", [S341])), to: Swift.type(of: glVideoCaptureStreamParameterivNV_P))
+    glVideoCaptureStreamParameterivNV_P = unsafeBitCast(getAddress(CommandInfo("glVideoCaptureStreamParameterivNV", [S344])), to: Swift.type(of: glVideoCaptureStreamParameterivNV_P))
     glVideoCaptureStreamParameterivNV_P(video_capture_slot, stream, pname, params)
 }
 func glViewport_L(_ x:GLint, _ y:GLint, _ width:GLsizei, _ height:GLsizei) {
@@ -13140,11 +13191,11 @@ func glViewportArrayv_L(_ first:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLflo
     glViewportArrayv_P(first, count, v)
 }
 func glViewportArrayvNV_L(_ first:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLfloat>?) {
-    glViewportArrayvNV_P = unsafeBitCast(getAddress(CommandInfo("glViewportArrayvNV", [S342])), to: Swift.type(of: glViewportArrayvNV_P))
+    glViewportArrayvNV_P = unsafeBitCast(getAddress(CommandInfo("glViewportArrayvNV", [S345])), to: Swift.type(of: glViewportArrayvNV_P))
     glViewportArrayvNV_P(first, count, v)
 }
 func glViewportArrayvOES_L(_ first:GLuint, _ count:GLsizei, _ v:UnsafePointer<GLfloat>?) {
-    glViewportArrayvOES_P = unsafeBitCast(getAddress(CommandInfo("glViewportArrayvOES", [S372])), to: Swift.type(of: glViewportArrayvOES_P))
+    glViewportArrayvOES_P = unsafeBitCast(getAddress(CommandInfo("glViewportArrayvOES", [S375])), to: Swift.type(of: glViewportArrayvOES_P))
     glViewportArrayvOES_P(first, count, v)
 }
 func glViewportIndexedf_L(_ index:GLuint, _ x:GLfloat, _ y:GLfloat, _ w:GLfloat, _ h:GLfloat) {
@@ -13152,11 +13203,11 @@ func glViewportIndexedf_L(_ index:GLuint, _ x:GLfloat, _ y:GLfloat, _ w:GLfloat,
     glViewportIndexedf_P(index, x, y, w, h)
 }
 func glViewportIndexedfNV_L(_ index:GLuint, _ x:GLfloat, _ y:GLfloat, _ w:GLfloat, _ h:GLfloat) {
-    glViewportIndexedfNV_P = unsafeBitCast(getAddress(CommandInfo("glViewportIndexedfNV", [S342])), to: Swift.type(of: glViewportIndexedfNV_P))
+    glViewportIndexedfNV_P = unsafeBitCast(getAddress(CommandInfo("glViewportIndexedfNV", [S345])), to: Swift.type(of: glViewportIndexedfNV_P))
     glViewportIndexedfNV_P(index, x, y, w, h)
 }
 func glViewportIndexedfOES_L(_ index:GLuint, _ x:GLfloat, _ y:GLfloat, _ w:GLfloat, _ h:GLfloat) {
-    glViewportIndexedfOES_P = unsafeBitCast(getAddress(CommandInfo("glViewportIndexedfOES", [S372])), to: Swift.type(of: glViewportIndexedfOES_P))
+    glViewportIndexedfOES_P = unsafeBitCast(getAddress(CommandInfo("glViewportIndexedfOES", [S375])), to: Swift.type(of: glViewportIndexedfOES_P))
     glViewportIndexedfOES_P(index, x, y, w, h)
 }
 func glViewportIndexedfv_L(_ index:GLuint, _ v:UnsafePointer<GLfloat>?) {
@@ -13164,24 +13215,28 @@ func glViewportIndexedfv_L(_ index:GLuint, _ v:UnsafePointer<GLfloat>?) {
     glViewportIndexedfv_P(index, v)
 }
 func glViewportIndexedfvNV_L(_ index:GLuint, _ v:UnsafePointer<GLfloat>?) {
-    glViewportIndexedfvNV_P = unsafeBitCast(getAddress(CommandInfo("glViewportIndexedfvNV", [S342])), to: Swift.type(of: glViewportIndexedfvNV_P))
+    glViewportIndexedfvNV_P = unsafeBitCast(getAddress(CommandInfo("glViewportIndexedfvNV", [S345])), to: Swift.type(of: glViewportIndexedfvNV_P))
     glViewportIndexedfvNV_P(index, v)
 }
 func glViewportIndexedfvOES_L(_ index:GLuint, _ v:UnsafePointer<GLfloat>?) {
-    glViewportIndexedfvOES_P = unsafeBitCast(getAddress(CommandInfo("glViewportIndexedfvOES", [S372])), to: Swift.type(of: glViewportIndexedfvOES_P))
+    glViewportIndexedfvOES_P = unsafeBitCast(getAddress(CommandInfo("glViewportIndexedfvOES", [S375])), to: Swift.type(of: glViewportIndexedfvOES_P))
     glViewportIndexedfvOES_P(index, v)
 }
 func glViewportPositionWScaleNV_L(_ index:GLuint, _ xcoeff:GLfloat, _ ycoeff:GLfloat) {
-    glViewportPositionWScaleNV_P = unsafeBitCast(getAddress(CommandInfo("glViewportPositionWScaleNV", [S279])), to: Swift.type(of: glViewportPositionWScaleNV_P))
+    glViewportPositionWScaleNV_P = unsafeBitCast(getAddress(CommandInfo("glViewportPositionWScaleNV", [S282])), to: Swift.type(of: glViewportPositionWScaleNV_P))
     glViewportPositionWScaleNV_P(index, xcoeff, ycoeff)
 }
 func glViewportSwizzleNV_L(_ index:GLuint, _ swizzlex:GLenum, _ swizzley:GLenum, _ swizzlez:GLenum, _ swizzlew:GLenum) {
-    glViewportSwizzleNV_P = unsafeBitCast(getAddress(CommandInfo("glViewportSwizzleNV", [S343])), to: Swift.type(of: glViewportSwizzleNV_P))
+    glViewportSwizzleNV_P = unsafeBitCast(getAddress(CommandInfo("glViewportSwizzleNV", [S346])), to: Swift.type(of: glViewportSwizzleNV_P))
     glViewportSwizzleNV_P(index, swizzlex, swizzley, swizzlez, swizzlew)
 }
 func glWaitSemaphoreEXT_L(_ semaphore:GLuint, _ numBufferBarriers:GLuint, _ buffers:UnsafePointer<GLuint>?, _ numTextureBarriers:GLuint, _ textures:UnsafePointer<GLuint>?, _ srcLayouts:UnsafePointer<GLenum>?) {
     glWaitSemaphoreEXT_P = unsafeBitCast(getAddress(CommandInfo("glWaitSemaphoreEXT", [S220])), to: Swift.type(of: glWaitSemaphoreEXT_P))
     glWaitSemaphoreEXT_P(semaphore, numBufferBarriers, buffers, numTextureBarriers, textures, srcLayouts)
+}
+func glWaitSemaphoreui64NVX_L(_ waitGpu:GLuint, _ fenceObjectCount:GLsizei, _ semaphoreArray:UnsafePointer<GLuint>?, _ fenceValueArray:UnsafePointer<GLuint64>?) {
+    glWaitSemaphoreui64NVX_P = unsafeBitCast(getAddress(CommandInfo("glWaitSemaphoreui64NVX", [S276])), to: Swift.type(of: glWaitSemaphoreui64NVX_P))
+    glWaitSemaphoreui64NVX_P(waitGpu, fenceObjectCount, semaphoreArray, fenceValueArray)
 }
 func glWaitSync_L(_ sync:GLsync, _ flags:GLbitfield, _ timeout:GLuint64) {
     glWaitSync_P = unsafeBitCast(getAddress(CommandInfo("glWaitSync", [S10, S21, S119])), to: Swift.type(of: glWaitSync_P))
@@ -13192,11 +13247,11 @@ func glWaitSyncAPPLE_L(_ sync:GLsync, _ flags:GLbitfield, _ timeout:GLuint64) {
     glWaitSyncAPPLE_P(sync, flags, timeout)
 }
 func glWaitVkSemaphoreNV_L(_ vkSemaphore:GLuint64) {
-    glWaitVkSemaphoreNV_P = unsafeBitCast(getAddress(CommandInfo("glWaitVkSemaphoreNV", [S292])), to: Swift.type(of: glWaitVkSemaphoreNV_P))
+    glWaitVkSemaphoreNV_P = unsafeBitCast(getAddress(CommandInfo("glWaitVkSemaphoreNV", [S295])), to: Swift.type(of: glWaitVkSemaphoreNV_P))
     glWaitVkSemaphoreNV_P(vkSemaphore)
 }
 func glWeightPathsNV_L(_ resultPath:GLuint, _ numPaths:GLsizei, _ paths:UnsafePointer<GLuint>?, _ weights:UnsafePointer<GLfloat>?) {
-    glWeightPathsNV_P = unsafeBitCast(getAddress(CommandInfo("glWeightPathsNV", [S315])), to: Swift.type(of: glWeightPathsNV_P))
+    glWeightPathsNV_P = unsafeBitCast(getAddress(CommandInfo("glWeightPathsNV", [S318])), to: Swift.type(of: glWeightPathsNV_P))
     glWeightPathsNV_P(resultPath, numPaths, paths, weights)
 }
 func glWeightPointerARB_L(_ size:GLint, _ type:GLenum, _ stride:GLsizei, _ pointer:UnsafeRawPointer?) {
@@ -13204,7 +13259,7 @@ func glWeightPointerARB_L(_ size:GLint, _ type:GLenum, _ stride:GLsizei, _ point
     glWeightPointerARB_P(size, type, stride, pointer)
 }
 func glWeightPointerOES_L(_ size:GLint, _ type:GLenum, _ stride:GLsizei, _ pointer:UnsafeRawPointer?) {
-    glWeightPointerOES_P = unsafeBitCast(getAddress(CommandInfo("glWeightPointerOES", [S358])), to: Swift.type(of: glWeightPointerOES_P))
+    glWeightPointerOES_P = unsafeBitCast(getAddress(CommandInfo("glWeightPointerOES", [S361])), to: Swift.type(of: glWeightPointerOES_P))
     glWeightPointerOES_P(size, type, stride, pointer)
 }
 func glWeightbvARB_L(_ size:GLint, _ weights:UnsafePointer<GLbyte>?) {
@@ -13248,7 +13303,7 @@ func glWindowPos2dARB_L(_ x:GLdouble, _ y:GLdouble) {
     glWindowPos2dARB_P(x, y)
 }
 func glWindowPos2dMESA_L(_ x:GLdouble, _ y:GLdouble) {
-    glWindowPos2dMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos2dMESA", [S271])), to: Swift.type(of: glWindowPos2dMESA_P))
+    glWindowPos2dMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos2dMESA", [S272])), to: Swift.type(of: glWindowPos2dMESA_P))
     glWindowPos2dMESA_P(x, y)
 }
 func glWindowPos2dv_L(_ v:UnsafePointer<GLdouble>?) {
@@ -13260,7 +13315,7 @@ func glWindowPos2dvARB_L(_ v:UnsafePointer<GLdouble>?) {
     glWindowPos2dvARB_P(v)
 }
 func glWindowPos2dvMESA_L(_ v:UnsafePointer<GLdouble>?) {
-    glWindowPos2dvMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos2dvMESA", [S271])), to: Swift.type(of: glWindowPos2dvMESA_P))
+    glWindowPos2dvMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos2dvMESA", [S272])), to: Swift.type(of: glWindowPos2dvMESA_P))
     glWindowPos2dvMESA_P(v)
 }
 func glWindowPos2f_L(_ x:GLfloat, _ y:GLfloat) {
@@ -13272,7 +13327,7 @@ func glWindowPos2fARB_L(_ x:GLfloat, _ y:GLfloat) {
     glWindowPos2fARB_P(x, y)
 }
 func glWindowPos2fMESA_L(_ x:GLfloat, _ y:GLfloat) {
-    glWindowPos2fMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos2fMESA", [S271])), to: Swift.type(of: glWindowPos2fMESA_P))
+    glWindowPos2fMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos2fMESA", [S272])), to: Swift.type(of: glWindowPos2fMESA_P))
     glWindowPos2fMESA_P(x, y)
 }
 func glWindowPos2fv_L(_ v:UnsafePointer<GLfloat>?) {
@@ -13284,7 +13339,7 @@ func glWindowPos2fvARB_L(_ v:UnsafePointer<GLfloat>?) {
     glWindowPos2fvARB_P(v)
 }
 func glWindowPos2fvMESA_L(_ v:UnsafePointer<GLfloat>?) {
-    glWindowPos2fvMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos2fvMESA", [S271])), to: Swift.type(of: glWindowPos2fvMESA_P))
+    glWindowPos2fvMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos2fvMESA", [S272])), to: Swift.type(of: glWindowPos2fvMESA_P))
     glWindowPos2fvMESA_P(v)
 }
 func glWindowPos2i_L(_ x:GLint, _ y:GLint) {
@@ -13296,7 +13351,7 @@ func glWindowPos2iARB_L(_ x:GLint, _ y:GLint) {
     glWindowPos2iARB_P(x, y)
 }
 func glWindowPos2iMESA_L(_ x:GLint, _ y:GLint) {
-    glWindowPos2iMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos2iMESA", [S271])), to: Swift.type(of: glWindowPos2iMESA_P))
+    glWindowPos2iMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos2iMESA", [S272])), to: Swift.type(of: glWindowPos2iMESA_P))
     glWindowPos2iMESA_P(x, y)
 }
 func glWindowPos2iv_L(_ v:UnsafePointer<GLint>?) {
@@ -13308,7 +13363,7 @@ func glWindowPos2ivARB_L(_ v:UnsafePointer<GLint>?) {
     glWindowPos2ivARB_P(v)
 }
 func glWindowPos2ivMESA_L(_ v:UnsafePointer<GLint>?) {
-    glWindowPos2ivMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos2ivMESA", [S271])), to: Swift.type(of: glWindowPos2ivMESA_P))
+    glWindowPos2ivMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos2ivMESA", [S272])), to: Swift.type(of: glWindowPos2ivMESA_P))
     glWindowPos2ivMESA_P(v)
 }
 func glWindowPos2s_L(_ x:GLshort, _ y:GLshort) {
@@ -13320,7 +13375,7 @@ func glWindowPos2sARB_L(_ x:GLshort, _ y:GLshort) {
     glWindowPos2sARB_P(x, y)
 }
 func glWindowPos2sMESA_L(_ x:GLshort, _ y:GLshort) {
-    glWindowPos2sMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos2sMESA", [S271])), to: Swift.type(of: glWindowPos2sMESA_P))
+    glWindowPos2sMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos2sMESA", [S272])), to: Swift.type(of: glWindowPos2sMESA_P))
     glWindowPos2sMESA_P(x, y)
 }
 func glWindowPos2sv_L(_ v:UnsafePointer<GLshort>?) {
@@ -13332,7 +13387,7 @@ func glWindowPos2svARB_L(_ v:UnsafePointer<GLshort>?) {
     glWindowPos2svARB_P(v)
 }
 func glWindowPos2svMESA_L(_ v:UnsafePointer<GLshort>?) {
-    glWindowPos2svMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos2svMESA", [S271])), to: Swift.type(of: glWindowPos2svMESA_P))
+    glWindowPos2svMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos2svMESA", [S272])), to: Swift.type(of: glWindowPos2svMESA_P))
     glWindowPos2svMESA_P(v)
 }
 func glWindowPos3d_L(_ x:GLdouble, _ y:GLdouble, _ z:GLdouble) {
@@ -13344,7 +13399,7 @@ func glWindowPos3dARB_L(_ x:GLdouble, _ y:GLdouble, _ z:GLdouble) {
     glWindowPos3dARB_P(x, y, z)
 }
 func glWindowPos3dMESA_L(_ x:GLdouble, _ y:GLdouble, _ z:GLdouble) {
-    glWindowPos3dMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos3dMESA", [S271])), to: Swift.type(of: glWindowPos3dMESA_P))
+    glWindowPos3dMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos3dMESA", [S272])), to: Swift.type(of: glWindowPos3dMESA_P))
     glWindowPos3dMESA_P(x, y, z)
 }
 func glWindowPos3dv_L(_ v:UnsafePointer<GLdouble>?) {
@@ -13356,7 +13411,7 @@ func glWindowPos3dvARB_L(_ v:UnsafePointer<GLdouble>?) {
     glWindowPos3dvARB_P(v)
 }
 func glWindowPos3dvMESA_L(_ v:UnsafePointer<GLdouble>?) {
-    glWindowPos3dvMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos3dvMESA", [S271])), to: Swift.type(of: glWindowPos3dvMESA_P))
+    glWindowPos3dvMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos3dvMESA", [S272])), to: Swift.type(of: glWindowPos3dvMESA_P))
     glWindowPos3dvMESA_P(v)
 }
 func glWindowPos3f_L(_ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
@@ -13368,7 +13423,7 @@ func glWindowPos3fARB_L(_ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
     glWindowPos3fARB_P(x, y, z)
 }
 func glWindowPos3fMESA_L(_ x:GLfloat, _ y:GLfloat, _ z:GLfloat) {
-    glWindowPos3fMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos3fMESA", [S271])), to: Swift.type(of: glWindowPos3fMESA_P))
+    glWindowPos3fMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos3fMESA", [S272])), to: Swift.type(of: glWindowPos3fMESA_P))
     glWindowPos3fMESA_P(x, y, z)
 }
 func glWindowPos3fv_L(_ v:UnsafePointer<GLfloat>?) {
@@ -13380,7 +13435,7 @@ func glWindowPos3fvARB_L(_ v:UnsafePointer<GLfloat>?) {
     glWindowPos3fvARB_P(v)
 }
 func glWindowPos3fvMESA_L(_ v:UnsafePointer<GLfloat>?) {
-    glWindowPos3fvMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos3fvMESA", [S271])), to: Swift.type(of: glWindowPos3fvMESA_P))
+    glWindowPos3fvMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos3fvMESA", [S272])), to: Swift.type(of: glWindowPos3fvMESA_P))
     glWindowPos3fvMESA_P(v)
 }
 func glWindowPos3i_L(_ x:GLint, _ y:GLint, _ z:GLint) {
@@ -13392,7 +13447,7 @@ func glWindowPos3iARB_L(_ x:GLint, _ y:GLint, _ z:GLint) {
     glWindowPos3iARB_P(x, y, z)
 }
 func glWindowPos3iMESA_L(_ x:GLint, _ y:GLint, _ z:GLint) {
-    glWindowPos3iMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos3iMESA", [S271])), to: Swift.type(of: glWindowPos3iMESA_P))
+    glWindowPos3iMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos3iMESA", [S272])), to: Swift.type(of: glWindowPos3iMESA_P))
     glWindowPos3iMESA_P(x, y, z)
 }
 func glWindowPos3iv_L(_ v:UnsafePointer<GLint>?) {
@@ -13404,7 +13459,7 @@ func glWindowPos3ivARB_L(_ v:UnsafePointer<GLint>?) {
     glWindowPos3ivARB_P(v)
 }
 func glWindowPos3ivMESA_L(_ v:UnsafePointer<GLint>?) {
-    glWindowPos3ivMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos3ivMESA", [S271])), to: Swift.type(of: glWindowPos3ivMESA_P))
+    glWindowPos3ivMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos3ivMESA", [S272])), to: Swift.type(of: glWindowPos3ivMESA_P))
     glWindowPos3ivMESA_P(v)
 }
 func glWindowPos3s_L(_ x:GLshort, _ y:GLshort, _ z:GLshort) {
@@ -13416,7 +13471,7 @@ func glWindowPos3sARB_L(_ x:GLshort, _ y:GLshort, _ z:GLshort) {
     glWindowPos3sARB_P(x, y, z)
 }
 func glWindowPos3sMESA_L(_ x:GLshort, _ y:GLshort, _ z:GLshort) {
-    glWindowPos3sMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos3sMESA", [S271])), to: Swift.type(of: glWindowPos3sMESA_P))
+    glWindowPos3sMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos3sMESA", [S272])), to: Swift.type(of: glWindowPos3sMESA_P))
     glWindowPos3sMESA_P(x, y, z)
 }
 func glWindowPos3sv_L(_ v:UnsafePointer<GLshort>?) {
@@ -13428,39 +13483,39 @@ func glWindowPos3svARB_L(_ v:UnsafePointer<GLshort>?) {
     glWindowPos3svARB_P(v)
 }
 func glWindowPos3svMESA_L(_ v:UnsafePointer<GLshort>?) {
-    glWindowPos3svMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos3svMESA", [S271])), to: Swift.type(of: glWindowPos3svMESA_P))
+    glWindowPos3svMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos3svMESA", [S272])), to: Swift.type(of: glWindowPos3svMESA_P))
     glWindowPos3svMESA_P(v)
 }
 func glWindowPos4dMESA_L(_ x:GLdouble, _ y:GLdouble, _ z:GLdouble, _ w:GLdouble) {
-    glWindowPos4dMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos4dMESA", [S271])), to: Swift.type(of: glWindowPos4dMESA_P))
+    glWindowPos4dMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos4dMESA", [S272])), to: Swift.type(of: glWindowPos4dMESA_P))
     glWindowPos4dMESA_P(x, y, z, w)
 }
 func glWindowPos4dvMESA_L(_ v:UnsafePointer<GLdouble>?) {
-    glWindowPos4dvMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos4dvMESA", [S271])), to: Swift.type(of: glWindowPos4dvMESA_P))
+    glWindowPos4dvMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos4dvMESA", [S272])), to: Swift.type(of: glWindowPos4dvMESA_P))
     glWindowPos4dvMESA_P(v)
 }
 func glWindowPos4fMESA_L(_ x:GLfloat, _ y:GLfloat, _ z:GLfloat, _ w:GLfloat) {
-    glWindowPos4fMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos4fMESA", [S271])), to: Swift.type(of: glWindowPos4fMESA_P))
+    glWindowPos4fMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos4fMESA", [S272])), to: Swift.type(of: glWindowPos4fMESA_P))
     glWindowPos4fMESA_P(x, y, z, w)
 }
 func glWindowPos4fvMESA_L(_ v:UnsafePointer<GLfloat>?) {
-    glWindowPos4fvMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos4fvMESA", [S271])), to: Swift.type(of: glWindowPos4fvMESA_P))
+    glWindowPos4fvMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos4fvMESA", [S272])), to: Swift.type(of: glWindowPos4fvMESA_P))
     glWindowPos4fvMESA_P(v)
 }
 func glWindowPos4iMESA_L(_ x:GLint, _ y:GLint, _ z:GLint, _ w:GLint) {
-    glWindowPos4iMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos4iMESA", [S271])), to: Swift.type(of: glWindowPos4iMESA_P))
+    glWindowPos4iMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos4iMESA", [S272])), to: Swift.type(of: glWindowPos4iMESA_P))
     glWindowPos4iMESA_P(x, y, z, w)
 }
 func glWindowPos4ivMESA_L(_ v:UnsafePointer<GLint>?) {
-    glWindowPos4ivMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos4ivMESA", [S271])), to: Swift.type(of: glWindowPos4ivMESA_P))
+    glWindowPos4ivMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos4ivMESA", [S272])), to: Swift.type(of: glWindowPos4ivMESA_P))
     glWindowPos4ivMESA_P(v)
 }
 func glWindowPos4sMESA_L(_ x:GLshort, _ y:GLshort, _ z:GLshort, _ w:GLshort) {
-    glWindowPos4sMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos4sMESA", [S271])), to: Swift.type(of: glWindowPos4sMESA_P))
+    glWindowPos4sMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos4sMESA", [S272])), to: Swift.type(of: glWindowPos4sMESA_P))
     glWindowPos4sMESA_P(x, y, z, w)
 }
 func glWindowPos4svMESA_L(_ v:UnsafePointer<GLshort>?) {
-    glWindowPos4svMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos4svMESA", [S271])), to: Swift.type(of: glWindowPos4svMESA_P))
+    glWindowPos4svMESA_P = unsafeBitCast(getAddress(CommandInfo("glWindowPos4svMESA", [S272])), to: Swift.type(of: glWindowPos4svMESA_P))
     glWindowPos4svMESA_P(v)
 }
 func glWindowRectanglesEXT_L(_ mode:GLenum, _ count:GLsizei, _ box:UnsafePointer<GLint>?) {
