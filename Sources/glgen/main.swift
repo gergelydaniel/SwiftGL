@@ -24,6 +24,7 @@
 
 
 import Foundation
+import FoundationXML
 print("\(FileManager.default.currentDirectoryPath)")
 
 extension OutputStream
