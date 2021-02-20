@@ -21,10 +21,10 @@
 
 
 import Foundation
-#if os(Linux)
-    import Glibc
-#else
-    import Darwin.C
+#if os(macOS)
+import Darwin.C
+#elseif os(Linux)
+import Glibc
 #endif
 
 

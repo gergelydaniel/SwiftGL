@@ -20,7 +20,7 @@
 // MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
 
 
-#if !os(Linux)
+#if os(macOS)
     import simd
 #endif
 
@@ -50,7 +50,7 @@ public postfix func --<T:MatrixType>(v: inout T) -> T {
 }
 
 public func +<T:MatrixType>(x1: T, x2: T) -> T {
-    #if !os(Linux)
+    #if os(macOS)
         switch (x1) {
         case is Matrix2x2<Float> :
             return unsafeBitCast(unsafeBitCast(x1, to:float2x2.self) + unsafeBitCast(x2, to:float2x2.self), to:T.self)
@@ -107,7 +107,7 @@ public func +=<T:MatrixType>(x: inout T, s: T.Element) {
 }
 
 public func -<T:MatrixType>(x1: T, x2: T) -> T {
-    #if !os(Linux)
+    #if os(macOS)
         switch (x1) {
         case is Matrix2x2<Float> :
             return unsafeBitCast(unsafeBitCast(x1, to:float2x2.self) - unsafeBitCast(x2, to:float2x2.self), to:T.self)
@@ -164,7 +164,7 @@ public func -=<T:MatrixType>(x: inout T, s: T.Element) {
 }
 
 public func *<T:MatrixType>(s: T.Element, x: T) -> T {
-    #if !os(Linux)
+    #if os(macOS)
         switch (x) {
         case is Matrix2x2<Float> :
             return unsafeBitCast((s as! Float) * unsafeBitCast(x, to:float2x2.self), to:T.self)
@@ -205,7 +205,7 @@ public func *<T:MatrixType>(s: T.Element, x: T) -> T {
 }
 
 public func *<T:MatrixType>(x: T, s: T.Element) -> T {
-    #if !os(Linux)
+    #if os(macOS)
         switch (x) {
         case is Matrix2x2<Float> :
             return unsafeBitCast(unsafeBitCast(x, to:float2x2.self) * (s as! Float), to:T.self)
@@ -285,7 +285,7 @@ public func %=<T:MatrixType>(x: inout T, s: T.Element) {
 // Unchecked Integer Operators
 
 public func &+<T:MatrixType>(v1: T, v2: T) -> T where T.Element:FixedWidthInteger {
-    #if !os(Linux)
+    #if os(macOS)
         switch (v1) {
         case is Vector2<Int32>, is Vector2<UInt32> :
             return unsafeBitCast(unsafeBitCast(v1, to:int2.self) &+ unsafeBitCast(v2, to:int2.self), to:T.self)
@@ -307,7 +307,7 @@ public func &+<T:MatrixType>(v: T, s: T.Element) -> T where T.Element:FixedWidth
 }
 
 public func &-<T:MatrixType>(v1: T, v2: T) -> T where T.Element:FixedWidthInteger {
-    #if !os(Linux)
+    #if os(macOS)
         switch (v1) {
         case is Vector2<Int32>, is Vector2<UInt32> :
             return unsafeBitCast(unsafeBitCast(v1, to:int2.self) &- unsafeBitCast(v2, to:int2.self), to:T.self)
@@ -329,7 +329,7 @@ public func &-<T:MatrixType>(v: T, s: T.Element) -> T where T.Element:FixedWidth
 }
 
 public func &*<T:MatrixType>(v1: T, v2: T) -> T where T.Element:FixedWidthInteger {
-    #if !os(Linux)
+    #if os(macOS)
         switch (v1) {
         case is Vector2<Int32>, is Vector2<UInt32> :
             return unsafeBitCast(unsafeBitCast(v1, to:int2.self) &* unsafeBitCast(v2, to:int2.self), to:T.self)
@@ -343,7 +343,7 @@ public func &*<T:MatrixType>(v1: T, v2: T) -> T where T.Element:FixedWidthIntege
 }
 
 public func &*<T:MatrixType>(s: T.Element, v: T) -> T where T.Element:FixedWidthInteger {
-    #if !os(Linux)
+    #if os(macOS)
         switch (v) {
         case is Vector2<Int32>, is Vector2<UInt32> :
             return unsafeBitCast(unsafeBitCast(s, to:Int32.self) &* unsafeBitCast(v, to:int2.self), to:T.self)
@@ -357,7 +357,7 @@ public func &*<T:MatrixType>(s: T.Element, v: T) -> T where T.Element:FixedWidth
 }
 
 public func &*<T:MatrixType>(v: T, s: T.Element) -> T where T.Element:FixedWidthInteger {
-    #if !os(Linux)
+    #if os(macOS)
         switch (v) {
         case is Vector2<Int32>, is Vector2<UInt32> :
             return unsafeBitCast(unsafeBitCast(v, to:int2.self) &* unsafeBitCast(s, to:Int32.self), to:T.self)
@@ -458,7 +458,7 @@ public prefix func +<T:MatrixType>(v: T) -> T where T.Element:SignedNumeric {
 }
 
 public prefix func -<T:MatrixType>(x: T) -> T where T.Element:SignedNumeric {
-    #if !os(Linux)
+    #if os(macOS)
         switch (x) {
         case is Matrix2x2<Float> :
             return unsafeBitCast(-unsafeBitCast(x, to:float2x2.self), to:T.self)
@@ -506,7 +506,7 @@ public prefix func -<T:MatrixType>(x: T) -> T where T.Element:SignedNumeric {
 // Vector Multiply and Divide
 
 public func *<T:VectorType>(v1: T, v2: T) -> T {
-    #if !os(Linux)
+    #if os(macOS)
         switch (v1) {
         case is Vector2<Float> :
             return unsafeBitCast(unsafeBitCast(v1, to:float2.self) * unsafeBitCast(v2, to:float2.self), to:T.self)
@@ -527,7 +527,7 @@ public func *=<T:VectorType>(v1: inout T, v2: T) {
 }
 
 public func /<T:VectorType>(v1: T, v2: T) -> T {
-    #if !os(Linux)
+    #if os(macOS)
         switch (v1) {
         case is Vector2<Int32>, is Vector2<UInt32> :
             return unsafeBitCast(unsafeBitCast(v1, to:int2.self) / unsafeBitCast(v2, to:int2.self), to:T.self)

@@ -20,7 +20,7 @@
 // MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
 
 
-#if !os(Linux)
+#if os(macOS)
 import simd
 #endif
 
@@ -225,7 +225,7 @@ public struct Matrix2x2<T:ArithmeticType> : MatrixType, Hashable {
     }
 
     public var inverse:Matrix2x2<T> {
-        #if !os(Linux)
+        #if os(macOS)
             if T.self == Float.self {
                 return unsafeBitCast(unsafeBitCast(self, to:float2x2.self).inverse, to:Matrix2x2<T>.self)
             }
@@ -255,7 +255,7 @@ public struct Matrix2x2<T:ArithmeticType> : MatrixType, Hashable {
 
 
     public static func *(v: Vector2<T>, m: Matrix2x2<T>) -> Vector2<T> {
-        #if !os(Linux)
+        #if os(macOS)
             if T.self == Float.self {
                 return unsafeBitCast(unsafeBitCast(v, to:float2.self) * unsafeBitCast(m, to:float2x2.self), to:Vector2<T>.self)
             }
@@ -270,7 +270,7 @@ public struct Matrix2x2<T:ArithmeticType> : MatrixType, Hashable {
 
 
     public static func *(m: Matrix2x2<T>, v: Vector2<T>) -> Vector2<T> {
-        #if !os(Linux)
+        #if os(macOS)
             if T.self == Float.self {
                 return unsafeBitCast(unsafeBitCast(m, to:float2x2.self) * unsafeBitCast(v, to:float2.self), to:Vector2<T>.self)
             }
@@ -283,7 +283,7 @@ public struct Matrix2x2<T:ArithmeticType> : MatrixType, Hashable {
 
 
     public static func *(m1: Matrix2x2<T>, m2: Matrix2x2<T>) -> Matrix2x2<T> {
-        #if !os(Linux)
+        #if os(macOS)
             if T.self == Float.self {
                 return unsafeBitCast(unsafeBitCast(m1, to:float2x2.self) * unsafeBitCast(m2, to:float2x2.self), to:Matrix2x2<T>.self)
             }
@@ -300,7 +300,7 @@ public struct Matrix2x2<T:ArithmeticType> : MatrixType, Hashable {
 
 
     public static func *(m1: Matrix2x2<T>, m2: Matrix3x2<T>) -> Matrix3x2<T> {
-        #if !os(Linux)
+        #if os(macOS)
             if T.self == Float.self {
                 return unsafeBitCast(unsafeBitCast(m1, to:float2x2.self) * unsafeBitCast(m2, to:float3x2.self), to:Matrix3x2<T>.self)
             }
@@ -319,7 +319,7 @@ public struct Matrix2x2<T:ArithmeticType> : MatrixType, Hashable {
 
 
     public static func *(m1: Matrix2x2<T>, m2: Matrix4x2<T>) -> Matrix4x2<T> {
-        #if !os(Linux)
+        #if os(macOS)
             if T.self == Float.self {
                 return unsafeBitCast(unsafeBitCast(m1, to:float2x2.self) * unsafeBitCast(m2, to:float4x2.self), to:Matrix4x2<T>.self)
             }

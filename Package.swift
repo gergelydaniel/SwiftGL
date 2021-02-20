@@ -1,9 +1,9 @@
 // swift-tools-version:5.0
-#if os(Linux)
-import Glibc
-#else
+#if os(macOS)
 import Darwin.C
 import OpenGL
+#elseif os(Linux)
+import Glibc
 #endif
 
 import PackageDescription

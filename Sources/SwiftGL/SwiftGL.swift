@@ -178,10 +178,20 @@ func getAddress(_ info: CommandInfo) -> UnsafeMutableRawPointer {
         return glXGetProcAddress!(info.name)
     }
     
-#else
+#elseif os(Windows)
 
-    func lookupAddress(info: commandInfo) -> UnsafeMutableRawPointer? {
-        fatalError("Unsupported OS")
+    import WinSDK
+
+    func lookupAddress(info: CommandInfo) -> UnsafeMutableRawPointer? {
+        let address = wglGetProcAddress(info.name)
+        if let unwrapped = address {
+            let newPointer = UnsafeMutableRawPointer.allocate(byteCount: MemoryLayout<UnsafeMutableRawPointer>.size, alignment: 1)
+            newPointer.assumingMemoryBound(to: PROC.self).initialize(to: unwrapped)
+            let copied = newPointer.assumingMemoryBound(to: UnsafeMutableRawPointer.self).pointee
+            return copied
+        } else {
+            return nil
+        }
     }
 
 #endif

@@ -5,10 +5,10 @@ import CGLFW3
 import SwiftGL
 import SGLImage
 import SGLMath
-#if os(Linux)
-    import Glibc
-#else
-    import Darwin.C
+#if os(macOS)
+import Darwin.C
+#elseif os(Linux)
+import Glibc
 #endif
 
 // Window dimensions

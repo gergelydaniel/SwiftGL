@@ -20,10 +20,10 @@
 // MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
 
 
-#if os(Linux)
-    import Glibc
-#else
-    import Darwin.C
+#if os(macOS)
+import Darwin.C
+#elseif os(Linux)
+import Glibc
 #endif
 
 // Not everyone will use this library as a module so we put all the

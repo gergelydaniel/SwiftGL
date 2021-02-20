@@ -20,7 +20,7 @@
 // MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
 
 
-#if !os(Linux)
+#if os(macOS)
 import simd
 #endif
 
@@ -238,7 +238,7 @@ public struct Matrix2x4<T:ArithmeticType> : MatrixType, Hashable {
 
 
     public static func *(v: Vector4<T>, m: Matrix2x4<T>) -> Vector2<T> {
-        #if !os(Linux)
+        #if os(macOS)
             if T.self == Float.self {
                 return unsafeBitCast(unsafeBitCast(v, to:float4.self) * unsafeBitCast(m, to:float2x4.self), to:Vector2<T>.self)
             }
@@ -259,7 +259,7 @@ public struct Matrix2x4<T:ArithmeticType> : MatrixType, Hashable {
 
 
     public static func *(m: Matrix2x4<T>, v: Vector2<T>) -> Vector4<T> {
-        #if !os(Linux)
+        #if os(macOS)
             if T.self == Float.self {
                 return unsafeBitCast(unsafeBitCast(m, to:float2x4.self) * unsafeBitCast(v, to:float2.self), to:Vector4<T>.self)
             }
@@ -272,7 +272,7 @@ public struct Matrix2x4<T:ArithmeticType> : MatrixType, Hashable {
 
 
     public static func *(m1: Matrix2x4<T>, m2: Matrix2x2<T>) -> Matrix2x4<T> {
-        #if !os(Linux)
+        #if os(macOS)
             if T.self == Float.self {
                 return unsafeBitCast(unsafeBitCast(m1, to:float2x4.self) * unsafeBitCast(m2, to:float2x2.self), to:Matrix2x4<T>.self)
             }
@@ -289,7 +289,7 @@ public struct Matrix2x4<T:ArithmeticType> : MatrixType, Hashable {
 
 
     public static func *(m1: Matrix2x4<T>, m2: Matrix3x2<T>) -> Matrix3x4<T> {
-        #if !os(Linux)
+        #if os(macOS)
             if T.self == Float.self {
                 return unsafeBitCast(unsafeBitCast(m1, to:float2x4.self) * unsafeBitCast(m2, to:float3x2.self), to:Matrix3x4<T>.self)
             }
@@ -308,7 +308,7 @@ public struct Matrix2x4<T:ArithmeticType> : MatrixType, Hashable {
 
 
     public static func *(m1: Matrix2x4<T>, m2: Matrix4x2<T>) -> Matrix4x4<T> {
-        #if !os(Linux)
+        #if os(macOS)
             if T.self == Float.self {
                 return unsafeBitCast(unsafeBitCast(m1, to:float2x4.self) * unsafeBitCast(m2, to:float4x2.self), to:Matrix4x4<T>.self)
             }
