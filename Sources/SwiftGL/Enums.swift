@@ -334,15 +334,15 @@ public enum CheckFramebufferStatusTarget: GLint, RawRepresentable {
 }
 
 public enum ClampColorModeARB: GLint, RawRepresentable {
-    case gl_false, gl_fixed_only, gl_fixed_only_arb, gl_true
+    case gl_false, gl_fixed_only, gl_true
     public typealias RawValue = GLint;
     public init?(rawValue: RawValue) {
-        switch rawValue {case GL_FALSE: self = .gl_false; case GL_FIXED_ONLY: self = .gl_fixed_only; case GL_FIXED_ONLY_ARB: self = .gl_fixed_only_arb; case GL_TRUE: self = .gl_true; default: return nil
+        switch rawValue {case GL_FALSE: self = .gl_false; case GL_FIXED_ONLY: self = .gl_fixed_only; case GL_TRUE: self = .gl_true; default: return nil
         }
     }
     public var rawValue: RawValue {
         switch self {
-        case .gl_false: return GL_FALSE; case .gl_fixed_only: return GL_FIXED_ONLY; case .gl_fixed_only_arb: return GL_FIXED_ONLY_ARB; case .gl_true: return GL_TRUE;
+        case .gl_false: return GL_FALSE; case .gl_fixed_only: return GL_FIXED_ONLY; case .gl_true: return GL_TRUE;
         }
     }
 }
