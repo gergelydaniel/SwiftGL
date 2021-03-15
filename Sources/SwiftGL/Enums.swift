@@ -529,7 +529,15 @@ public enum ClipPlaneName: GLint, RawRepresentable {
 
     public init?(rawValue: RawValue) {
         switch rawValue {
-        case GL_CLIP_DISTANCE0: self = .gl_clip_distance0; case GL_CLIP_DISTANCE1: self = .gl_clip_distance1; case GL_CLIP_DISTANCE2: self = .gl_clip_distance2; case GL_CLIP_DISTANCE3: self = .gl_clip_distance3; case GL_CLIP_DISTANCE4: self = .gl_clip_distance4; case GL_CLIP_DISTANCE5: self = .gl_clip_distance5; case GL_CLIP_DISTANCE6: self = .gl_clip_distance6; case GL_CLIP_DISTANCE7: self = .gl_clip_distance7; case GL_CLIP_PLANE0: self = .gl_clip_plane0; case GL_CLIP_PLANE1: self = .gl_clip_plane1; case GL_CLIP_PLANE2: self = .gl_clip_plane2; case GL_CLIP_PLANE3: self = .gl_clip_plane3; case GL_CLIP_PLANE4: self = .gl_clip_plane4; case GL_CLIP_PLANE5: self = .gl_clip_plane5; default: return nil
+        case GL_CLIP_DISTANCE0: self = .gl_clip_distance0;
+        case GL_CLIP_DISTANCE1: self = .gl_clip_distance1;
+        case GL_CLIP_DISTANCE2: self = .gl_clip_distance2;
+        case GL_CLIP_DISTANCE3: self = .gl_clip_distance3;
+        case GL_CLIP_DISTANCE4: self = .gl_clip_distance4;
+        case GL_CLIP_DISTANCE5: self = .gl_clip_distance5;
+        case GL_CLIP_DISTANCE6: self = .gl_clip_distance6;
+        case GL_CLIP_DISTANCE7: self = .gl_clip_distance7;
+        default: return nil
         }
     }
 
