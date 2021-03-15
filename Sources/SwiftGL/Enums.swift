@@ -138,15 +138,15 @@ public enum BindTransformFeedbackTarget: GLint, RawRepresentable {
 }
 
 public enum BinormalPointerTypeEXT: GLint, RawRepresentable {
-    case gl_byte, gl_double, gl_double_ext, gl_float, gl_int, gl_short
+    case gl_byte, gl_double, gl_float, gl_int, gl_short
     public typealias RawValue = GLint;
     public init?(rawValue: RawValue) {
-        switch rawValue {case GL_BYTE: self = .gl_byte; case GL_DOUBLE: self = .gl_double; case GL_DOUBLE_EXT: self = .gl_double_ext; case GL_FLOAT: self = .gl_float; case GL_INT: self = .gl_int; case GL_SHORT: self = .gl_short; default: return nil
+        switch rawValue {case GL_BYTE: self = .gl_byte; case GL_DOUBLE: self = .gl_double; case GL_FLOAT: self = .gl_float; case GL_INT: self = .gl_int; case GL_SHORT: self = .gl_short; default: return nil
         }
     }
     public var rawValue: RawValue {
         switch self {
-        case .gl_byte: return GL_BYTE; case .gl_double: return GL_DOUBLE; case .gl_double_ext: return GL_DOUBLE_EXT; case .gl_float: return GL_FLOAT; case .gl_int: return GL_INT; case .gl_short: return GL_SHORT;
+        case .gl_byte: return GL_BYTE; case .gl_double: return GL_DOUBLE; case .gl_float: return GL_FLOAT; case .gl_int: return GL_INT; case .gl_short: return GL_SHORT;
         }
     }
 }
@@ -3302,15 +3302,15 @@ public enum SyncStatus: GLint, RawRepresentable {
 }
 
 public enum TangentPointerTypeEXT: GLint, RawRepresentable {
-    case gl_byte, gl_double, gl_double_ext, gl_float, gl_int, gl_short
+    case gl_byte, gl_double, gl_float, gl_int, gl_short
     public typealias RawValue = GLint;
     public init?(rawValue: RawValue) {
-        switch rawValue {case GL_BYTE: self = .gl_byte; case GL_DOUBLE: self = .gl_double; case GL_DOUBLE_EXT: self = .gl_double_ext; case GL_FLOAT: self = .gl_float; case GL_INT: self = .gl_int; case GL_SHORT: self = .gl_short; default: return nil
+        switch rawValue {case GL_BYTE: self = .gl_byte; case GL_DOUBLE: self = .gl_double; case GL_FLOAT: self = .gl_float; case GL_INT: self = .gl_int; case GL_SHORT: self = .gl_short; default: return nil
         }
     }
     public var rawValue: RawValue {
         switch self {
-        case .gl_byte: return GL_BYTE; case .gl_double: return GL_DOUBLE; case .gl_double_ext: return GL_DOUBLE_EXT; case .gl_float: return GL_FLOAT; case .gl_int: return GL_INT; case .gl_short: return GL_SHORT;
+        case .gl_byte: return GL_BYTE; case .gl_double: return GL_DOUBLE; case .gl_float: return GL_FLOAT; case .gl_int: return GL_INT; case .gl_short: return GL_SHORT;
         }
     }
 }
