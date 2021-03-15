@@ -263,20 +263,6 @@ public enum BufferPNameARB: GLint, RawRepresentable {
     }
 }
 
-public enum BufferPointerNameARB: GLint, RawRepresentable {
-    case gl_buffer_map_pointer, gl_buffer_map_pointer_arb
-    public typealias RawValue = GLint;
-    public init?(rawValue: RawValue) {
-        switch rawValue {case GL_BUFFER_MAP_POINTER: self = .gl_buffer_map_pointer; case GL_BUFFER_MAP_POINTER_ARB: self = .gl_buffer_map_pointer_arb; default: return nil
-        }
-    }
-    public var rawValue: RawValue {
-        switch self {
-        case .gl_buffer_map_pointer: return GL_BUFFER_MAP_POINTER; case .gl_buffer_map_pointer_arb: return GL_BUFFER_MAP_POINTER_ARB;
-        }
-    }
-}
-
 public enum BufferStorageMask: GLuint, RawRepresentable {
     case gl_client_storage_bit, gl_client_storage_bit_ext, gl_dynamic_storage_bit, gl_dynamic_storage_bit_ext, gl_external_storage_bit_nvx, gl_lgpu_separate_storage_bit_nvx, gl_map_coherent_bit, gl_map_coherent_bit_ext, gl_map_persistent_bit, gl_map_persistent_bit_ext, gl_map_read_bit, gl_map_read_bit_ext, gl_map_write_bit, gl_map_write_bit_ext, gl_per_gpu_storage_bit_nv, gl_sparse_storage_bit_arb
     public typealias RawValue = GLuint;

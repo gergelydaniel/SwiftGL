@@ -3051,15 +3051,12 @@ public func glGetBufferParameterui64vNV(target:BufferTargetARB, pname:GLenum, pa
 var glGetBufferParameterui64vNV_P:@convention(c)(GLenum, GLenum, UnsafeMutablePointer<GLuint64EXT>?) -> Void = glGetBufferParameterui64vNV_L
 public func glGetBufferPointerv(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {glGetBufferPointerv_P(target, pname, params)}
 public func glGetBufferPointerv(target:GLenum, pname:GLenum, params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {glGetBufferPointerv_P(target, pname, params)}
-public func glGetBufferPointerv(target:BufferTargetARB, pname:BufferPointerNameARB, params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {glGetBufferPointerv_P(target.rawValue, pname.rawValue, params)}
 var glGetBufferPointerv_P:@convention(c)(GLenum, GLenum, UnsafeMutablePointer<UnsafeMutableRawPointer>?) -> Void = glGetBufferPointerv_L
 public func glGetBufferPointervARB(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {glGetBufferPointervARB_P(target, pname, params)}
 public func glGetBufferPointervARB(target:GLenum, pname:GLenum, params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {glGetBufferPointervARB_P(target, pname, params)}
-public func glGetBufferPointervARB(target:BufferTargetARB, pname:BufferPointerNameARB, params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {glGetBufferPointervARB_P(target.rawValue, pname.rawValue, params)}
 var glGetBufferPointervARB_P:@convention(c)(GLenum, GLenum, UnsafeMutablePointer<UnsafeMutableRawPointer>?) -> Void = glGetBufferPointervARB_L
 public func glGetBufferPointervOES(_ target:GLenum, _ pname:GLenum, _ params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {glGetBufferPointervOES_P(target, pname, params)}
 public func glGetBufferPointervOES(target:GLenum, pname:GLenum, params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {glGetBufferPointervOES_P(target, pname, params)}
-public func glGetBufferPointervOES(target:BufferTargetARB, pname:BufferPointerNameARB, params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {glGetBufferPointervOES_P(target.rawValue, pname.rawValue, params)}
 var glGetBufferPointervOES_P:@convention(c)(GLenum, GLenum, UnsafeMutablePointer<UnsafeMutableRawPointer>?) -> Void = glGetBufferPointervOES_L
 public func glGetBufferSubData(_ target:GLenum, _ offset:GLintptr, _ size:GLsizeiptr, _ data:UnsafeMutableRawPointer?) {glGetBufferSubData_P(target, offset, size, data)}
 public func glGetBufferSubData(target:GLenum, offset:GLintptr, size:GLsizeiptr, data:UnsafeMutableRawPointer?) {glGetBufferSubData_P(target, offset, size, data)}
@@ -3665,11 +3662,9 @@ public func glGetNamedBufferParameterui64vNV(buffer:GLuint, pname:BufferPNameARB
 var glGetNamedBufferParameterui64vNV_P:@convention(c)(GLuint, GLenum, UnsafeMutablePointer<GLuint64EXT>?) -> Void = glGetNamedBufferParameterui64vNV_L
 public func glGetNamedBufferPointerv(_ buffer:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {glGetNamedBufferPointerv_P(buffer, pname, params)}
 public func glGetNamedBufferPointerv(buffer:GLuint, pname:GLenum, params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {glGetNamedBufferPointerv_P(buffer, pname, params)}
-public func glGetNamedBufferPointerv(buffer:GLuint, pname:BufferPointerNameARB, params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {glGetNamedBufferPointerv_P(buffer, pname.rawValue, params)}
 var glGetNamedBufferPointerv_P:@convention(c)(GLuint, GLenum, UnsafeMutablePointer<UnsafeMutableRawPointer>?) -> Void = glGetNamedBufferPointerv_L
 public func glGetNamedBufferPointervEXT(_ buffer:GLuint, _ pname:GLenum, _ params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {glGetNamedBufferPointervEXT_P(buffer, pname, params)}
 public func glGetNamedBufferPointervEXT(buffer:GLuint, pname:GLenum, params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {glGetNamedBufferPointervEXT_P(buffer, pname, params)}
-public func glGetNamedBufferPointervEXT(buffer:GLuint, pname:BufferPointerNameARB, params:UnsafeMutablePointer<UnsafeMutableRawPointer>?) {glGetNamedBufferPointervEXT_P(buffer, pname.rawValue, params)}
 var glGetNamedBufferPointervEXT_P:@convention(c)(GLuint, GLenum, UnsafeMutablePointer<UnsafeMutableRawPointer>?) -> Void = glGetNamedBufferPointervEXT_L
 public func glGetNamedBufferSubData(_ buffer:GLuint, _ offset:GLintptr, _ size:GLsizeiptr, _ data:UnsafeMutableRawPointer?) {glGetNamedBufferSubData_P(buffer, offset, size, data)}
 public func glGetNamedBufferSubData(buffer:GLuint, offset:GLintptr, size:GLsizeiptr, data:UnsafeMutableRawPointer?) {glGetNamedBufferSubData_P(buffer, offset, size, data)}
