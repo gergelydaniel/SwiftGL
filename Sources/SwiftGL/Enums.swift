@@ -4043,7 +4043,7 @@ public enum TextureCompareMode: GLint, RawRepresentable {
 
     public init?(rawValue: RawValue) {
         switch rawValue {
-        case GL_COMPARE_REF_TO_TEXTURE: self = .gl_compare_ref_to_texture; case GL_COMPARE_R_TO_TEXTURE: self = .gl_compare_r_to_texture; case GL_NONE: self = .gl_none; default: return nil
+        case GL_COMPARE_REF_TO_TEXTURE: self = .gl_compare_ref_to_texture; case GL_NONE: self = .gl_none; default: return nil
         }
     }
 
