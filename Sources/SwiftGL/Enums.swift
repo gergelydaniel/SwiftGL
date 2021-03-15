@@ -813,7 +813,7 @@ public enum ContextFlagMask: GLuint, RawRepresentable {
 
     public init?(rawValue: RawValue) {
         switch rawValue {
-        case GL_CONTEXT_FLAG_DEBUG_BIT: self = .gl_context_flag_debug_bit; case GL_CONTEXT_FLAG_DEBUG_BIT_KHR: self = .gl_context_flag_debug_bit_khr; case GL_CONTEXT_FLAG_FORWARD_COMPATIBLE_BIT: self = .gl_context_flag_forward_compatible_bit; case GL_CONTEXT_FLAG_NO_ERROR_BIT: self = .gl_context_flag_no_error_bit; case GL_CONTEXT_FLAG_NO_ERROR_BIT_KHR: self = .gl_context_flag_no_error_bit_khr; case GL_CONTEXT_FLAG_PROTECTED_CONTENT_BIT_EXT: self = .gl_context_flag_protected_content_bit_ext; case GL_CONTEXT_FLAG_ROBUST_ACCESS_BIT: self = .gl_context_flag_robust_access_bit;  default: return nil
+        case GL_CONTEXT_FLAG_DEBUG_BIT: self = .gl_context_flag_debug_bit;  case GL_CONTEXT_FLAG_FORWARD_COMPATIBLE_BIT: self = .gl_context_flag_forward_compatible_bit; case GL_CONTEXT_FLAG_NO_ERROR_BIT: self = .gl_context_flag_no_error_bit;  case GL_CONTEXT_FLAG_PROTECTED_CONTENT_BIT_EXT: self = .gl_context_flag_protected_content_bit_ext; case GL_CONTEXT_FLAG_ROBUST_ACCESS_BIT: self = .gl_context_flag_robust_access_bit;  default: return nil
         }
     }
 
@@ -3873,7 +3873,7 @@ public enum SubgroupSupportedFeatures: GLuint, RawRepresentable {
 
     public init?(rawValue: RawValue) {
         switch rawValue {
-        case GL_SUBGROUP_FEATURE_ARITHMETIC_BIT_KHR: self = .gl_subgroup_feature_arithmetic_bit_khr; case GL_SUBGROUP_FEATURE_BALLOT_BIT_KHR: self = .gl_subgroup_feature_ballot_bit_khr; case GL_SUBGROUP_FEATURE_BASIC_BIT_KHR: self = .gl_subgroup_feature_basic_bit_khr; case GL_SUBGROUP_FEATURE_CLUSTERED_BIT_KHR: self = .gl_subgroup_feature_clustered_bit_khr; case GL_SUBGROUP_FEATURE_PARTITIONED_BIT_NV: self = .gl_subgroup_feature_partitioned_bit_nv; case GL_SUBGROUP_FEATURE_QUAD_BIT_KHR: self = .gl_subgroup_feature_quad_bit_khr; case GL_SUBGROUP_FEATURE_SHUFFLE_BIT_KHR: self = .gl_subgroup_feature_shuffle_bit_khr; case GL_SUBGROUP_FEATURE_SHUFFLE_RELATIVE_BIT_KHR: self = .gl_subgroup_feature_shuffle_relative_bit_khr; case GL_SUBGROUP_FEATURE_VOTE_BIT_KHR: self = .gl_subgroup_feature_vote_bit_khr; default: return nil
+            case GL_SUBGROUP_FEATURE_PARTITIONED_BIT_NV: self = .gl_subgroup_feature_partitioned_bit_nv;     default: return nil
         }
     }
 
